@@ -28,7 +28,11 @@
       "common/history/trade_routes",
       "common/ideologies",
       "common/interest_groups",
-      "common/journal_entries"
+      "common/journal_entries",
+      
+      "common/cultures",
+      "common/pop_types",
+      "common/religions",
     ]
   }
 }
