@@ -1,4 +1,5 @@
 ﻿namespace = autocracy
+
 # secret societies
 autocracy.2 = {
 	type = country_event
@@ -17,22 +18,22 @@ autocracy.2 = {
 			has_variable = secret_societies_timer
 		}
 		OR = {
-			has_law = law_type:law_monarchy
-			has_law = law_type:law_theocracy
+			has_law = law_type:law_hereditary
+			has_law = law_type:law_theocratic
 		}
-		has_law = law_type:law_religious_nationalism
+		has_law = law_type:law_religious_institutions
 		has_law = law_type:law_autocracy
 		OR = {
-			#has_law = law_type:law_censorship
-			#has_law = law_type:law_outlawed_dissent
-			ig:ig_conservatives = {
+			has_law = law_type:law_censorship
+			has_law = law_type:law_outlawed_dissent
+			ig:ig_elites = {
 				is_being_suppressed = yes
 			}
 		}
 		any_scope_state = {
 			is_incorporated = yes
 			any_scope_pop = {
-				is_pop_type = engineers
+				is_pop_type = academics
 			}
 		}
 	}
@@ -41,20 +42,20 @@ autocracy.2 = {
 			name = secret_societies_timer
 			months = normal_modifier_time
 		}
-		ig:ig_conservatives = {
+		ig:ig_elites = {
 			save_scope_as = secret_society_ig
 		}
 		random_scope_state = {
 			limit = {
 				is_incorporated = yes
 				any_scope_pop = {
-					is_pop_type = engineers
+					is_pop_type = academics
 				}
 			}
 			save_scope_as = secret_societies_state
 			random_scope_pop = {
 				limit = {
-					is_pop_type = engineers
+					is_pop_type = academics
 				}
 				save_scope_as = secret_society_pop
 			}
@@ -65,7 +66,7 @@ autocracy.2 = {
 			is_incorporated = yes
 			NOT = {
 				any_scope_pop = {
-					is_pop_type = engineers
+					is_pop_type = academics
 				}
 			}
 		}
@@ -92,7 +93,7 @@ autocracy.2 = {
 		}
 		scope:secret_societies_state = {
 			add_radicals_in_state = {
-				pop_type = engineers
+				pop_type = academics
 				value = very_large_radicals
 			}
 		}
@@ -116,11 +117,11 @@ autocracy.3 = {
 		NOT = {
 			has_variable = religious_serfs_timer
 		}
-		ig:ig_devout = {
+		ig:ig_moralists = {
 			is_powerful = yes
 			is_in_government = yes
 		}
-		has_law = law_type:law_religious_nationalism
+		haS_law = law_type:law_religious_institutions
 		any_scope_state = {
 			is_incorporated = yes
 			any_scope_pop = {
@@ -166,7 +167,7 @@ autocracy.3 = {
 				save_scope_as = religious_serf_pop
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_moralists = {
 			save_scope_as = church_scope
 		}
 	}

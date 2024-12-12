@@ -99,7 +99,7 @@ education_laws.2 = {
 		currently_enacting_law = {
 			save_scope_as = current_law_scope
 		}
-		ig:ig_armed_forces = {
+		ig:ig_securocrats = {
 			save_scope_as = armed_forces_ig
 		}
 		currently_enacting_law = {
@@ -116,7 +116,7 @@ education_laws.2 = {
 		add_enactment_modifier = {
 			name = curriculum_focus
 		}
-		ig:ig_armed_forces = {
+		ig:ig_securocrats = {
 			add_modifier = {
 				name = undisciplined_children
 				months = normal_modifier_time
@@ -214,7 +214,7 @@ education_laws.4 = {
 	category = enactment
 	duration = 3
 	event_image = {
-		video = "asia_landlords_market"
+		video = "asia_farmers_market"
 	}
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
@@ -572,7 +572,7 @@ education_laws.6 = {
 		currently_enacting_law = {
 			save_scope_as = current_law_scope
 		}
-		ig:ig_devout = {
+		ig:ig_moralists = {
 			save_scope_as = devout_ig
 		}
 	}
@@ -586,7 +586,7 @@ education_laws.6 = {
 		add_enactment_modifier = {
 			name = church_school_organization
 		}
-		ig:ig_devout = {
+		ig:ig_moralists = {
 			add_modifier = {
 				name = public_school_responsibility
 				months = normal_modifier_time

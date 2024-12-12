@@ -21,8 +21,8 @@ technocracy.1 = {
 		any_interest_group = {
 			is_marginal = no
 			OR = {
-				is_interest_group_type = ig_market_liberals
-				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_capitalists
+				is_interest_group_type = ig_urbanists
 			}
 			any_scope_pop = {
 				is_pop_type = investors
@@ -41,8 +41,8 @@ technocracy.1 = {
 			limit = {
 				is_marginal = no
 				OR = {
-					is_interest_group_type = ig_market_liberals
-					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_capitalists
+					is_interest_group_type = ig_urbanists
 				}
 				any_scope_pop = {
 					is_pop_type = investors
@@ -105,8 +105,8 @@ technocracy.1 = {
 		highlighted_option = yes
 		trigger = {
 			OR = {
-				#has_law = law_type:law_outlawed_dissent
-				#has_law = law_type:law_secret_police
+				has_law = law_type:law_outlawed_dissent
+				has_law = law_type:law_secret_police
 				scope:technocrat_leader = {
 					OR = {
 						has_trait = senile
@@ -279,7 +279,7 @@ technocracy.3 = {
 		}
 		scope:university_state = {
 			add_radicals_in_state = {
-				pop_type = engineers
+				pop_type = academics
 				value = very_large_radicals
 			}
 		}

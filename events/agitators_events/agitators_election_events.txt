@@ -17,7 +17,7 @@ agitators_election_events.1 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -78,7 +78,7 @@ agitators_election_events.2 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -487,7 +487,7 @@ agitators_election_events.3 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -599,7 +599,7 @@ agitators_election_events.4 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_active_party = {
@@ -678,7 +678,7 @@ agitators_election_events.5 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_interest_group = {
@@ -781,10 +781,10 @@ agitators_election_events.6 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
-		#has_law = law_type:law_gender_equality
+		has_law = law_type:law_gender_equality
 		any_scope_character = {
 			has_role = agitator
 			OR = {
@@ -902,7 +902,7 @@ agitators_election_events.7 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -965,7 +965,7 @@ agitators_election_events.8 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -1056,7 +1056,7 @@ agitators_election_events.9 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -1170,7 +1170,7 @@ agitators_election_events.10 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -1224,7 +1224,7 @@ agitators_election_events.10 = {
 		name = agitators_election_events.10.c
 		trigger = {
 			OR = {
-				#has_law = law_type:law_secret_police
+				has_law = law_type:law_secret_police
 			}
 		}
 		scope:agitator_scope = {
@@ -1255,7 +1255,7 @@ agitators_election_events.11 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -1407,7 +1407,7 @@ agitators_election_events.12 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -1538,7 +1538,7 @@ agitators_election_events.13 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -1666,7 +1666,7 @@ agitators_election_events.14 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -1770,7 +1770,7 @@ agitators_election_events.14 = {
 		name = agitators_election_events.14.b
 		trigger = {
 			NOT = {
-				#has_law = law_type:law_decentralized_police
+				has_law = law_type:law_decentralized_police
 			}
 		}
 		highlighted_option = yes
@@ -1843,7 +1843,7 @@ agitators_election_events.15 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -1967,7 +1967,7 @@ agitators_election_events.16 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -2152,7 +2152,7 @@ agitators_election_events.17 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -2200,7 +2200,7 @@ agitators_election_events.17 = {
 		any_active_party = {
 			is_party_type = fascist_party
 		}
-		ig:ig_market_liberals = {
+		ig:ig_capitalists = {
 			is_marginal = no
 		}
 	}
@@ -2217,7 +2217,7 @@ agitators_election_events.17 = {
 	}
 	immediate = {
 		fascist_agitator_election_scope_effect = yes
-		ig:ig_market_liberals = {
+		ig:ig_capitalists = {
 			save_scope_as = industrialists_scope
 		}
 	}
@@ -2274,7 +2274,7 @@ agitators_election_events.18 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -2399,7 +2399,7 @@ agitators_election_events.19 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -2448,7 +2448,7 @@ agitators_election_events.19 = {
 			is_party_type = fascist_party
 		}
 		any_country = {
-			has_law = law_type:law_socialist_republic
+			has_law = law_type:law_council_elective
 		}
 	}
 	cancellation_trigger = {
@@ -2466,7 +2466,7 @@ agitators_election_events.19 = {
 		fascist_agitator_election_scope_effect = yes
 		ordered_country = {
 			limit = {
-				has_law = law_type:law_socialist_republic
+				has_law = law_type:law_council_elective
 			}
 			order_by = country_rank
 			save_scope_as = scary_communist_country
@@ -2537,7 +2537,7 @@ agitators_election_events.20 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -2709,7 +2709,7 @@ agitators_election_events.21 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -2782,7 +2782,7 @@ agitators_election_events.22 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -2865,7 +2865,7 @@ agitators_election_events.23 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -2887,7 +2887,7 @@ agitators_election_events.23 = {
 		any_active_party = {
 			is_party_type = agrarian_party
 		}
-		ig:ig_armed_forces = {
+		ig:ig_securocrats = {
 			has_party = yes
 		}
 		any_active_party = {
@@ -2895,11 +2895,11 @@ agitators_election_events.23 = {
 				is_party_type = agrarian_party
 			}
 			any_member = {
-				is_interest_group_type = ig_armed_forces
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_securocrats
+				is_interest_group_type = ig_patriots
 			}
 		}
-		ig:ig_rural_folk = {
+		ig:ig_ruralists = {
 			leader = {
 				NOT = {
 					has_ideology = ideology:ideology_jingoistic
@@ -2920,7 +2920,7 @@ agitators_election_events.23 = {
 	}
 	immediate = {
 		agrarian_agitator_election_scope_effect = yes
-		ig:ig_armed_forces = {
+		ig:ig_securocrats = {
 			save_scope_as = armed_forces_scope
 			leader = {
 				save_scope_as = armed_forces_leader
@@ -2974,7 +2974,7 @@ agitators_election_events.24 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -3050,7 +3050,7 @@ agitators_election_events.25 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -3103,10 +3103,10 @@ agitators_election_events.25 = {
 			}
 			save_scope_as = industry_enroachment_state
 		}
-		ig:ig_rural_folk = {
+		ig:ig_ruralists = {
 			save_scope_as = rural_folk_ig
 		}
-		ig:ig_market_liberals = {
+		ig:ig_capitalists = {
 			save_scope_as = industrialists_ig
 		}
 	}
@@ -3159,7 +3159,7 @@ agitators_election_events.26 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -3244,7 +3244,7 @@ agitators_election_events.27 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -3345,7 +3345,7 @@ agitators_election_events.28 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -3367,7 +3367,7 @@ agitators_election_events.28 = {
 		any_active_party = {
 			is_party_type = social_democrat_party
 		}
-		ig:ig_socialists = {
+		ig:ig_laborists = {
 			is_marginal = no
 		}
 	}
@@ -3384,7 +3384,7 @@ agitators_election_events.28 = {
 	}
 	immediate = {
 		socdem_agitator_election_scope_effect = yes
-		ig:ig_socialists = {
+		ig:ig_laborists = {
 			save_scope_as = trade_union_ig
 		}
 	}
@@ -3430,7 +3430,7 @@ agitators_election_events.29 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -3503,7 +3503,7 @@ agitators_election_events.30 = {
 	}
 	trigger = {
 		NOT = {
-			#has_law = law_type:law_anocracy
+			has_law = law_type:law_anocracy
 		}
 		in_election_campaign = yes
 		any_scope_character = {
@@ -3741,7 +3741,7 @@ agitators_election_events.33 = {
 							is_party_type = liberal_party
 						}
 					}
-				}
+				} 
 				leader = {
 					OR = {
 						has_trait = reserved
@@ -3750,7 +3750,7 @@ agitators_election_events.33 = {
 						has_trait = romantic
 						has_trait = tactful
 					}
-				}
+				}	
 			}
 			save_scope_as = opposition_ig_scope
 			party = {
@@ -3758,6 +3758,7 @@ agitators_election_events.33 = {
 			}
 		}
 	}
+
 	option = {
 		name = agitators_election_events.33.a
 		default_option = yes
@@ -3821,8 +3822,8 @@ agitators_election_events.34 = {
 			is_party_type = liberal_party
 		}
 		OR = {
-			#has_law = law_type:law_right_of_assembly
-			#has_law = law_type:law_protected_speech
+			has_law = law_type:law_right_of_assembly
+			has_law = law_type:law_protected_speech
 		}
 	}
 	cancellation_trigger = {
@@ -3916,7 +3917,7 @@ agitators_election_events.35 = {
 		any_active_party = {
 			is_party_type = liberal_party
 		}
-		#has_law = law_type:law_censorship
+		has_law = law_type:law_censorship
 		any_scope_state = {
 			any_scope_building = {
 				is_building_type = building_urban_center
@@ -4085,10 +4086,10 @@ agitators_election_events.36 = {
 			is_party_type = conservative_party
 		}
 		OR = {
-			has_law = law_type:law_religious_nationalism
-			#has_law = law_type:law_religious_policies
+			has_law = law_type:law_religious_institutions
+			has_law = law_type:law_religious_policies
 		}
-		ig:ig_devout = {
+		ig:ig_moralists = {
 			is_marginal = no
 		}
 	}
@@ -4105,7 +4106,7 @@ agitators_election_events.36 = {
 	}
 	immediate = {
 		conservative_agitator_election_scope_effect = yes
-		ig:ig_devout = {
+		ig:ig_moralists = {
 			save_scope_as = devout_ig
 		}
 	}
@@ -4129,7 +4130,7 @@ agitators_election_events.36 = {
 	option = {
 		name = agitators_election_events.36.c
 		trigger = {
-			ig:ig_devout = {
+			ig:ig_moralists = {
 				has_party = no
 			}
 		}
@@ -4196,15 +4197,15 @@ agitators_election_events.37 = {
 						has_progressive_ideology = yes
 					}
 				}
-				ig:ig_rural_folk = {
+				ig:ig_ruralists = {
 					is_powerful = yes
 					is_in_government = yes
 				}
-				ig:ig_intelligentsia = {
+				ig:ig_urbanists = {
 					is_powerful = yes
 					is_in_government = yes
 				}
-				ig:ig_socialists = {
+				ig:ig_laborists = {
 					is_powerful = yes
 					is_in_government = yes
 				}
@@ -4247,23 +4248,23 @@ agitators_election_events.37 = {
 							}
 						}
 					}
-					ig:ig_rural_folk = {
+					ig:ig_ruralists = {
 						is_powerful = yes
 						is_in_government = yes
 					}
-					ig:ig_intelligentsia = {
+					ig:ig_urbanists = {
 						is_powerful = yes
 						is_in_government = yes
 					}
-					ig:ig_socialists = {
+					ig:ig_laborists = {
 						is_powerful = yes
 						is_in_government = yes
 					}
 					NOR = {
-						ig:ig_conservatives = {
+						ig:ig_elites = {
 							is_in_government = yes
 						}
-						ig:ig_devout = {
+						ig:ig_moralists = {
 							is_in_government = yes
 						}
 					}
@@ -4429,10 +4430,10 @@ agitators_election_events.38 = {
 		name = agitators_election_events.38.a
 		trigger = {
 			NOR = {
-				#has_law = law_type:law_gender_equality
-				#has_law = law_type:law_representative_democracy
-				#has_law = law_type:law_income_security
-				#has_law = law_type:law_income_supplementation
+				has_law = law_type:law_gender_equality
+				has_law = law_type:law_representative_democracy
+				has_law = law_type:law_income_security
+				has_law = law_type:law_income_supplementation
 			}
 		}
 		default_option = yes
@@ -4444,10 +4445,10 @@ agitators_election_events.38 = {
 		name = agitators_election_events.38.a1
 		trigger = {
 			OR = {
-				#has_law = law_type:law_gender_equality
-				#has_law = law_type:law_representative_democracy
-				#has_law = law_type:law_income_security
-				#has_law = law_type:law_income_supplementation
+				has_law = law_type:law_gender_equality
+				has_law = law_type:law_representative_democracy
+				has_law = law_type:law_income_security
+				has_law = law_type:law_income_supplementation
 			}
 		}
 		default_option = yes
@@ -4459,10 +4460,10 @@ agitators_election_events.38 = {
 		name = agitators_election_events.38.b
 		trigger = {
 			NOR = {
-				#has_law = law_type:law_gender_equality
-				#has_law = law_type:law_representative_democracy
-				#has_law = law_type:law_income_security
-				#has_law = law_type:law_income_supplementation
+				has_law = law_type:law_gender_equality
+				has_law = law_type:law_representative_democracy
+				has_law = law_type:law_income_security
+				has_law = law_type:law_income_supplementation
 			}
 		}
 		scope:agitator_party_scope = {
@@ -4479,10 +4480,10 @@ agitators_election_events.38 = {
 		name = agitators_election_events.38.c
 		trigger = {
 			OR = {
-				#has_law = law_type:law_gender_equality
-				#has_law = law_type:law_representative_democracy
-				#has_law = law_type:law_income_security
-				#has_law = law_type:law_income_supplementation
+				has_law = law_type:law_gender_equality
+				has_law = law_type:law_representative_democracy
+				has_law = law_type:law_income_security
+				has_law = law_type:law_income_supplementation
 			}
 		}
 		scope:agitator_party_scope = {
@@ -4534,7 +4535,7 @@ agitators_election_events.39 = {
 		any_active_party = {
 			is_party_type = conservative_party
 		}
-		ig:ig_rural_folk = {
+		ig:ig_ruralists = {
 			leader = {
 				NOR = {
 					has_socialist_ideology = yes
@@ -4555,7 +4556,7 @@ agitators_election_events.39 = {
 	}
 	immediate = {
 		conservative_agitator_election_scope_effect = yes
-		ig:ig_rural_folk = {
+		ig:ig_ruralists = {
 			save_scope_as = rf_scope
 			leader = {
 				save_scope_as = rf_leader_scope
@@ -4575,7 +4576,7 @@ agitators_election_events.39 = {
 			add_momentum = momentum_small
 		}
 		add_modifier = {
-			name = modifier_landlords_voting_conservative
+			name = modifier_farmers_voting_conservative
 			months = normal_modifier_time
 		}
 	}
@@ -4649,7 +4650,7 @@ agitators_election_events.41 = {
 		capital = {
 			save_scope_as = capital_scope
 		}
-		ig:ig_devout = {
+		ig:ig_moralists = {
 			save_scope_as = devout_ig
 		}
 	}
@@ -4666,7 +4667,7 @@ agitators_election_events.41 = {
 				is_decaying = yes
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_moralists = {
 			add_modifier = {
 				name = modifier_radical_prescription_devout
 				months = short_modifier_time
@@ -4684,7 +4685,7 @@ agitators_election_events.41 = {
 				months = normal_modifier_time
 			}
 		}
-		ig:ig_devout = {
+		ig:ig_moralists = {
 			add_modifier = {
 				name = modifier_radical_prescription_denied_devout
 				months = short_modifier_time
@@ -4694,7 +4695,7 @@ agitators_election_events.41 = {
 	option = {
 		name = agitators_election_events.41.c
 		trigger = {
-			#has_law = law_type:law_no_welfare
+			has_law = law_type:law_no_welfare
 		}
 		scope:agitator_party_scope = {
 			add_momentum = momentum_small_decrease
@@ -4728,7 +4729,7 @@ agitators_election_events.42 = {
 		any_scope_character = {
 			has_role = agitator
 			NOT = {
-				is_interest_group_type = ig_intelligentsia
+				is_interest_group_type = ig_urbanists
 			}
 			OR = {
 				has_socialist_ideology = yes
@@ -4748,7 +4749,7 @@ agitators_election_events.42 = {
 			is_party_type = social_democrat_party
 		}
 		ruler.popularity <= 0
-		has_law = law_type:law_monarchy
+		has_law = law_type:law_hereditary
 	}
 	cancellation_trigger = {
 		OR = {
@@ -4766,7 +4767,7 @@ agitators_election_events.42 = {
 		ruler = {
 			save_scope_as = monarch_scope
 		}
-		ig:ig_intelligentsia = {
+		ig:ig_urbanists = {
 			save_scope_as = intelligentsia_ig
 		}
 	}
@@ -4791,7 +4792,7 @@ agitators_election_events.42 = {
 	}
 	option = {
 		name = agitators_election_events.42.c
-		ig:ig_intelligentsia = {
+		ig:ig_urbanists = {
 			add_modifier = {
 				name = modifier_agitator_hates_the_monarchy_ig
 				months = normal_modifier_time
@@ -4800,7 +4801,7 @@ agitators_election_events.42 = {
 		if = {
 			limit = {
 				NOT = {
-					scope:agitator_scope.interest_group = ig:ig_intelligentsia
+					scope:agitator_scope.interest_group = ig:ig_urbanists
 				}
 			}
 			scope:agitator_scope.interest_group = {
@@ -4875,10 +4876,10 @@ agitators_election_events.43 = {
 			is_party_type = social_democrat_party
 		}
 		NOT = {
-			has_law = law_type:law_multicultural
+			has_law = law_type:law_multiculturalist
 		}
 		NOT = {
-			#has_law = law_type:law_representative_democracy
+			has_law = law_type:law_representative_democracy
 		}
 	}
 	cancellation_trigger = {
@@ -4908,7 +4909,7 @@ agitators_election_events.43 = {
 			}
 			save_scope_as = discriminated_culture_scope
 		}
-		ig:ig_petty_bourgeoisie = {
+		ig:ig_entrepreneurs = {
 			save_scope_as = pb_scope
 		}
 	}
@@ -4933,7 +4934,7 @@ agitators_election_events.43 = {
 		name = agitators_election_events.43.c
 		trigger = {
 			NOT = {
-				#has_law = law_type:law_gender_equality
+				has_law = law_type:law_gender_equality
 			}
 		}
 		scope:agitator_party_scope = {
@@ -5010,7 +5011,7 @@ agitators_election_events.44 = {
 			is_party_type = social_democrat_party
 		}
 		NOT = {
-			#has_law = law_type:law_representative_democracy
+			has_law = law_type:law_representative_democracy
 		}
 	}
 	cancellation_trigger = {
@@ -5104,7 +5105,7 @@ agitators_election_events.44 = {
 		name = agitators_election_events.44.c
 		trigger = {
 			NOT = {
-				#has_law = law_type:law_gender_equality
+				has_law = law_type:law_gender_equality
 			}
 		}
 		scope:anti_democratic_party = {
@@ -5160,7 +5161,7 @@ agitators_election_events.45 = {
 		any_active_party = {
 			is_party_type = social_democrat_party
 		}
-		has_law = law_type:law_monarchy
+		has_law = law_type:law_hereditary
 	}
 	cancellation_trigger = {
 		OR = {
