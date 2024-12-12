@@ -5,7 +5,6 @@
 		120
 		125
 	}
-	strata = rich
 	start_quality_of_life = 18
 	working_adult_ratio = 0.3
 	wage_weight = 6

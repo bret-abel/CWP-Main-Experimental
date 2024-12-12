@@ -2,7 +2,7 @@
   "name": "Cold War Project",
   "id": "",
   "version": "0.2.9",
-  "supported_game_version": "1.8.3",
+  "supported_game_version": "1.8.*",
   "short_description": "",
   "tags": [],
   "relationships": [],
@@ -32,7 +32,15 @@
       
       "common/cultures",
       "common/pop_types",
-      "common/religions"
+      "common/religions",
+
+      "common/production_methods",
+      "common/production_method_groups",
+      "common/buildings",
+      "common/building_groups",
+
+      "common/social_classes",
+      "common/social_hierarchies"
     ]
   }
 }

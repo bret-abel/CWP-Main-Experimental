@@ -6,7 +6,6 @@
 		175
 		207
 	}
-	strata = poor
 	subsistence_income = yes
 	can_always_hire = yes
 	ignores_employment_proportionality = yes
