@@ -32,7 +32,7 @@
       
       "common/cultures",
       "common/pop_types",
-      "common/religions",
+      "common/religions"
     ]
   }
 }
