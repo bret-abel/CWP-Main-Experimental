@@ -33,6 +33,7 @@
       "common/cultures",
       "common/pop_types",
       "common/religions",
+      "common/discrimination_traits",
 
       "common/production_methods",
       "common/production_method_groups",
