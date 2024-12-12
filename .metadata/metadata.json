@@ -11,6 +11,10 @@
     "replace_paths": [
       "common/customizable_localization",
       "common/coat_of_arms",
+      "common/alert_groups",
+      "common/alert_types",
+      "common/achievements",
+      "common/decisions",
 
       "common/country_definitions",
       "common/history",
@@ -45,12 +49,14 @@
       "common/production_methods",
       "common/buildings",
       "common/goods",
+      "common/pop_needs",
 
       "common/diplomatic_plays",
       "common/diplomatic_actions",
 
       "common/technology",
 
+      "common/company_types",
       "gfx/map"
     ]
   }
