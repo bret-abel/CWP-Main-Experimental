@@ -724,7 +724,7 @@ distribution_of_power_laws.8 = {
 		}
 		add_radicals = {
 			value = medium_radicals
-			pop_type = academics
+			pop_type = engineers
 		}
 		add_radicals = {
 			value = medium_radicals

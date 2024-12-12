@@ -1,9 +1,8 @@
 ﻿############ BARRACKS
 building_barracks = {
-	ownership_type = self
 	building_group = bg_army
 	recruits_combat_unit = combat_unit_regular
-	texture = "gfx/interface/icons/building_icons/building_barracks.dds"
+	icon ="gfx/interface/icons/building_icons/building_barracks.dds"
 	city_type = city
 	has_max_level = yes
 	levels_per_mesh = 25
@@ -17,7 +16,6 @@ building_barracks = {
 }
 
 building_conscription_center = {
-	ownership_type = self
 	building_group = bg_conscription
 	buildable = no
 	expandable = no
@@ -27,20 +25,19 @@ building_conscription_center = {
 	residence_points_per_level = 0
 	city_type = none
 	recruits_combat_unit = combat_unit_conscript
-	texture = "gfx/interface/icons/building_icons/building_conscription_center.dds"
+	icon ="gfx/interface/icons/building_icons/building_conscription_center.dds"
 	production_method_groups = {
 		pmg_organization_conscription
 	}
 }
 
 building_naval_base = {
-	ownership_type = self
 	building_group = bg_navy
 	recruits_combat_unit = combat_unit_flotilla
 	city_type = port
 	levels_per_mesh = 25
 	has_max_level = yes
-	texture = "gfx/interface/icons/building_icons/naval_base.dds"
+	icon ="gfx/interface/icons/building_icons/naval_base.dds"
 	naval = yes
 	unlocking_technologies = {
 		pre_war_naval_tech

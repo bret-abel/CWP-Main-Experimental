@@ -164,11 +164,11 @@ pm_arcologies = {
 
 ## Professional Services
 pm_professional_services_no = {
-	texture = "gfx/interface/icons/production_method_icons/urban/no_professionals.dds"
+	texture = "gfx/interface/icons/production_method_icons/urban/no_clericals.dds"
 }
 
 pm_some_professional_services = {
-	texture = "gfx/interface/icons/production_method_icons/urban/local_professionals.dds"
+	texture = "gfx/interface/icons/production_method_icons/urban/local_clericals.dds"
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_services_add = -15
@@ -178,7 +178,7 @@ pm_some_professional_services = {
 }
 
 pm_professional_services = {
-	texture = "gfx/interface/icons/production_method_icons/urban/regional_professionals.dds"
+	texture = "gfx/interface/icons/production_method_icons/urban/regional_clericals.dds"
 	unlocking_production_methods = {
 		pm_industrial_cities
 		pm_modernist_cities
@@ -194,7 +194,7 @@ pm_professional_services = {
 }
 
 pm_extensive_professional_services = {
-	texture = "gfx/interface/icons/production_method_icons/urban/national_professionals.dds"
+	texture = "gfx/interface/icons/production_method_icons/urban/national_clericals.dds"
 	unlocking_production_methods = {
 		pm_modernist_cities
 		pm_neo_traditional_cities
@@ -1410,10 +1410,10 @@ pm_public_investor_services = {
 			state_landlords_investment_pool_contribution_add = 0.025
 			state_investors_investment_pool_efficiency_mult = 0.1
 			state_investors_investment_pool_contribution_add = 0.025
-			state_professionals_investment_pool_efficiency_mult = 0.1
-			state_professionals_investment_pool_contribution_add = 0.025
-			state_academics_investment_pool_efficiency_mult = 0.1
-			state_academics_investment_pool_contribution_add = 0.025
+			state_clericals_investment_pool_efficiency_mult = 0.1
+			state_clericals_investment_pool_contribution_add = 0.025
+			state_engineers_investment_pool_efficiency_mult = 0.1
+			state_engineers_investment_pool_contribution_add = 0.025
 			state_creatives_investment_pool_efficiency_mult = 0.1
 			state_creatives_investment_pool_contribution_add = 0.025
 			state_engineers_investment_pool_efficiency_mult = 0.1
@@ -1437,20 +1437,20 @@ pm_mutual_funds = {
 			state_landlords_investment_pool_contribution_add = 0.01
 			state_investors_investment_pool_efficiency_mult = 0.05
 			state_investors_investment_pool_contribution_add = 0.01
-			state_professionals_investment_pool_efficiency_mult = 0.05
-			state_professionals_investment_pool_contribution_add = 0.01
-			state_academics_investment_pool_efficiency_mult = 0.05
-			state_academics_investment_pool_contribution_add = 0.01
+			state_clericals_investment_pool_efficiency_mult = 0.05
+			state_clericals_investment_pool_contribution_add = 0.01
+			state_engineers_investment_pool_efficiency_mult = 0.05
+			state_engineers_investment_pool_contribution_add = 0.01
 			state_creatives_investment_pool_efficiency_mult = 0.05
 			state_creatives_investment_pool_contribution_add = 0.01
 			state_engineers_investment_pool_efficiency_mult = 0.05
 			state_engineers_investment_pool_contribution_add = 0.01
-			state_technicians_investment_pool_efficiency_mult = 0.05
-			state_technicians_investment_pool_contribution_add = 0.01
+			state_engineers_investment_pool_efficiency_mult = 0.05
+			state_engineers_investment_pool_contribution_add = 0.01
 			state_laborers_investment_pool_efficiency_mult = 0.05
 			state_laborers_investment_pool_contribution_add = 0.01
-			state_service_workers_investment_pool_efficiency_mult = 0.05
-			state_service_workers_investment_pool_contribution_add = 0.01
+			state_clericals_investment_pool_efficiency_mult = 0.05
+			state_clericals_investment_pool_contribution_add = 0.01
 		}
 	}
 }
@@ -2309,7 +2309,7 @@ pm_worker_cooperatives_skyscraper = {
 }
 
 ## Professional Services PMG
-pm_professional_services_use_professionals = {
+pm_professional_services_use_clericals = {
 	texture = "gfx/interface/icons/production_method_icons/urban/professional_services_use.dds"
 	ai_value = 100
 	building_modifiers = {
@@ -2325,7 +2325,7 @@ pm_professional_services_use_professionals = {
 	}
 }
 
-pm_proprietary_software_professionals = {
+pm_proprietary_software_clericals = {
 	texture = "gfx/interface/icons/production_method_icons/urban/proprietary_software.dds"
 	ai_value = 200
 	unlocking_technologies = {
@@ -2345,7 +2345,7 @@ pm_proprietary_software_professionals = {
 	}
 }
 
-pm_graphical_user_interfaces_professionals = {
+pm_graphical_user_interfaces_clericals = {
 	texture = "gfx/interface/icons/production_method_icons/urban/graphical_user_interface.dds"
 	ai_value = 3000
 	unlocking_technologies = {
@@ -2365,7 +2365,7 @@ pm_graphical_user_interfaces_professionals = {
 	}
 }
 
-pm_email_servers_professionals = {
+pm_email_servers_clericals = {
 	texture = "gfx/interface/icons/production_method_icons/urban/email_server.dds"
 	ai_value = 4000
 	unlocking_technologies = {
@@ -2385,7 +2385,7 @@ pm_email_servers_professionals = {
 	}
 }
 
-pm_ai_integrated_software_professionals = {
+pm_ai_integrated_software_clericals = {
 	texture = "gfx/interface/icons/production_method_icons/urban/ai_integrated_software.dds"
 	ai_value = 5000
 	unlocking_technologies = {
@@ -2405,7 +2405,7 @@ pm_ai_integrated_software_professionals = {
 	}
 }
 
-pm_autonomous_ai_professionals = {
+pm_autonomous_ai_clericals = {
 	texture = "gfx/interface/icons/production_method_icons/urban/autonomous_ai.dds"
 	ai_value = 6000
 	unlocking_technologies = {

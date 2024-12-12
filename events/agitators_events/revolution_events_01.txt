@@ -1090,7 +1090,7 @@ revolution_pulse1_events.11 = {
 		any_revolution_ongoing = yes
 		any_scope_state = {
 			any_scope_pop = {
-				is_pop_type = academics
+				is_pop_type = engineers
 			}
 			is_incorporated = yes
 		}
@@ -1105,7 +1105,7 @@ revolution_pulse1_events.11 = {
 		random_scope_state = {
 			limit = {
 				any_scope_pop = {
-					is_pop_type = academics
+					is_pop_type = engineers
 				}
 				is_incorporated = yes
 			}
@@ -1134,7 +1134,7 @@ revolution_pulse1_events.11 = {
 
 		scope:rebel_doctors_state = {
 			add_radicals_in_state = {
-				pop_type = academics
+				pop_type = engineers
 				value = very_large_radicals
 			}
 		}
@@ -1148,7 +1148,7 @@ revolution_pulse1_events.11 = {
 		}
 
 		add_radicals = {
-			pop_type = academics
+			pop_type = engineers
 			value = small_radicals
 		}
 	}

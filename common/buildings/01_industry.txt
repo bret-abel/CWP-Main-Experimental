@@ -1,7 +1,7 @@
 ﻿# MANUFACTURING INDUSTRIES
 building_food_industry = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/food_industry.dds"
+	icon ="gfx/interface/icons/building_icons/food_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -30,7 +30,7 @@ building_food_industry = {
 
 building_distilleries = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/distillery.dds"
+	icon ="gfx/interface/icons/building_icons/distillery.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -71,7 +71,7 @@ building_distilleries = {
 
 building_textile_manufactories = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	icon ="gfx/interface/icons/building_icons/textile_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -97,7 +97,7 @@ building_textile_manufactories = {
 
 building_furniture_manufactories = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/furniture_manufactories.dds"
+	icon ="gfx/interface/icons/building_icons/furniture_manufactories.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -124,7 +124,7 @@ building_furniture_manufactories = {
 
 building_glassworks = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/glassworks.dds"
+	icon ="gfx/interface/icons/building_icons/glassworks.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -150,7 +150,7 @@ building_glassworks = {
 
 building_tool_manufactories = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/tooling_workshops.dds"
+	icon ="gfx/interface/icons/building_icons/tooling_workshops.dds"
 	unlocking_technologies = {
 		early_production
 	}
@@ -177,7 +177,7 @@ building_tool_manufactories = {
 
 building_paper_manufactories = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/paper_mills.dds"
+	icon ="gfx/interface/icons/building_icons/paper_mills.dds"
 	unlocking_technologies = {
 		early_production
 	}
@@ -203,7 +203,7 @@ building_paper_manufactories = {
 
 building_chemical_plants = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/chemicals_industry.dds"
+	icon ="gfx/interface/icons/building_icons/chemicals_industry.dds"
 	unlocking_technologies = {
 		early_chemistry
 	}
@@ -229,7 +229,7 @@ building_chemical_plants = {
 
 building_synthetics_plant = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/synthetics_plants.dds"
+	icon ="gfx/interface/icons/building_icons/synthetics_plants.dds"
 	unlocking_technologies = {
 		nylon
 	}
@@ -256,7 +256,7 @@ building_synthetics_plant = {
 
 building_steelworks = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/steel_mills.dds"
+	icon ="gfx/interface/icons/building_icons/steel_mills.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -282,7 +282,7 @@ building_steelworks = {
 
 building_aluminum_refinery = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/aluminum_refinery.dds"
+	icon ="gfx/interface/icons/building_icons/aluminum_refinery.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -308,7 +308,7 @@ building_aluminum_refinery = {
 
 building_motor_industry = {
 	building_group = bg_motor_industry
-	texture = "gfx/interface/icons/building_icons/motor_industry.dds"
+	icon ="gfx/interface/icons/building_icons/motor_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -335,7 +335,7 @@ building_motor_industry = {
 
 building_automobile_manufactories = {
 	building_group = bg_automobile_manufactories
-	texture = "gfx/interface/icons/building_icons/automobile_industry.dds"
+	icon ="gfx/interface/icons/building_icons/automobile_industry.dds"
 	city_type = city
 	unlocking_technologies = {
 		combustion_gas_engine
@@ -364,7 +364,7 @@ building_automobile_manufactories = {
 
 building_shipyards = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/shipyards.dds"
+	icon ="gfx/interface/icons/building_icons/shipyards.dds"
 	city_type = port
 	unlocking_technologies = {
 		early_production
@@ -391,7 +391,7 @@ building_shipyards = {
 
 building_drydocks = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/carrier_drydocks.dds"
+	icon ="gfx/interface/icons/building_icons/carrier_drydocks.dds"
 	city_type = port
 	unlocking_technologies = {
 		pre_war_naval_tech
@@ -418,7 +418,7 @@ building_drydocks = {
 
 building_advanced_military_manufactories = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/advanced_military.dds"
+	icon ="gfx/interface/icons/building_icons/advanced_military.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -445,7 +445,7 @@ building_advanced_military_manufactories = {
 
 building_electronics_manufactories = {
 	building_group = bg_electronics
-	texture = "gfx/interface/icons/building_icons/electrics_industry.dds"
+	icon ="gfx/interface/icons/building_icons/electrics_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -472,7 +472,7 @@ building_electronics_manufactories = {
 
 building_small_arms_manufactories = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/arms_industry.dds"
+	icon ="gfx/interface/icons/building_icons/arms_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -499,7 +499,7 @@ building_small_arms_manufactories = {
 
 building_explosives_industry = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/munition_plants.dds"
+	icon ="gfx/interface/icons/building_icons/munition_plants.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -526,7 +526,7 @@ building_explosives_industry = {
 
 building_fuel_refineries = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/fuel_industry.dds"
+	icon ="gfx/interface/icons/building_icons/fuel_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -553,7 +553,7 @@ building_fuel_refineries = {
 
 building_semiconductor_manufactories = {
 	building_group = bg_electronics
-	texture = "gfx/interface/icons/building_icons/semiconductor_industry.dds"
+	icon ="gfx/interface/icons/building_icons/semiconductor_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -562,7 +562,7 @@ building_semiconductor_manufactories = {
 	production_method_groups = {
 		pmg_base_semiconductor
 		pmg_automation_semiconductor
-		pmg_professional_service_use_professionals
+		pmg_professional_service_use_clericals
 		pmg_green_tech_industry
 		pmg_ownership_semiconductor
 	}
@@ -579,7 +579,7 @@ building_semiconductor_manufactories = {
 
 building_aircraft_manufactories = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/aircraft_industry.dds"
+	icon ="gfx/interface/icons/building_icons/aircraft_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -607,7 +607,7 @@ building_aircraft_manufactories = {
 
 building_uranium_refineries = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/uranium_refineries.dds"
+	icon ="gfx/interface/icons/building_icons/uranium_refineries.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -634,7 +634,7 @@ building_uranium_refineries = {
 
 building_battery_manufactories = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/battery_industry.dds"
+	icon ="gfx/interface/icons/building_icons/battery_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -660,7 +660,7 @@ building_battery_manufactories = {
 
 building_pharmaceutical_industry = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/pharmaceutical_industry.dds"
+	icon ="gfx/interface/icons/building_icons/pharmaceutical_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -670,7 +670,7 @@ building_pharmaceutical_industry = {
 		pmg_base_pharmaceuticals
 		pmg_opioids
 		pmg_automation_pharmaceuticals
-		pmg_professional_service_use_professionals
+		pmg_professional_service_use_clericals
 		pmg_green_tech_industry
 		pmg_ownership_pharmaceuticals
 	}
@@ -687,7 +687,7 @@ building_pharmaceutical_industry = {
 
 building_computer_manufactories = {
 	building_group = bg_electronics
-	texture = "gfx/interface/icons/building_icons/computer_industry.dds"
+	icon ="gfx/interface/icons/building_icons/computer_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -713,7 +713,7 @@ building_computer_manufactories = {
 
 building_consumer_electronics_manufactories = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/appliance_industry.dds"
+	icon ="gfx/interface/icons/building_icons/appliance_industry.dds"
 	city_type = city
 	levels_per_mesh = 5
 	unlocking_technologies = {
@@ -722,7 +722,7 @@ building_consumer_electronics_manufactories = {
 	production_method_groups = {
 		pmg_base_consumer_electronics
 		pmg_automation_consumer_electronics_manufactories
-		pmg_professional_service_use_professionals
+		pmg_professional_service_use_clericals
 		pmg_green_tech_industry
 		pmg_ownership_household_appliance_manufactories
 	}

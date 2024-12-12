@@ -1,11 +1,19 @@
 ﻿COUNTRIES = {
-	c:FEZ ?= {
+	c:FEZ = {
 		#modifiers
 		#tax and tech
 		effect_starting_technology_tier_2_tech = yes
 		# capitals\
 		# TODO
 		#laws
-		effect_colonial_state_law_package = yes
+		activate_law = law_type:law_administrative
+		activate_law = law_type:law_unrestricted_human_testing
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_no_nationalization
+		activate_law = law_type:law_professional_military
+		activate_law = law_type:law_decentralization
+		activate_law = law_type:law_segregationist
+		activate_law = law_type:law_religious_policies
+		activate_law = law_type:law_alcohol_allowed
 	}
 }

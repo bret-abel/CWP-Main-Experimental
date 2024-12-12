@@ -24,7 +24,7 @@
  ideology_dop_oligarch_desc:0 "#lore This group thinks that a caste of wealthy and/or noble patricians should be the main decision-makers in government. Usually, this belief is motivated more by self-interest than any clear ideology, as this group consists either of oligarchs or their direct beneficiaries. #!"
 
  ideology_dop_technocrat:0 "Technocrat"
- ideology_dop_technocrat_desc:0 "#lore Out of a belief that society can be scientifically managed, technocrats eschew democracy in favor of decision-making by administrators and educated professionals. #!"
+ ideology_dop_technocrat_desc:0 "#lore Out of a belief that society can be scientifically managed, technocrats eschew democracy in favor of decision-making by administrators and educated clericals. #!"
 
  ideology_dop_traditional_power:0 "Traditional Power"
  ideology_dop_traditional_power_desc:0 "#lore This group does not have any clear stances on democracy, but will generally try to defend traditional power structures against change. #!"

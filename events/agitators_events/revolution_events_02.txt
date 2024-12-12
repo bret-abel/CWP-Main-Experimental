@@ -2857,7 +2857,7 @@ revolution_pulse_events.23 = {
 			}
 			add_radicals_in_state = {
 				value = medium_radicals
-				pop_type = academics
+				pop_type = engineers
 			}
 		}
 		scope:university_terror_building = {
@@ -4410,7 +4410,7 @@ revolution_pulse_events.34 = {
 		}
 		add_loyalists = {
 			value = small_radicals
-			pop_type = academics
+			pop_type = engineers
 		}
 		scope:little_dark_age_state = {
 			remove_building = building_university

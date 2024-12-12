@@ -571,7 +571,7 @@ pm_military_sponsored_research = {
 
 ##### Academia PMG
 pm_secular_faculty = {
-	texture = "gfx/interface/icons/production_method_icons/government/ownership_academics.dds"
+	texture = "gfx/interface/icons/production_method_icons/government/ownership_engineers.dds"
 	disallowing_laws = {
 		law_religious_nationalism
 		law_church_run_schools

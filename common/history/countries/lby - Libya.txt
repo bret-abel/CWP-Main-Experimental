@@ -1,11 +1,16 @@
 ﻿COUNTRIES = {
-	c:LBY ?= {
+	c:LBY = {
 		#modifiers
 		#tax and tech
 		effect_starting_technology_tier_2_tech = yes
 		# capitals\
 		# TODO
 		#laws
-		effect_colonial_state_law_package = yes
+		activate_law = law_type:law_administrative
+		activate_law = law_type:law_no_nationalization
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_reserve_military
+		activate_law = law_type:law_unrestricted_human_testing
+		activate_law = law_type:law_decentralization
 	}
 }

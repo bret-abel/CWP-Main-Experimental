@@ -142,7 +142,7 @@
   ideology_atheist_desc: "#Lore M'lady#"
   ideology_autarky: "Autarkist"
   ideology_autarky_desc: "#Lore This character wants their nation's economy to be as self sufficient as possible#"
-  ideology_centrist: "Centralist"
+  ideology_centralist: "Centralist"
   ideology_centrist_desc: "#Lore This character wants state authority to be centralized in the government and is against sharing power with regional authorities#"
   ideology_christian_democrat: "Christian Democrat"
   ideology_christian_democrat_desc: "#Lore This character believes in a reformed and democratic version of christianity#"
@@ -192,6 +192,8 @@
   ideology_punitive_desc: "#Lore This character is tough on crime, and wants those found guilty to be punished harshly#"
   ideology_racist: "Supremacist"
   ideology_racist_desc: "#Lore This character wants their nation to only grant citizenship to those of the dominant culturee#"
+  ideology_slaver: "Restitutionist"
+  ideology_slaver_desc: "#Lore This character wants criminals to be made to pay back their debt to society#"
   ideology_technocrat: "Technocrat"
   ideology_technocrat_desc: "#Lore This character believes that society should be ruled only by qualified professionals#"
   ideology_totalitarian: "Totalitarian"
@@ -222,8 +224,8 @@
   ideology_neocommunist_desc: "#Lore This character wants to establish a communist society but within a democratic framework and working within a liberal democratic system rather than overthrowing it#"
   ideology_democratic_socialist: "Democratic Socialist"
   ideology_democratic_socialist_desc: "#Lore This character wants a socialist economy operating within the framework of a liberal-democracy#"
-  ideology_centrist: "Third International Theory"
-  ideology_centrist_desc: "#Lore This character believes in Islamic socialism as an alternative to capitalism and marxism-leninism and rejects European-style democracy#"
+  ideology_third_international_theory: "Third International Theory"
+  ideology_third_international_theory_desc: "#Lore This character believes in Islamic socialism as an alternative to capitalism and marxism-leninism and rejects European-style democracy#"
 
  # Monetary Ideologies
   ideology_confident_monetarist: "Confident Monetarist"

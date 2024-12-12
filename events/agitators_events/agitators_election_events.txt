@@ -4575,7 +4575,7 @@ agitators_election_events.39 = {
 			add_momentum = momentum_small
 		}
 		add_modifier = {
-			name = modifier_farmers_voting_conservative
+			name = modifier_landlords_voting_conservative
 			months = normal_modifier_time
 		}
 	}

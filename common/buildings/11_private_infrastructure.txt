@@ -2,7 +2,7 @@
 building_railway = {
 	ownership_type = self
 	building_group = bg_basic_infrastructure
-	texture = "gfx/interface/icons/building_icons/building_railway.dds"
+	icon ="gfx/interface/icons/building_icons/building_railway.dds"
 	unlocking_technologies = {
 		railways
 	}
@@ -40,7 +40,7 @@ building_trade_center = {
 	city_type = city
 	levels_per_mesh = 10
 	lens = infrastructure
-	texture = "gfx/interface/icons/building_icons/building_trade_center.dds"
+	icon ="gfx/interface/icons/building_icons/building_trade_center.dds"
 	production_method_groups = {
 		pmg_base_building_trade_center
 		pmg_ownership_building_trade_center
@@ -54,7 +54,7 @@ building_spaceport = {
 	ownership_type = self
 	building_group = bg_space
 	city_type = city
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon ="gfx/interface/icons/building_icons/placeholder.dds"
 	unlocking_technologies = {
 		unmanned_space_flight
 	}
@@ -70,7 +70,7 @@ building_mission_control = {
 	ownership_type = self
 	building_group = bg_space
 	city_type = city
-	texture = "gfx/interface/icons/building_icons/placeholder.dds"
+	icon ="gfx/interface/icons/building_icons/placeholder.dds"
 	unlocking_technologies = {
 		unmanned_space_flight
 	}
@@ -90,7 +90,7 @@ building_airport = {
 	ownership_type = self
 	building_group = bg_private_infrastructure
 	city_type = city
-	texture = "gfx/interface/icons/building_icons/airport.dds"
+	icon ="gfx/interface/icons/building_icons/airport.dds"
 	has_max_level = yes
 	ignore_stateregion_max_level = yes
 	enable_air_connection = yes

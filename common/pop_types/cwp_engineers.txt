@@ -46,7 +46,7 @@
 			}
 			if = {
 				limit = {
-					is_pop_type = technicians
+					is_pop_type = engineers
 				}
 				multiply = {
 					value = 5
@@ -73,7 +73,7 @@
 			}
 			if = {
 				limit = {
-					is_pop_type = farmers
+					is_pop_type = landlords
 				}
 				multiply = {
 					value = 2

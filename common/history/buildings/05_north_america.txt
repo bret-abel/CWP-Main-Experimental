@@ -132,7 +132,7 @@
  					"pm_trauma_centers"
  					"pm_antibiotics"
  					"pm_privatized_hospital"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  				}
  			}
  			create_building = {
@@ -145,7 +145,7 @@
  					"pm_privately_owned_general_industry"
  					"pm_powered_assembly_lines_industry"
  					"pm_no_environmental_tech"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  				}
  			}
  			create_building = {
@@ -382,7 +382,7 @@
  					"pm_trauma_centers"
  					"pm_antibiotics"
  					"pm_privatized_hospital"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  				}
  			}
  			create_building = {
@@ -638,7 +638,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -876,7 +876,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -991,7 +991,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -1166,7 +1166,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -1353,7 +1353,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -1510,7 +1510,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -1607,7 +1607,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -1763,7 +1763,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -1900,7 +1900,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -2139,7 +2139,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -2343,7 +2343,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -2538,7 +2538,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -2723,7 +2723,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -2896,7 +2896,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -3063,7 +3063,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -3274,7 +3274,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -3499,7 +3499,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -3669,7 +3669,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -3893,7 +3893,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -3954,7 +3954,7 @@
  					"pm_modern_medicine"
  					"pm_no_opiates"
  					"pm_powered_assembly_lines_industry"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_no_environmental_tech"
  					"pm_privately_owned_general_industry"
  				}
@@ -4139,7 +4139,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -4440,7 +4440,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -4712,7 +4712,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -4763,7 +4763,7 @@
  					"pm_modern_medicine"
  					"pm_no_opiates"
  					"pm_powered_assembly_lines_industry"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_no_environmental_tech"
  					"pm_privately_owned_general_industry"
  				}
@@ -4973,7 +4973,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -5201,7 +5201,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -5247,7 +5247,7 @@
  					"pm_modern_medicine"
  					"pm_no_opiates"
  					"pm_powered_assembly_lines_industry"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_no_environmental_tech"
  					"pm_privately_owned_general_industry"
  				}
@@ -7520,7 +7520,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -7643,7 +7643,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -7809,7 +7809,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -7937,7 +7937,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}
@@ -8254,7 +8254,7 @@
  				activate_production_methods = {
  					"pm_trauma_centers"
  					"pm_antibiotics"
- 					"pm_professional_services_use_professionals"
+ 					"pm_professional_services_use_clericals"
  					"pm_privatized_hospital"
  				}
  			}

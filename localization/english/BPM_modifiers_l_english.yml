@@ -111,7 +111,7 @@
  RURAL_POP:0 "Rural Pops"
  NOT_RURAL_POP:0 "Non-Rural Pops"
  RURAL_UPPER_CLASS:0 "Rural Landowners"
- POP_EDUCATED_FARMERS:0 "Educated Farmers"
+ POP_EDUCATED_landlords:0 "Educated landlords"
  POP_RURAL_ABOLITIONISTS:0 "Rural Abolitionists"
  SLAVEHOLDERS:0 "Slave Owners"
  POP_FREE_PEASANTS:0 "Free Peasants"

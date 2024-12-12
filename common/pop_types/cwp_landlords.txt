@@ -58,7 +58,7 @@
 			if = {
 				limit = {
 					or = {
-						is_pop_type = farmers
+						is_pop_type = landlords
 						is_pop_type = clergy
 					}
 				}

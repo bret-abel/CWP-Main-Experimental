@@ -1009,7 +1009,7 @@
 	#        base = 0
 	#        modifier = {
 	#            add = 200
-	#            academics_clothes_pop_trigger = yes
+	#            engineers_clothes_pop_trigger = yes
 	#        }
 	#    }
 	#}

@@ -9,6 +9,9 @@
   "game_custom_data": {
     "multiplayer_synchronized": true,
     "replace_paths": [
+      "common/customizable_localization",
+      "common/coat_of_arms",
+
       "common/country_definitions",
       "common/history",
       "common/history/ai",
@@ -26,19 +29,29 @@
       "common/history/production_methods",
       "common/history/states",
       "common/history/trade_routes",
-      "common/ideologies",
-      "common/interest_groups",
       "common/journal_entries",
       
-      "common/cultures",
+      "common/interest_groups",
+      "common/laws",
+      "common/law_groups",
+      "common/ideologies",
+      "common/government_types",
+      "common/parties",
+      
       "common/pop_types",
       "common/religions",
       "common/discrimination_traits",
 
       "common/production_methods",
-      "common/production_method_groups",
       "common/buildings",
-      "common/building_groups"
+      "common/goods",
+
+      "common/diplomatic_plays",
+      "common/diplomatic_actions",
+
+      "common/technology",
+
+      "gfx/map"
     ]
   }
 }

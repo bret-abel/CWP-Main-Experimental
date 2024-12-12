@@ -307,14 +307,14 @@ bpm_ig_attraction_utils.1 = {
 			if = {
 				limit = {
 					pop_type_percent_country = {
-						pop_type = technicians
+						pop_type = engineers
 						percent > 0.2
 					}
 				}
 				if = {
 					limit = {
 						pop_type_percent_country = {
-							pop_type = technicians
+							pop_type = engineers
 							percent > 0.3
 						}
 					}
@@ -334,7 +334,7 @@ bpm_ig_attraction_utils.1 = {
 				if = {
 					limit = {
 						pop_type_percent_country = {
-							pop_type = technicians
+							pop_type = engineers
 							percent > 0.1
 						}
 					}
@@ -346,7 +346,7 @@ bpm_ig_attraction_utils.1 = {
 				else_if = {
 					limit = {
 						pop_type_percent_country = {
-							pop_type = technicians
+							pop_type = engineers
 							percent > 0.05
 						}
 					}
@@ -433,14 +433,14 @@ bpm_ig_attraction_utils.1 = {
 			if = {
 				limit = {
 					radical_fraction = {
-						pop_type = technicians
+						pop_type = engineers
 						value > 0.4
 					}
 				}
 				if = {
 					limit = {
 						radical_fraction = {
-							pop_type = technicians
+							pop_type = engineers
 							value > 0.8
 						}
 					}
@@ -452,7 +452,7 @@ bpm_ig_attraction_utils.1 = {
 				else_if = {
 					limit = {
 						radical_fraction = {
-							pop_type = technicians
+							pop_type = engineers
 							value > 0.6
 						}
 					}
@@ -472,7 +472,7 @@ bpm_ig_attraction_utils.1 = {
 				if = {
 					limit = {
 						radical_fraction = {
-							pop_type = technicians
+							pop_type = engineers
 							value > 0.15
 						}
 					}
@@ -484,7 +484,7 @@ bpm_ig_attraction_utils.1 = {
 				else_if = {
 					limit = {
 						radical_fraction = {
-							pop_type = technicians
+							pop_type = engineers
 							value > 0.05
 						}
 					}
@@ -505,7 +505,7 @@ bpm_ig_attraction_utils.2 = {
 	hidden = yes
 	immediate = {
 		remove_variable = bpm_ig_laborers_angry_var
-		remove_variable = bpm_ig_farmers_angry_var
+		remove_variable = bpm_ig_landlords_angry_var
 		remove_variable = bpm_country_very_undemocratic_var
 		remove_variable = bpm_country_undemocratic_var
 		# Set the attraction variables for each interest group
@@ -566,7 +566,7 @@ bpm_ig_attraction_utils.2 = {
 				OR = {
 					radical_fraction = {
 						value >= 0.2
-						pop_type = farmers
+						pop_type = landlords
 					}
 					radical_fraction = {
 						value >= 0.2
@@ -578,7 +578,7 @@ bpm_ig_attraction_utils.2 = {
 					}
 				}
 			}
-			set_variable = bpm_ig_farmers_angry_var
+			set_variable = bpm_ig_landlords_angry_var
 		}
 		# Set if the country is very undemocratic
 		if = {
