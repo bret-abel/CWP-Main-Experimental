@@ -1,5 +1,6 @@
 ﻿############ BARRACKS
 building_nuclear_weapons_facility = {
+	ownership_type = self
 	building_group = bg_nuclear_weapons
 	texture = "gfx/interface/icons/building_icons/nuclear_research_facility.dds"
 	city_type = city
@@ -21,6 +22,7 @@ building_nuclear_weapons_facility = {
 }
 
 building_strategic_airbase = {
+	ownership_type = self
 	building_group = bg_nuclear_weapons
 	texture = "gfx/interface/icons/building_icons/nuclear_research_facility.dds"
 	city_type = city
@@ -41,6 +43,7 @@ building_strategic_airbase = {
 }
 
 building_nuclear_weapons_silo = {
+	ownership_type = self
 	building_group = bg_nuclear_weapons
 	texture = "gfx/interface/icons/building_icons/nuclear_research_facility.dds"
 	city_type = city
@@ -63,6 +66,7 @@ building_nuclear_weapons_silo = {
 }
 
 building_chemical_weapons_facility = {
+	ownership_type = self
 	building_group = bg_chemical_weapons
 	texture = "gfx/interface/icons/building_icons/chemical_weapons_facility.dds"
 	city_type = city
@@ -81,6 +85,7 @@ building_chemical_weapons_facility = {
 }
 
 building_biological_weapons_facility = {
+	ownership_type = self
 	building_group = bg_biological_weapons
 	texture = "gfx/interface/icons/building_icons/biological_weapons_facility.dds"
 	city_type = city

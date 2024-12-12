@@ -1,5 +1,6 @@
 ﻿############ GOVERNMENT BUILDINGS
 building_port = {
+	ownership_type = self
 	building_group = bg_public_infrastructure
 	city_type = port
 	texture = "gfx/interface/icons/building_icons/building_port.dds"
@@ -23,6 +24,7 @@ building_port = {
 }
 
 building_government_administration = {
+	ownership_type = self
 	building_group = bg_bureaucracy
 	city_type = city
 	
@@ -49,6 +51,7 @@ building_government_administration = {
 }
 
 building_university = {
+	ownership_type = self
 	building_group = bg_technology
 	city_type = city
 	
@@ -66,6 +69,7 @@ building_university = {
 }
 
 building_nuclear_research_facility = {
+	ownership_type = self
 	building_group = bg_nuclear_research
 	expandable = no
 	buildable = no
@@ -86,6 +90,7 @@ building_nuclear_research_facility = {
 }
 
 building_military_research_facility = {
+	ownership_type = self
 	building_group = bg_military_research
 	has_max_level = yes
 	texture = "gfx/interface/icons/building_icons/military_research_facility.dds"
@@ -110,6 +115,7 @@ building_military_research_facility = {
 }
 
 building_humanities_research_facility = {
+	ownership_type = self
 	building_group = bg_humanities_research
 	has_max_level = yes
 	texture = "gfx/interface/icons/building_icons/humanities_research_facility.dds"
@@ -134,6 +140,7 @@ building_humanities_research_facility = {
 }
 
 building_science_research_facility = {
+	ownership_type = self
 	building_group = bg_humanities_research
 	has_max_level = yes
 	texture = "gfx/interface/icons/building_icons/humanities_research_facility.dds"

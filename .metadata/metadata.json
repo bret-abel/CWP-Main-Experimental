@@ -38,10 +38,7 @@
       "common/production_methods",
       "common/production_method_groups",
       "common/buildings",
-      "common/building_groups",
-
-      "common/social_classes",
-      "common/social_hierarchies"
+      "common/building_groups"
     ]
   }
 }

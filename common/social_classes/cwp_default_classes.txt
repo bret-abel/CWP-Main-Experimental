@@ -1,17 +1,14 @@
-cwp_lower_class = {
-	social_hierarchy = cwp_default_social_hierarchy
-	strata = lower
+upper_class = {
+	social_hierarchy = default_social_hierarchy
+	strata = upper
 
 	allowed_professions = {
-		servicemembers
-		laborers
-		clericals
-        informal_workers
+        investors
 	}
 }
 
-cwp_lower_class = {
-	social_hierarchy = cwp_default_social_hierarchy
+middle_class = {
+	social_hierarchy = default_social_hierarchy
 	strata = middle
 
 	allowed_professions = {
@@ -20,14 +17,18 @@ cwp_lower_class = {
 		landlords
         administrators
         engineers
+
 	}
 }
 
-cwp_lower_class = {
-    social_hierarchy = cwp_default_social_hierarchy
-    strata = upper
+lower_class = {
+	social_hierarchy = default_social_hierarchy
+	strata = lower
 
-    allowed_professions = {
-        investors
-    }
+	allowed_professions = {
+		servicemembers
+		laborers
+		clericals
+        informal_workers
+	}
 }

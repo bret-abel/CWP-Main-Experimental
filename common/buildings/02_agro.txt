@@ -1,5 +1,6 @@
 ﻿############# FARMING & RANCHING
 building_rye_farm = {
+	ownership_type = self
 	building_group = bg_rye_farms
 	texture = "gfx/interface/icons/building_icons/rye_farm.dds"
 	city_type = farm
@@ -14,6 +15,7 @@ building_rye_farm = {
 }
 
 building_wheat_farm = {
+	ownership_type = self
 	building_group = bg_wheat_farms
 	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
 	city_type = farm
@@ -28,6 +30,7 @@ building_wheat_farm = {
 }
 
 building_rice_farm = {
+	ownership_type = self
 	building_group = bg_rice_farms
 	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
 	city_type = farm
@@ -42,6 +45,7 @@ building_rice_farm = {
 }
 
 building_maize_farm = {
+	ownership_type = self
 	building_group = bg_maize_farms
 	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
 	city_type = farm
@@ -56,6 +60,7 @@ building_maize_farm = {
 }
 
 building_millet_farm = {
+	ownership_type = self
 	building_group = bg_millet_farms
 	texture = "gfx/interface/icons/building_icons/millet_farm.dds"
 	city_type = farm
@@ -70,6 +75,7 @@ building_millet_farm = {
 }
 
 building_livestock_ranch = {
+	ownership_type = self
 	building_group = bg_livestock_ranches
 	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
 	city_type = farm

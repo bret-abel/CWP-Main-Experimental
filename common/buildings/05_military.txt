@@ -1,5 +1,6 @@
 ﻿############ BARRACKS
 building_barracks = {
+	ownership_type = self
 	building_group = bg_army
 	recruits_combat_unit = combat_unit_regular
 	texture = "gfx/interface/icons/building_icons/building_barracks.dds"
@@ -16,6 +17,7 @@ building_barracks = {
 }
 
 building_conscription_center = {
+	ownership_type = self
 	building_group = bg_conscription
 	buildable = no
 	expandable = no
@@ -32,6 +34,7 @@ building_conscription_center = {
 }
 
 building_naval_base = {
+	ownership_type = self
 	building_group = bg_navy
 	recruits_combat_unit = combat_unit_flotilla
 	city_type = port

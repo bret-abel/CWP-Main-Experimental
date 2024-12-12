@@ -9,7 +9,7 @@ pm_informal_cities = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 5000
-			building_employment_service_workers_add = 4500
+			building_employment_clericals_add = 4500
 		}
 	}
 }
@@ -29,8 +29,8 @@ pm_industrial_cities = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4500
-			building_employment_service_workers_add = 4000
-			building_employment_creatives_add = 1000
+			building_employment_clericals_add = 4000
+			building_employment_clericals_add = 1000
 		}
 	}
 }
@@ -50,8 +50,8 @@ pm_modernist_cities = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
-			building_employment_service_workers_add = 4000
-			building_employment_creatives_add = 2500
+			building_employment_clericals_add = 4000
+			building_employment_clericals_add = 2500
 		}
 	}
 }
@@ -71,8 +71,8 @@ pm_neo_traditional_cities = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2000
-			building_employment_service_workers_add = 4000
-			building_employment_creatives_add = 3500
+			building_employment_clericals_add = 4000
+			building_employment_clericals_add = 3500
 		}
 	}
 }
@@ -92,8 +92,8 @@ pm_sustainable_cities = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2000
-			building_employment_service_workers_add = 2000
-			building_employment_creatives_add = 4500
+			building_employment_clericals_add = 2000
+			building_employment_clericals_add = 4500
 			#5600+2000+900=8500
 		}
 	}
@@ -337,7 +337,7 @@ pm_automated_guided_transport = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = -2000
-			building_employment_service_workers_add = -1000
+			building_employment_clericals_add = -1000
 		}
 	}
 }
@@ -359,7 +359,7 @@ pm_autonomous_transport = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = -2000
-			building_employment_service_workers_add = -2000
+			building_employment_clericals_add = -2000
 		}
 	}
 }
@@ -492,7 +492,7 @@ pm_worker_cooperatives_urban_center = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_service_workers_add = 1000
+			building_employment_clericals_add = 1000
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
@@ -518,7 +518,7 @@ pm_coal_fired_plant = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 5000
-			building_employment_technicians_add = 3000
+			building_employment_engineers_add = 3000
 			building_employment_engineers_add = 1800
 		}
 	}
@@ -542,7 +542,7 @@ pm_oil_fired_plant = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
-			building_employment_technicians_add = 3500
+			building_employment_engineers_add = 3500
 			building_employment_engineers_add = 2300
 		}
 	}
@@ -566,7 +566,7 @@ pm_combustion_fired_plant = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
-			building_employment_technicians_add = 3500
+			building_employment_engineers_add = 3500
 			building_employment_engineers_add = 2300
 		}
 	}
@@ -601,7 +601,7 @@ pm_solar_panels = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 200
-			building_employment_technicians_add = 300
+			building_employment_engineers_add = 300
 			building_employment_engineers_add = 500
 		}
 	}
@@ -623,7 +623,7 @@ pm_photovoltaics = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 150
-			building_employment_technicians_add = 300
+			building_employment_engineers_add = 300
 			building_employment_engineers_add = 550
 		}
 	}
@@ -645,7 +645,7 @@ pm_concentrated_solar_power = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 100
-			building_employment_technicians_add = 300
+			building_employment_engineers_add = 300
 			building_employment_engineers_add = 600
 		}
 	}
@@ -666,7 +666,7 @@ pm_quantum_photon_harvesting = {
 			goods_output_electricity_add = 150
 		}
 		level_scaled = {
-			building_employment_technicians_add = 400
+			building_employment_engineers_add = 400
 			building_employment_engineers_add = 600
 		}
 	}
@@ -702,7 +702,7 @@ pm_wind_power = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 500
-			building_employment_technicians_add = 400
+			building_employment_engineers_add = 400
 			building_employment_engineers_add = 300
 		}
 	}
@@ -722,7 +722,7 @@ pm_wind_farms = {
 			goods_output_electricity_add = 125
 		}
 		level_scaled = {
-			building_employment_technicians_add = 600
+			building_employment_engineers_add = 600
 			building_employment_engineers_add = 600
 		}
 	}
@@ -752,7 +752,7 @@ pm_conventional_dams = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 5000
-			building_employment_technicians_add = 3000
+			building_employment_engineers_add = 3000
 			building_employment_engineers_add = 2000
 		}
 	}
@@ -771,7 +771,7 @@ pm_pumped_storage_hydroelectricity = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
-			building_employment_technicians_add = 4000
+			building_employment_engineers_add = 4000
 			building_employment_engineers_add = 3000
 		}
 	}
@@ -789,7 +789,7 @@ pm_run_of_river_hydroelectricity = {
 			goods_output_electricity_add = 375
 		}
 		level_scaled = {
-			building_employment_technicians_add = 5000
+			building_employment_engineers_add = 5000
 			building_employment_engineers_add = 5000
 		}
 	}
@@ -810,7 +810,7 @@ pm_run_of_river_hydroelectricity = {
 #		}
 #		level_scaled = {
 #			building_employment_laborers_add = 475
-#			building_employment_technicians_add = 400
+#			building_employment_engineers_add = 400
 #			building_employment_engineers_add = 300
 #			building_employment_managers_add = 25
 #		}
@@ -834,7 +834,7 @@ pm_run_of_river_hydroelectricity = {
 #		}
 #		level_scaled = {
 #			building_employment_laborers_add = 175
-#			building_employment_technicians_add = 375
+#			building_employment_engineers_add = 375
 #			building_employment_engineers_add = 500
 #			building_employment_managers_add = 75
 #		}
@@ -856,8 +856,8 @@ pm_nuclear_plant = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
-			building_employment_technicians_add = 4000
-			building_employment_professionals_add = 3000
+			building_employment_engineers_add = 4000
+			building_employment_clericals_add = 3000
 		}
 	}
 }
@@ -878,8 +878,8 @@ pm_nuclear_fusion = {
 			goods_output_electricity_add = 2500
 		}
 		level_scaled = {
-			building_employment_technicians_add = 4000
-			building_employment_professionals_add = 8000
+			building_employment_engineers_add = 4000
+			building_employment_clericals_add = 8000
 		}
 	}
 }
@@ -894,9 +894,9 @@ pm_radio_telecommunications = {
 			goods_output_telecommunications_add = 35			# 400
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 3000
-			building_employment_technicians_add = 2000
-			building_employment_professionals_add = 1000
+			building_employment_clericals_add = 3000
+			building_employment_engineers_add = 2000
+			building_employment_clericals_add = 1000
 		}
 	}
 }
@@ -912,9 +912,9 @@ pm_television_services = {
 			goods_output_telecommunications_add = 55			# 400
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 2000
-			building_employment_technicians_add = 2500
-			building_employment_professionals_add = 1500
+			building_employment_clericals_add = 2000
+			building_employment_engineers_add = 2500
+			building_employment_clericals_add = 1500
 		}
 	}
 }
@@ -930,9 +930,9 @@ pm_internet_services_telecommunications = {
 			goods_output_telecommunications_add = 100			# 400
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 1000
-			building_employment_technicians_add = 3000
-			building_employment_professionals_add = 2000
+			building_employment_clericals_add = 1000
+			building_employment_engineers_add = 3000
+			building_employment_clericals_add = 2000
 		}
 	}
 }
@@ -949,7 +949,7 @@ pm_boutique_hospitality = {
 			goods_output_tourism_add = 25
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 6000
+			building_employment_clericals_add = 6000
 		}
 	}
 }
@@ -967,8 +967,8 @@ pm_economy_lodging = {
 			goods_output_tourism_add = 35
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 5000
-			building_employment_creatives_add = 1000
+			building_employment_clericals_add = 5000
+			building_employment_clericals_add = 1000
 		}
 	}
 }
@@ -988,8 +988,8 @@ pm_all_inclusive_hospitality = {
 			goods_output_tourism_add = 45
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 4000
-			building_employment_creatives_add = 2000
+			building_employment_clericals_add = 4000
+			building_employment_clericals_add = 2000
 		}
 	}
 }
@@ -1010,8 +1010,8 @@ pm_developed_resorts = {
 			goods_output_tourism_add = 55
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 3000
-			building_employment_creatives_add = 3000
+			building_employment_clericals_add = 3000
+			building_employment_clericals_add = 3000
 		}
 	}
 }
@@ -1032,8 +1032,8 @@ pm_high_rise_luxury_hotels = {
 			goods_output_tourism_add = 65
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 2000
-			building_employment_creatives_add = 4000
+			building_employment_clericals_add = 2000
+			building_employment_clericals_add = 4000
 		}
 	}
 }
@@ -1054,8 +1054,8 @@ pm_mega_resorts = {
 			goods_output_tourism_add = 75
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 1000
-			building_employment_creatives_add = 5000
+			building_employment_clericals_add = 1000
+			building_employment_clericals_add = 5000
 		}
 	}
 }
@@ -1130,8 +1130,8 @@ pm_entertainment = {
 			goods_output_tourism_mult = 0.05
 		}
 		level_scaled = {
-			building_employment_creatives_add = 250
-			building_employment_service_workers_add = 1000
+			building_employment_clericals_add = 250
+			building_employment_clericals_add = 1000
 		}
 	}
 	state_modifiers = {
@@ -1153,8 +1153,8 @@ pm_entertainment_and_gambling = {
 			goods_output_tourism_mult = 0.1
 		}
 		level_scaled = {
-			building_employment_creatives_add = 500
-			building_employment_service_workers_add = 500
+			building_employment_clericals_add = 500
+			building_employment_clericals_add = 500
 		}
 	}
 	state_modifiers = {
@@ -1175,8 +1175,8 @@ pm_entertainment_productions = {
 			goods_output_tourism_mult = 0.15
 		}
 		level_scaled = {
-			building_employment_creatives_add = 750
-			building_employment_service_workers_add = 250
+			building_employment_clericals_add = 750
+			building_employment_clericals_add = 250
 		}
 	}
 	state_modifiers = {
@@ -1196,8 +1196,8 @@ pm_traditional_financial_services = {
 			goods_output_financial_services_add = 25
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 6000
-			building_employment_professionals_add = 3000
+			building_employment_clericals_add = 6000
+			building_employment_clericals_add = 3000
 		}
 	}
 }
@@ -1214,8 +1214,8 @@ pm_networked_financial_services = {
 			goods_output_financial_services_add = 30
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 5000
-			building_employment_professionals_add = 4000
+			building_employment_clericals_add = 5000
+			building_employment_clericals_add = 4000
 		}
 	}
 }
@@ -1233,8 +1233,8 @@ pm_expanded_credit_services = {
 			goods_output_financial_services_add = 45
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 4000
-			building_employment_professionals_add = 5000
+			building_employment_clericals_add = 4000
+			building_employment_clericals_add = 5000
 		}
 	}
 }
@@ -1251,8 +1251,8 @@ pm_digital_financial_services = {
 			goods_output_financial_services_add = 60
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 3000
-			building_employment_professionals_add = 6000
+			building_employment_clericals_add = 3000
+			building_employment_clericals_add = 6000
 		}
 	}
 }
@@ -1269,8 +1269,8 @@ pm_online_financial_services = {
 			goods_output_financial_services_add = 75
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 2000
-			building_employment_professionals_add = 7000
+			building_employment_clericals_add = 2000
+			building_employment_clericals_add = 7000
 		}
 	}
 }
@@ -1287,7 +1287,7 @@ pm_algorithmic_financial_services = {
 			goods_output_financial_services_add = 95
 		}
 		level_scaled = {
-			building_employment_professionals_add = 9000
+			building_employment_clericals_add = 9000
 		}
 	}
 }
@@ -1465,8 +1465,8 @@ pm_magazines_media = {
 			goods_output_media_add = 20			# 400
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 7000
-			building_employment_creatives_add = 1000
+			building_employment_clericals_add = 7000
+			building_employment_clericals_add = 1000
 		}
 	}
 }
@@ -1483,8 +1483,8 @@ pm_television_broadcasts_media = {
 			goods_output_media_add = 35
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 6000
-			building_employment_creatives_add = 2000
+			building_employment_clericals_add = 6000
+			building_employment_clericals_add = 2000
 		}
 	}
 }
@@ -1501,8 +1501,8 @@ pm_satellite_television_media = {
 			goods_output_media_add = 45			# 600
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 5000
-			building_employment_creatives_add = 3000
+			building_employment_clericals_add = 5000
+			building_employment_clericals_add = 3000
 		}
 	}
 }
@@ -1520,8 +1520,8 @@ pm_video_games_media = {
 			goods_output_media_add = 55			# 600
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 4000
-			building_employment_creatives_add = 4000
+			building_employment_clericals_add = 4000
+			building_employment_clericals_add = 4000
 		}
 	}
 }
@@ -1539,8 +1539,8 @@ pm_virtual_reality_media = {
 			goods_output_media_add = 75			# 600
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 2000
-			building_employment_creatives_add = 6000
+			building_employment_clericals_add = 2000
+			building_employment_clericals_add = 6000
 		}
 	}
 }
@@ -1563,7 +1563,7 @@ pm_sensationalist_news = {
 			goods_output_media_mult = 0.25
 		}
 		level_scaled = {
-			building_employment_creatives_add = 1000
+			building_employment_clericals_add = 1000
 		}
 	}
 	state_modifiers = {
@@ -1726,7 +1726,7 @@ pm_worker_cooperatives_utility = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_service_workers_add = 300
+			building_employment_clericals_add = 300
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
@@ -1743,9 +1743,9 @@ pm_hospitals = {
 			goods_output_healthcare_add = 15
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 9000
-			building_employment_professionals_add = 500
-			building_employment_academics_add = 500
+			building_employment_clericals_add = 9000
+			building_employment_clericals_add = 500
+			building_employment_engineers_add = 500
 		}
 	}
 	state_modifiers = {
@@ -1766,9 +1766,9 @@ pm_trauma_centers = {
 			goods_output_healthcare_add = 25
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 7500
-			building_employment_professionals_add = 2000
-			building_employment_academics_add = 1500
+			building_employment_clericals_add = 7500
+			building_employment_clericals_add = 2000
+			building_employment_engineers_add = 1500
 		}
 	}
 	state_modifiers = {
@@ -1789,9 +1789,9 @@ pm_surgical_hospitals = {
 			goods_output_healthcare_add = 40
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 5000
-			building_employment_professionals_add = 3500
-			building_employment_academics_add = 2500
+			building_employment_clericals_add = 5000
+			building_employment_clericals_add = 3500
+			building_employment_engineers_add = 2500
 		}
 	}
 	state_modifiers = {
@@ -1813,9 +1813,9 @@ pm_gene_therapy_centers = {
 			goods_output_healthcare_add = 60
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 2500
-			building_employment_professionals_add = 5000
-			building_employment_academics_add = 3500
+			building_employment_clericals_add = 2500
+			building_employment_clericals_add = 5000
+			building_employment_engineers_add = 3500
 		}
 	}
 	state_modifiers = {
@@ -1837,8 +1837,8 @@ pm_gene_editing_centers = {
 			goods_output_healthcare_add = 80
 		}
 		level_scaled = {
-			building_employment_professionals_add = 6500
-			building_employment_academics_add = 4500
+			building_employment_clericals_add = 6500
+			building_employment_engineers_add = 4500
 		}
 	}
 	state_modifiers = {
@@ -1998,7 +1998,7 @@ pm_worker_cooperatives_hospital = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_service_workers_add = 300
+			building_employment_clericals_add = 300
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
@@ -2014,7 +2014,7 @@ pm_slums_base = {
 			goods_output_housing_add = 2.5
 		}
 		level_scaled = {
-			building_employment_slum_dwellers_add = 10000
+			building_employment_informal_workers_add = 10000
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
@@ -2039,9 +2039,9 @@ pm_leased_buildings = {
 			goods_output_professional_services_add = 15
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 5000
+			building_employment_clericals_add = 5000
 			building_employment_laborers_add = 2500
-			building_employment_professionals_add = 500
+			building_employment_clericals_add = 500
 		}
 	}
 }
@@ -2058,9 +2058,9 @@ pm_office_parks = {
 			goods_output_professional_services_add = 25
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 5000
+			building_employment_clericals_add = 5000
 			building_employment_laborers_add = 2000
-			building_employment_professionals_add = 1000
+			building_employment_clericals_add = 1000
 		}
 	}
 }
@@ -2077,9 +2077,9 @@ pm_high_rise_offices = {
 			goods_output_professional_services_add = 35
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 5000
+			building_employment_clericals_add = 5000
 			building_employment_laborers_add = 1500
-			building_employment_professionals_add = 1500
+			building_employment_clericals_add = 1500
 		}
 	}
 }
@@ -2098,9 +2098,9 @@ pm_dedicated_complexes = {
 			goods_output_professional_services_add = 45
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 5000
+			building_employment_clericals_add = 5000
 			building_employment_laborers_add = 1000
-			building_employment_professionals_add = 2000
+			building_employment_clericals_add = 2000
 		}
 	}
 }
@@ -2118,9 +2118,9 @@ pm_skyscraper_offices = {
 			goods_output_professional_services_add = 55
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 5000
+			building_employment_clericals_add = 5000
 			building_employment_laborers_add = 500
-			building_employment_professionals_add = 2500
+			building_employment_clericals_add = 2500
 		}
 	}
 }
@@ -2138,8 +2138,8 @@ pm_business_cities = {
 			goods_output_professional_services_add = 65
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 5000
-			building_employment_professionals_add = 3000
+			building_employment_clericals_add = 5000
+			building_employment_clericals_add = 3000
 		}
 	}
 }
@@ -2300,7 +2300,7 @@ pm_worker_cooperatives_skyscraper = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_service_workers_add = 300
+			building_employment_clericals_add = 300
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
@@ -2317,7 +2317,7 @@ pm_professional_services_use_professionals = {
 			goods_input_professional_services_add = 5
 		}
 		level_scaled = {
-			building_employment_professionals_add = -250
+			building_employment_clericals_add = -250
 		}
 		unscaled = {
 			building_throughput_add = 0.05
@@ -2337,7 +2337,7 @@ pm_proprietary_software_professionals = {
 			goods_input_computers_add = 1
 		}
 		level_scaled = {
-			building_employment_professionals_add = -500
+			building_employment_clericals_add = -500
 		}
 		unscaled = {
 			building_throughput_add = 0.1
@@ -2357,7 +2357,7 @@ pm_graphical_user_interfaces_professionals = {
 			goods_input_computers_add = 2
 		}
 		level_scaled = {
-			building_employment_professionals_add = -750
+			building_employment_clericals_add = -750
 		}
 		unscaled = {
 			building_throughput_add = 0.15
@@ -2377,7 +2377,7 @@ pm_email_servers_professionals = {
 			goods_input_computers_add = 3
 		}
 		level_scaled = {
-			building_employment_professionals_add = -1000
+			building_employment_clericals_add = -1000
 		}
 		unscaled = {
 			building_throughput_add = 0.2
@@ -2397,7 +2397,7 @@ pm_ai_integrated_software_professionals = {
 			goods_input_computers_add = 4
 		}
 		level_scaled = {
-			building_employment_professionals_add = -1250
+			building_employment_clericals_add = -1250
 		}
 		unscaled = {
 			building_throughput_add = 0.25
@@ -2417,7 +2417,7 @@ pm_autonomous_ai_professionals = {
 			goods_input_computers_add = 5
 		}
 		level_scaled = {
-			building_employment_professionals_add = -1500
+			building_employment_clericals_add = -1500
 		}
 		unscaled = {
 			building_throughput_add = 0.3
@@ -2433,7 +2433,7 @@ pm_professional_services_use_creatives = {
 			goods_input_professional_services_add = 5
 		}
 		level_scaled = {
-			building_employment_creatives_add = -250
+			building_employment_clericals_add = -250
 		}
 		unscaled = {
 			building_throughput_add = 0.05
@@ -2453,7 +2453,7 @@ pm_proprietary_software_creatives = {
 			goods_input_computers_add = 1
 		}
 		level_scaled = {
-			building_employment_creatives_add = -500
+			building_employment_clericals_add = -500
 		}
 		unscaled = {
 			building_throughput_add = 0.1
@@ -2473,7 +2473,7 @@ pm_graphical_user_interfaces_creatives = {
 			goods_input_computers_add = 2
 		}
 		level_scaled = {
-			building_employment_creatives_add = -750
+			building_employment_clericals_add = -750
 		}
 		unscaled = {
 			building_throughput_add = 0.15
@@ -2493,7 +2493,7 @@ pm_email_servers_creatives = {
 			goods_input_computers_add = 3
 		}
 		level_scaled = {
-			building_employment_creatives_add = -1000
+			building_employment_clericals_add = -1000
 		}
 		unscaled = {
 			building_throughput_add = 0.2
@@ -2513,7 +2513,7 @@ pm_ai_integrated_software_creatives = {
 			goods_input_computers_add = 4
 		}
 		level_scaled = {
-			building_employment_creatives_add = -1250
+			building_employment_clericals_add = -1250
 		}
 		unscaled = {
 			building_throughput_add = 0.25
@@ -2533,7 +2533,7 @@ pm_autonomous_ai_creatives = {
 			goods_input_computers_add = 5
 		}
 		level_scaled = {
-			building_employment_creatives_add = -1500
+			building_employment_clericals_add = -1500
 		}
 		unscaled = {
 			building_throughput_add = 0.3

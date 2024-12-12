@@ -1,5 +1,6 @@
 ﻿############ GOVERNMENT BUILDINGS
 building_construction_sector = {
+	ownership_type = self
 	building_group = bg_construction
 	texture = "gfx/interface/icons/building_icons/construction_camp.dds"
 	city_type = city
@@ -17,6 +18,7 @@ building_construction_sector = {
 }
 
 building_housing = {
+	ownership_type = self
 	building_group = bg_housing
 	texture = "gfx/interface/icons/building_icons/housing.dds"
 	city_type = city

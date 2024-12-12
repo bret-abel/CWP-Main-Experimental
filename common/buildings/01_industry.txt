@@ -18,6 +18,7 @@ building_food_industry = {
 		pmg_ownership_food
 	}
 	required_construction = construction_cost_high
+	ownership_type = self
     possible = {
         owner = {
            not = {
@@ -65,6 +66,7 @@ building_distilleries = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_textile_manufactories = {
@@ -90,6 +92,7 @@ building_textile_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_furniture_manufactories = {
@@ -116,6 +119,7 @@ building_furniture_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_glassworks = {
@@ -141,6 +145,7 @@ building_glassworks = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_tool_manufactories = {
@@ -167,6 +172,7 @@ building_tool_manufactories = {
        }  
     }
 	ai_value = 2000	# Tools are very important
+	ownership_type = self
 }
 
 building_paper_manufactories = {
@@ -192,6 +198,7 @@ building_paper_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_chemical_plants = {
@@ -217,6 +224,7 @@ building_chemical_plants = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_synthetics_plant = {
@@ -243,6 +251,7 @@ building_synthetics_plant = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_steelworks = {
@@ -268,6 +277,7 @@ building_steelworks = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_aluminum_refinery = {
@@ -293,6 +303,7 @@ building_aluminum_refinery = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_motor_industry = {
@@ -319,6 +330,7 @@ building_motor_industry = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_automobile_manufactories = {
@@ -347,6 +359,7 @@ building_automobile_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_shipyards = {
@@ -373,6 +386,7 @@ building_shipyards = {
 			} 
 		}
 	}
+	ownership_type = self
 }
 
 building_drydocks = {
@@ -399,6 +413,7 @@ building_drydocks = {
 			NOT = { has_law = law_type:law_anti_industrialization } 
 		}
 	}
+	ownership_type = self
 }
 
 building_advanced_military_manufactories = {
@@ -425,6 +440,7 @@ building_advanced_military_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_electronics_manufactories = {
@@ -451,6 +467,7 @@ building_electronics_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_small_arms_manufactories = {
@@ -477,6 +494,7 @@ building_small_arms_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_explosives_industry = {
@@ -503,6 +521,7 @@ building_explosives_industry = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_fuel_refineries = {
@@ -529,6 +548,7 @@ building_fuel_refineries = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_semiconductor_manufactories = {
@@ -554,6 +574,7 @@ building_semiconductor_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_aircraft_manufactories = {
@@ -581,6 +602,7 @@ building_aircraft_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_uranium_refineries = {
@@ -607,6 +629,7 @@ building_uranium_refineries = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_battery_manufactories = {
@@ -632,6 +655,7 @@ building_battery_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_pharmaceutical_industry = {
@@ -658,6 +682,7 @@ building_pharmaceutical_industry = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_computer_manufactories = {
@@ -683,6 +708,7 @@ building_computer_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }
 
 building_consumer_electronics_manufactories = {
@@ -708,4 +734,5 @@ building_consumer_electronics_manufactories = {
            }
        }  
     }
+	ownership_type = self
 }

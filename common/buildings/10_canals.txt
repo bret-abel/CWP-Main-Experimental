@@ -1,4 +1,5 @@
 ﻿building_suez_canal = {
+	ownership_type = self
 	building_group = bg_canals
 	texture = "gfx/interface/icons/building_icons/suez_canal.dds"
 	canal = canal_suez
@@ -30,6 +31,7 @@
 }
 
 building_panama_canal = {
+	ownership_type = self
 	building_group = bg_canals
 	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
 	canal = canal_panama
@@ -61,6 +63,7 @@ building_panama_canal = {
 }
 
 building_south_shore_canal = {
+	ownership_type = self
 	building_group = bg_canals
 	#TODO icon
 	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
@@ -87,6 +90,7 @@ building_south_shore_canal = {
 }
 
 building_beauharnois_canal = {
+	ownership_type = self
 	building_group = bg_canals
 	#TODO icon
 	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
@@ -113,6 +117,7 @@ building_beauharnois_canal = {
 }
 
 building_wiley_dondero_canal = {
+	ownership_type = self
 	building_group = bg_canals
 	#TODO icon
 	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
@@ -139,6 +144,7 @@ building_wiley_dondero_canal = {
 }
 
 building_iroquois_canal = {
+	ownership_type = self
 	building_group = bg_canals
 	#TODO icon
 	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
@@ -165,6 +171,7 @@ building_iroquois_canal = {
 }
 
 building_welland_canal = {
+	ownership_type = self
 	building_group = bg_canals
 	#TODO icon
 	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
@@ -191,6 +198,7 @@ building_welland_canal = {
 }
 
 building_detroit_river = {
+	ownership_type = self
 	building_group = bg_canals
 	#TODO icon
 	texture = "gfx/interface/icons/building_icons/panama_canal.dds"
@@ -217,6 +225,7 @@ building_detroit_river = {
 }
 
 building_st_marys_canal = {
+	ownership_type = self
 	building_group = bg_canals
 	#TODO icon
 	texture = "gfx/interface/icons/building_icons/panama_canal.dds"

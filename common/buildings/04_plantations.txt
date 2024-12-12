@@ -1,5 +1,6 @@
 ﻿############# PLANTATIONS
 building_coffee_plantation = {
+	ownership_type = self
 	building_group = bg_coffee_plantations
 	texture = "gfx/interface/icons/building_icons/coffee_plantation.dds"
 	required_construction = construction_cost_low
@@ -14,6 +15,7 @@ building_coffee_plantation = {
 }
 
 building_cotton_plantation = {
+	ownership_type = self
 	building_group = bg_cotton_plantations
 	texture = "gfx/interface/icons/building_icons/cotton_plantation.dds"
 	required_construction = construction_cost_low
@@ -28,6 +30,7 @@ building_cotton_plantation = {
 }
 
 building_opium_plantation = {
+	ownership_type = self
 	building_group = bg_opium_plantations
 	texture = "gfx/interface/icons/building_icons/opium_plantation.dds"
 	required_construction = construction_cost_low
@@ -62,6 +65,7 @@ building_opium_plantation = {
 }
 
 building_tea_plantation = {
+	ownership_type = self
 	building_group = bg_tea_plantations
 	texture = "gfx/interface/icons/building_icons/tea_plantation.dds"
 	required_construction = construction_cost_low
@@ -76,6 +80,7 @@ building_tea_plantation = {
 }
 
 building_tobacco_plantation = {
+	ownership_type = self
 	building_group = bg_tobacco_plantations
 	texture = "gfx/interface/icons/building_icons/tobacco_plantation.dds"
 	required_construction = construction_cost_low
@@ -110,6 +115,7 @@ building_tobacco_plantation = {
 }
 
 building_sugar_plantation = {
+	ownership_type = self
 	building_group = bg_sugar_plantations
 	texture = "gfx/interface/icons/building_icons/sugar_plantation.dds"
 	required_construction = construction_cost_low
@@ -124,6 +130,7 @@ building_sugar_plantation = {
 }
 
 building_banana_plantation = {
+	ownership_type = self
 	building_group = bg_banana_plantations
 	texture = "gfx/interface/icons/building_icons/banana_plantation.dds"
 	required_construction = construction_cost_low
@@ -138,6 +145,7 @@ building_banana_plantation = {
 }
 
 building_silk_plantation = {
+	ownership_type = self
 	building_group = bg_silk_plantations
 	texture = "gfx/interface/icons/building_icons/silk_plantation.dds"
 	required_construction = construction_cost_low
