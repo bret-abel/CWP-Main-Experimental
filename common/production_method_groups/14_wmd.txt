@@ -1,105 +1,87 @@
-﻿# Ports
-pmg_base_port = {
+﻿# Nuclear Weapons Facility
+pmg_base_nuclear_weapons_facility = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_anchorage
-		pm_basic_port
-		pm_industrial_port
-		pm_container_port
-		pm_smart_port
+		pm_no_nuclear_production
+		pm_nuclear_stockpile_maintenance
+		pm_atomic_warhead_prod
+		pm_thermonuclear_warhead_prod
 	}
 }
 
-# Government Administration
-pmg_base_government_administration = {
+pmg_base_strategic_airbase = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_informal_bureaucracy
-		pm_modern_bureaucracy
-		pm_computerized_bureaucracy
-		pm_word_processors
-		pm_paperless_offices
+		pm_base_strategic_airbase
+		pm_reinforced_strategic_airbase
 	}
 }
 
-pmg_bureaucrat_professionalism_administration = {
+pmg_base_nuclear_weapons_silo = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_professional_bureaucrats
-		pm_religious_bureaucrats
+		pm_base_nuclear_silo
+		pm_reinforced_nuclear_silo
 	}
 }
 
-# University
-pmg_base_university = {
+pmg_organization_nuclear_weapons_facility = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_higher_education
-		pm_scientific_education
-		pm_interdisciplinary_studies
-		pm_advanced_analytics
-		pm_computer_science
-		pm_business_schools
-		pm_humanities_education
+		pm_dummy
 	}
 }
 
-pmg_research_focus = {
+# Chemical Weapons Facility
+pmg_base_chemical_weapons_facility = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_independent_research_focus
-		pm_state_directed_research
-		pm_religious_research_agenda
-		pm_corporate_sponsored_research
-		pm_military_sponsored_research
+		pm_dummy
 	}
 }
 
-pmg_academia_university = {
+pmg_delivery_method_chemical_weapons_facility = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_secular_faculty
-		pm_religious_faculty
-		pm_military_faculty
+		pm_dummy
 	}
 }
 
-# Research Facilities
-pmg_base_nuclear_research_facility = {
+pmg_automation_chemical_weapons_facility = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_nuclear_fission_testing
-		pm_nuclear_warhead_testing
+		pm_dummy
 	}
 }
 
-pmg_base_military_research_facility = {
+# Biological Weapons Facility
+pmg_base_biological_weapon_facility = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_military_research_facility
+		pm_dummy
 	}
 }
 
-pmg_base_humanities_research_facility = {
+pmg_delivery_method_biological_weapon_facility = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_humanities_research_facility
+		pm_dummy
 	}
 }
 
-pmg_base_science_research_facility = {
+pmg_automation_biological_weapon_facility = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
-		pm_science_research_facility
+		pm_dummy
 	}
 }

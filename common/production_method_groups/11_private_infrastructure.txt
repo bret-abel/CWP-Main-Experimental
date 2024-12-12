@@ -1,86 +1,167 @@
 ﻿pmg_base_building_railway = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
-
 	production_methods = {
-		pm_early_trains
 		pm_steam_trains
-		pm_steam_trains_principle_transport_3
 		pm_electric_trains
-		pm_electric_trains_principle_transport_3
 		pm_diesel_trains
-		pm_diesel_trains_principle_transport_3
+		pm_modern_electric_trains
+		pm_modern_diesel_trains
+		pm_high_speed_trains
+		pm_maglev_trains
 	}
 }
 
-pmg_passenger_trains = {
+pmg_highways = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	ai_selection = most_productive
-
 	production_methods = {
-		pm_no_passenger_trains
-		pm_wooden_passenger_carriages
-		pm_steel_passenger_carriages
+		pm_paved_roads
+		pm_highways
+		pm_autobahn_roads
+	}
+}
+
+pmg_infrastructure_prioritization = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_cargo_prioritization
+		pm_mixed_network
+		pm_passenger_prioritization
+	}
+}
+
+pmg_ownership_capital_building_railway = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_building_railway
+		pm_publicly_traded_building_railway
+		pm_government_run_building_railway
+		pm_worker_cooperatives_building_railway
 	}
 }
 
 pmg_base_building_trade_center = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
-
 	production_methods = {
 		pm_trade_center
-		pm_trade_center_principle_external_trade_2
 	}
 }
 
 pmg_ownership_building_trade_center = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	ai_selection = most_productive
-
 	production_methods = {
-		pm_trade_center_merchant_guilds
-		pm_trade_center_privately_owned
-		pm_trade_center_bureaucrat_ownership
+		pm_trade_center_government_run
 	}
 }
 
-pmg_ownership_building_manor_house = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+# Space Port
+pmg_base_spaceport = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
-
 	production_methods = {
-		pm_manor_house_privately_owned
-		pm_manor_house_principle_divine_economics_2
+		pm_expendable_rockets
+		pm_space_shuttles
+		pm_reusable_rockets
+		pm_space_elevator
 	}
 }
 
-pmg_additional_ownership_building_manor_house = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	ai_selection = most_productive
-
+pmg_spaceport_ownership = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_manor_house_clergy_ownership
-		pm_manor_house_bureaucrat_ownership
+		pm_privately_owned_spaceport
+		pm_publicly_traded_spaceport
+		pm_government_run_spaceport
+		pm_worker_cooperatives_spaceport
 	}
 }
 
-pmg_ownership_building_financial_district = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+# Mission Control
+pmg_base_mission_control = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
-
 	production_methods = {
-		pm_financial_district_privately_owned
-		pm_financial_district_publicly_traded
-		pm_financial_district_principle_divine_economics_2
+		pm_single_rocket_missions
+		pm_space_station
+		pm_space_refueling
+		pm_space_infrastructure
 	}
 }
 
-pmg_ownership_building_company_headquarter = {
+pmg_space_exploration = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_no_exploration
+		pm_moon_mission
+		pm_mars_mission
+		pm_venus_mission
+		pm_moon_base
+	}
+}
+
+pmg_space_tourism = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_no_tourism
+		pm_suborbital_tourism
+		pm_orbital_tourism
+		pm_moon_tourism
+		pm_mars_tourism
+	}
+}
+
+pmg_telecommunication_satellites = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_no_satcom
+		pm_basic_satcom_radios
+		pm_gps_network
+		pm_geostationary_satcom
+		pm_leo_satcom
+	}
+}
+
+pmg_asteroid_mining = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_no_mining
+		pm_iron_asteroids
+		pm_copper_asteroids
+		pm_rare_earth_elements_asteroids
+		pm_bauxite_asteroids
+		pm_uranium_asteroids
+		pm_lead_asteroids
+		pm_gold_asteroids
+	}
+}
+
+# Airports
+pmg_base_airport = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+	production_methods = {
+		pm_airfield
+		pm_national_airport
+		pm_international_airport
+		pm_international_hub
+	}
+}
+
+pmg_ownership_airport = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
 	ai_selection = most_productive
-
 	production_methods = {
-		pm_company_headquarter_privately_owned
+		pm_privately_owned_airport
+		pm_publicly_traded_airport
+		pm_government_run_airport
+		pm_worker_cooperatives_airport
 	}
 }
