@@ -3,14 +3,14 @@
 	
 	building_modifiers = {
 		workforce_scaled = { # 55
-			goods_output_grain_add = 1000 # 20
-			goods_output_fabric_add = 500 # 10
-			goods_output_wood_add = 50 # 10
-			goods_output_services_add = 50 # 15
+			goods_output_grain_add = 1.0 # 20
+			goods_output_fabric_add = 0.5 # 10
+			goods_output_wood_add = 0.5 # 10
+			goods_output_services_add = 0.5 # 15
 		}
 
 		level_scaled = {
-			building_employment_informal_workers_add = 5000000
+			building_employment_informal_workers_add = 5000
 		}
 	}
 }
