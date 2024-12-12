@@ -3,14 +3,14 @@
 	
 	building_modifiers = {
 		workforce_scaled = { # 55
-			goods_output_grain_add = 1.0 # 20
-			goods_output_fabric_add = 0.5 # 10
-			goods_output_wood_add = 0.5 # 10
-			goods_output_services_add = 0.5 # 15
+			goods_output_grain_add = 100 # 20
+			goods_output_fabric_add = 50 # 10
+			goods_output_wood_add = 50 # 10
+			goods_output_services_add = 5 # 15
 		}
 
 		level_scaled = {
-			building_employment_informal_workers_add = 5000
+			building_employment_informal_workers_add = 500000
 		}
 	}
 }
@@ -103,15 +103,15 @@ default_building_subsistence_orchards = {
 	
 	building_modifiers = {
 		workforce_scaled = { # 55
-			goods_output_grain_add = 0.25 # 5 
-			goods_output_fruit_add = 0.5 # 15
-			goods_output_fabric_add = 0.5 # 10
-			goods_output_wood_add = 0.5 # 10
-			goods_output_services_add = 0.5 # 15
+			goods_output_grain_add = 250 # 5 
+			goods_output_fruit_add = 50 # 15
+			goods_output_fabric_add = 50 # 10
+			goods_output_wood_add = 50 # 10
+			goods_output_services_add = 50 # 15
 		}
 
 		level_scaled = {
-			building_employment_informal_workers_add = 5000
+			building_employment_informal_workers_add = 500000
 		}
 	}
 }
@@ -167,15 +167,15 @@ default_building_subsistence_pastures = {
 	
 	building_modifiers = {
 		workforce_scaled = { # 55
-			goods_output_grain_add = 0.25 # 5
-			goods_output_meat_add = 0.5 # 15
-			goods_output_fabric_add = 0.75 # 15
-			goods_output_wood_add = 0.25 # 5
-			goods_output_services_add = 0.5 # 15
+			goods_output_grain_add = 25 # 5
+			goods_output_meat_add = 50 # 15
+			goods_output_fabric_add = 75 # 15
+			goods_output_wood_add = 25 # 5
+			goods_output_services_add = 50 # 15
 		}
 
 		level_scaled = {
-			building_employment_informal_workers_add = 5000
+			building_employment_informal_workers_add = 500000
 		}
 	}
 }
@@ -230,15 +230,15 @@ default_building_subsistence_fishing_villages = {
 	
 	building_modifiers = {
 		workforce_scaled = { # 55
-			goods_output_grain_add = 0.5 # 10
-			goods_output_fish_add = 1.0 # 20
-			goods_output_fabric_add = 0.25 # 5
-			goods_output_wood_add = 0.25 # 5
-			goods_output_services_add = 0.5 # 15
+			goods_output_grain_add = 50 # 10
+			goods_output_fish_add = 100 # 20
+			goods_output_fabric_add = 25 # 5
+			goods_output_wood_add = 25 # 5
+			goods_output_services_add = 50 # 15
 		}
 
 		level_scaled = {
-			building_employment_informal_workers_add = 5000
+			building_employment_informal_workers_add = 500000
 		}
 	}
 }
@@ -294,14 +294,14 @@ default_building_subsistence_rice_paddies = {
 	
 	building_modifiers = {
 		workforce_scaled = { # 100
-			goods_output_grain_add = 2 # 40
-			goods_output_fabric_add = 0.75 # 15
-			goods_output_wood_add = 0.75 # 15
-			goods_output_services_add = 1 # 30
+			goods_output_grain_add = 20000 # 40
+			goods_output_fabric_add = 750 # 15
+			goods_output_wood_add = 750 # 15
+			goods_output_services_add = 1000 # 30
 		}
 
 		level_scaled = {
-			building_employment_informal_workers_add = 10000
+			building_employment_informal_workers_add = 1000000
 		}
 	}
 }
