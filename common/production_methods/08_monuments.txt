@@ -12,11 +12,11 @@ pm_default_building_eiffel_tower = {
 			goods_output_tourism_add = 200
 		}
 		level_scaled = {
-			building_employment_technicians_add = 500
+			building_employment_engineers_add = 500
 			building_employment_engineers_add = 100
-			building_employment_service_workers_add = 200
+			building_employment_clericals_add = 200
 			#total: 475 + 100 + 200 + 25 = 800
-			# 25 farmers, 775 workers or a ratio of 1:31
+			# 25 landlords, 775 workers or a ratio of 1:31
 		}
 		unscaled = {
 			building_government_shares_add = 1
@@ -28,7 +28,7 @@ pm_default_building_angkor_wat = {
 	texture = "gfx/interface/icons/production_method_icons/other/wonders.dds"
 	country_modifiers = {
 		workforce_scaled = {
-			interest_group_ig_devout_pol_str_mult = 0.25
+			interest_group_ig_moralists_pol_str_mult = 0.25
 			country_prestige_add = 25
 		}
 	}
@@ -62,11 +62,11 @@ pm_default_building_big_ben = {
 			goods_output_tourism_add = 200
 		}
 		level_scaled = {
-			building_employment_technicians_add = 500
+			building_employment_engineers_add = 500
 			building_employment_engineers_add = 100
-			building_employment_service_workers_add = 200
+			building_employment_clericals_add = 200
 			#total: 475 + 100 + 200 + 25 = 800
-			# 25 farmers, 775 workers or a ratio of 1:31
+			# 25 landlords, 775 workers or a ratio of 1:31
 		}
 		unscaled = {
 			building_government_shares_add = 1
@@ -125,11 +125,11 @@ pm_clerical_building_hagia_sophia = {
 	texture = "gfx/interface/icons/production_method_icons/other/wonders.dds"
 	unlocking_laws = {
 		law_religious_policies
-		#law_religious_institutions
+		law_religious_institutions
 	}
 	country_modifiers = {
 		workforce_scaled = {
-			interest_group_ig_devout_pop_attraction_mult = 0.25
+			interest_group_ig_moralists_pop_attraction_mult = 0.25
 			country_prestige_add = 50
 		}
 	}
@@ -153,20 +153,24 @@ pm_clerical_building_hagia_sophia = {
 
 pm_default_building_mosque_of_djenne = {
 	texture = "gfx/interface/icons/production_method_icons/other/wonders.dds"
+
 	country_modifiers = {
 		workforce_scaled = {
-			interest_group_ig_devout_pol_str_mult = 0.1
+			interest_group_ig_moralists_pol_str_mult = 0.1
 		}
 	}
+
 	state_modifiers = {
 		workforce_scaled = {
 			state_education_access_add = 0.2
 		}
 	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_tourism_add = 200
 		}
+
 		level_scaled = {
 			building_employment_clergy_add = 500
 		}
@@ -194,7 +198,7 @@ pm_cultural_building_red_square = {
 		}
 		level_scaled = {
 			building_employment_administrators_add = 1000
-			building_employment_service_workers_add = 500
+			building_employment_clericals_add = 500
 		}
 		unscaled = {
 			building_government_shares_add = 1
@@ -206,11 +210,11 @@ pm_clerical_building_red_square = {
 	texture = "gfx/interface/icons/production_method_icons/other/wonders.dds"
 	unlocking_laws = {
 		law_religious_policies
-		#law_religious_institutions
+		law_religious_institutions
 	}
 	country_modifiers = {
 		workforce_scaled = {
-			interest_group_ig_devout_pol_str_mult = 0.25
+			interest_group_ig_moralists_pol_str_mult = 0.25
 			country_prestige_add = 50
 		}
 	}
@@ -251,7 +255,7 @@ pm_default_building_statue_of_liberty = {
 		}
 		level_scaled = {
 			building_employment_administrators_add = 200
-			building_employment_service_workers_add = 800
+			building_employment_clericals_add = 800
 		}
 		unscaled = {
 			building_government_shares_add = 1
@@ -272,7 +276,7 @@ pm_default_building_taj_mahal = {
 		}
 		level_scaled = {
 			building_employment_administrators_add = 200
-			building_employment_service_workers_add = 400
+			building_employment_clericals_add = 400
 		}
 		unscaled = {
 			building_government_shares_add = 1
@@ -287,7 +291,7 @@ pm_default_building_vatican_city = {
 	}
 	country_modifiers = {
 		workforce_scaled = {
-			interest_group_ig_devout_pol_str_mult = 0.25
+			interest_group_ig_moralists_pol_str_mult = 0.25
 			country_influence_add = 100
 			country_authority_add = 100
 		}
@@ -388,7 +392,7 @@ pm_default_building_white_house = {
 # 			building_employment_landlords_add = 3500
 # 			building_employment_investors_add = 500
 # 			building_employment_administrators_add = 9000
-# 			building_employment_service_workers_add = 8000
+# 			building_employment_clericals_add = 8000
 # 		}
 # 		unscaled = {
 # 			building_investors_shares_add = 2
@@ -411,7 +415,7 @@ pm_default_building_white_house = {
 # 			goods_input_engines_add = 350
 # 		}
 # 		level_scaled = {
-# 			building_employment_technicians_add = 12000
+# 			building_employment_engineers_add = 12000
 # 			building_employment_laborers_add = 14000
 # 			building_employment_engineers_add = 4000
 # 		}
@@ -439,7 +443,7 @@ pm_default_building_white_house = {
 #			goods_input_tools = 250
 #		}
 #		level_scaled = {
-#			building_employment_technicians_add = 12000
+#			building_employment_engineers_add = 12000
 #			building_employment_laborers_add = 14000
 #			building_employment_engineers_add = 4000
 #		}

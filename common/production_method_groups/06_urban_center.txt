@@ -372,16 +372,16 @@ pmg_ownership_skyscraper = {
 	}
 }
 
-pmg_professional_service_use_professionals = {
+pmg_professional_service_use_clericals = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_professional_service_industry_no
-		pm_professional_services_use_professionals
-		pm_proprietary_software_professionals
-		pm_graphical_user_interfaces_professionals
-		pm_email_servers_professionals
-		pm_ai_integrated_software_professionals
-		pm_autonomous_ai_professionals
+		pm_professional_services_use_clericals
+		pm_proprietary_software_clericals
+		pm_graphical_user_interfaces_clericals
+		pm_email_servers_clericals
+		pm_ai_integrated_software_clericals
+		pm_autonomous_ai_clericals
 	}
 }
 

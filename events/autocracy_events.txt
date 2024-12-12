@@ -32,7 +32,7 @@ autocracy.2 = {
 		any_scope_state = {
 			is_incorporated = yes
 			any_scope_pop = {
-				is_pop_type = academics
+				is_pop_type = engineers
 			}
 		}
 	}
@@ -48,13 +48,13 @@ autocracy.2 = {
 			limit = {
 				is_incorporated = yes
 				any_scope_pop = {
-					is_pop_type = academics
+					is_pop_type = engineers
 				}
 			}
 			save_scope_as = secret_societies_state
 			random_scope_pop = {
 				limit = {
-					is_pop_type = academics
+					is_pop_type = engineers
 				}
 				save_scope_as = secret_society_pop
 			}
@@ -65,7 +65,7 @@ autocracy.2 = {
 			is_incorporated = yes
 			NOT = {
 				any_scope_pop = {
-					is_pop_type = academics
+					is_pop_type = engineers
 				}
 			}
 		}
@@ -92,7 +92,7 @@ autocracy.2 = {
 		}
 		scope:secret_societies_state = {
 			add_radicals_in_state = {
-				pop_type = academics
+				pop_type = engineers
 				value = very_large_radicals
 			}
 		}

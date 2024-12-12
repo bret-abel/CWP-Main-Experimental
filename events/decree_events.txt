@@ -564,7 +564,7 @@ decree_events.5 = {
 		scope:decree_state = {
 			add_radicals_in_state = {
 				value = medium_radicals
-				pop_type = academics
+				pop_type = engineers
 			}
 		}
 	}

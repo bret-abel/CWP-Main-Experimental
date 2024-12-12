@@ -14,7 +14,7 @@ pm_steam_trains = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3500
-			building_employment_technicians_add = 1000
+			building_employment_engineers_add = 1000
 		}
 	}
 	state_modifiers = {
@@ -47,7 +47,7 @@ pm_electric_trains = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2000
-			building_employment_technicians_add = 2000
+			building_employment_engineers_add = 2000
 			building_employment_engineers_add = 500
 		}
 	}
@@ -81,7 +81,7 @@ pm_diesel_trains = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2000
-			building_employment_technicians_add = 2000
+			building_employment_engineers_add = 2000
 			building_employment_engineers_add = 500
 		}
 	}
@@ -115,7 +115,7 @@ pm_modern_electric_trains = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 1000
-			building_employment_technicians_add = 2500
+			building_employment_engineers_add = 2500
 			building_employment_engineers_add = 1000
 		}
 	}
@@ -149,7 +149,7 @@ pm_modern_diesel_trains = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 1000
-			building_employment_technicians_add = 2500
+			building_employment_engineers_add = 2500
 			building_employment_engineers_add = 1000
 		}
 	}
@@ -183,7 +183,7 @@ pm_high_speed_trains = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 500
-			building_employment_technicians_add = 3000
+			building_employment_engineers_add = 3000
 			building_employment_engineers_add = 1000
 		}
 	}
@@ -216,7 +216,7 @@ pm_maglev_trains = {
 			goods_output_transportation_add = 150
 		}
 		level_scaled = {
-			building_employment_technicians_add = 3000
+			building_employment_engineers_add = 3000
 			building_employment_engineers_add = 1500
 		}
 	}
@@ -280,16 +280,16 @@ pm_passenger_prioritization = {
 pm_privately_owned_building_railway = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/privately_owned.dds"
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_laissez_faire
-		law_traditionalism
-		#law_anti_industrialization
+		law_free_market
+		law_decentralization
+		law_anti_industrialization
 		law_interventionism
 	}
 	building_modifiers = {
@@ -308,14 +308,14 @@ pm_publicly_traded_building_railway = {
 		central_bank_independence
 	}
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_laissez_faire
+		law_free_market
 	}
 	building_modifiers = {
 		workforce_scaled = {
@@ -334,10 +334,10 @@ pm_publicly_traded_building_railway = {
 pm_government_run_building_railway = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/government_run.dds"
 	disallowing_laws = {
-		#law_no_nationalization
+		law_no_nationalization
 	}
 	unlocking_laws = {
-		law_command_economy
+		law_socialization
 		law_interventionism
 	}
 	building_modifiers = {
@@ -353,18 +353,18 @@ pm_government_run_building_railway = {
 pm_worker_cooperatives_building_railway = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/worker_cooperative.dds"
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_command_economy
+		law_socialization
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_service_workers_add = 300
+			building_employment_clericals_add = 300
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
@@ -451,7 +451,7 @@ pm_trade_center_government_run = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/government_run.dds"
 	building_modifiers = {
 		level_scaled = {
-			building_employment_service_workers_add = 200
+			building_employment_clericals_add = 200
 		}
 		unscaled = {
 			building_government_shares_add = 1
@@ -470,9 +470,9 @@ pm_expendable_rockets = {
 			goods_input_electronics_add = 10
 		}
 		level_scaled = {
-			building_employment_technicians_add = 3500
+			building_employment_engineers_add = 3500
 			building_employment_engineers_add = 1000
-			building_employment_academics_add = 500
+			building_employment_engineers_add = 500
 		}
 	}
 }
@@ -490,9 +490,9 @@ pm_space_shuttles = {
 			goods_input_electronics_add = 20
 		}
 		level_scaled = {
-			building_employment_technicians_add = 2500
+			building_employment_engineers_add = 2500
 			building_employment_engineers_add = 1500
-			building_employment_academics_add = 1000
+			building_employment_engineers_add = 1000
 		}
 	}
 }
@@ -510,9 +510,9 @@ pm_reusable_rockets = {
 			goods_input_electronics_add = 30
 		}
 		level_scaled = {
-			building_employment_technicians_add = 1500
+			building_employment_engineers_add = 1500
 			building_employment_engineers_add = 2000
-			building_employment_academics_add = 1500
+			building_employment_engineers_add = 1500
 		}
 	}
 }
@@ -531,7 +531,7 @@ pm_space_elevator = {
 		}
 		level_scaled = {
 			building_employment_engineers_add = 3000
-			building_employment_academics_add = 2000
+			building_employment_engineers_add = 2000
 		}
 	}
 }
@@ -540,16 +540,16 @@ pm_space_elevator = {
 pm_privately_owned_spaceport = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/privately_owned.dds"
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_laissez_faire
-		law_traditionalism
-		#law_anti_industrialization
+		law_free_market
+		law_decentralization
+		law_anti_industrialization
 		law_interventionism
 	}
 	building_modifiers = {
@@ -568,14 +568,14 @@ pm_publicly_traded_spaceport = {
 		central_bank_independence
 	}
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_laissez_faire
+		law_free_market
 	}
 	building_modifiers = {
 		level_scaled = {
@@ -590,10 +590,10 @@ pm_publicly_traded_spaceport = {
 pm_government_run_spaceport = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/government_run.dds"
 	disallowing_laws = {
-		#law_no_nationalization
+		law_no_nationalization
 	}
 	unlocking_laws = {
-		law_command_economy
+		law_socialization
 		law_interventionism
 	}
 	building_modifiers = {
@@ -609,18 +609,18 @@ pm_government_run_spaceport = {
 pm_worker_cooperatives_spaceport = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/worker_cooperative.dds"
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_command_economy
+		law_socialization
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_service_workers_add = 200
+			building_employment_clericals_add = 200
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
@@ -634,7 +634,7 @@ pm_single_rocket_missions = {
 	texture = "gfx/interface/icons/generic_icons/unused/lack.dds"
 	building_modifiers = {
 		level_scaled = {
-			building_employment_academics_add = 500
+			building_employment_engineers_add = 500
 			building_employment_engineers_add = 2500
 		}
 	}
@@ -647,7 +647,7 @@ pm_space_station = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_academics_add = 1000
+			building_employment_engineers_add = 1000
 			building_employment_engineers_add = 5000
 		}
 	}
@@ -660,7 +660,7 @@ pm_space_refueling = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_academics_add = 1500
+			building_employment_engineers_add = 1500
 			building_employment_engineers_add = 7500
 		}
 	}
@@ -673,7 +673,7 @@ pm_space_infrastructure = {
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_academics_add = 2000
+			building_employment_engineers_add = 2000
 			building_employment_engineers_add = 10000
 		}
 	}
@@ -798,7 +798,7 @@ pm_suborbital_tourism = {
 			goods_output_tourism_add = 70
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 500
+			building_employment_clericals_add = 500
 			building_employment_engineers_add = 500
 		}
 	}
@@ -821,7 +821,7 @@ pm_orbital_tourism = {
 			goods_output_tourism_add = 140
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 500
+			building_employment_clericals_add = 500
 			building_employment_engineers_add = 750
 		}
 	}
@@ -843,7 +843,7 @@ pm_moon_tourism = {
 			goods_output_tourism_add = 210
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 500
+			building_employment_clericals_add = 500
 			building_employment_engineers_add = 1000
 		}
 	}
@@ -864,7 +864,7 @@ pm_mars_tourism = {
 			goods_output_tourism_add = 300
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 500
+			building_employment_clericals_add = 500
 			building_employment_engineers_add = 1250
 		}
 	}
@@ -973,9 +973,9 @@ pm_iron_asteroids = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_lift_capacity_add = 90 
-			goods_input_computers_add = 30 
-			goods_output_iron_add = 500 
+			goods_input_lift_capacity_add = 80
+			goods_input_computers_add = 20
+			goods_output_iron_add = 500
 		}
 		level_scaled = {
 			building_employment_engineers_add = 1000
@@ -990,8 +990,8 @@ pm_copper_asteroids = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_lift_capacity_add = 90 
-			goods_input_computers_add = 30 
+			goods_input_lift_capacity_add = 80
+			goods_input_computers_add = 20
 			goods_output_copper_add = 500
 		}
 		level_scaled = {
@@ -1007,8 +1007,8 @@ pm_rare_earth_elements_asteroids = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_lift_capacity_add = 90 
-			goods_input_computers_add = 30 
+			goods_input_lift_capacity_add = 80
+			goods_input_computers_add = 20
 			goods_output_rare_earth_elements_add = 500
 		}
 		level_scaled = {
@@ -1024,8 +1024,8 @@ pm_bauxite_asteroids = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_lift_capacity_add = 90 
-			goods_input_computers_add = 30 
+			goods_input_lift_capacity_add = 80
+			goods_input_computers_add = 20
 			goods_output_bauxite_add = 500
 		}
 		level_scaled = {
@@ -1041,8 +1041,8 @@ pm_uranium_asteroids = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_lift_capacity_add = 90 
-			goods_input_computers_add = 30 
+			goods_input_lift_capacity_add = 80
+			goods_input_computers_add = 20
 			goods_output_uranium_add = 500
 		}
 		level_scaled = {
@@ -1058,8 +1058,8 @@ pm_lead_asteroids = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_lift_capacity_add = 90 
-			goods_input_computers_add = 30 
+			goods_input_lift_capacity_add = 80
+			goods_input_computers_add = 20
 			goods_output_lead_add = 500
 		}
 		level_scaled = {
@@ -1075,8 +1075,8 @@ pm_gold_asteroids = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_lift_capacity_add = 90 
-			goods_input_computers_add = 30 
+			goods_input_lift_capacity_add = 80
+			goods_input_computers_add = 20
 			goods_output_gold_add = 200
 		}
 		level_scaled = {
@@ -1097,8 +1097,8 @@ pm_airfield = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 1000
-			building_employment_technicians_add = 750
-			building_employment_service_workers_add = 250
+			building_employment_engineers_add = 750
+			building_employment_clericals_add = 250
 		}
 	}
 	state_modifiers = {
@@ -1123,8 +1123,8 @@ pm_national_airport = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2500
-			building_employment_technicians_add = 1500
-			building_employment_service_workers_add = 1000
+			building_employment_engineers_add = 1500
+			building_employment_clericals_add = 1000
 		}
 	}
 	country_modifiers = {
@@ -1160,8 +1160,8 @@ pm_international_airport = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 5000
-			building_employment_technicians_add = 3000
-			building_employment_service_workers_add = 2000
+			building_employment_engineers_add = 3000
+			building_employment_clericals_add = 2000
 		}
 	}
 	country_modifiers = {
@@ -1197,8 +1197,8 @@ pm_international_hub = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 5000
-			building_employment_technicians_add = 5000
-			building_employment_service_workers_add = 6000
+			building_employment_engineers_add = 5000
+			building_employment_clericals_add = 6000
 		}
 	}
 	country_modifiers = {
@@ -1222,16 +1222,16 @@ pm_international_hub = {
 pm_privately_owned_airport = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/privately_owned.dds"
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_laissez_faire
-		law_traditionalism
-		#law_anti_industrialization
+		law_free_market
+		law_decentralization
+		law_anti_industrialization
 		law_interventionism
 	}
 	building_modifiers = {
@@ -1250,14 +1250,14 @@ pm_publicly_traded_airport = {
 		central_bank_independence
 	}
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_laissez_faire
+		law_free_market
 	}
 	building_modifiers = {
 		level_scaled = {
@@ -1272,10 +1272,10 @@ pm_publicly_traded_airport = {
 pm_government_run_airport = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/government_run.dds"
 	disallowing_laws = {
-		#law_no_nationalization
+		law_no_nationalization
 	}
 	unlocking_laws = {
-		law_command_economy
+		law_socialization
 		law_interventionism
 	}
 	building_modifiers = {
@@ -1291,147 +1291,21 @@ pm_government_run_airport = {
 pm_worker_cooperatives_airport = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/worker_cooperative.dds"
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_command_economy
+		law_socialization
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_service_workers_add = 300
+			building_employment_clericals_add = 300
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
-		}
-	}
-}
-
-pm_financial_district_privately_owned = {
-	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
-	replacement_if_valid = pm_financial_district_principle_divine_economics_2
-	
-	building_modifiers = { 
-		level_scaled = {
-			building_employment_investors_add = 50
-			building_employment_service_workers_add = 200
-		}
-		unscaled = {
-			building_investors_shares_add = 10
-			building_service_workers_shares_add = 1
-		}
-	}
-}
-
-pm_financial_district_publicly_traded = {
-	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
-	
-	unlocking_technologies = { mutual_funds }
-	
-	building_modifiers = { 
-		level_scaled = {
-			building_employment_investors_add = 50
-			building_employment_administrators_add = 200
-		}
-		unscaled = {
-			building_investors_shares_add = 10
-		}			
-	}	
-}
-
-pm_financial_district_principle_divine_economics_2 = {
-	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
-	is_hidden_when_unavailable = yes
-	
-	unlocking_principles = {
-		principle_divine_economics_2
-		principle_divine_economics_3
-	}
-
-	building_modifiers = { 
-		level_scaled = {
-			building_employment_investors_add = 50
-			building_employment_clergy_add = 50
-			building_employment_service_workers_add = 150
-		}
-		unscaled = {
-			building_investors_shares_add = 10
-			building_clergy_shares_add = 2
-		}
-	}
-}
-
-pm_manor_house_privately_owned = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_aristocrats.dds"
-	replacement_if_valid = pm_manor_house_principle_divine_economics_2
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_landlords_add = 50
-			building_employment_laborers_add = 100
-		}
-		unscaled = {
-			building_landlords_shares_add = 10
-		}
-	}
-}
-
-pm_manor_house_principle_divine_economics_2 = {
-	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
-	is_hidden_when_unavailable = yes
-	
-	unlocking_principles = {
-		principle_divine_economics_2
-		principle_divine_economics_3
-	}
-	
-	building_modifiers = { 
-		level_scaled = {
-			building_employment_landlords_add = 50
-			building_employment_clergy_add = 50
-			building_employment_laborers_add = 100
-		}
-		
-		unscaled = {
-			building_landlords_shares_add = 10
-			building_clergy_shares_add = 1
-		}
-	}
-}
-
-pm_manor_house_bureaucrat_ownership = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_bureacrats.dds"
-
-	unlocking_laws = {
-		law_state_atheism
-	}
-	
-	building_modifiers = {
-		level_scaled = {
-			building_employment_administrators_add = 100
-		}
-		unscaled = {
-			building_administrators_shares_add = 1
-		}		
-	}	
-}
-
-pm_manor_house_clergy_ownership = {
-	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds"
-
-	disallowing_laws = {
-		law_state_atheism
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_clergy_add = 100
-		}
-		unscaled = {
-			building_clergy_shares_add = 1
 		}
 	}
 }

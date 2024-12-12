@@ -9,7 +9,7 @@ election_other_parties_events.1 = {
 	flavor = election_other_parties_events.1.f
 	duration = 3
 	event_image = {
-		video = "asia_farmers_market"
+		video = "asia_landlords_market"
 	}
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_election.dds"

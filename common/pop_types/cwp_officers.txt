@@ -6,7 +6,6 @@
 		79
 		45
 	}
-	strata = middle
 	start_quality_of_life = 10
 	working_adult_ratio = 0.3
 	wage_weight = 5
@@ -57,7 +56,7 @@
 			}
 			if = {
 				limit = {
-					is_pop_type = professionals
+					is_pop_type = clericals
 				}
 				multiply = {
 					value = 3
@@ -67,7 +66,7 @@
 			if = {
 				limit = {
 					owner = {
-						#has_law = law_type:law_irregular_military
+						has_law = law_type:law_irregular_military
 					}
 				}
 				multiply = {

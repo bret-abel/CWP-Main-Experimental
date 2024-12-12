@@ -496,7 +496,7 @@ rights_of_women_laws.7 = {
 			name = womens_rights_disrupt
 		}
 		add_radicals = {
-			pop_type = technicians
+			pop_type = engineers
 			value = medium_radicals
 		}
 		add_radicals = {

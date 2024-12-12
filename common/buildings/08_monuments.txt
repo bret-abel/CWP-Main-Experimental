@@ -1,6 +1,7 @@
 ﻿building_eiffel_tower = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/building_eiffel_tower.dds"
+	icon ="gfx/interface/icons/building_icons/building_eiffel_tower.dds"
 	expandable = no
 	downsizeable = no
 	buildable = no
@@ -23,14 +24,20 @@
 	}
 	required_construction = construction_cost_monument
 	possible = {
-		state_region = s:STATE_ILE_DE_FRANCE
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_ILE_DE_FRANCE
+			}
+		}
 	}
 	ai_value = 10000
 }
 
 building_angkor_wat = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/angkor_wat.dds"
+	icon ="gfx/interface/icons/building_icons/angkor_wat.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -52,14 +59,20 @@ building_angkor_wat = {
 		pmg_base_building_angkor_wat
 	}
 	possible = {
-		state_region = s:STATE_CAMBODIA
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_CAMBODIA
+			}
+		}
 	}
 	required_construction = construction_cost_monument
 }
 
 building_big_ben = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/big_ben.dds"
+	icon ="gfx/interface/icons/building_icons/big_ben.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -82,14 +95,20 @@ building_big_ben = {
 	}
 	required_construction = construction_cost_monument
 	possible = {
-		state_region = s:STATE_HOME_COUNTIES
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_HOME_COUNTIES
+			}
+		}
 	}
 	ai_value = 10000
 }
 
 building_forbidden_city = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/forbidden_city.dds"
+	icon ="gfx/interface/icons/building_icons/forbidden_city.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -111,14 +130,20 @@ building_forbidden_city = {
 		pmg_base_building_forbidden_city
 	}
 	possible = {
-		state_region = s:STATE_BEIJING
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_BEIJING
+			}
+		}
 	}
 	required_construction = construction_cost_monument
 }
 
 building_hagia_sophia = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/hagia_sophia.dds"
+	icon ="gfx/interface/icons/building_icons/hagia_sophia.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -140,14 +165,20 @@ building_hagia_sophia = {
 		pmg_base_building_hagia_sophia
 	}
 	possible = {
-		state_region = s:STATE_EASTERN_THRACE
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_EASTERN_THRACE
+			}
+		}
 	}
 	required_construction = construction_cost_monument
 }
 
 building_mosque_of_djenne = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/mosque_of_djenne.dds"
+	icon ="gfx/interface/icons/building_icons/mosque_of_djenne.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -170,14 +201,20 @@ building_mosque_of_djenne = {
 	}
 	required_construction = construction_cost_monument
 	possible = {
-		state_region = s:STATE_EASTERN_MALI
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_EASTERN_MALI
+			}
+		}
 	}
 	ai_value = 10000
 }
 
 building_red_square = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/saint_basils_cathedral.dds"
+	icon ="gfx/interface/icons/building_icons/saint_basils_cathedral.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -199,14 +236,20 @@ building_red_square = {
 		pmg_base_building_saint_basils_cathedral
 	}
 	possible = {
-		state_region = s:STATE_MOSCOW
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_MOSCOW
+			}
+		}
 	}
 	required_construction = construction_cost_monument
 }
 
 building_statue_of_liberty = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/statue_of_liberty.dds"
+	icon ="gfx/interface/icons/building_icons/statue_of_liberty.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -229,14 +272,20 @@ building_statue_of_liberty = {
 	}
 	required_construction = construction_cost_monument
 	possible = {
-		state_region = s:STATE_NEW_YORK
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_NEW_YORK
+			}
+		}
 	}
 	ai_value = 10000
 }
 
 building_taj_mahal = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/taj_mahal.dds"
+	icon ="gfx/interface/icons/building_icons/taj_mahal.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -258,16 +307,21 @@ building_taj_mahal = {
 		pmg_base_building_taj_mahal
 	}
 	possible = {
+		error_check = {
+			severity = invalid
+			this = {
 				#todo validate state_region name
 				state_region = s:STATE_UTTAR_PRADESH
-
+			}
+		}
 	}
 	required_construction = construction_cost_monument
 }
 
 building_vatican_city = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/vatican_city.dds"
+	icon ="gfx/interface/icons/building_icons/vatican_city.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -289,14 +343,20 @@ building_vatican_city = {
 		pmg_base_building_vatican_city
 	}
 	possible = {
+		error_check = {
+			severity = invalid
+			this = {
 				state_region = s:STATE_LAZIO
+			}
+		}
 	}
 	required_construction = construction_cost_monument
 }
 
 building_white_house = {
+	ownership_type = self
 	building_group = bg_monuments
-	texture = "gfx/interface/icons/building_icons/white_house.dds"
+	icon ="gfx/interface/icons/building_icons/white_house.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -318,15 +378,21 @@ building_white_house = {
 		pmg_base_building_white_house
 	}
 	possible = {
+		error_check = {
+			severity = invalid
+			this = {
 				state_region = s:STATE_CHESAPEAKE
+			}
+		}
 	}
 	required_construction = construction_cost_monument
 }
 
 # ###CWP Monuments (already existing)
 # building_kremlin = {
+	ownership_type = self
 # 	building_group = bg_monuments
-# 	texture = "gfx/interface/icons/building_icons/white_house.dds"	#temp
+# 	icon ="gfx/interface/icons/building_icons/white_house.dds"	#temp
 # 	expandable = no
 # 	buildable = no
 # 	downsizeable = no
@@ -358,8 +424,9 @@ building_white_house = {
 # 	required_construction = construction_cost_monument
 # }
 # building_national_mall = {
+	ownership_type = self
 # 	building_group = bg_monuments
-# 	texture = "gfx/interface/icons/building_icons/white_house.dds"	#temp
+# 	icon ="gfx/interface/icons/building_icons/white_house.dds"	#temp
 # 	expandable = no
 # 	buildable = no
 # 	downsizeable = no
@@ -391,8 +458,9 @@ building_white_house = {
 # 	required_construction = construction_cost_monument
 # }
 # building_monte_carlo_casino = {
+	ownership_type = self
 # 	building_group = bg_monuments
-# 	texture = "gfx/interface/icons/building_icons/white_house.dds"	#temp
+# 	icon ="gfx/interface/icons/building_icons/white_house.dds"	#temp
 # 	expandable = no
 # 	buildable = no
 # 	downsizeable = no
@@ -426,8 +494,9 @@ building_white_house = {
 #### CWP Constructible Monuments
 #### CWP Mega-Projects
 #building_three_gorges_dam = {
+	ownership_type = self
 #	building_group = bg_monuments
-#	texture = "gfx/interface/icons/building_icons/big_ben.dds"
+#	icon ="gfx/interface/icons/building_icons/big_ben.dds"
 #	expandable = no
 #	downsizeable = no
 #	unique = yes
@@ -460,8 +529,9 @@ building_white_house = {
 #}
 #
 #building_brasilia = {
+	ownership_type = self
 #	building_group = bg_monuments
-#	texture = "gfx/interface/icons/building_icons/big_ben.dds"
+#	icon ="gfx/interface/icons/building_icons/big_ben.dds"
 #	expandable = no
 #	downsizeable = no
 #	unique = yes
@@ -494,8 +564,9 @@ building_white_house = {
 #}
 # Decorative only
 building_machu_picchu = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
-	texture = "gfx/interface/icons/building_icons/machu_picchu.dds"
+	icon ="gfx/interface/icons/building_icons/machu_picchu.dds"
 	expandable = no
 	buildable = no
 	downsizeable = no
@@ -518,6 +589,7 @@ building_machu_picchu = {
 }
 
 building_argebam = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -541,6 +613,7 @@ building_argebam = {
 }
 
 building_chichen_itza = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -564,6 +637,7 @@ building_chichen_itza = {
 }
 
 building_easter_island_heads = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -587,6 +661,7 @@ building_easter_island_heads = {
 }
 
 building_eye_of_sahara = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -610,6 +685,7 @@ building_eye_of_sahara = {
 }
 
 building_giza_necropolis = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -633,6 +709,7 @@ building_giza_necropolis = {
 }
 
 building_khaju_bridge = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -656,6 +733,7 @@ building_khaju_bridge = {
 }
 
 building_petra = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -680,6 +758,7 @@ building_petra = {
 
 ### American Buildings DLC - models not present in basegame ###
 building_capitol_hill = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -703,6 +782,7 @@ building_capitol_hill = {
 }
 
 building_central_park = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -728,6 +808,7 @@ building_central_park = {
 ### AP1 - models not present in basegame ###
 
 building_martandsuntemple = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -750,6 +831,7 @@ building_martandsuntemple = {
 }
 
 building_observatorygreenwich = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -772,6 +854,7 @@ building_observatorygreenwich = {
 }
 
 building_temple_of_poseidon = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no
@@ -794,6 +877,7 @@ building_temple_of_poseidon = {
 }
 
 building_wat_arun = {
+	ownership_type = self
 	building_group = bg_monuments_hidden
 	expandable = no
 	buildable = no

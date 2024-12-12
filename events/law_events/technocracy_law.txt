@@ -279,7 +279,7 @@ technocracy.3 = {
 		}
 		scope:university_state = {
 			add_radicals_in_state = {
-				pop_type = academics
+				pop_type = engineers
 				value = very_large_radicals
 			}
 		}

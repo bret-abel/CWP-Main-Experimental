@@ -1,6 +1,7 @@
 ﻿building_logging_camp = {
+	ownership_type = self
 	building_group = bg_logging
-	texture = "gfx/interface/icons/building_icons/logging_camp.dds"
+	icon ="gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood
 	required_construction = construction_cost_low
 	terrain_manipulator = forestry
@@ -9,29 +10,31 @@
 		pmg_base_logging_camp
 		pmg_equipment_logging_camp
 		pmg_transportation_logging_camp
+		pmg_ownership_logging_camp
 	}
-	ownership_type = self
 }
 
 building_fishing_wharf = {
+	ownership_type = self
 	building_group = bg_fishing
-	texture = "gfx/interface/icons/building_icons/fishing_wharf.dds"
+	icon ="gfx/interface/icons/building_icons/fishing_wharf.dds"
 	city_type = port
 	required_construction = construction_cost_low
 	production_method_groups = {
 		pmg_base_fishing_wharf
 		pmg_whaling_fishing_wharf
 		pmg_packaging_fishing_wharf
+		pmg_ownership_fishing_wharf
 	}
 	possible = {
 		is_sea_adjacent = yes
 	}
-	ownership_type = self
 }
 
 building_oil_rig = {
+	ownership_type = self
 	building_group = bg_oil_rig
-	texture = "gfx/interface/icons/building_icons/oil_rig.dds"
+	icon ="gfx/interface/icons/building_icons/oil_rig.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -41,13 +44,14 @@ building_oil_rig = {
 	production_method_groups = {
 		pmg_base_conventional_oil_well
 		pmg_transportation_oil
+		pmg_ownership_oil
 	}
-	ownership_type = self
 }
 
 building_natural_gas_well = {
+	ownership_type = self
 	building_group = bg_natural_gas_well
-	texture = "gfx/interface/icons/building_icons/natural_gas_well.dds"
+	icon ="gfx/interface/icons/building_icons/natural_gas_well.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -57,13 +61,14 @@ building_natural_gas_well = {
 	production_method_groups = {
 		pmg_base_conventional_gas_well
 		pmg_transportation_natural_gas
+		pmg_ownership_natural_gas
 	}
-	ownership_type = self
 }
 
 building_rubber_plantation = {
+	ownership_type = self
 	building_group = bg_rubber
-	texture = "gfx/interface/icons/building_icons/rubber_lodge.dds"
+	icon ="gfx/interface/icons/building_icons/rubber_lodge.dds"
 	required_construction = construction_cost_low
 	terrain_manipulator = forestry
 	city_type = wood
@@ -72,6 +77,6 @@ building_rubber_plantation = {
 		pmg_base_rubber_plantation
 		pmg_harvesting_process_rubber_plantation
 		pmg_transportation_plantation
+		pmg_ownership_plantation
 	}
-	ownership_type = self
 }

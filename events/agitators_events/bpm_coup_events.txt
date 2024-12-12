@@ -2976,11 +2976,11 @@ coup_pulse_events.15 = {
 					}
 				}
 				add_radicals_in_state = {
-					pop_type = service_workers
+					pop_type = clericals
 					value = medium_radicals
 				}
 				add_radicals_in_state = {
-					pop_type = professionals
+					pop_type = clericals
 					value = small_radicals
 				}
 			}
@@ -3091,7 +3091,7 @@ coup_pulse_events.16 = {
 					}
 				}
 				add_radicals_in_state = {
-					pop_type = academics
+					pop_type = engineers
 					value = large_radicals
 				}
 			}
@@ -3201,7 +3201,7 @@ coup_pulse_events.17 = {
 					value = medium_radicals
 				}
 				add_radicals_in_state = {
-					pop_type = technicians
+					pop_type = engineers
 					value = small_radicals
 				}
 			}
@@ -3314,7 +3314,7 @@ coup_pulse_events.18 = {
 					value = medium_radicals
 				}
 				add_radicals_in_state = {
-					pop_type = farmers
+					pop_type = landlords
 					value = small_radicals
 				}
 			}
@@ -3704,7 +3704,7 @@ coup_aftermath_events.4 = {
 		default_option = yes
 		scope:university_state = {
 			add_radicals_in_state = {
-				pop_type = academics
+				pop_type = engineers
 				value = medium_radicals
 			}
 			scope:university_state_building = {

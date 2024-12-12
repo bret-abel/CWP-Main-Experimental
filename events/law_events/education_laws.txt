@@ -214,7 +214,7 @@ education_laws.4 = {
 	category = enactment
 	duration = 3
 	event_image = {
-		video = "asia_farmers_market"
+		video = "asia_landlords_market"
 	}
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
 	icon = "gfx/interface/icons/event_icons/event_default.dds"

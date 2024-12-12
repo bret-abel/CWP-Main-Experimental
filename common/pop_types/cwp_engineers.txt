@@ -1,11 +1,10 @@
 ﻿engineers = {
-	texture = gfx/interface/icons/pops_icons/engineers.dds
+	texture = gfx/interface/icons/pops_icons/creatives.dds
 	color = {
 		196
 		131
 		84
 	}
-	strata = middle
 	start_quality_of_life = 12
 	working_adult_ratio = 0.3
 	wage_weight = 3
@@ -47,7 +46,7 @@
 			}
 			if = {
 				limit = {
-					is_pop_type = technicians
+					is_pop_type = engineers
 				}
 				multiply = {
 					value = 5
@@ -74,7 +73,7 @@
 			}
 			if = {
 				limit = {
-					is_pop_type = farmers
+					is_pop_type = landlords
 				}
 				multiply = {
 					value = 2
