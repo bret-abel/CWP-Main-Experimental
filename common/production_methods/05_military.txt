@@ -10,15 +10,13 @@ pm_non_formal_training = {
 			building_training_rate_add = 10
 		}
 
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
-	}
-	timed_modifiers = {
 
 	}
+
+
 }
 
 pm_basic_training = {
@@ -32,15 +30,12 @@ pm_basic_training = {
 			building_employment_officers_add = 100
 			building_training_rate_add = 18
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
 	}
-	timed_modifiers = {
 
-	}
+
 }
 
 pm_officer_schools = {
@@ -54,16 +49,13 @@ pm_officer_schools = {
 			building_employment_officers_add = 150
 			building_training_rate_add = 22
 		}
-
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
-	}
-	timed_modifiers = {
 
 	}
+
+
 }
 
 pm_nco_instruction = {
@@ -77,15 +69,12 @@ pm_nco_instruction = {
 			building_employment_officers_add = 200
 			building_training_rate_add = 26
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
 	}
-	timed_modifiers = {
 
-	}
+
 }
 
 pm_technical_schooling = {
@@ -99,15 +88,12 @@ pm_technical_schooling = {
 			building_employment_officers_add = 250
 			building_training_rate_add = 30
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
 	}
-	timed_modifiers = {
 
-	}
+
 }
 
 pm_specialist_training_focus = {
@@ -121,15 +107,12 @@ pm_specialist_training_focus = {
 			building_employment_officers_add = 300
 			building_training_rate_add = 34
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
 	}
-	timed_modifiers = {
 
-	}
+
 }
 
 ################## Naval Bases ##############
@@ -144,16 +127,12 @@ pm_no_standard_naval_training = {
 			building_employment_officers_add = 50
 			building_training_rate_add = 10
 		}
-
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
 	}
-	timed_modifiers = {
 
-	}
+
 }
 
 pm_basic_naval_training = {
@@ -167,15 +146,12 @@ pm_basic_naval_training = {
 			building_employment_officers_add = 100
 			building_training_rate_add = 18
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
 	}
-	timed_modifiers = {
 
-	}
+
 }
 
 pm_naval_officer_colleges = {
@@ -189,16 +165,12 @@ pm_naval_officer_colleges = {
 			building_employment_officers_add = 150
 			building_training_rate_add = 22
 		}
-
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
 	}
-	timed_modifiers = {
 
-	}
+
 }
 
 pm_naval_training_schools = {
@@ -212,15 +184,12 @@ pm_naval_training_schools = {
 			building_employment_officers_add = 200
 			building_training_rate_add = 26
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
 	}
-	timed_modifiers = {
 
-	}
+
 }
 
 pm_naval_specialist_training = {
@@ -234,15 +203,12 @@ pm_naval_specialist_training = {
 			building_employment_officers_add = 250
 			building_training_rate_add = 30
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
 	}
-	timed_modifiers = {
 
-	}
+
 }
 
 pm_advanced_naval_instruction = {
@@ -256,13 +222,8 @@ pm_advanced_naval_instruction = {
 			building_employment_officers_add = 300
 			building_training_rate_add = 34
 		}
-	}
-	country_modifiers = {
-		workforce_scaled = {
-
+		unscaled = {
+			building_training_rate_add = 50
 		}
-	}
-	timed_modifiers = {
-
 	}
 }
