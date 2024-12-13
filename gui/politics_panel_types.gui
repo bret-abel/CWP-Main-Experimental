@@ -337,8 +337,8 @@ types information_panels_types
 					layoutpolicy_vertical = expanding
 					size = { 35 0 }
 					onclick = "[ReformGovernment.StageInterestGroup(InterestGroup.AccessSelf)]"
-					enabled = "[Not(InterestGroup.IsRevolutionary)]"
-					tooltip = "[AddLocalizationIf(InterestGroup.IsRevolutionary, 'REFORM_GOVERNMENT_MOVE_TO_GOVERNMENT_BUTTON_TOOLTIP')]"
+					enabled = "[Not(InterestGroup.IsInsurrectionary)]"
+					tooltip = "[AddLocalizationIf(InterestGroup.IsInsurrectionary, 'REFORM_GOVERNMENT_MOVE_TO_GOVERNMENT_BUTTON_TOOLTIP')]"
 					
 					blockoverride "icon_size" {
 						size = { 35 90 }
@@ -402,23 +402,10 @@ types information_panels_types
 						}
 
 						icon = {
-							visible = "[InterestGroup.IsRevolutionary]"
+							visible = "[InterestGroup.IsInsurrectionary]"
 							size = { 35 35 }
 							texture = "gfx/interface/icons/politics_icons/revolution.dds"
 							tooltip = "REVOLUTION_IG_TOOLTIP"
-						}
-						### SUPPRESSED / BOLSTERED
-						icon = {
-							tooltip = "TOOLTIP_SUPPRESSED"
-							size = { 35 35 }
-							visible = "[InterestGroup.IsSuppressed]"
-							texture = "gfx/interface/icons/generic_icons/ig_suppress.dds"
-						}
-						icon = {
-							tooltip = "TOOLTIP_PROMOTED"
-							size = { 35 35 }
-							visible = "[InterestGroup.IsBolstered]"
-							texture = "gfx/interface/icons/generic_icons/ig_bolster.dds"
 						}
 
 						### NAME
@@ -453,7 +440,7 @@ types information_panels_types
 								size = { 0 20 }
 								align = right|nobaseline
 								margin_right = 2
-								text = "DETAILED_CLOUT"
+								text = "[InterestGroup.GetClout|%1]"
 								default_format = "#variable"
 								using = fontsize_large
 							}
@@ -475,18 +462,6 @@ types information_panels_types
 									color = "[InterestGroup.GetColor]"
 								}
 							}
-
-							textbox = {
-								layoutpolicy_horizontal = preferred
-								text = "DETAILED_CORRUPTION"
-								size = { 0 20 }
-								align = right|nobaseline
-								margin_right = 2
-								tooltip = ig_corruption_tooltip
-								default_format = "#variable"
-								using = fontsize_large
-							}
-
 						}
 
 						icon = {
@@ -542,6 +517,7 @@ types information_panels_types
 							elide = right
 							raw_text = "[InterestGroup.GetApprovalRating] #bold ([InterestGroup.GetApprovalValue|=+])#!"
 							tooltip = "IG_APPROVAL_BREAKDOWN"
+							using = tooltip_ne
 						}
 
 						### IDEOLOGIES
