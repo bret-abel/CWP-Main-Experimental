@@ -1,6 +1,6 @@
-﻿servicemembers = {
+﻿soldiers = {
 	#todo update icon
-	texture = gfx/interface/icons/pops_icons/servicemembers.dds
+	texture = gfx/interface/icons/pops_icons/soldiers.dds
 	color = {
 		137
 		114

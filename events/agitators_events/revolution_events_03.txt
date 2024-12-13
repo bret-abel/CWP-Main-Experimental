@@ -743,7 +743,7 @@ revolution_pulse2_events.5 = {
 		}
 		scope:garrison_refusal_state = {
 			add_radicals_in_state = {
-				pop_type = servicemembers
+				pop_type = soldiers
 				value = medium_radicals
 			}
 			add_loyalists_in_state = {

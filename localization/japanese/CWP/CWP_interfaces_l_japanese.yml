@@ -112,7 +112,7 @@
  POP_clericals:0 "$clericals$ [concept_profession]"
  POP_INFORMAL_WORKERS:0 "$informal_workers$ [concept_profession]"
  POP_clericals:0 "$clericals$ [concept_profession]"
- POP_SERVICEMEMBERS:0 "$servicemembers$ [concept_profession]"
+ POP_soldiers:0 "$soldiers$ [concept_profession]"
  POP_CLERICALS:0 "$clericals$ [concept_profession]"
  ACCEPTED_TOOLTIP_PRIMARY_CULTURE:0 "当POPは[Concept('concept_primary_cultures','$concept_primary_culture$')]に所属するため、常に受容されます\n\n"
  PANEL_MILITARY_ARMY_FIELDED_BATTALIONS:0 "[Country.GetBattalionsFielded|0v]"

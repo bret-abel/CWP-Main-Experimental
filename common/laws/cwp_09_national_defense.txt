@@ -113,7 +113,7 @@ law_reserve_military = {
 	}
 	modifier = {
 		country_officers_pol_str_mult = -0.25
-		country_servicemembers_pol_str_mult = -0.25
+		country_soldiers_pol_str_mult = -0.25
 		state_building_barracks_max_level_add = 10
 		state_building_conscription_center_max_level_add = 50
 		state_conscription_rate_add = 0.05
@@ -188,12 +188,12 @@ law_professional_military = {
 				value = 0.5
 			}
 		}
-		# servicemembers are broadly in favor of this also
+		# soldiers are broadly in favor of this also
 		add = {
-			desc = "POP_SERVICEMEMBERS"
+			desc = "POP_soldiers"
 			if = {
 				limit = {
-					is_pop_type = servicemembers
+					is_pop_type = soldiers
 					owner = {
 						NOT = {
 							has_law = law_type:law_volunteer_only_military
@@ -235,7 +235,7 @@ law_volunteer_only_military = {
 	modifier = {
 		unit_morale_loss_mult = -0.15
 		country_officers_pol_str_mult = 0.25
-		country_servicemembers_pol_str_mult = 0.25
+		country_soldiers_pol_str_mult = 0.25
 		state_building_barracks_max_level_add = 30
 		country_war_exhaustion_casualties_mult = -0.25
 	}
@@ -251,12 +251,12 @@ law_volunteer_only_military = {
 				value = 0.5
 			}
 		}
-		# servicemembers are broadly in favor of this also
+		# soldiers are broadly in favor of this also
 		add = {
-			desc = "POP_SERVICEMEMBERS"
+			desc = "POP_soldiers"
 			if = {
 				limit = {
-					is_pop_type = servicemembers
+					is_pop_type = soldiers
 				}
 				value = 0.25
 			}

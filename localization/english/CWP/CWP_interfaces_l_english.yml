@@ -132,7 +132,7 @@ l_english:
   POP_INFORMAL_WORKERS: "$informal_workers$ [concept_profession]"
   POP_SLUM_DWELLERS: "$slum_dwellers$ [concept_profession]"
   POP_SERVICE_WORKERS: "$service_workers$ [concept_profession]"
-  POP_SERVICEMEMBERS: "$servicemembers$ [concept_profession]"
+  POP_soldiers: "$soldiers$ [concept_profession]"
   POP_CREATIVES: "$creatives$ [concept_profession]"
 
   QUALIFICATIONS_ACCEPTED_POP_CULTURE: "Accepted [concept_culture]"
@@ -291,7 +291,7 @@ l_english:
   POP_INFORMAL_WORKERS: "$informal_workers$ [concept_profession]"
   POP_SLUM_DWELLERS: "$slum_dwellers$ [concept_profession]"
   POP_SERVICE_WORKERS: "$service_workers$ [concept_profession]"
-  POP_SERVICEMEMBERS: "$servicemembers$ [concept_profession]"
+  POP_soldiers: "$soldiers$ [concept_profession]"
   POP_CREATIVES: "$creatives$ [concept_profession]"
 
   QUALIFICATIONS_ACCEPTED_POP_CULTURE: "Accepted [concept_culture]"

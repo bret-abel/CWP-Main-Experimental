@@ -41,7 +41,7 @@
 	pop_potential = {
 		# Defines which pops are ALLOWED TO join the IG
 		OR = {
-			is_pop_type = servicemembers
+			is_pop_type = soldiers
 			is_pop_type = officers
 			is_pop_type = laborers
 			is_pop_type = engineers
@@ -67,10 +67,10 @@
 			}
 		}
 		add = {
-			desc = "POP_SERVICEMEMBERS"
+			desc = "POP_soldiers"
 			if = {
 				limit = {
-					is_pop_type = servicemembers
+					is_pop_type = soldiers
 				}
 				value = 200
 			}

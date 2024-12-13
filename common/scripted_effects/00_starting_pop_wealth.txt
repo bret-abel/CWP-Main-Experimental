@@ -50,7 +50,7 @@ effect_starting_pop_wealth_exorbitant = {
 					limit = {
 						or = {
 							is_pop_type = technicians
-							is_pop_type = servicemembers
+							is_pop_type = soldiers
 						}
 					}
 					add = 1
@@ -127,7 +127,7 @@ effect_starting_pop_wealth_very_high = {
 					limit = {
 						or = {
 							is_pop_type = technicians
-							is_pop_type = servicemembers
+							is_pop_type = soldiers
 						}
 					}
 					add = 1
@@ -204,7 +204,7 @@ effect_starting_pop_wealth_high = {
 					limit = {
 						or = {
 							is_pop_type = technicians
-							is_pop_type = servicemembers
+							is_pop_type = soldiers
 						}
 					}
 					add = 1
@@ -281,7 +281,7 @@ effect_starting_pop_wealth_medium = {
 					limit = {
 						or = {
 							is_pop_type = technicians
-							is_pop_type = servicemembers
+							is_pop_type = soldiers
 						}
 					}
 					add = 1
@@ -358,7 +358,7 @@ effect_starting_pop_wealth_low = {
 					limit = {
 						or = {
 							is_pop_type = technicians
-							is_pop_type = servicemembers
+							is_pop_type = soldiers
 						}
 					}
 					add = 1
@@ -435,7 +435,7 @@ effect_starting_pop_wealth_abysmal = {
 					limit = {
 						or = {
 							is_pop_type = technicians
-							is_pop_type = servicemembers
+							is_pop_type = soldiers
 						}
 					}
 					add = 1

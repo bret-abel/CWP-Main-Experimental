@@ -2547,7 +2547,7 @@ coup_pulse_events.11 = {
 					}
 				}
 				add_radicals_in_state = {
-					pop_type = servicemembers
+					pop_type = soldiers
 					value = medium_radicals
 				}
 				add_radicals_in_state = {
