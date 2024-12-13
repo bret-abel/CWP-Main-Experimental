@@ -38,27 +38,7 @@ types politics_panel_types
 			FancyTooltip_IG = {}
 		}
 
-		flowcontainer = {
-			
-			### SUPPRESSED / BOLSTERED
-			icon = {
-				tooltip = "TOOLTIP_SUPPRESSED"
-				size = { 25 25 }
-				visible = "[InterestGroup.IsSuppressed]"
-				texture = "gfx/interface/icons/generic_icons/ig_suppress.dds"
-				parentanchor = vcenter
-				using = tooltip_below
-			}
-
-			icon = {
-				tooltip = "TOOLTIP_PROMOTED"
-				size = { 25 25 }
-				visible = "[InterestGroup.IsBolstered]"
-				texture = "gfx/interface/icons/generic_icons/ig_bolster.dds"
-				parentanchor = vcenter
-				using = tooltip_below
-			}
-			
+		flowcontainer = {			
 			ig_button = {
 				block "ig_icon_size" {
 					size = { 45 45 }
@@ -413,6 +393,7 @@ types politics_panel_types
 				using = tooltip_below
 				blockoverride "show_hat" {}
 				blockoverride "highlight" {}
+				blockoverride "commander_order_icon" {}
 			}
 			
 			vbox = {
@@ -531,6 +512,14 @@ types politics_panel_types
 			spacing = 10
 			datacontext = "[Country.GetGovernmentLegitimacyLevel]"
 			tooltip = "LEGITIMACY_LEVEL_ACTIVE_TOOLTIP"
+
+			icon = {
+				visible = "[LessThan_int32(Country.GetGovernmentLegitimacy, '(int32)25')]"
+				size = { 25 25 }
+				using = tooltip_above
+				tooltip = "ILLEGITIMATE_GOVERNMENT_WARNING"
+				texture = "gfx/interface/icons/generic_icons/warning.dds"
+			}
 
 			block "text" {
 				textbox = {
@@ -749,9 +738,7 @@ types politics_panel_types
 						
 						blockoverride "text" {
 							textbox = {
-								layoutpolicy_horizontal = expanding
-								size = { 0 25 }
-								using = fontsize_large
+								autoresize = yes
 								raw_text = "[LegitimacyLevel.GetNameNoFormatting|v] #variable [Country.GetGovernmentLegitimacy]#!"
 								align = center|nobaseline
 								elide = right
@@ -1351,45 +1338,115 @@ types politics_panel_types
 										}
 									}
 
-									### POLITICAL MOVEMENTS
 									vbox = {
 										layoutpolicy_horizontal = expanding
 										layoutpolicy_vertical = preferred
-										
-										default_header_clean_faded = {
-											layoutpolicy_horizontal = expanding
-											size = { 0 44 }
-											blockoverride "text" {
-												text = "POLITICAL_MOVEMENTS"
-											}
-										}
-										
+
+										### POLITICAL MOVEMENTS
 										vbox = {
+											name = "tutorial_highlight_political_movements"
+										
 											layoutpolicy_horizontal = expanding
 											layoutpolicy_vertical = preferred
-											visible = "[Not(IsDataModelEmpty(AccessPlayer.AccessPoliticalMovements))]"
-											datamodel = "[AccessPlayer.AccessPoliticalMovements]"
-											spacing = 10
-											margin = { 10 10 }
+											
+											default_header_clean_faded = {
+												layoutpolicy_horizontal = expanding
+												size = { 0 44 }
+												blockoverride "text" {
+													text = "POLITICAL_MOVEMENTS"
+												}
+											}
+											
+											vbox = {
+												layoutpolicy_horizontal = expanding
+												layoutpolicy_vertical = preferred
+												visible = "[Not(IsDataModelEmpty(AccessPlayer.AccessPoliticalMovements))]"
+												datamodel = "[AccessPlayer.AccessPoliticalMovements]"
+												spacing = 10
+												margin = { 10 10 }
 
-											item = {
-												politics_panel_political_movement_item = {}
+												item = {
+													politics_panel_political_movement_item = {
+														blockoverride "button_size" {
+															size = { 325 60 }
+														}
+
+														blockoverride "button_size_revolutionary" {
+															size = { 325 110 }
+														}
+
+														blockoverride "revolution_progressbar_size" {
+															size = { 200 25 }
+														}
+
+														blockoverride "next_checkpoint_progress_text_visibility" {
+															visible = no
+														}
+													}
+												}
+											}
+											
+											empty_state_dynamic_width = {
+												layoutpolicy_vertical = expanding
+												size = { 0 50 }
+												visible = "[IsDataModelEmpty(AccessPlayer.AccessPoliticalMovements)]"
+												text = "NO_POLITICAL_MOVEMENTS"
+											}
+											
+											widget = {
+												visible = "[Not(IsDataModelEmpty(AccessPlayer.AccessPoliticalMovements))]"
+												layoutpolicy_horizontal = expanding
+												layoutpolicy_vertical = expanding
 											}
 										}
-										
-										empty_state_dynamic_width = {
-											layoutpolicy_vertical = expanding
-											size = { 0 0 }
-											visible = "[IsDataModelEmpty(AccessPlayer.AccessPoliticalMovements)]"
-											text = "NO_POLITICAL_MOVEMENTS"
-										}
-										
-										widget = {
-											visible = "[Not(IsDataModelEmpty(AccessPlayer.AccessPoliticalMovements))]"
+
+										### POLITICAL LOBBIES
+										vbox = {
+											name = "tutorial_highlight_lobbies_list"
 											layoutpolicy_horizontal = expanding
-											layoutpolicy_vertical = expanding
+											layoutpolicy_vertical = preferred
+											
+											default_header_clean_faded = {
+												layoutpolicy_horizontal = expanding
+												size = { 0 44 }
+												blockoverride "text" {
+													text = "POLITICAL_LOBBIES"
+												}
+											}
+											
+											vbox = {
+												layoutpolicy_horizontal = expanding
+												layoutpolicy_vertical = preferred
+												visible = "[Not(IsDataModelEmpty(AccessPlayer.GetPoliticalLobbies))]"
+												datamodel = "[AccessPlayer.GetPoliticalLobbies]"
+												spacing = 10
+												margin = { 10 10 }
+
+												item = {
+													political_lobby_list_item = {
+														widgetid = "[Concatenate('tutorial_highlight_lobby_', PoliticalLobby.GetNameNoFormatting)]"
+														layoutpolicy_horizontal = expanding
+													}
+												}
+											}
+											
+											empty_state_dynamic_width = {
+												layoutpolicy_vertical = expanding
+												size = { 0 50 }
+
+												visible = "[IsDataModelEmpty(AccessPlayer.GetPoliticalLobbies)]"
+												text = "NO_POLITICAL_LOBBIES"
+											}
+											
+											widget = {
+												visible = "[Not(IsDataModelEmpty(AccessPlayer.GetPoliticalLobbies))]"
+												layoutpolicy_horizontal = expanding
+												layoutpolicy_vertical = expanding
+											}
 										}
 									}
+
+									
 									
 									vertical_divider_full = {
 										size = { 2 0 }
@@ -1543,8 +1600,7 @@ types politics_panel_types
 												using = tooltip_above
 											}
 										}
-
-										
+																				
 										widget = {
 											layoutpolicy_horizontal = expanding
 											layoutpolicy_vertical = expanding
@@ -1729,6 +1785,10 @@ types politics_panel_types
 													blockoverride "empty_state_visibility" {
 														visible = "[Not(AccessPlayer.HasElectionTrendData)]"
 													}
+													blockoverride "everything_that_is_not_empty_state_visibility" {
+														visible = "[AccessPlayer.HasElectionTrendData]"
+													}
+
 													blockoverride "empty_state_text" {
 														text = "GRAPH_NOT_INITIALIZED"
 													}
@@ -1827,7 +1887,7 @@ types politics_panel_types
 																layoutpolicy_horizontal = expanding
 																size = { 0 30 }
 																align = right|nobaseline
-																raw_text = "[Party.GetCurrentVotingPower|Kv] ([Party.GetCurrentVotingPowerShare|%1])"
+																raw_text = "[Party.GetCurrentVotingPowerShare|%1]"
 																tooltip = "PARTY_ELECTION_TOOLTIP"
 															}
 														}
@@ -1910,30 +1970,6 @@ types politics_panel_types
 											}
 										}
 									}
-								}
-
-								vbox = {
-									visible = "[And(Not(GetVariableSystem.Exists('politics_overview_exile_pool')), Not(IsDataModelEmpty(AccessPlayer.AccessSecessions)))]"
-									layoutpolicy_horizontal = expanding
-									layoutpolicy_vertical = preferred
-									using = default_fade_in_out
-									spacing = 10
-									margin_bottom = 10
-
-									default_header_clean_faded = {
-										layoutpolicy_horizontal = expanding
-										size = { 0 44 }
-										blockoverride "text" {
-											text = "SECESSIONS"
-										}
-									}
-
-									datamodel = "[AccessPlayer.AccessSecessions]"
-
-									item = {
-										politics_panel_secession = {}
-									}
-
 								}
 
 								### EXILE POOL
