@@ -389,7 +389,7 @@ types timekeeper
 					parentanchor = vcenter
 					size = { 100 58 }
 					using = default_button
-					onclick = "[InformationPanelBar.OpenPanelTab('production_methods', 'construction_queues')]"
+					onclick = "[InformationPanelBar.OpenConstructionPanel( GetPlayer.Self )]"
 					enabled = "[Country.IsValid]"
 					widget = {
 						visible = "[Country.IsValid]"
@@ -1238,24 +1238,22 @@ types construction_in_outliner
 
 		overlappingitembox = {
 			parentanchor = vcenter
-			position = { 27 0 }
+			position = { 33 0 }
 			size = { 172 30 }
 
 			block "buildings_datamodel" {}
 
 			item = {
 				widget = {
-					size = { 30 30 }
+					size = { 32 30 }
 					button = {
 						parentanchor = vcenter
 						datacontext = "[ConstructionQueueElement.AccessBuilding]"
-						tooltipwidget = {
-							FancyTooltip_Building = {}
-						}
+						tooltip = "[ConstructionQueueElement.GetTooltip]"
 						onclick = "[InformationPanelBar.OpenBuildingDetailsPanel(Building.AccessSelf)]"
-
+						using = tooltip_below
 						size = { 30 30 }
-						texture = "[Building.GetTexture]"
+						texture = "[Building.GetIcon]"
 
 						default_progressbar_horizontal = {
 							datacontext = "[ConstructionQueueElement.GetBuilding]"
@@ -1280,6 +1278,19 @@ types construction_in_outliner
 			margin_top = -5
 			margin_bottom = -5
 			margin_right = 0
+		}
+
+		background = {
+			using = fade_right_entry_header_colored
+			margin_left = -10
+			margin_top = -5
+			margin_bottom = -5
+			margin_right = 0
+			mirror = horizontal
+			block "ownership_color"
+			{
+				#color = "[GetDefine('NGUI','BUILDING_OWNERSHIP_COLOR_PLAYER_GOVERNMENT')]"
+			}
 		}
 	}
 }
