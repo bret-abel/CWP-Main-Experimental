@@ -78,11 +78,19 @@ types objective_types
 									minimumsize = { 270 82 }
 									maximumsize = { 270 600 }
 									
+									enabled = "[ObjectiveType.IsAvailable]"
+									
 									widget = {
 										size = { 100% 100% }
 										
 										background = {
-											texture = "[ObjectiveType.GetBackground]"
+											texture = "[ObjectiveType.GetDisabledBackground]"
+											visible = "[Not(ObjectiveType.IsAvailable)]"
+											fittype = centercrop
+										}
+										background = {
+											texture = "[ObjectiveType.GetEnabledBackground]"
+											visible = "[ObjectiveType.IsAvailable]"
 											fittype = centercrop
 										}
 
@@ -116,10 +124,10 @@ types objective_types
 
 											vbox = {
 												icon = {
-													size = { 42 42 }
+													size = { 47 47 }
 													texture = "gfx/interface/backgrounds/round_button_bg.dds"
 													icon = {
-														size = { 37 37 }
+														size = { 82% 82% }
 														parentanchor = center
 														texture = "[ObjectiveType.GetIcon]"
 													}
@@ -148,6 +156,9 @@ types objective_types
 											alpha = 0.65
 											size = { 100% 100% }
 											onclick = "[GameSetup.ToggleObjective(ObjectiveType.AccessSelf)]"
+											
+											
+											tooltip = "[ObjectiveType.GetIsAvailableDescription]"
 										}
 									}
 									

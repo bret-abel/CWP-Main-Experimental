@@ -15,7 +15,7 @@
       "common/alert_types",
       "common/achievements",
       "common/decisions",
-
+      "common/objectives",
       "common/country_definitions",
       "common/history",
       "common/history/ai",
