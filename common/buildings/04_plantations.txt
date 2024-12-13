@@ -1,6 +1,7 @@
 ﻿############# PLANTATIONS
 building_coffee_plantation = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_coffee_plantations
 	icon ="gfx/interface/icons/building_icons/coffee_plantation.dds"
 	required_construction = construction_cost_low
@@ -10,12 +11,12 @@ building_coffee_plantation = {
 		pmg_base_building_coffee_plantation
 		pmg_harvesting_process_coffee_plantation
 		pmg_transportation_plantation
-		pmg_ownership_plantation
-	}
+			}
 }
 
 building_cotton_plantation = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_cotton_plantations
 	icon ="gfx/interface/icons/building_icons/cotton_plantation.dds"
 	required_construction = construction_cost_low
@@ -25,12 +26,12 @@ building_cotton_plantation = {
 		pmg_base_building_cotton_plantation
 		pmg_harvesting_process_cotton_plantation
 		pmg_transportation_plantation
-		pmg_ownership_plantation
-	}
+			}
 }
 
 building_opium_plantation = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_opium_plantations
 	icon ="gfx/interface/icons/building_icons/opium_plantation.dds"
 	required_construction = construction_cost_low
@@ -40,8 +41,7 @@ building_opium_plantation = {
 		pmg_base_building_opium_plantation
 		pmg_harvesting_process_opium_plantation
 		pmg_transportation_plantation
-		pmg_ownership_plantation
-	}
+			}
 	can_build_government = {
 		error_check = {
 			severity = fail
@@ -66,6 +66,7 @@ building_opium_plantation = {
 
 building_tea_plantation = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_tea_plantations
 	icon ="gfx/interface/icons/building_icons/tea_plantation.dds"
 	required_construction = construction_cost_low
@@ -75,12 +76,12 @@ building_tea_plantation = {
 		pmg_base_building_tea_plantation
 		pmg_harvesting_process_tea_plantation
 		pmg_transportation_plantation
-		pmg_ownership_plantation
-	}
+			}
 }
 
 building_tobacco_plantation = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_tobacco_plantations
 	icon ="gfx/interface/icons/building_icons/tobacco_plantation.dds"
 	required_construction = construction_cost_low
@@ -90,8 +91,7 @@ building_tobacco_plantation = {
 		pmg_base_building_tobacco_plantation
 		pmg_harvesting_process_tobacco
 		pmg_transportation_plantation
-		pmg_ownership_plantation
-	}
+			}
 	can_build_government = {
 		error_check = {
 			severity = fail
@@ -116,6 +116,7 @@ building_tobacco_plantation = {
 
 building_sugar_plantation = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_sugar_plantations
 	icon ="gfx/interface/icons/building_icons/sugar_plantation.dds"
 	required_construction = construction_cost_low
@@ -125,12 +126,12 @@ building_sugar_plantation = {
 		pmg_base_building_sugar_plantation
 		pmg_harvesting_process_sugar_plantation
 		pmg_transportation_plantation
-		pmg_ownership_plantation
-	}
+			}
 }
 
 building_banana_plantation = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_banana_plantations
 	icon ="gfx/interface/icons/building_icons/banana_plantation.dds"
 	required_construction = construction_cost_low
@@ -140,12 +141,12 @@ building_banana_plantation = {
 		pmg_base_building_banana_plantation
 		pmg_harvesting_process_banana_plantation
 		pmg_transportation_plantation
-		pmg_ownership_plantation
-	}
+			}
 }
 
 building_silk_plantation = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_silk_plantations
 	icon ="gfx/interface/icons/building_icons/silk_plantation.dds"
 	required_construction = construction_cost_low
@@ -155,6 +156,5 @@ building_silk_plantation = {
 		pmg_base_building_silk_plantation
 		pmg_harvesting_process_silk_plantation
 		pmg_transportation_plantation
-		pmg_ownership_plantation
-	}
+			}
 }

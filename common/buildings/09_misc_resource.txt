@@ -1,5 +1,6 @@
 ﻿building_logging_camp = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_logging
 	icon ="gfx/interface/icons/building_icons/logging_camp.dds"
 	city_type = wood
@@ -10,12 +11,12 @@
 		pmg_base_logging_camp
 		pmg_equipment_logging_camp
 		pmg_transportation_logging_camp
-		pmg_ownership_logging_camp
-	}
+			}
 }
 
 building_fishing_wharf = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_fishing
 	icon ="gfx/interface/icons/building_icons/fishing_wharf.dds"
 	city_type = port
@@ -24,8 +25,7 @@ building_fishing_wharf = {
 		pmg_base_fishing_wharf
 		pmg_whaling_fishing_wharf
 		pmg_packaging_fishing_wharf
-		pmg_ownership_fishing_wharf
-	}
+			}
 	possible = {
 		is_sea_adjacent = yes
 	}
@@ -33,6 +33,7 @@ building_fishing_wharf = {
 
 building_oil_rig = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_oil_rig
 	icon ="gfx/interface/icons/building_icons/oil_rig.dds"
 	city_type = mine
@@ -44,12 +45,12 @@ building_oil_rig = {
 	production_method_groups = {
 		pmg_base_conventional_oil_well
 		pmg_transportation_oil
-		pmg_ownership_oil
-	}
+			}
 }
 
 building_natural_gas_well = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_natural_gas_well
 	icon ="gfx/interface/icons/building_icons/natural_gas_well.dds"
 	city_type = mine
@@ -61,12 +62,12 @@ building_natural_gas_well = {
 	production_method_groups = {
 		pmg_base_conventional_gas_well
 		pmg_transportation_natural_gas
-		pmg_ownership_natural_gas
-	}
+			}
 }
 
 building_rubber_plantation = {
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	building_group = bg_rubber
 	icon ="gfx/interface/icons/building_icons/rubber_lodge.dds"
 	required_construction = construction_cost_low
@@ -77,6 +78,5 @@ building_rubber_plantation = {
 		pmg_base_rubber_plantation
 		pmg_harvesting_process_rubber_plantation
 		pmg_transportation_plantation
-		pmg_ownership_plantation
-	}
+			}
 }
