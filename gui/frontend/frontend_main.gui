@@ -504,8 +504,8 @@ widget = {
 						}
 
 						vbox = {
-							visible = "[And( POPSStatusIsLoggedIn, Not( POPStatusIsUserNameEmpty ) )]"
-							spacing = 5
+							visible = "[And( StatusIsLoggedIn, Not( StatusIsUserNameEmpty ) )]"
+```							spacing = 5
 
 							button = {
 								using = default_button
@@ -533,7 +533,7 @@ widget = {
 						}
 
 						vbox = {
-							visible = "[Or( Not( POPSStatusIsLoggedIn ), POPStatusIsUserNameEmpty )]"
+							visible = "[Or( Not( StatusIsLoggedIn ), StatusIsUserNameEmpty )]"
 							spacing = 5
 
 							button = {
@@ -587,7 +587,7 @@ widget = {
 				expand = {}
 
 				hbox = {
-					spacing = 10
+					spacing = 0
 
 					button_group = {
 						onclick = "[OpenAchievements]"
