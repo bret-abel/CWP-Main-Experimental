@@ -7,8 +7,7 @@
 
 	pact = {	
 		cost = 25
-		is_customs_union = yes
-		has_junior_participant = yes
+				has_junior_participant = yes
 		recipient_pays_maintenance = no	
 		
 		relations_progress_per_day = 1

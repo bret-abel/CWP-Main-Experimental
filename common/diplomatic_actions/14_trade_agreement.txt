@@ -34,16 +34,6 @@
 		NOT = {
 			has_war_with = scope:target_country
 		}
-		NOT = {
-			has_diplomatic_pact = {
-				who = scope:target_country
-				type = customs_union
-			}
-		}
-		is_junior_in_customs_union = no
-		scope:target_country = {
-			is_junior_in_customs_union = no
-		}
 		custom_tooltip = {
 			text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS_NOT
 			scope:target_country.relations:root > relations_threshold:poor
@@ -85,10 +75,6 @@
 				is_subject_of = scope:target_country
 				scope:target_country = {
 					is_subject_of = root
-				}
-				is_junior_in_customs_union = yes
-				scope:target_country = {
-					is_junior_in_customs_union = yes
 				}
 				scope:target_country = {
 					has_law = law_type:law_isolationism

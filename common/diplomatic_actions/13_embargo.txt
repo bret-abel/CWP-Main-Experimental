@@ -17,9 +17,9 @@
 		}
 	}
 	possible = {
-		is_junior_in_customs_union = no
+		NOT = { always  = no }
 		scope:target_country = {
-			is_junior_in_customs_union = no
+			NOT = { always  = no }
 		}
 		NOT = {
 			scope:target_country = {
@@ -54,9 +54,9 @@
 				scope:target_country = {
 					is_country_type = decentralized
 				}
-				is_junior_in_customs_union = yes
+				NOT = { always  = yes }
 				scope:target_country = {
-					is_junior_in_customs_union = yes
+					NOT = { always  = yes }
 				}
 				scope:target_country = {
 					has_treaty_port_in_country = root
