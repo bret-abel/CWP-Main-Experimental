@@ -2,7 +2,7 @@
 building_port = {
 	building_group = bg_public_infrastructure
 	city_type = port
-	texture = "gfx/interface/icons/building_icons/building_port.dds"
+	icon ="gfx/interface/icons/building_icons/building_port.dds"
 	has_max_level = yes
 	ignore_stateregion_max_level = yes
 	port = yes
@@ -44,7 +44,7 @@ building_government_administration = {
 		pmg_professional_service_use_administrators
 		pmg_bureaucrat_professionalism_administration
 	}
-	texture = "gfx/interface/icons/building_icons/building_government_administration.dds"
+	icon ="gfx/interface/icons/building_icons/building_government_administration.dds"
 	required_construction = construction_cost_medium
 }
 
@@ -61,7 +61,7 @@ building_university = {
 		pmg_research_focus
 		pmg_academia_university
 	}
-	texture = "gfx/interface/icons/building_icons/building_university.dds"
+	icon ="gfx/interface/icons/building_icons/building_university.dds"
 	required_construction = construction_cost_medium
 }
 
@@ -70,7 +70,7 @@ building_nuclear_research_facility = {
 	expandable = no
 	buildable = no
 	downsizeable = no
-	texture = "gfx/interface/icons/building_icons/nuclear_research_facility.dds"
+	icon ="gfx/interface/icons/building_icons/nuclear_research_facility.dds"
 	unlocking_technologies = {
 		nuclear_research_facilities
 	}
@@ -88,7 +88,7 @@ building_nuclear_research_facility = {
 building_military_research_facility = {
 	building_group = bg_military_research
 	has_max_level = yes
-	texture = "gfx/interface/icons/building_icons/military_research_facility.dds"
+	icon ="gfx/interface/icons/building_icons/military_research_facility.dds"
 	unlocking_technologies = {
 		military_research_facilities
 	}
@@ -112,7 +112,7 @@ building_military_research_facility = {
 building_humanities_research_facility = {
 	building_group = bg_humanities_research
 	has_max_level = yes
-	texture = "gfx/interface/icons/building_icons/humanities_research_facility.dds"
+	icon ="gfx/interface/icons/building_icons/humanities_research_facility.dds"
 	unlocking_technologies = {
 		humanities_research_facilities
 	}
@@ -136,7 +136,7 @@ building_humanities_research_facility = {
 building_science_research_facility = {
 	building_group = bg_humanities_research
 	has_max_level = yes
-	texture = "gfx/interface/icons/building_icons/humanities_research_facility.dds"
+	icon ="gfx/interface/icons/building_icons/humanities_research_facility.dds"
 	unlocking_technologies = {
 		unmanned_space_flight
 	}

@@ -235,7 +235,7 @@
  party_jap_masses:0 "Japan Masses Party"
  party_jap_com:0 "Japanese Communist Party"
 
- party_agrarian_jap:0 "Japan Farmers Party"
+ party_agrarian_jap:0 "Japan landlords Party"
 
 # BRZ
  party_conservative_brz:0 "[SCOPE.GetRootScope.GetCountry.GetCustom('brz_conservative_party_name')]"

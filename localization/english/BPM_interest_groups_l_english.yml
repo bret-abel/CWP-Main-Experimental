@@ -198,7 +198,7 @@
 
  ig_intelligentsia:0 "Professional Interests"
  ig_intelligentsia_only_icon:0 "@intelligentsia_bpm!"
- ig_intelligentsia_desc:0 "A non-ideological power bloc representing the interests of professionals and merchants. Typically organized into professional associations, craft unions, traditional guilds, and informal cartels, these groups fear encroachment from big businesses as well as the unwashed masses. Examples range from Dutch and Italian merchant guilds to the American Federation of Labor."
+ ig_intelligentsia_desc:0 "A non-ideological power bloc representing the interests of clericals and merchants. Typically organized into professional associations, craft unions, traditional guilds, and informal cartels, these groups fear encroachment from big businesses as well as the unwashed masses. Examples range from Dutch and Italian merchant guilds to the American Federation of Labor."
  ig_petty_bourgeoisie:0 "Bureaucratic Interests"
  ig_petty_bourgeoisie_only_icon:0 "@petty_bourgeoisie_bpm!"
  ig_petty_bourgeoisie_desc:0 "A non-ideological power bloc representing entrenched bureaucrats. These corrupt officials are experts at manipulating political machines to stay in power, despite intended political processes."

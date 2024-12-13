@@ -5,7 +5,6 @@
 		76
 		117
 	}
-	strata = rich
 	start_quality_of_life = 20
 	working_adult_ratio = 0.3
 	wage_weight = 6
@@ -46,7 +45,7 @@
 			if = {
 				limit = {
 					is_pop_type = engineers
-					is_pop_type = professionals
+					is_pop_type = clericals
 					is_pop_type = clergy
 					is_pop_type = landlords
 				}

@@ -2,14 +2,13 @@
 je_acquire_civilian_nuclear_capability = {
 	icon = "gfx/interface/icons/lens_toolbar_icons/nuclear_weapons.dds"
 	should_be_pinned_by_default = yes
-	group = je_group_internal_affairs
 	scripted_button = pause_nuclear_program_button
 	scripted_button = resume_nuclear_program_button
 	scripted_button = conduct_nuclear_test_button
 	possible = {
 		this = {
 			custom_tooltip = {
-				text = "civilian_nuclear_in_progress"
+				text = "nuclear_in_progress"
 				has_modifier = developing_civilian_nuclear_capability
 			}
 		}
@@ -73,7 +72,6 @@ je_acquire_civilian_nuclear_capability = {
 je_develop_atomic_bomb = {
 	icon = "gfx/interface/icons/lens_toolbar_icons/nuclear_weapons.dds"
 	should_be_pinned_by_default = yes
-	group = je_group_internal_affairs
 	scripted_button = pause_nuclear_program_button
 	scripted_button = resume_nuclear_program_button
 	scripted_button = survey_nuclear_test_site_button
@@ -81,7 +79,7 @@ je_develop_atomic_bomb = {
 	possible = {
 		this = {
 			custom_tooltip = {
-				text = "military_nuclear_in_progress"
+				text = "nuclear_in_progress"
 				has_modifier = developing_atomic_bomb
 			}
 		}
@@ -160,7 +158,6 @@ je_develop_atomic_bomb = {
 je_develop_thermonuclear_bomb = {
 	icon = "gfx/interface/icons/lens_toolbar_icons/nuclear_weapons.dds"
 	should_be_pinned_by_default = yes
-	group = je_group_internal_affairs
 	scripted_button = pause_nuclear_program_button
 	scripted_button = resume_nuclear_program_button
 	scripted_button = survey_nuclear_test_site_button
@@ -168,7 +165,7 @@ je_develop_thermonuclear_bomb = {
 	possible = {
 		this = {
 			custom_tooltip = {
-				text = "military_nuclear_in_progress"
+				text = "nuclear_in_progress"
 				has_modifier = developing_thermonuclear_bomb
 			}
 		}
@@ -237,7 +234,6 @@ je_develop_thermonuclear_bomb = {
 je_develop_icbms = {
 	icon = "gfx/interface/icons/lens_toolbar_icons/nuclear_weapons.dds"
 	should_be_pinned_by_default = yes
-	group = je_group_internal_affairs
 	scripted_button = pause_nuclear_program_button
 	scripted_button = resume_nuclear_program_button
 	scripted_button = survey_nuclear_test_site_button
@@ -245,7 +241,7 @@ je_develop_icbms = {
 	possible = {
 		this = {
 			custom_tooltip = {
-				text = "military_nuclear_in_progress"
+				text = "nuclear_in_progress"
 				has_modifier = developing_icbm
 			}
 		}

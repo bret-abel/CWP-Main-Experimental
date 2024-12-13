@@ -14,7 +14,7 @@
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4000
-			building_employment_technicians_add = 1000
+			building_employment_engineers_add = 1000
 		}
 	}
 	state_modifiers = {
@@ -43,7 +43,7 @@ pm_pre_war_buildings = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3500
-			building_employment_technicians_add = 1500
+			building_employment_engineers_add = 1500
 		}
 	}
 	state_modifiers = {
@@ -83,7 +83,7 @@ pm_prefabricated_buildings = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2500
-			building_employment_technicians_add = 1750
+			building_employment_engineers_add = 1750
 			building_employment_engineers_add = 750
 		}
 	}
@@ -125,7 +125,7 @@ pm_tube_structural_buildings = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 1500
-			building_employment_technicians_add = 2500
+			building_employment_engineers_add = 2500
 			building_employment_engineers_add = 1000
 		}
 	}
@@ -167,7 +167,7 @@ pm_pressed_concrete = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 500
-			building_employment_technicians_add = 3000
+			building_employment_engineers_add = 3000
 			building_employment_engineers_add = 1500
 		}
 	}
@@ -202,8 +202,8 @@ pm_sustainable_building_materials = {
 			goods_input_electricity_add = 30
 		}
 		level_scaled = {
-			building_employment_professionals_add = 500
-			building_employment_technicians_add = 3000
+			building_employment_clericals_add = 500
+			building_employment_engineers_add = 3000
 			building_employment_engineers_add = 1500
 		}
 	}
@@ -225,7 +225,7 @@ pm_base_housing = {
 			goods_output_housing_add = 15
 		}
 		level_scaled = {
-			building_employment_service_workers_add = 100
+			building_employment_clericals_add = 100
 		}
 	}
 }
@@ -234,12 +234,12 @@ pm_base_housing = {
 pm_landlord_owned_housing = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/privately_owned.dds"
 	disallowing_laws = {
-		#law_total_nationalization
+		law_total_nationalization
 	}
 	unlocking_laws = {
-		law_laissez_faire
-		law_traditionalism
-		#law_anti_industrialization
+		law_free_market
+		law_decentralization
+		law_anti_industrialization
 		law_interventionism
 	}
 	building_modifiers = {
@@ -258,10 +258,10 @@ pm_publicly_traded_housing = {
 		central_bank_independence
 	}
 	disallowing_laws = {
-		#law_total_nationalization
+		law_total_nationalization
 	}
 	unlocking_laws = {
-		law_laissez_faire
+		law_free_market
 	}
 	building_modifiers = {
 		level_scaled = {
@@ -276,14 +276,14 @@ pm_publicly_traded_housing = {
 pm_government_owned_housing = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/government_run.dds"
 	disallowing_laws = {
-		#law_no_nationalization
-		#law_public_utility_companies
-		#law_resource_extraction_nationalization
-		#law_military_industry_nationalization
-		#law_heavy_industry_nationalization
+		law_no_nationalization
+		law_public_utility_companies
+		law_resource_extraction_nationalization
+		law_military_industry_nationalization
+		law_heavy_industry_nationalization
 	}
 	unlocking_laws = {
-		law_command_economy
+		law_socialization
 		law_interventionism
 	}
 	building_modifiers = {
@@ -299,14 +299,14 @@ pm_government_owned_housing = {
 pm_worker_cooperatives_housing = {
 	texture = "gfx/interface/icons/production_method_icons/ownership/worker_cooperative.dds"
 	disallowing_laws = {
-		#law_total_nationalization
+		law_total_nationalization
 	}
 	unlocking_laws = {
-		law_command_economy
+		law_socialization
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_service_workers_add = 600
+			building_employment_clericals_add = 600
 		}
 		unscaled = {
 			building_workforce_shares_add = 1

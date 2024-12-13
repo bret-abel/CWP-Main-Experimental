@@ -34,7 +34,7 @@
 	possible = {
 		any_scope_character = {
 			is_ruler = yes
-			has_ideology = ideology:ideology_moderate
+			has_ideology = ideology:ideology_third_international_theory 
 		}
 		is_subject = no
 	}
@@ -117,7 +117,7 @@ je_gaddafi_unification_target = {
 			}
 			if = { #Libya has a stronger millitary
 				limit = {
-					army_size < c:LBY.army_size
+					army_reserves < c:LBY.army_reserves
 				}
 				c:LBY = {
 					change_variable = {

@@ -64,7 +64,7 @@ DEFAULT = {
 			exists = scope:actor
 			scope:actor = {
 				is_secessionist = no
-				ig:ig_rural_folk = {
+				ig:ig_ruralists = {
 					is_powerful = yes
 					is_in_government = yes
 				}
@@ -80,7 +80,7 @@ DEFAULT = {
 			exists = scope:actor
 			scope:actor = {
 				is_secessionist = no
-				ig:ig_conservatives = {
+				ig:ig_elites = {
 					is_powerful = yes
 					is_in_government = yes
 				}
@@ -112,7 +112,7 @@ DEFAULT = {
 			exists = scope:actor
 			scope:actor = {
 				is_secessionist = no
-				ig:ig_market_liberals = {
+				ig:ig_capitalists = {
 					is_powerful = yes
 					is_in_government = yes
 				}
@@ -129,11 +129,11 @@ DEFAULT = {
 			scope:actor = {
 				is_secessionist = no
 				or = {
-					ig:ig_armed_forces = {
+					ig:ig_patriots = {
 						is_powerful = yes
 						is_in_government = yes
 					}
-					ig:ig_armed_forces = {
+					ig:ig_securocrats = {
 						is_powerful = yes
 						is_in_government = yes
 					}
@@ -150,7 +150,7 @@ DEFAULT = {
 			exists = scope:actor
 			scope:actor = {
 				is_secessionist = no
-				ig:ig_devout = {
+				ig:ig_moralists = {
 					is_powerful = yes
 					is_in_government = yes
 				}
@@ -166,7 +166,7 @@ DEFAULT = {
 			exists = scope:actor
 			scope:actor = {
 				is_secessionist = no
-				ig:ig_petty_bourgeoisie = {
+				ig:ig_entrepreneurs = {
 					is_powerful = yes
 					is_in_government = yes
 				}
@@ -182,7 +182,7 @@ DEFAULT = {
 			exists = scope:actor
 			scope:actor = {
 				is_secessionist = no
-				ig:ig_socialists = {
+				ig:ig_laborists = {
 					is_powerful = yes
 					is_in_government = yes
 				}
@@ -247,7 +247,7 @@ IMP = {
 }
 
 #United Kingdom
-GBR = {
+GBR = { 
 	dynamic_country_name = {
 		name = dyn_c_british_republic
 		is_main_tag_only = no
@@ -334,7 +334,7 @@ GBR = {
 }
 
 #Ireland
-IRE = {
+IRE = { 
 	dynamic_country_name = {
 		name = dyn_c_eire_nua
 		is_main_tag_only = no
@@ -344,7 +344,7 @@ IRE = {
 			scope:actor = {
 				owns_entire_state_region = STATE_ULSTER
 				OR = {
-					#has_law = law_type:law_federalized
+					has_law = law_type:law_federalized
 					has_law = law_type:law_confederated
 				}
 			}
@@ -382,7 +382,7 @@ IRE = {
 }
 
 #Ulster
-ULS = {
+ULS = { 
 	dynamic_country_name = {
 		name = dyn_c_ulster
 		is_main_tag_only = no
@@ -419,7 +419,7 @@ SCA = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				has_law = law_type:law_monarchy
+				has_law = law_type:law_hereditary
 				ruler = {
 					has_culture = cu:danish
 				}
@@ -434,7 +434,7 @@ SCA = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				has_law = law_type:law_monarchy
+				has_law = law_type:law_hereditary
 				ruler = {
 					has_culture = cu:finnish
 				}
@@ -480,6 +480,7 @@ LAT = {
 ######################
 ### Western Europe ###
 ######################
+
 #Netherlands
 NET = {
 	dynamic_country_name = {
@@ -555,9 +556,7 @@ BOZ = {
 		is_main_tag_only = no
 		priority = 1
 		trigger = {
-			scope:actor = {
-				owns_entire_state_region = STATE_BAVARIA
-			}
+			scope:actor = { owns_entire_state_region = STATE_BAVARIA }
 			NOT = {
 				exists = c:AOZ
 			}
@@ -568,9 +567,7 @@ BOZ = {
 		is_main_tag_only = no
 		priority = 2
 		trigger = {
-			scope:actor = {
-				owns_entire_state_region = STATE_BAVARIA
-			}
+			scope:actor = { owns_entire_state_region = STATE_BAVARIA }
 			NOT = {
 				exists = c:FOZ
 				exists = c:AOZ
@@ -804,6 +801,7 @@ SGF = {
 #######################
 ### Southern Europe ###
 #######################
+
 NAV = {
 	dynamic_country_name = {
 		name = dyn_c_navarra
@@ -830,7 +828,7 @@ ITA = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				has_law = law_type:law_theocracy
+				has_law = law_type:law_theocratic
 			}
 			NOT = {
 				exists = c:PAP
@@ -978,6 +976,7 @@ ALB = {
 ######################
 ### Eastern Europe ###
 ######################
+
 DDR = {
 	dynamic_country_name = {
 		name = dyn_c_soviet_occupied_east_germany
@@ -1180,15 +1179,15 @@ UKR = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				has_law = law_type:law_socialist_republic
+				has_law = law_type:law_council_elective
 				has_law = law_type:law_direct_democracy
 			}
 		}
 	}
 }
 
-RUS = {
-	#Union of Sovereign States
+
+RUS = { #Union of Sovereign States
 	dynamic_country_name = {
 		name = dyn_c_soviet_union
 		adjective = dyn_c_soviet_union_adj
@@ -1284,6 +1283,7 @@ CHC = {
 ####################
 ### Western Asia ###
 ####################
+
 TUR = {
 	# Turkey
 	dynamic_country_name = {
@@ -1303,9 +1303,9 @@ TUR = {
 			year >= 2022
 			scope:actor = {
 				OR = {
-					has_ruling_interest_group = ig_conservatives
-					has_ruling_interest_group = ig_armed_forces
-					has_ruling_interest_group = ig_devout
+					has_ruling_interest_group = ig_elites
+					has_ruling_interest_group = ig_patriots
+					has_ruling_interest_group = ig_moralists
 				}
 			}
 		}
@@ -1472,9 +1472,7 @@ ISR = {
 		is_main_tag_only = yes
 		priority = 10
 		trigger = {
-			NOT = {
-				exists = c:PAL
-			}
+			NOT = {exists = c:PAL}
 			coa_def_multicultural_trigger = yes
 		}
 	}
@@ -1619,7 +1617,7 @@ OMA = {
 		priority = 0
 		trigger = {
 			scope:actor = {
-				#has_law = law_type:law_isolationism
+				has_law = law_type:law_isolationism
 			}
 		}
 	}
@@ -1628,9 +1626,11 @@ OMA = {
 ####################
 ### Central Asia ###
 ####################
+
 #####################
 ### Southern Asia ###
 #####################
+
 PER = {
 	dynamic_country_name = {
 		name = dyn_c_persia
@@ -1651,8 +1651,7 @@ PER = {
 	}
 }
 
-AZR = {
-	#Iranian Azerbaijan
+AZR = { #Iranian Azerbaijan
 	dynamic_country_name = {
 		name = dyn_c_soviet_azerbaijan
 		is_main_tag_only = yes
@@ -1759,7 +1758,7 @@ PAN = {
 			exists = scope:actor
 			coa_def_monarchy_flag_trigger = yes
 			scope:actor = {
-				has_law = law_type:law_religious_nationalism
+				has_law = law_type:law_religious_institutions
 			}
 		}
 	}
@@ -1799,9 +1798,9 @@ MYM = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				#has_law = law_type:law_integrationist
-				has_law = law_type:law_multicultural
-				#has_law = law_type:law_syncretist
+				has_law = law_type:law_integrationist
+				has_law = law_type:law_multiculturalist
+				has_law = law_type:law_syncretist
 			}
 		}
 	}
@@ -1810,6 +1809,7 @@ MYM = {
 #####################
 ### Eastern Asia ####
 #####################
+
 FER = {
 	dynamic_country_name = {
 		name = dyn_c_far_easter_republic
@@ -1880,7 +1880,7 @@ PRC = {
 			exists = scope:actor
 			scope:actor = {
 				OR = {
-					#has_law = law_type:law_federalized
+					has_law = law_type:law_federalized
 					has_law = law_type:law_confederated
 				}
 			}
@@ -1931,7 +1931,7 @@ CHI = {
 				NOT = {
 					country_has_primary_culture = cu:manchu
 				}
-				has_law = law_type:law_monarchy
+				has_law = law_type:law_hereditary
 			}
 		}
 	}
@@ -1994,8 +1994,8 @@ STK = {
 			exists = scope:actor
 			scope:actor = {
 				or = {
-					has_law = law_type:law_presidential_republic
-					has_law = law_type:law_parliamentary_republic
+					has_law = law_type:law_executive
+					has_law = law_type:law_parliamentary
 				}
 				is_subject = no
 			}
@@ -2042,7 +2042,7 @@ NRK = {
 			OR = {
 				AND = {
 					scope:actor = {
-						has_law = law_type:law_socialist_republic
+						has_law = law_type:law_council_elective
 						is_subject = no
 					}
 				}
@@ -2095,7 +2095,7 @@ KOR = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				has_law = law_type:law_monarchy
+				has_law = law_type:law_hereditary
 			}
 		}
 	}
@@ -2110,7 +2110,7 @@ JAP = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				has_law = law_type:law_monarchy
+				has_law = law_type:law_hereditary
 			}
 		}
 	}
@@ -2132,6 +2132,7 @@ JAP = {
 #########################
 ### Southeastern Asia ###
 #########################
+
 MYY = {
 	dynamic_country_name = {
 		name = dyn_c_british_malaya
@@ -2274,6 +2275,7 @@ TML = {
 ###############
 ### Oceania ###
 ###############
+
 NZL = {
 	dynamic_country_name = {
 		name = dyn_c_aotearoa
@@ -2336,6 +2338,7 @@ PNS = {
 ########################
 ### Northern America ###
 ########################
+
 USA = {
 	# United States of America
 	dynamic_country_name = {
@@ -2480,6 +2483,7 @@ MEX = {
 #######################
 ### Central America ###
 #######################
+
 UCA = {
 	dynamic_country_name = {
 		name = dyn_c_united_fruits_company
@@ -2505,7 +2509,7 @@ UCA = {
 					exporter = root.market
 					goods = g:fruit
 				}
-				#has_law = law_type:law_total_nationalization
+				has_law = law_type:law_total_nationalization
 			}
 			coa_def_communist_flag_trigger = yes
 		}
@@ -2515,6 +2519,7 @@ UCA = {
 #################
 ### Caribbean ###
 #################
+
 HAI = {
 	# Haiti
 	dynamic_country_name = {
@@ -2536,7 +2541,7 @@ BAH = {
 		priority = 0
 		trigger = {
 			scope:actor = {
-				owns_entire_state_region = STATE_BAHAMAS				#Including Turks and Caicos Islands
+				owns_entire_state_region = STATE_BAHAMAS #Including Turks and Caicos Islands
 			}
 		}
 	}
@@ -2545,6 +2550,7 @@ BAH = {
 #####################
 ### South America ###
 #####################
+
 PEU = {
 	dynamic_country_name = {
 		name = dyn_c_peru_bolivia
@@ -2580,6 +2586,7 @@ BOL = {
 #######################
 ### Northern Africa ###
 #######################
+
 ALR = {
 	dynamic_country_name = {
 		name = dyn_c_spanish_rif_prot
@@ -2673,8 +2680,8 @@ LBY = {
 	}
 }
 
-JMH = {
-	#Greater Libya
+JMH = { #Greater Libya
+
 	dynamic_country_name = {
 		name = dyn_c_libyan_monarchy
 		adjective = dyn_c_libyan_monarchy_adj
@@ -2693,7 +2700,9 @@ JMH = {
 			coa_def_communist_flag_trigger = yes
 		}
 	}
+
 	#These are only some of Gaddafi's union proposals:
+
 	dynamic_country_name = {
 		name = dyn_c_libyan_maltese_union
 		adjective = dyn_c_libyan_maltese_union_ADJ
@@ -2702,7 +2711,7 @@ JMH = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				owns_entire_state_region = STATE_MALTA
+				owns_entire_state_region = STATE_MALTA 
 			}
 		}
 	}
@@ -2832,7 +2841,9 @@ JMH = {
 			}
 		}
 	}
+
 	#Socialist Versions
+
 	dynamic_country_name = {
 		name = dyn_c_libyan_maltese_union_socialist
 		adjective = dyn_c_libyan_maltese_union_ADJ
@@ -2841,7 +2852,7 @@ JMH = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				owns_entire_state_region = STATE_MALTA
+				owns_entire_state_region = STATE_MALTA 
 			}
 			coa_def_communist_flag_trigger = yes
 		}
@@ -3002,7 +3013,7 @@ SDN = {
 		priority = 0
 		trigger = {
 			scope:actor = {
-				has_law = law_type:law_theocracy
+				has_law = law_type:law_theocratic
 			}
 		}
 	}
@@ -3015,7 +3026,7 @@ SDN = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				has_law = law_type:law_monarchy
+				has_law = law_type:law_hereditary
 			}
 		}
 	}
@@ -3166,6 +3177,7 @@ WSH = {
 #######################
 ### Western Africa ####
 #######################
+
 BKF = {
 	# Burkina Faso
 	dynamic_country_name = {
@@ -3394,6 +3406,7 @@ CVD = {
 #####################
 ### Middle Africa ###
 #####################
+
 EQA = {
 	dynamic_country_name = {
 		name = dyn_c_equatorial_africa
@@ -3599,6 +3612,7 @@ OVM = {
 ######################
 ### Eastern Africa ###
 ######################
+
 EAU = {
 	dynamic_country_name = {
 		name = dyn_c_socialist_union_of_the_horn_of_africa
@@ -3656,8 +3670,8 @@ MTB = {
 						country_has_primary_culture = cu:boer
 					}
 					NOR = {
-						has_law = law_type:law_multicultural
-						#has_law = law_type:law_syncretist
+						has_law = law_type:law_multiculturalist
+						has_law = law_type:law_syncretist
 					}
 				}
 			}
@@ -3686,8 +3700,8 @@ LZO = {
 							country_has_primary_culture = cu:boer
 						}
 						NOR = {
-							has_law = law_type:law_multicultural
-							#has_law = law_type:law_syncretist
+							has_law = law_type:law_multiculturalist
+							has_law = law_type:law_syncretist
 						}
 					}
 				}
@@ -3697,9 +3711,8 @@ LZO = {
 }
 
 BMB = {
-	dynamic_country_name = {
-		#Nyasaland
-		name = dyn_c_british_malawi
+	dynamic_country_name = { #Nyasaland
+		name = dyn_c_british_malawi 
 		adjective = dyn_c_british_malawi_adj
 		is_main_tag_only = yes
 		priority = 1
@@ -3711,8 +3724,7 @@ BMB = {
 			}
 		}
 	}
-	dynamic_country_name = {
-		#Nyasaland
+	dynamic_country_name = { #Nyasaland
 		name = dyn_c_bemba_malawi
 		adjective = dyn_c_bemba_malawi_adj
 		is_main_tag_only = yes
@@ -3784,9 +3796,7 @@ RWD = {
 		is_main_tag_only = yes
 		priority = 0
 		trigger = {
-			NOT = {
-				exists = c:BRD
-			}
+			NOT = { exists = c:BRD }
 		}
 	}
 }
@@ -3832,6 +3842,7 @@ TNZ = {
 				}
 				exists = c:ZZB
 			}
+
 		}
 	}
 }
@@ -3887,6 +3898,7 @@ DJI = {
 #######################
 ### Southern Africa ###
 #######################
+
 ESW = {
 	dynamic_country_name = {
 		name = dyn_c_british_eswatini

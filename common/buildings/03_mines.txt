@@ -1,6 +1,7 @@
 ﻿building_coal_mine = {
+	ownership_type = self
 	building_group = bg_coal_mining
-	texture = "gfx/interface/icons/building_icons/coal_mine.dds"
+	icon ="gfx/interface/icons/building_icons/coal_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -17,8 +18,9 @@
 }
 
 building_iron_mine = {
+	ownership_type = self
 	building_group = bg_iron_mining
-	texture = "gfx/interface/icons/building_icons/iron_mine.dds"
+	icon ="gfx/interface/icons/building_icons/iron_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -35,8 +37,9 @@ building_iron_mine = {
 }
 
 building_copper_mine = {
+	ownership_type = self
 	building_group = bg_copper_mining
-	texture = "gfx/interface/icons/building_icons/copper_mine.dds"
+	icon ="gfx/interface/icons/building_icons/copper_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -53,8 +56,9 @@ building_copper_mine = {
 }
 
 building_rare_earth_elements_mine = {
+	ownership_type = self
 	building_group = bg_rare_earth_elements_mining
-	texture = "gfx/interface/icons/building_icons/rare_earth_elements_mine.dds"
+	icon ="gfx/interface/icons/building_icons/rare_earth_elements_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -71,8 +75,9 @@ building_rare_earth_elements_mine = {
 }
 
 building_bauxite_mine = {
+	ownership_type = self
 	building_group = bg_bauxite_mining
-	texture = "gfx/interface/icons/building_icons/bauxite_mine.dds"
+	icon ="gfx/interface/icons/building_icons/bauxite_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -89,8 +94,9 @@ building_bauxite_mine = {
 }
 
 building_uranium_mine = {
+	ownership_type = self
 	building_group = bg_uranium_mining
-	texture = "gfx/interface/icons/building_icons/uranium_mine.dds"
+	icon ="gfx/interface/icons/building_icons/uranium_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -107,8 +113,9 @@ building_uranium_mine = {
 }
 
 building_lead_mine = {
+	ownership_type = self
 	building_group = bg_lead_mining
-	texture = "gfx/interface/icons/building_icons/lead_mine.dds"
+	icon ="gfx/interface/icons/building_icons/lead_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -125,8 +132,9 @@ building_lead_mine = {
 }
 
 building_phosphorus_mine = {
+	ownership_type = self
 	building_group = bg_phosphorus_mining
-	texture = "gfx/interface/icons/building_icons/phosphorus_mine.dds"
+	icon ="gfx/interface/icons/building_icons/phosphorus_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium
@@ -143,8 +151,9 @@ building_phosphorus_mine = {
 }
 
 building_gold_mine = {
+	ownership_type = self
 	building_group = bg_gold_mining
-	texture = "gfx/interface/icons/building_icons/gold_mine.dds"
+	icon ="gfx/interface/icons/building_icons/gold_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
 	required_construction = construction_cost_medium

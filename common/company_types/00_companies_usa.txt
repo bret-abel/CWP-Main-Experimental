@@ -2,23 +2,27 @@
 company_international_business_machines = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
 	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	
 	flavored_company = yes
-	building_types = {
+	
+	building_types = {  
 		building_computer_manufactories
 		building_electronics_manufactories
 	}
+	
 	potential = {
 		has_interest_marker_in_region = region_atlantic_seaboard
 	}
+	
 	attainable = {
-		hidden_trigger = {
-			# Hide attainable if it's always fulfilled by possible
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
 				region = sr:region_atlantic_seaboard
 			}
 		}
-	}
-	possible = {
+	}		
+	
+	possible = { 
 		any_scope_state = {
 			region = sr:region_atlantic_seaboard
 			is_incorporated = yes
@@ -29,11 +33,13 @@ company_international_business_machines = {
 		}
 		has_technology_researched = mechanical_computers
 	}
+	
 	prosperity_modifier = {
 		country_bureaucracy_mult = 0.15
 	}
+	
 	ai_weight = {
-		value = 3		# Higher base value for flavored companies
+		value = 3 # Higher base value for flavored companies
 	}
 }
 
@@ -41,39 +47,45 @@ company_international_business_machines = {
 company_boeing = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
 	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	
 	flavored_company = yes
-	building_types = {
+	
+	building_types = {  
 		building_aircraft_manufactories
 		building_motor_industry
 	}
+	
 	potential = {
 		has_interest_marker_in_region = region_atlantic_seaboard
 	}
+	
 	attainable = {
-		hidden_trigger = {
-			# Hide attainable if it's always fulfilled by possible
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
 				region = sr:region_atlantic_seaboard
 			}
 		}
-	}
-	possible = {
+	}		
+	
+	possible = { 
 		any_scope_state = {
 			region = sr:region_atlantic_seaboard
 			is_incorporated = yes
 			any_scope_building = {
 				is_building_type = building_aircraft_manufactories
-				level >= 3
+				level >= 10
 			}
 		}
 		has_technology_researched = early_military_aviation
 	}
+	
 	prosperity_modifier = {
 		country_military_goods_cost_mult = -0.1
 		building_airport_throughput_add = 0.1
 	}
+	
 	ai_weight = {
-		value = 3		# Higher base value for flavored companies
+		value = 3 # Higher base value for flavored companies
 	}
 }
 
@@ -81,36 +93,42 @@ company_boeing = {
 company_walt_disney_productions = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
 	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	
 	flavored_company = yes
-	building_types = {
+	
+	building_types = {  
 		building_media_industry
 	}
+	
 	potential = {
 		has_interest_marker_in_region = region_pacific_seaboard
 	}
+	
 	attainable = {
-		hidden_trigger = {
-			# Hide attainable if it's always fulfilled by possible
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
 				region = sr:region_pacific_seaboard
 			}
 		}
-	}
-	possible = {
+	}		
+	
+	possible = { 
 		any_scope_state = {
 			is_incorporated = yes
 			state_region = s:STATE_CALIFORNIA
 			any_scope_building = {
 				is_building_type = building_media_industry
-				level >= 3
+				level >= 10
 			}
 		}
 	}
+	
 	prosperity_modifier = {
 		country_prestige_mult = 0.15
 	}
+	
 	ai_weight = {
-		value = 3		# Higher base value for flavored companies
+		value = 3 # Higher base value for flavored companies
 	}
 }
 
@@ -118,38 +136,44 @@ company_walt_disney_productions = {
 company_general_motors = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
 	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	
 	flavored_company = yes
-	building_types = {
+	
+	building_types = {  
 		building_automobile_manufactories
 		building_motor_industry
 	}
+	
 	potential = {
 		has_interest_marker_in_region = region_atlantic_seaboard
 	}
+	
 	attainable = {
-		hidden_trigger = {
-			# Hide attainable if it's always fulfilled by possible
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
 				region = sr:region_atlantic_seaboard
 			}
 		}
-	}
-	possible = {
+	}		
+	
+	possible = { 
 		any_scope_state = {
 			is_incorporated = yes
 			state_region = s:STATE_MICHIGAN
 			any_scope_building = {
 				is_building_type = building_automobile_manufactories
-				level >= 3
+				level >= 10
 			}
 		}
 		has_technology_researched = combustion_gas_engine
 	}
+	
 	prosperity_modifier = {
 		building_motor_industry_throughput_add = 0.15
 	}
+	
 	ai_weight = {
-		value = 3		# Higher base value for flavored companies
+		value = 3 # Higher base value for flavored companies
 	}
 }
 
@@ -157,38 +181,44 @@ company_general_motors = {
 company_chrysler = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
 	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	
 	flavored_company = yes
-	building_types = {
+	
+	building_types = {  
 		building_automobile_manufactories
 		building_advanced_military_manufactories
 		building_motor_industry
 	}
+	
 	potential = {
 		has_interest_marker_in_region = region_atlantic_seaboard
 	}
+	
 	attainable = {
-		hidden_trigger = {
-			# Hide attainable if it's always fulfilled by possible
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
 			any_scope_state = {
 				region = sr:region_atlantic_seaboard
 			}
 		}
-	}
-	possible = {
+	}		
+	
+	possible = { 
 		any_scope_state = {
 			is_incorporated = yes
 			state_region = s:STATE_MICHIGAN
 			any_scope_building = {
 				is_building_type = building_automobile_manufactories
-				level >= 3
+				level >= 10
 			}
 		}
 		has_technology_researched = combustion_gas_engine
 	}
+	
 	prosperity_modifier = {
 		building_advanced_military_manufactories_throughput_add = 0.15
 	}
+	
 	ai_weight = {
-		value = 3		# Higher base value for flavored companies
+		value = 3 # Higher base value for flavored companies
 	}
 }

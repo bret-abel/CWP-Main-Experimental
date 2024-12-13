@@ -85,10 +85,6 @@
 									who = root
 									type = diplomatic_alignment
 								}
-								has_diplomatic_pact = {
-									who = root
-									type = customs_union
-								}
 							}
 							has_war_with = scope:target_country
 						}
@@ -341,10 +337,6 @@
 							has_diplomatic_pact = {
 								who = root
 								type = alliance
-							}
-							has_diplomatic_pact = {
-								who = root
-								type = customs_union
 							}
 							has_diplomatic_pact = {
 								who = root

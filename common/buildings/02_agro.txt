@@ -1,13 +1,12 @@
 ﻿############# FARMING & RANCHING
 building_rye_farm = {
+	ownership_type = self
 	building_group = bg_rye_farms
-	texture = "gfx/interface/icons/building_icons/rye_farm.dds"
+	icon ="gfx/interface/icons/building_icons/rye_farm.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
 		pmg_base_building_rye_farm
-		pmg_secondary_building_rye_farm
-		pmg_sugar_beets_rye_farm
 		pmg_harvesting_process_rye_farm
 		pmg_ownership_rye_farm
 	}
@@ -16,14 +15,13 @@ building_rye_farm = {
 }
 
 building_wheat_farm = {
+	ownership_type = self
 	building_group = bg_wheat_farms
-	texture = "gfx/interface/icons/building_icons/wheat_farm.dds"
+	icon ="gfx/interface/icons/building_icons/wheat_farm.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
 		pmg_base_building_wheat_farm
-		pmg_secondary_building_wheat_farm
-		pmg_honey_building_wheat_farm
 		pmg_harvesting_process_wheat_farm
 		pmg_ownership_wheat_farm
 	}
@@ -32,14 +30,13 @@ building_wheat_farm = {
 }
 
 building_rice_farm = {
+	ownership_type = self
 	building_group = bg_rice_farms
-	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
+	icon ="gfx/interface/icons/building_icons/rice_farm.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
 		pmg_base_building_rice_farm
-		pmg_secondary_building_rice_farm
-		pmg_honey_building_rice_farm
 		pmg_harvesting_process_rice_farm
 		pmg_ownership_rice_farm
 	}
@@ -48,14 +45,13 @@ building_rice_farm = {
 }
 
 building_maize_farm = {
+	ownership_type = self
 	building_group = bg_maize_farms
-	texture = "gfx/interface/icons/building_icons/maize_farm.dds"
+	icon ="gfx/interface/icons/building_icons/maize_farm.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
 		pmg_base_building_maize_farm
-		pmg_secondary_building_maize_farm
-		pmg_corn_syrup_building_maize_farm
 		pmg_harvesting_process_maize_farm
 		pmg_ownership_maize_farm
 	}
@@ -64,14 +60,13 @@ building_maize_farm = {
 }
 
 building_millet_farm = {
+	ownership_type = self
 	building_group = bg_millet_farms
-	texture = "gfx/interface/icons/building_icons/millet_farm.dds"
+	icon ="gfx/interface/icons/building_icons/millet_farm.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {
 		pmg_base_building_millet_farm
-		pmg_secondary_building_millet_farm
-		pmg_honey_building_millet_farm
 		pmg_harvesting_process_millet_farm
 		pmg_ownership_millet_farm
 	}
@@ -80,8 +75,9 @@ building_millet_farm = {
 }
 
 building_livestock_ranch = {
+	ownership_type = self
 	building_group = bg_livestock_ranches
-	texture = "gfx/interface/icons/building_icons/cattle_ranch.dds"
+	icon ="gfx/interface/icons/building_icons/cattle_ranch.dds"
 	city_type = farm
 	levels_per_mesh = 5
 	production_method_groups = {

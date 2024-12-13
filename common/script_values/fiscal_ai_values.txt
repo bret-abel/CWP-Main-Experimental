@@ -10,8 +10,7 @@ player_ideal_interest_rate = {
 	round_to = 0.5
 }
 
-ai_interest_from_inflation = {
-	# Reduce existing inflation/deflation
+ai_interest_from_inflation = {  # Reduce existing inflation/deflation
 	value = 0
 	if = {
 		limit = {
@@ -87,9 +86,8 @@ ai_interest_from_inflation = {
 	}
 }
 
-ai_interest_rate_from_growth = {
-	# Base interest rate change to stabilize growth
-	value = ai_interest_from_inflation	# Prioritize reducing existing inflation/deflation
+ai_interest_rate_from_growth = {  # Base interest rate change to stabilize growth
+	value = ai_interest_from_inflation # Prioritize reducing existing inflation/deflation
 	if = {
 		limit = {
 			OR = {
@@ -103,7 +101,7 @@ ai_interest_rate_from_growth = {
 				}
 			}
 		}
-		add = {
+		add = { 
 			value = inflation_growth
 			multiply = 10
 		}
@@ -144,13 +142,14 @@ ai_interest_rate_from_growth = {
 	max = 10
 }
 
+
 ai_wants_contractionary = {
 	if = {
 		limit = {
 			ai_interest_from_inflation >= 0
 			inflation_growth > 0
 		}
-		add = {
+		add = { 
 			value = inflation_growth
 			multiply = 1000
 		}
@@ -241,7 +240,7 @@ ai_wants_expansionary = {
 			ai_interest_from_inflation <= 0
 			inflation_growth < 0
 		}
-		add = {
+		add = { 
 			value = inflation_growth
 			multiply = -1000
 		}
@@ -317,13 +316,13 @@ ai_wants_devalue = {
 	}
 	if = {
 		limit = {
-			country_rank = rank_value:superpower			# Superpowers dont want to devalue
+			country_rank = rank_value:superpower # Superpowers dont want to devalue
 		}
 		add = -50
 	}
 	if = {
 		limit = {
-			country_rank = rank_value:great_power			# Great Powers hesitant to devalue
+			country_rank = rank_value:great_power # Great Powers hesitant to devalue
 		}
 		add = -20
 	}

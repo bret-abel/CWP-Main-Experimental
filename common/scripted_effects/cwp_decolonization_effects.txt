@@ -14710,18 +14710,6 @@ effect_free_all_subjects = {
 			}
 		}
 		make_independent = yes
-		if = {
-			limit = {
-				has_diplomatic_pact = {
-					who = prev
-					type = customs_union
-				}
-			}
-			remove_diplomatic_pact = {
-				country = prev
-				type = customs_union
-			}
-		}
 	}
 }
 
@@ -14737,6 +14725,8 @@ effect_post_decolonization = {
 		is_decaying = yes
 	}
 	onaction_monetary_variables_creation = yes
+	setup_parties = yes
+	setup_starting_ideologies = yes
 }
 
 effect_post_colonial_laws = {

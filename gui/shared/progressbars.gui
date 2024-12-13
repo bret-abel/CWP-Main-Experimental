@@ -1124,6 +1124,9 @@ types progressbars {
 			spacing = 0
 			bar_horizontal = {
 				size = { 40 20 }
+				tooltipwidget = {
+					readiness_tooltip_1 = {}
+				}
 				blockoverride "values" {
 					value = "[Country.MakeScope.ScriptValue('readiness')]"
 					min = 0
@@ -1147,6 +1150,9 @@ types progressbars {
 			}
 			bar_horizontal = {
 				size = { 40 20 }
+				tooltipwidget = {
+					readiness_tooltip_2 = {}
+				}
 				blockoverride "values" {
 					value = "[Country.MakeScope.ScriptValue('readiness')]"
 					min = 20
@@ -1170,6 +1176,9 @@ types progressbars {
 			}
 			bar_horizontal = {
 				size = { 40 20 }
+				tooltipwidget = {
+					readiness_tooltip_3 = {}
+				}
 				blockoverride "values" {
 					value = "[Country.MakeScope.ScriptValue('readiness')]"
 					min = 40
@@ -1193,6 +1202,9 @@ types progressbars {
 			}
 			bar_horizontal = {
 				size = { 40 20 }
+				tooltipwidget = {
+					readiness_tooltip_4 = {}
+				}
 				blockoverride "values" {
 					value = "[Country.MakeScope.ScriptValue('readiness')]"
 					min = 60
@@ -1216,6 +1228,9 @@ types progressbars {
 			}
 			bar_horizontal = {
 				size = { 40 20 }
+				tooltipwidget = {
+					readiness_tooltip_5 = {}
+				}
 				blockoverride "values" {
 					value = "[Country.MakeScope.ScriptValue('readiness')]"
 					min = 80

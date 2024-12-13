@@ -1,7 +1,8 @@
 ﻿############# SUBSISTENCE
 building_subsistence_farms = {
+	ownership_type = self
 	building_group = bg_subsistence_agriculture
-	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+	icon ="gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 	production_method_groups = {
 		pmg_base_building_subsistence_farms
 		pmg_home_workshops_building_subsistence_farms
@@ -14,8 +15,9 @@ building_subsistence_farms = {
 }
 
 building_subsistence_orchards = {
+	ownership_type = self
 	building_group = bg_subsistence_agriculture
-	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+	icon ="gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 	production_method_groups = {
 		pmg_base_building_subsistence_orchards
 		pmg_home_workshops_building_subsistence_orchards
@@ -28,8 +30,9 @@ building_subsistence_orchards = {
 }
 
 building_subsistence_pastures = {
+	ownership_type = self
 	building_group = bg_subsistence_agriculture
-	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+	icon ="gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 	production_method_groups = {
 		pmg_base_building_subsistence_pastures
 		pmg_home_workshops_building_subsistence_pastures
@@ -42,8 +45,9 @@ building_subsistence_pastures = {
 }
 
 building_subsistence_fishing_villages = {
+	ownership_type = self
 	building_group = bg_subsistence_agriculture
-	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+	icon ="gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 	production_method_groups = {
 		pmg_base_building_subsistence_fishing_villages
 		pmg_home_workshops_building_subsistence_fishing_villages
@@ -56,8 +60,9 @@ building_subsistence_fishing_villages = {
 }
 
 building_subsistence_rice_paddies = {
+	ownership_type = self
 	building_group = bg_subsistence_agriculture
-	texture = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
+	icon ="gfx/interface/icons/building_icons/building_subsistence_farm.dds"
 	production_method_groups = {
 		pmg_base_building_subsistence_rice_paddies
 		pmg_home_workshops_building_subsistence_rice_paddies

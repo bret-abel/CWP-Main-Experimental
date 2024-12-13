@@ -11,7 +11,7 @@ pm_canal_base = {
 		}
 		level_scaled = {
 			building_employment_administrators_add = 4000
-			building_employment_technicians_add = 5000
+			building_employment_engineers_add = 5000
 		}
 	}
 }
@@ -31,7 +31,7 @@ pm_canal_improved = {
 		}
 		level_scaled = {
 			building_employment_administrators_add = 2000
-			building_employment_technicians_add = 6000
+			building_employment_engineers_add = 6000
 			building_employment_engineers_add = 2000
 		}
 	}
@@ -51,8 +51,8 @@ pm_canal_advanced = {
 			goods_output_bonds_add = 150
 		}
 		level_scaled = {
-			building_employment_academics_add = 1000
-			building_employment_technicians_add = 2000
+			building_employment_engineers_add = 1000
+			building_employment_engineers_add = 2000
 			building_employment_engineers_add = 4000
 		}
 	}
@@ -73,8 +73,8 @@ pm_canal_automated = {
 			goods_output_bonds_add = 250
 		}
 		level_scaled = {
-			building_employment_academics_add = 2000
-			building_employment_technicians_add = 1000
+			building_employment_engineers_add = 2000
+			building_employment_engineers_add = 1000
 			building_employment_engineers_add = 5000
 		}
 	}
@@ -83,16 +83,16 @@ pm_canal_automated = {
 pm_canal_privately_owned = {
 	texture = "gfx/interface/icons/production_method_icons/government/canals.dds"
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_laissez_faire
-		law_traditionalism
-		#law_anti_industrialization
+		law_free_market
+		law_decentralization
+		law_anti_industrialization
 		law_interventionism
 	}
 	building_modifiers = {
@@ -111,14 +111,14 @@ pm_canal_publicly_traded = {
 		central_bank_independence
 	}
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_laissez_faire
+		law_free_market
 	}
 	building_modifiers = {
 		workforce_scaled = {
@@ -137,10 +137,10 @@ pm_canal_publicly_traded = {
 pm_canal_government_run = {
 	texture = "gfx/interface/icons/production_method_icons/government/canals.dds"
 	disallowing_laws = {
-		#law_no_nationalization
+		law_no_nationalization
 	}
 	unlocking_laws = {
-		law_command_economy
+		law_socialization
 	}
 	building_modifiers = {
 		level_scaled = {
@@ -155,19 +155,19 @@ pm_canal_government_run = {
 pm_canal_worker_cooperative = {
 	texture = "gfx/interface/icons/production_method_icons/canals.dds"
 	disallowing_laws = {
-		#law_total_nationalization
-		#law_heavy_industry_nationalization
-		#law_military_industry_nationalization
-		#law_resource_extraction_nationalization
-		#law_public_utility_companies
+		law_total_nationalization
+		law_heavy_industry_nationalization
+		law_military_industry_nationalization
+		law_resource_extraction_nationalization
+		law_public_utility_companies
 	}
 	unlocking_laws = {
-		law_command_economy
+		law_socialization
 		law_interventionism
 	}
 	building_modifiers = {
 		level_scaled = {
-			building_employment_service_workers_add = 2000
+			building_employment_clericals_add = 2000
 		}
 		unscaled = {
 			building_workforce_shares_add = 1
@@ -185,7 +185,7 @@ pm_canal_minor = {
 		}
 		level_scaled = {
 			building_employment_administrators_add = 500
-			building_employment_technicians_add = 500
+			building_employment_engineers_add = 500
 		}
 	}
 }
