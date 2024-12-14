@@ -1,8 +1,4 @@
-﻿var_readiness = {
-	value = 1
-}
-
-readiness = {
+﻿readiness = {
 	if = {
 		limit = {
 			exists = var:var_readiness
