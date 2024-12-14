@@ -63,11 +63,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:RUS"
 						levels = 4
-						region = "STATE_URAL"
 					}
 				}
 				reserves = 1
@@ -135,11 +133,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 5
-						region = "STATE_URAL"
 					}
 				}
 				reserves = 1
@@ -288,11 +284,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:RUS"
 						levels = 3
-						region = "STATE_TOMSK"
 					}
 				}
 				reserves = 1
@@ -305,11 +299,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 10
-						region = "STATE_TOMSK"
 					}
 				}
 				reserves = 1
@@ -606,11 +598,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:RUS"
 						levels = 1
-						region = "STATE_UPPER_YENISEYSK"
 					}
 				}
 				reserves = 1
@@ -642,11 +632,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:RUS"
 						levels = 1
-						region = "STATE_OB"
 					}
 				}
 				reserves = 1
@@ -718,11 +706,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:RUS"
 						levels = 1
-						region = "STATE_NENETSIA"
 					}
 				}
 				reserves = 1
@@ -799,11 +785,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 2
-						region = "STATE_OKHOTSK"
 					}
 				}
 				reserves = 1
@@ -872,11 +856,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:RUS"
 						levels = 1
-						region = "STATE_YAKUTSK"
 					}
 				}
 				reserves = 1
@@ -931,11 +913,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 6
-						region = "STATE_TRANS_BAIKAL"
 					}
 				}
 				reserves = 1
@@ -1058,11 +1038,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 7
-						region = "STATE_IRKUTSK"
 					}
 				}
 				reserves = 1

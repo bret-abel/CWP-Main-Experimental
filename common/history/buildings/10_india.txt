@@ -39,11 +39,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 25
-						region = "STATE_BIHAR"
 					}
 				}
 				reserves = 1
@@ -261,11 +259,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 10
-						region = "STATE_NORTH_BENGAL"
 					}
 				}
 				reserves = 1
@@ -381,11 +377,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 10
-						region = "STATE_ASSAM"
 					}
 				}
 				reserves = 1
@@ -519,11 +513,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 20
-						region = "STATE_HARYANA"
 					}
 				}
 				reserves = 1
@@ -591,11 +583,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 40
-						region = "STATE_UTTAR_PRADESH"
 					}
 				}
 				reserves = 1
@@ -712,11 +702,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 24
-						region = "STATE_GUJARAT"
 					}
 				}
 				reserves = 1
@@ -853,11 +841,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 20
-						region = "STATE_MADHYA_PRADESH"
 					}
 				}
 				reserves = 1
@@ -1007,11 +993,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 2
-						region = "STATE_KASHMIR"
 					}
 				}
 				reserves = 1
@@ -1096,11 +1080,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 20
-						region = "STATE_WEST_PUNJAB"
 					}
 				}
 				reserves = 1
@@ -1185,11 +1167,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 10
-						region = "STATE_CHHATTISGARH"
 					}
 				}
 				reserves = 1
@@ -1305,11 +1285,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 20
-						region = "STATE_SOUTH_BENGAL"
 					}
 				}
 				reserves = 1
@@ -1322,11 +1300,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:HND"
 						levels = 1
-						region = "STATE_SOUTH_BENGAL"
 					}
 				}
 				reserves = 1
@@ -1492,11 +1468,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 1
-						region = "STATE_SINDH"
 					}
 				}
 				reserves = 1
@@ -1524,11 +1498,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:HND"
 						levels = 5
-						region = "STATE_SINDH"
 					}
 				}
 				reserves = 1
@@ -1628,11 +1600,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 10
-						region = "STATE_RAJASTHAN"
 					}
 				}
 				reserves = 1
@@ -1716,11 +1686,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SRI"
 						levels = 2
-						region = "STATE_CEYLON"
 					}
 				}
 				reserves = 1
@@ -2748,11 +2716,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:FRA"
 						levels = 1
-						region = "STATE_INDIAN_OCEAN_TERRITORY"
 					}
 				}
 				reserves = 1
@@ -2795,11 +2761,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:FRA"
 						levels = 1
-						region = "STATE_INDIAN_OCEAN_TERRITORY"
 					}
 				}
 				reserves = 1
@@ -2831,11 +2795,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:FRA"
 						levels = 1
-						region = "STATE_INDIAN_OCEAN_TERRITORY"
 					}
 				}
 				reserves = 1
@@ -2867,11 +2829,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:GBR"
 						levels = 1
-						region = "STATE_INDIAN_OCEAN_TERRITORY"
 					}
 				}
 				reserves = 1
@@ -2934,11 +2894,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:GBR"
 						levels = 1
-						region = "STATE_INDIAN_OCEAN_TERRITORY"
 					}
 				}
 				reserves = 1
@@ -2968,11 +2926,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:GBR"
 						levels = 1
-						region = "STATE_INDIAN_OCEAN_TERRITORY"
 					}
 				}
 				reserves = 1
@@ -3076,11 +3032,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 10
-						region = "STATE_ODISHA"
 					}
 				}
 				reserves = 1
@@ -3093,11 +3047,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:HND"
 						levels = 3
-						region = "STATE_ODISHA"
 					}
 				}
 				reserves = 1
@@ -3212,11 +3164,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 16
-						region = "STATE_ANDHRA_PRADESH"
 					}
 				}
 				reserves = 1
@@ -3229,11 +3179,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:HND"
 						levels = 5
-						region = "STATE_ANDHRA_PRADESH"
 					}
 				}
 				reserves = 1
@@ -3348,11 +3296,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 16
-						region = "STATE_KARNATAKA"
 					}
 				}
 				reserves = 1
@@ -3469,11 +3415,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:POR"
 						levels = 5
-						region = "STATE_KARNATAKA"
 					}
 				}
 				reserves = 1
@@ -3521,11 +3465,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 10
-						region = "STATE_KERALA"
 					}
 				}
 				reserves = 1
@@ -3538,11 +3480,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:HND"
 						levels = 3
-						region = "STATE_KERALA"
 					}
 				}
 				reserves = 1
@@ -3624,11 +3564,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 18
-						region = "STATE_TAMIL_NADU"
 					}
 				}
 				reserves = 1
@@ -3641,11 +3579,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:HND"
 						levels = 1
-						region = "STATE_TAMIL_NADU"
 					}
 				}
 				reserves = 1
@@ -3744,11 +3680,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 18
-						region = "STATE_TELANGANA"
 					}
 				}
 				reserves = 1
@@ -3885,11 +3819,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 10
-						region = "STATE_MAHARASHTRA"
 					}
 				}
 				reserves = 1
@@ -3936,11 +3868,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:HND"
 						levels = 4
-						region = "STATE_MAHARASHTRA"
 					}
 				}
 				reserves = 1
@@ -3972,11 +3902,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 20
-						region = "STATE_WEST_BENGAL"
 					}
 				}
 				reserves = 1
@@ -3989,11 +3917,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:HND"
 						levels = 3
-						region = "STATE_WEST_BENGAL"
 					}
 				}
 				reserves = 1
@@ -4195,11 +4121,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 1
-						region = "STATE_PURVACHAL_PRADESH"
 					}
 				}
 				reserves = 1
@@ -4316,11 +4240,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 10
-						region = "STATE_HIMACHAL_PRADESH"
 					}
 				}
 				reserves = 1
@@ -4420,11 +4342,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HND"
 						levels = 10
-						region = "STATE_PUNJAB_E"
 					}
 				}
 				reserves = 1

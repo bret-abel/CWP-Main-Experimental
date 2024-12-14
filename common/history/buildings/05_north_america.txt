@@ -6,11 +6,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_CHESAPEAKE"
 					}
 				}
 				reserves = 1
@@ -125,11 +123,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_CHESAPEAKE"
 					}
 				}
 				reserves = 1
@@ -189,11 +185,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_CHESAPEAKE"
 					}
 				}
 				reserves = 1
@@ -337,11 +331,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 8
-						region = "STATE_LOUISIANA"
 					}
 				}
 				reserves = 1
@@ -370,11 +362,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 8
-						region = "STATE_LOUISIANA"
 					}
 				}
 				reserves = 1
@@ -558,11 +548,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_LOUISIANA"
 					}
 				}
 				reserves = 1
@@ -689,11 +677,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 75
-						region = "STATE_NEW_YORK"
 					}
 				}
 				reserves = 1
@@ -721,11 +707,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 12
-						region = "STATE_NEW_YORK"
 					}
 				}
 				reserves = 1
@@ -736,11 +720,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 20
-						region = "STATE_NEW_YORK"
 					}
 				}
 				reserves = 1
@@ -1143,11 +1125,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 8
-						region = "STATE_VIRGINIAS"
 					}
 				}
 				reserves = 1
@@ -1211,11 +1191,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 10
-						region = "STATE_VIRGINIAS"
 					}
 				}
 				reserves = 1
@@ -1471,11 +1449,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 1
-						region = "STATE_ALASKA"
 					}
 				}
 				reserves = 1
@@ -1631,11 +1607,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 8
-						region = "STATE_WASHINGTON"
 					}
 				}
 				reserves = 1
@@ -1698,11 +1672,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 8
-						region = "STATE_WASHINGTON"
 					}
 				}
 				reserves = 1
@@ -1788,11 +1760,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_WASHINGTON"
 					}
 				}
 				reserves = 1
@@ -1930,11 +1900,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 4
-						region = "STATE_OREGON"
 					}
 				}
 				reserves = 1
@@ -1980,11 +1948,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_OREGON"
 					}
 				}
 				reserves = 1
@@ -2081,11 +2047,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_OREGON"
 					}
 				}
 				reserves = 1
@@ -2190,11 +2154,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 6
-						region = "STATE_CANYON_STATES"
 					}
 				}
 				reserves = 1
@@ -2326,11 +2288,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_CANYON_STATES"
 					}
 				}
 				reserves = 1
@@ -2473,11 +2433,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_YELLOWSTONE_TERRITORY"
 					}
 				}
 				reserves = 1
@@ -2524,11 +2482,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 2
-						region = "STATE_YELLOWSTONE_TERRITORY"
 					}
 				}
 				reserves = 1
@@ -2686,11 +2642,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 1
-						region = "STATE_DAKOTAS"
 					}
 				}
 				reserves = 1
@@ -2703,11 +2657,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_DAKOTAS"
 					}
 				}
 				reserves = 1
@@ -2832,11 +2784,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 10
-						region = "STATE_GREAT_PLAINS"
 					}
 				}
 				reserves = 1
@@ -2913,11 +2863,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_GREAT_PLAINS"
 					}
 				}
 				reserves = 1
@@ -3075,11 +3023,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 10
-						region = "STATE_OZARK_PLATEAU"
 					}
 				}
 				reserves = 1
@@ -3235,11 +3181,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_OZARK_PLATEAU"
 					}
 				}
 				reserves = 1
@@ -3447,11 +3391,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 20
-						region = "STATE_MISSISSIPPI_VALLEY"
 					}
 				}
 				reserves = 1
@@ -3569,11 +3511,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 1
-						region = "STATE_MISSISSIPPI_VALLEY"
 					}
 				}
 				reserves = 1
@@ -3599,11 +3539,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_MISSISSIPPI_VALLEY"
 					}
 				}
 				reserves = 1
@@ -3767,11 +3705,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 4
-						region = "STATE_WISCONSIN"
 					}
 				}
 				reserves = 1
@@ -3889,11 +3825,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 4
-						region = "STATE_WISCONSIN"
 					}
 				}
 				reserves = 1
@@ -3919,11 +3853,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_WISCONSIN"
 					}
 				}
 				reserves = 1
@@ -4032,11 +3964,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 7
-						region = "STATE_INDIANA"
 					}
 				}
 				reserves = 1
@@ -4175,11 +4105,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 1
-						region = "STATE_INDIANA"
 					}
 				}
 				reserves = 1
@@ -4205,11 +4133,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_INDIANA"
 					}
 				}
 				reserves = 1
@@ -4301,11 +4227,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 9
-						region = "STATE_MICHIGAN"
 					}
 				}
 				reserves = 1
@@ -4443,11 +4367,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_MICHIGAN"
 					}
 				}
 				reserves = 1
@@ -4473,11 +4395,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_MICHIGAN"
 					}
 				}
 				reserves = 1
@@ -4586,11 +4506,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 10
-						region = "STATE_OHIO"
 					}
 				}
 				reserves = 1
@@ -4720,11 +4638,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_OHIO"
 					}
 				}
 				reserves = 1
@@ -4735,11 +4651,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_OHIO"
 					}
 				}
 				reserves = 1
@@ -4940,11 +4854,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 7
-						region = "STATE_CUMBERLAND_PLATEAU"
 					}
 				}
 				reserves = 1
@@ -5040,11 +4952,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_CUMBERLAND_PLATEAU"
 					}
 				}
 				reserves = 1
@@ -5239,11 +5149,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 2
-						region = "STATE_MISSISSIPPI"
 					}
 				}
 				reserves = 1
@@ -5360,11 +5268,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 1
-						region = "STATE_MISSISSIPPI"
 					}
 				}
 				reserves = 1
@@ -5390,11 +5296,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_MISSISSIPPI"
 					}
 				}
 				reserves = 1
@@ -5522,11 +5426,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 3
-						region = "STATE_ALABAMA"
 					}
 				}
 				reserves = 1
@@ -5643,11 +5545,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 1
-						region = "STATE_ALABAMA"
 					}
 				}
 				reserves = 1
@@ -5673,11 +5573,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_ALABAMA"
 					}
 				}
 				reserves = 1
@@ -5784,11 +5682,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 22
-						region = "STATE_FLORIDA"
 					}
 				}
 				reserves = 1
@@ -5834,11 +5730,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 9
-						region = "STATE_FLORIDA"
 					}
 				}
 				reserves = 1
@@ -6022,11 +5916,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_FLORIDA"
 					}
 				}
 				reserves = 1
@@ -6168,11 +6060,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 12
-						region = "STATE_GEORGIA"
 					}
 				}
 				reserves = 1
@@ -6342,11 +6232,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 1
-						region = "STATE_GEORGIA"
 					}
 				}
 				reserves = 1
@@ -6389,11 +6277,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_GEORGIA"
 					}
 				}
 				reserves = 1
@@ -6554,11 +6440,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 18
-						region = "STATE_KEYSTONE"
 					}
 				}
 				reserves = 1
@@ -6835,11 +6719,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_KEYSTONE"
 					}
 				}
 				reserves = 1
@@ -6867,11 +6749,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 2
-						region = "STATE_KEYSTONE"
 					}
 				}
 				reserves = 1
@@ -7055,11 +6935,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 32
-						region = "STATE_ILLINOIS"
 					}
 				}
 				reserves = 1
@@ -7250,11 +7128,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_ILLINOIS"
 					}
 				}
 				reserves = 1
@@ -7505,11 +7381,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 13
-						region = "STATE_NEW_ENGLAND"
 					}
 				}
 				reserves = 1
@@ -7522,11 +7396,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 12
-						region = "STATE_NEW_ENGLAND"
 					}
 				}
 				reserves = 1
@@ -7678,11 +7550,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_NEW_ENGLAND"
 					}
 				}
 				reserves = 1
@@ -7860,11 +7730,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 15
-						region = "STATE_CAROLINAS"
 					}
 				}
 				reserves = 1
@@ -7981,11 +7849,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_CAROLINAS"
 					}
 				}
 				reserves = 1
@@ -8013,11 +7879,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_CAROLINAS"
 					}
 				}
 				reserves = 1
@@ -8176,11 +8040,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_HAWAIIAN_ISLANDS"
 					}
 				}
 				reserves = 1
@@ -8225,11 +8087,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 1
-						region = "STATE_HAWAIIAN_ISLANDS"
 					}
 				}
 				reserves = 1
@@ -8242,11 +8102,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 1
-						region = "STATE_HAWAIIAN_ISLANDS"
 					}
 				}
 				reserves = 1
@@ -8504,11 +8362,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CAN"
 						levels = 10
-						region = "STATE_ONTARIO"
 					}
 				}
 				reserves = 1
@@ -8686,11 +8542,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:CAN"
 						levels = 2
-						region = "STATE_ONTARIO"
 					}
 				}
 				reserves = 1
@@ -8991,11 +8845,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CAN"
 						levels = 4
-						region = "STATE_NEW_BRUNSWICK"
 					}
 				}
 				reserves = 1
@@ -9008,11 +8860,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:CAN"
 						levels = 6
-						region = "STATE_NEW_BRUNSWICK"
 					}
 				}
 				reserves = 1
@@ -9507,11 +9357,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CAN"
 						levels = 8
-						region = "STATE_QUEBEC"
 					}
 				}
 				reserves = 1
@@ -9618,11 +9466,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:CAN"
 						levels = 4
-						region = "STATE_QUEBEC"
 					}
 				}
 				reserves = 1
@@ -9838,11 +9684,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:NEW"
 						levels = 1
-						region = "STATE_NEWFOUNDLAND"
 					}
 				}
 				reserves = 1
@@ -9855,11 +9699,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:FRA"
 						levels = 1
-						region = "STATE_NEWFOUNDLAND"
 					}
 				}
 				reserves = 1
@@ -9974,11 +9816,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CAN"
 						levels = 3
-						region = "STATE_ALBERTA"
 					}
 				}
 				reserves = 1
@@ -10368,11 +10208,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CAN"
 						levels = 5
-						region = "STATE_BRITISH_COLUMBIA"
 					}
 				}
 				reserves = 1
@@ -10421,11 +10259,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:CAN"
 						levels = 4
-						region = "STATE_BRITISH_COLUMBIA"
 					}
 				}
 				reserves = 1
@@ -10690,11 +10526,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CAN"
 						levels = 3
-						region = "STATE_SASKATCHEWAN"
 					}
 				}
 				reserves = 1
@@ -10884,11 +10718,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CAN"
 						levels = 3
-						region = "STATE_MANITOBA"
 					}
 				}
 				reserves = 1
@@ -11195,11 +11027,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:GBR"
 						levels = 1
-						region = "STATE_BERMUDA"
 					}
 				}
 				reserves = 1
@@ -11214,11 +11044,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 22
-						region = "STATE_TEXAS"
 					}
 				}
 				reserves = 1
@@ -11283,11 +11111,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 10
-						region = "STATE_TEXAS"
 					}
 				}
 				reserves = 1
@@ -11557,11 +11383,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_TEXAS"
 					}
 				}
 				reserves = 1
@@ -11708,11 +11532,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 2
-						region = "STATE_NEVADA"
 					}
 				}
 				reserves = 1
@@ -11994,11 +11816,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_ARIZONA"
 					}
 				}
 				reserves = 1
@@ -12080,11 +11900,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 6
-						region = "STATE_ARIZONA"
 					}
 				}
 				reserves = 1
@@ -12242,11 +12060,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 1
-						region = "STATE_NEW_MEXICO"
 					}
 				}
 				reserves = 1
@@ -12300,11 +12116,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:USA"
 						levels = 28
-						region = "STATE_CALIFORNIA"
 					}
 				}
 				reserves = 1
@@ -12368,11 +12182,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:USA"
 						levels = 10
-						region = "STATE_CALIFORNIA"
 					}
 				}
 				reserves = 1
@@ -12681,11 +12493,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:USA"
 						levels = 5
-						region = "STATE_CALIFORNIA"
 					}
 				}
 				reserves = 1
@@ -12892,11 +12702,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MEX"
 						levels = 2
-						region = "STATE_SONORA"
 					}
 				}
 				reserves = 1
@@ -13077,11 +12885,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:MEX"
 						levels = 5
-						region = "STATE_RIO_GRANDE"
 					}
 				}
 				reserves = 1
@@ -13146,11 +12952,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MEX"
 						levels = 4
-						region = "STATE_RIO_GRANDE"
 					}
 				}
 				reserves = 1
@@ -13528,11 +13332,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:MEX"
 						levels = 5
-						region = "STATE_BAJIO"
 					}
 				}
 				reserves = 1
@@ -14015,11 +13817,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:MEX"
 						levels = 15
-						region = "STATE_MEXICO"
 					}
 				}
 				reserves = 1
@@ -14181,11 +13981,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:MEX"
 						levels = 2
-						region = "STATE_MEXICO"
 					}
 				}
 				reserves = 1
@@ -14702,11 +14500,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MEX"
 						levels = 4
-						region = "STATE_VERACRUZ"
 					}
 				}
 				reserves = 1
@@ -15078,11 +14874,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MEX"
 						levels = 2
-						region = "STATE_OAXACA"
 					}
 				}
 				reserves = 1
@@ -15170,11 +14964,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:MEX"
 						levels = 5
-						region = "STATE_JALISCO"
 					}
 				}
 				reserves = 1
@@ -15286,11 +15078,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MEX"
 						levels = 4
-						region = "STATE_JALISCO"
 					}
 				}
 				reserves = 1
@@ -15523,11 +15313,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:MEX"
 						levels = 1
-						region = "STATE_CHIAPAS"
 					}
 				}
 				reserves = 1
@@ -15702,11 +15490,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MEX"
 						levels = 2
-						region = "STATE_BAJA_CALIFORNIA"
 					}
 				}
 				reserves = 1

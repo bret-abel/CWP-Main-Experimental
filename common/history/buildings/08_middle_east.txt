@@ -61,11 +61,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:OMA"
 						levels = 1
-						region = "STATE_OMAN"
 					}
 				}
 				reserves = 1
@@ -129,11 +127,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ABU"
 						levels = 1
-						region = "STATE_ABU_DHABI"
 					}
 				}
 				reserves = 1
@@ -164,11 +160,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:QAT"
 						levels = 1
-						region = "STATE_ABU_DHABI"
 					}
 				}
 				reserves = 1
@@ -199,11 +193,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:BHN"
 						levels = 1
-						region = "STATE_ABU_DHABI"
 					}
 				}
 				reserves = 1
@@ -234,11 +226,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:OMA"
 						levels = 1
-						region = "STATE_ABU_DHABI"
 					}
 				}
 				reserves = 1
@@ -323,11 +313,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ADE"
 						levels = 1
-						region = "STATE_YEMEN"
 					}
 				}
 				reserves = 1
@@ -358,8 +346,7 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_HAIL = {
-		region_state:NEJ = {
-		}
+		region_state:NEJ
 	}
 	s:STATE_CYPRUS = {
 		region_state:CYP = {
@@ -399,11 +386,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:CYP"
 						levels = 1
-						region = "STATE_CYPRUS"
 					}
 				}
 				reserves = 1
@@ -505,11 +490,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:PAL"
 						levels = 1
-						region = "STATE_PALESTINE"
 					}
 				}
 				reserves = 1
@@ -649,11 +632,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SYR"
 						levels = 3
-						region = "STATE_ALEPPO"
 					}
 				}
 				reserves = 1
@@ -839,11 +820,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:SYR"
 						levels = 1
-						region = "STATE_ALEPPO"
 					}
 				}
 				reserves = 1
@@ -970,11 +949,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:IRQ"
 						levels = 3
-						region = "STATE_BAGHDAD"
 					}
 				}
 				reserves = 1
@@ -1132,11 +1109,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:KUW"
 						levels = 1
-						region = "STATE_BASRA"
 					}
 				}
 				reserves = 1
@@ -1168,11 +1143,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:PER"
 						levels = 4
-						region = "STATE_FARS"
 					}
 				}
 				reserves = 1
@@ -1268,11 +1241,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:PER"
 						levels = 1
-						region = "STATE_FARS"
 					}
 				}
 				reserves = 1
@@ -1306,11 +1277,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:PER"
 						levels = 2
-						region = "STATE_LARISTAN"
 					}
 				}
 				reserves = 1
@@ -1388,11 +1357,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:PER"
 						levels = 2
-						region = "STATE_LARISTAN"
 					}
 				}
 				reserves = 1
@@ -1426,11 +1393,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:PER"
 						levels = 2
-						region = "STATE_SISTAN"
 					}
 				}
 				reserves = 1
@@ -1474,11 +1439,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:PER"
 						levels = 2
-						region = "STATE_SISTAN"
 					}
 				}
 				reserves = 1
@@ -1578,11 +1541,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:PER"
 						levels = 1
-						region = "STATE_KHORASAN"
 					}
 				}
 				reserves = 1
@@ -1616,11 +1577,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:PER"
 						levels = 2
-						region = "STATE_KHUZESTAN"
 					}
 				}
 				reserves = 1
@@ -1697,11 +1656,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:PER"
 						levels = 1
-						region = "STATE_KHUZESTAN"
 					}
 				}
 				reserves = 1
@@ -1821,11 +1778,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:PER"
 						levels = 1
-						region = "STATE_ISFAHAN"
 					}
 				}
 				reserves = 1
@@ -1961,11 +1916,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:PER"
 						levels = 1
-						region = "STATE_MAZANDARAN"
 					}
 				}
 				reserves = 1
@@ -2190,11 +2143,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:PER"
 						levels = 2
-						region = "STATE_IRAKAJEMI"
 					}
 				}
 				reserves = 1
@@ -2207,11 +2158,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:PER"
 						levels = 5
-						region = "STATE_IRAKAJEMI"
 					}
 				}
 				reserves = 1
@@ -2410,11 +2359,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:PER"
 						levels = 1
-						region = "STATE_LURISTAN"
 					}
 				}
 				reserves = 1
@@ -2657,11 +2604,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:TUR"
 						levels = 1
-						region = "STATE_BURSA"
 					}
 				}
 				reserves = 1
@@ -2730,11 +2675,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:TUR"
 						levels = 1
-						region = "STATE_AYDIN"
 					}
 				}
 				reserves = 1
@@ -2868,11 +2811,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:TUR"
 						levels = 1
-						region = "STATE_AYDIN"
 					}
 				}
 				reserves = 1
@@ -3131,11 +3072,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:TUR"
 						levels = 1
-						region = "STATE_KONYA"
 					}
 				}
 				reserves = 1
@@ -3270,11 +3209,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:TUR"
 						levels = 1
-						region = "STATE_KASTAMONU"
 					}
 				}
 				reserves = 1
@@ -3530,11 +3467,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:TUR"
 						levels = 1
-						region = "STATE_ADANA"
 					}
 				}
 				reserves = 1
@@ -3760,11 +3695,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:TUR"
 						levels = 17
-						region = "STATE_ANKARA"
 					}
 				}
 				reserves = 1

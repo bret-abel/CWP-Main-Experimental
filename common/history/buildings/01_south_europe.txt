@@ -6,11 +6,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:ITA"
 						levels = 2
-						region = "STATE_LOMBARDY"
 					}
 				}
 				reserves = 1
@@ -197,11 +195,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_LOMBARDY"
 					}
 				}
 				reserves = 1
@@ -604,11 +600,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 4
-						region = "STATE_PIEDMONT"
 					}
 				}
 				reserves = 1
@@ -619,11 +613,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_PIEDMONT"
 					}
 				}
 				reserves = 1
@@ -712,11 +704,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:ITA"
 						levels = 2
-						region = "STATE_PIEDMONT"
 					}
 				}
 				reserves = 1
@@ -982,11 +972,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 1
-						region = "STATE_SARDINIA"
 					}
 				}
 				reserves = 1
@@ -997,11 +985,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_SARDINIA"
 					}
 				}
 				reserves = 1
@@ -1195,11 +1181,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MLT"
 						levels = 2
-						region = "STATE_MALTA"
 					}
 				}
 				reserves = 1
@@ -1313,11 +1297,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 2
-						region = "STATE_UMBRIA"
 					}
 				}
 				reserves = 1
@@ -1328,11 +1310,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_UMBRIA"
 					}
 				}
 				reserves = 1
@@ -1529,11 +1509,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:FRA"
 						levels = 1
-						region = "STATE_CORSICA"
 					}
 				}
 				reserves = 1
@@ -1684,11 +1662,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 1
-						region = "STATE_CAMPANIA"
 					}
 				}
 				reserves = 1
@@ -1699,11 +1675,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 2
-						region = "STATE_CAMPANIA"
 					}
 				}
 				reserves = 1
@@ -1773,11 +1747,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:ITA"
 						levels = 2
-						region = "STATE_CAMPANIA"
 					}
 				}
 				reserves = 1
@@ -1998,11 +1970,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 2
-						region = "STATE_CALABRIA"
 					}
 				}
 				reserves = 1
@@ -2013,11 +1983,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_CALABRIA"
 					}
 				}
 				reserves = 1
@@ -2319,11 +2287,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 1
-						region = "STATE_APULIA"
 					}
 				}
 				reserves = 1
@@ -2334,11 +2300,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_APULIA"
 					}
 				}
 				reserves = 1
@@ -2530,11 +2494,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 1
-						region = "STATE_ABRUZZO"
 					}
 				}
 				reserves = 1
@@ -2545,11 +2507,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_ABRUZZO"
 					}
 				}
 				reserves = 1
@@ -2869,11 +2829,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 4
-						region = "STATE_EMILIA"
 					}
 				}
 				reserves = 1
@@ -2920,11 +2878,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_EMILIA"
 					}
 				}
 				reserves = 1
@@ -2992,11 +2948,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:ITA"
 						levels = 1
-						region = "STATE_EMILIA"
 					}
 				}
 				reserves = 1
@@ -3187,11 +3141,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 2
-						region = "STATE_TUSCANY"
 					}
 				}
 				reserves = 1
@@ -3202,11 +3154,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_TUSCANY"
 					}
 				}
 				reserves = 1
@@ -3258,11 +3208,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:ITA"
 						levels = 1
-						region = "STATE_TUSCANY"
 					}
 				}
 				reserves = 1
@@ -3496,11 +3444,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 1
-						region = "STATE_ROMAGNA"
 					}
 				}
 				reserves = 1
@@ -3529,11 +3475,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_ROMAGNA"
 					}
 				}
 				reserves = 1
@@ -3585,11 +3529,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:ITA"
 						levels = 1
-						region = "STATE_ROMAGNA"
 					}
 				}
 				reserves = 1
@@ -3763,11 +3705,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_LAZIO"
 					}
 				}
 				reserves = 1
@@ -3844,11 +3784,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 4
-						region = "STATE_LAZIO"
 					}
 				}
 				reserves = 1
@@ -3952,11 +3890,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 32
-						region = "STATE_LAZIO"
 					}
 				}
 				reserves = 1
@@ -4236,11 +4172,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 4
-						region = "STATE_VENETIA"
 					}
 				}
 				reserves = 1
@@ -4270,11 +4204,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_VENETIA"
 					}
 				}
 				reserves = 1
@@ -4435,11 +4367,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:ITA"
 						levels = 3
-						region = "STATE_VENETIA"
 					}
 				}
 				reserves = 1
@@ -4696,11 +4626,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 2
-						region = "STATE_SICILY"
 					}
 				}
 				reserves = 1
@@ -4711,11 +4639,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 5
-						region = "STATE_SICILY"
 					}
 				}
 				reserves = 1
@@ -5069,11 +4995,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SPA"
 						levels = 10
-						region = "STATE_SOUTH_CASTILE"
 					}
 				}
 				reserves = 1
@@ -5086,11 +5010,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:SPA"
 						levels = 2
-						region = "STATE_SOUTH_CASTILE"
 					}
 				}
 				reserves = 1
@@ -5197,11 +5119,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_GALICIA"
 					}
 				}
 				reserves = 1
@@ -5468,11 +5388,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_ASTURIAS"
 					}
 				}
 				reserves = 1
@@ -5487,11 +5405,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SPA"
 						levels = 4
-						region = "STATE_CASTILE"
 					}
 				}
 				reserves = 1
@@ -5680,11 +5596,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_NAVARRA"
 					}
 				}
 				reserves = 1
@@ -5912,11 +5826,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SPA"
 						levels = 4
-						region = "STATE_ARAGON"
 					}
 				}
 				reserves = 1
@@ -6127,11 +6039,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_CATALONIA"
 					}
 				}
 				reserves = 1
@@ -6285,11 +6195,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:SPA"
 						levels = 2
-						region = "STATE_CATALONIA"
 					}
 				}
 				reserves = 1
@@ -6302,11 +6210,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SPA"
 						levels = 10
-						region = "STATE_CATALONIA"
 					}
 				}
 				reserves = 1
@@ -6377,11 +6283,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_BALEARES"
 					}
 				}
 				reserves = 1
@@ -6657,11 +6561,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_ANDALUSIA"
 					}
 				}
 				reserves = 1
@@ -6781,11 +6683,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_ANDALUSIA"
 					}
 				}
 				reserves = 1
@@ -6798,11 +6698,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SPA"
 						levels = 3
-						region = "STATE_ANDALUSIA"
 					}
 				}
 				reserves = 1
@@ -6817,11 +6715,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:GBR"
 						levels = 1
-						region = "STATE_ANDALUSIA"
 					}
 				}
 				reserves = 1
@@ -7043,11 +6939,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_VALENCIA"
 					}
 				}
 				reserves = 1
@@ -7130,11 +7024,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:SPA"
 						levels = 2
-						region = "STATE_VALENCIA"
 					}
 				}
 				reserves = 1
@@ -7147,11 +7039,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SPA"
 						levels = 8
-						region = "STATE_VALENCIA"
 					}
 				}
 				reserves = 1
@@ -7221,11 +7111,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:POR"
 						levels = 1
-						region = "STATE_BEIRA"
 					}
 				}
 				reserves = 1
@@ -7251,11 +7139,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:POR"
 						levels = 5
-						region = "STATE_BEIRA"
 					}
 				}
 				reserves = 1
@@ -7427,11 +7313,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:POR"
 						levels = 2
-						region = "STATE_BEIRA"
 					}
 				}
 				reserves = 1
@@ -7502,11 +7386,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:POR"
 						levels = 1
-						region = "STATE_ESTREMADURA"
 					}
 				}
 				reserves = 1
@@ -7532,11 +7414,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:POR"
 						levels = 17
-						region = "STATE_ESTREMADURA"
 					}
 				}
 				reserves = 1
@@ -7855,11 +7735,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:POR"
 						levels = 8
-						region = "STATE_ESTREMADURA"
 					}
 				}
 				reserves = 1
@@ -7893,11 +7771,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:POR"
 						levels = 1
-						region = "STATE_ALENTEJO"
 					}
 				}
 				reserves = 1
@@ -7990,11 +7866,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:POR"
 						levels = 5
-						region = "STATE_ALENTEJO"
 					}
 				}
 				reserves = 1
@@ -8171,11 +8045,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:POR"
 						levels = 2
-						region = "STATE_ALENTEJO"
 					}
 				}
 				reserves = 1
@@ -8192,11 +8064,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:POR"
 						levels = 1
-						region = "STATE_CAPE_VERDE"
 					}
 				}
 				reserves = 1
@@ -8245,11 +8115,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_CANARY_ISLANDS"
 					}
 				}
 				reserves = 1
@@ -8298,11 +8166,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:POR"
 						levels = 1
-						region = "STATE_AZORES"
 					}
 				}
 				reserves = 1
@@ -8351,11 +8217,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:POR"
 						levels = 1
-						region = "STATE_MADEIRA"
 					}
 				}
 				reserves = 1
@@ -8370,11 +8234,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:TUR"
 						levels = 10
-						region = "STATE_EASTERN_THRACE"
 					}
 				}
 				reserves = 1
@@ -8487,11 +8349,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:TUR"
 						levels = 2
-						region = "STATE_EASTERN_THRACE"
 					}
 				}
 				reserves = 1
@@ -8852,11 +8712,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ALB"
 						levels = 2
-						region = "STATE_ALBANIA"
 					}
 				}
 				reserves = 1
@@ -8964,11 +8822,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ALB"
 						levels = 1
-						region = "STATE_ALBANIA"
 					}
 				}
 				reserves = 1
@@ -9002,11 +8858,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:YUG"
 						levels = 4
-						region = "STATE_BOSNIA"
 					}
 				}
 				reserves = 1
@@ -9198,11 +9052,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:BUL"
 						levels = 3
-						region = "STATE_NORTHERN_THRACE"
 					}
 				}
 				reserves = 1
@@ -9351,11 +9203,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:BUL"
 						levels = 1
-						region = "STATE_NORTHERN_THRACE"
 					}
 				}
 				reserves = 1
@@ -9403,11 +9253,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:BUL"
 						levels = 5
-						region = "STATE_BULGARIA"
 					}
 				}
 				reserves = 1
@@ -9452,11 +9300,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:BUL"
 						levels = 1
-						region = "STATE_BULGARIA"
 					}
 				}
 				reserves = 1
@@ -9618,11 +9464,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:YUG"
 						levels = 1
-						region = "STATE_SLOVENIA"
 					}
 				}
 				reserves = 1
@@ -9690,11 +9534,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:YUG"
 						levels = 2
-						region = "STATE_DALMATIA"
 					}
 				}
 				reserves = 1
@@ -9793,11 +9635,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:YUG"
 						levels = 3
-						region = "STATE_DALMATIA"
 					}
 				}
 				reserves = 1
@@ -9812,11 +9652,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:YUG"
 						levels = 3
-						region = "STATE_CROATIA"
 					}
 				}
 				reserves = 1
@@ -9914,11 +9752,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:YUG"
 						levels = 2
-						region = "STATE_CROATIA"
 					}
 				}
 				reserves = 1
@@ -9933,11 +9769,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:YUG"
 						levels = 1
-						region = "STATE_SLAVONIA"
 					}
 				}
 				reserves = 1
@@ -10022,11 +9856,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ITA"
 						levels = 1
-						region = "STATE_ISTRIA"
 					}
 				}
 				reserves = 1
@@ -10073,11 +9905,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:ITA"
 						levels = 1
-						region = "STATE_ISTRIA"
 					}
 				}
 				reserves = 1
@@ -10092,11 +9922,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:YUG"
 						levels = 1
-						region = "STATE_MONTENEGRO"
 					}
 				}
 				reserves = 1
@@ -10178,11 +10006,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:YUG"
 						levels = 8
-						region = "STATE_SOUTHERN_SERBIA"
 					}
 				}
 				reserves = 1
@@ -10366,11 +10192,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:YUG"
 						levels = 1
-						region = "STATE_SOUTHERN_SERBIA"
 					}
 				}
 				reserves = 1
@@ -10463,11 +10287,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:YUG"
 						levels = 3
-						region = "STATE_KOSOVO"
 					}
 				}
 				reserves = 1
@@ -10652,27 +10474,22 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_CRETE = {
-		region_state:GRE = {
-		}
+		region_state:GRE
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
-		region_state:GRE = {
-		}
+		region_state:GRE
 	}
 	s:STATE_EAST_AEGEAN_ISLANDS = {
-		region_state:GRE = {
-		}
+		region_state:GRE
 	}
 	s:STATE_ATTICA = {
 		region_state:GRE = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:GRE"
 						levels = 7
-						region = "STATE_ATTICA"
 					}
 				}
 				reserves = 1
@@ -10719,11 +10536,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:GRE"
 						levels = 2
-						region = "STATE_ATTICA"
 					}
 				}
 				reserves = 1
@@ -10899,11 +10714,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:GRE"
 						levels = 2
-						region = "STATE_THESSALIA"
 					}
 				}
 				reserves = 1
@@ -10932,11 +10745,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:GRE"
 						levels = 1
-						region = "STATE_THESSALIA"
 					}
 				}
 				reserves = 1
@@ -11003,11 +10814,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:YUG"
 						levels = 3
-						region = "STATE_SKOPIA"
 					}
 				}
 				reserves = 1
@@ -11109,11 +10918,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:GRE"
 						levels = 3
-						region = "STATE_MACEDONIA"
 					}
 				}
 				reserves = 1
@@ -11142,11 +10949,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:GRE"
 						levels = 1
-						region = "STATE_MACEDONIA"
 					}
 				}
 				reserves = 1

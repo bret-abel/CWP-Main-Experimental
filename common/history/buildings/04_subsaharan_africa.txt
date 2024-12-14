@@ -6,11 +6,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:WAU"
 						levels = 1
-						region = "STATE_IVORY_COAST"
 					}
 				}
 				reserves = 1
@@ -55,11 +53,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:WAU"
 						levels = 1
-						region = "STATE_IVORY_COAST"
 					}
 				}
 				reserves = 1
@@ -93,11 +89,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:WAU"
 						levels = 2
-						region = "STATE_WINDWARD_COAST"
 					}
 				}
 				reserves = 1
@@ -176,11 +170,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:WAU"
 						levels = 1
-						region = "STATE_WINDWARD_COAST"
 					}
 				}
 				reserves = 1
@@ -197,11 +189,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:WAU"
 						levels = 2
-						region = "STATE_SENEGAL"
 					}
 				}
 				reserves = 1
@@ -346,11 +336,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:WAU"
 						levels = 4
-						region = "STATE_SENEGAL"
 					}
 				}
 				reserves = 1
@@ -367,11 +355,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:GNB"
 						levels = 1
-						region = "STATE_GAMBIA"
 					}
 				}
 				reserves = 1
@@ -401,11 +387,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:GAM"
 						levels = 2
-						region = "STATE_GAMBIA"
 					}
 				}
 				reserves = 1
@@ -455,11 +439,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SIL"
 						levels = 2
-						region = "STATE_SIERRA_LEONE"
 					}
 				}
 				reserves = 1
@@ -487,11 +469,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SIL"
 						levels = 1
-						region = "STATE_SIERRA_LEONE"
 					}
 				}
 				reserves = 1
@@ -525,11 +505,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:WAU"
 						levels = 5
-						region = "STATE_VOLTA"
 					}
 				}
 				reserves = 1
@@ -647,11 +625,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:LIB"
 						levels = 2
-						region = "STATE_LIBERIA"
 					}
 				}
 				reserves = 1
@@ -662,11 +638,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:LIB"
 						levels = 1
-						region = "STATE_LIBERIA"
 					}
 				}
 				reserves = 1
@@ -733,11 +707,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SOK"
 						levels = 4
-						region = "STATE_HAUSALAND"
 					}
 				}
 				reserves = 1
@@ -788,11 +760,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SOK"
 						levels = 5
-						region = "STATE_BENIN"
 					}
 				}
 				reserves = 1
@@ -856,11 +826,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SOK"
 						levels = 2
-						region = "STATE_BENIN"
 					}
 				}
 				reserves = 1
@@ -942,11 +910,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SOK"
 						levels = 8
-						region = "STATE_YORUBA_STATES"
 					}
 				}
 				reserves = 1
@@ -993,11 +959,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SOK"
 						levels = 4
-						region = "STATE_YORUBA_STATES"
 					}
 				}
 				reserves = 1
@@ -1130,11 +1094,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SOK"
 						levels = 4
-						region = "STATE_NIGER_DELTA"
 					}
 				}
 				reserves = 1
@@ -1147,11 +1109,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SOK"
 						levels = 2
-						region = "STATE_NIGER_DELTA"
 					}
 				}
 				reserves = 1
@@ -1349,11 +1309,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:WAU"
 						levels = 2
-						region = "STATE_OUTER_HAUSALAND"
 					}
 				}
 				reserves = 1
@@ -1408,11 +1366,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SOK"
 						levels = 6
-						region = "STATE_NIGERIA"
 					}
 				}
 				reserves = 1
@@ -1562,11 +1518,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SOK"
 						levels = 3
-						region = "STATE_EAST_HAUSALAND"
 					}
 				}
 				reserves = 1
@@ -1719,11 +1673,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:WAU"
 						levels = 2
-						region = "STATE_GUINEA"
 					}
 				}
 				reserves = 1
@@ -1833,11 +1785,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:WAU"
 						levels = 4
-						region = "STATE_GUINEA"
 					}
 				}
 				reserves = 1
@@ -1955,11 +1905,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:GLC"
 						levels = 5
-						region = "STATE_GHANA"
 					}
 				}
 				reserves = 1
@@ -1972,11 +1920,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:GLC"
 						levels = 2
-						region = "STATE_GHANA"
 					}
 				}
 				reserves = 1
@@ -2131,11 +2077,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:WAU"
 						levels = 1
-						region = "STATE_DAHOMEY"
 					}
 				}
 				reserves = 1
@@ -2322,11 +2266,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:TNZ"
 						levels = 1
-						region = "STATE_LINDI"
 					}
 				}
 				reserves = 1
@@ -2410,11 +2352,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:TNZ"
 						levels = 4
-						region = "STATE_ZANZIBAR"
 					}
 				}
 				reserves = 1
@@ -2442,11 +2382,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:TNZ"
 						levels = 8
-						region = "STATE_ZANZIBAR"
 					}
 				}
 				reserves = 1
@@ -2493,8 +2431,7 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:ZZB = {
-		}
+		region_state:ZZB
 	}
 	s:STATE_TANGANYIKA = {
 		region_state:TNZ = {
@@ -2668,11 +2605,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:TNZ"
 						levels = 1
-						region = "STATE_TANGANYIKA"
 					}
 				}
 				reserves = 1
@@ -2683,8 +2618,7 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:RWD = {
-		}
+		region_state:RWD
 	}
 	s:STATE_KENYA = {
 		region_state:KKY = {
@@ -2740,11 +2674,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:KKY"
 						levels = 4
-						region = "STATE_KENYA"
 					}
 				}
 				reserves = 1
@@ -2805,11 +2737,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:KKY"
 						levels = 5
-						region = "STATE_KENYA"
 					}
 				}
 				reserves = 1
@@ -2945,11 +2875,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:KKY"
 						levels = 2
-						region = "STATE_RIFT_VALLEY"
 					}
 				}
 				reserves = 1
@@ -2980,16 +2908,13 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_OROMIA = {
-		region_state:ETH = {
-		}
+		region_state:ETH
 	}
 	s:STATE_AMHARA = {
-		region_state:ETH = {
-		}
+		region_state:ETH
 	}
 	s:STATE_GONDER = {
-		region_state:ETH = {
-		}
+		region_state:ETH
 	}
 	s:STATE_KAZEMBE = {
 		region_state:LZO = {
@@ -3097,11 +3022,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:LZO"
 						levels = 1
-						region = "STATE_KAZEMBE"
 					}
 				}
 				reserves = 1
@@ -3112,19 +3035,16 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:BMB = {
-		}
+		region_state:BMB
 	}
 	s:STATE_SOMALILAND = {
 		region_state:SLL = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SLL"
 						levels = 1
-						region = "STATE_SOMALILAND"
 					}
 				}
 				reserves = 1
@@ -3137,11 +3057,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SML"
 						levels = 1
-						region = "STATE_SOMALILAND"
 					}
 				}
 				reserves = 1
@@ -3173,11 +3091,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MGS"
 						levels = 2
-						region = "STATE_SOUTH_MADAGASCAR"
 					}
 				}
 				reserves = 1
@@ -3209,11 +3125,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MGS"
 						levels = 1
-						region = "STATE_NORTH_MADAGASCAR"
 					}
 				}
 				reserves = 1
@@ -3381,21 +3295,17 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_EQUATORIA = {
-		region_state:SDN = {
-		}
+		region_state:SDN
 	}
 	s:STATE_GUINEA_ISLANDS = {
-		region_state:POR = {
-		}
+		region_state:POR
 		region_state:SPA = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_GUINEA_ISLANDS"
 					}
 				}
 				reserves = 1
@@ -3511,11 +3421,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:MKU"
 						levels = 1
-						region = "STATE_MOCAMBIQUE"
 					}
 				}
 				reserves = 1
@@ -3526,8 +3434,7 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:BMB = {
-		}
+		region_state:BMB
 	}
 	s:STATE_WADDAI = {
 		region_state:EQA = {
@@ -3583,11 +3490,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:EQA"
 						levels = 4
-						region = "STATE_WADDAI"
 					}
 				}
 				reserves = 1
@@ -3706,11 +3611,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:DLA"
 						levels = 1
-						region = "STATE_NORTH_CAMEROON"
 					}
 				}
 				reserves = 1
@@ -3744,11 +3647,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:DLA"
 						levels = 1
-						region = "STATE_SOUTH_CAMEROON"
 					}
 				}
 				reserves = 1
@@ -3825,11 +3726,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:DLA"
 						levels = 1
-						region = "STATE_SOUTH_CAMEROON"
 					}
 				}
 				reserves = 1
@@ -3900,11 +3799,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:EQA"
 						levels = 1
-						region = "STATE_CONGO"
 					}
 				}
 				reserves = 1
@@ -3966,11 +3863,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:OVM"
 						levels = 1
-						region = "STATE_CONGO"
 					}
 				}
 				reserves = 1
@@ -3985,11 +3880,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CNG"
 						levels = 2
-						region = "STATE_CONGO_ORIENTALE"
 					}
 				}
 				reserves = 1
@@ -4073,11 +3966,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CNG"
 						levels = 1
-						region = "STATE_KASAI"
 					}
 				}
 				reserves = 1
@@ -4230,11 +4121,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CNG"
 						levels = 6
-						region = "STATE_BAS_CONGO"
 					}
 				}
 				reserves = 1
@@ -4247,11 +4136,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:CNG"
 						levels = 4
-						region = "STATE_BAS_CONGO"
 					}
 				}
 				reserves = 1
@@ -4403,11 +4290,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CNG"
 						levels = 1
-						region = "STATE_EQUATEUR"
 					}
 				}
 				reserves = 1
@@ -4644,11 +4529,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:OVM"
 						levels = 4
-						region = "STATE_NORTH_ANGOLA"
 					}
 				}
 				reserves = 1
@@ -4659,11 +4542,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:OVM"
 						levels = 4
-						region = "STATE_NORTH_ANGOLA"
 					}
 				}
 				reserves = 1
@@ -4781,11 +4662,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:OVM"
 						levels = 1
-						region = "STATE_SOUTH_ANGOLA"
 					}
 				}
 				reserves = 1
@@ -4920,11 +4799,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:OVM"
 						levels = 1
-						region = "STATE_EAST_ANGOLA"
 					}
 				}
 				reserves = 1
@@ -4941,11 +4818,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:CNG"
 						levels = 1
-						region = "STATE_KATANGA"
 					}
 				}
 				reserves = 1
@@ -5030,11 +4905,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:EQA"
 						levels = 2
-						region = "STATE_GABON"
 					}
 				}
 				reserves = 1
@@ -5097,11 +4970,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SPA"
 						levels = 1
-						region = "STATE_GABON"
 					}
 				}
 				reserves = 1
@@ -5318,11 +5189,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:LZO"
 						levels = 3
-						region = "STATE_ZAMBIA"
 					}
 				}
 				reserves = 1
@@ -5440,11 +5309,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MKU"
 						levels = 4
-						region = "STATE_ZAMBEZIA"
 					}
 				}
 				reserves = 1
@@ -5455,11 +5322,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:MKU"
 						levels = 1
-						region = "STATE_ZAMBEZIA"
 					}
 				}
 				reserves = 1
@@ -5592,11 +5457,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:MTB"
 						levels = 3
-						region = "STATE_ZAMBEZI"
 					}
 				}
 				reserves = 1
@@ -5613,11 +5476,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:NAM"
 						levels = 1
-						region = "STATE_NAMAQUALAND"
 					}
 				}
 				reserves = 1
@@ -5739,11 +5600,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SAF"
 						levels = 2
-						region = "STATE_ZULULAND"
 					}
 				}
 				reserves = 1
@@ -5789,11 +5648,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SAF"
 						levels = 2
-						region = "STATE_ZULULAND"
 					}
 				}
 				reserves = 1
@@ -6000,11 +5857,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SAF"
 						levels = 2
-						region = "STATE_VRYSTAAT"
 					}
 				}
 				reserves = 1
@@ -6263,11 +6118,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SAF"
 						levels = 12
-						region = "STATE_TRANSVAAL"
 					}
 				}
 				reserves = 1
@@ -6403,8 +6256,7 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:ESW = {
-		}
+		region_state:ESW
 	}
 	s:STATE_EASTERN_CAPE = {
 		region_state:SAF = {
@@ -6430,11 +6282,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SAF"
 						levels = 5
-						region = "STATE_EASTERN_CAPE"
 					}
 				}
 				reserves = 1
@@ -6534,11 +6384,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SAF"
 						levels = 10
-						region = "STATE_EASTERN_CAPE"
 					}
 				}
 				reserves = 1
@@ -6678,11 +6526,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:SAF"
 						levels = 8
-						region = "STATE_CAPE_COLONY"
 					}
 				}
 				reserves = 1
@@ -6851,11 +6697,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SAF"
 						levels = 10
-						region = "STATE_CAPE_COLONY"
 					}
 				}
 				reserves = 1
@@ -6942,11 +6786,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:SAF"
 						levels = 2
-						region = "STATE_NORTHERN_CAPE"
 					}
 				}
 				reserves = 1
@@ -7222,11 +7064,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:MKU"
 						levels = 4
-						region = "STATE_LOURENCO_MARQUES"
 					}
 				}
 				reserves = 1
@@ -7237,11 +7077,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:MKU"
 						levels = 4
-						region = "STATE_LOURENCO_MARQUES"
 					}
 				}
 				reserves = 1
@@ -7258,11 +7096,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:GBR"
 						levels = 1
-						region = "STATE_SAINT_HELENA"
 					}
 				}
 				reserves = 1

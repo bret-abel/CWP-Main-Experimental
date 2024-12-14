@@ -24,11 +24,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:AST"
 						levels = 4
-						region = "STATE_NEW_SOUTH_WALES"
 					}
 				}
 				reserves = 1
@@ -296,11 +294,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:AST"
 						levels = 12
-						region = "STATE_NEW_SOUTH_WALES"
 					}
 				}
 				reserves = 1
@@ -387,11 +383,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:AST"
 						levels = 4
-						region = "STATE_VICTORIA"
 					}
 				}
 				reserves = 1
@@ -610,11 +604,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:AST"
 						levels = 7
-						region = "STATE_VICTORIA"
 					}
 				}
 				reserves = 1
@@ -703,11 +695,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:AST"
 						levels = 1
-						region = "STATE_TASMANIA"
 					}
 				}
 				reserves = 1
@@ -771,11 +761,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:AST"
 						levels = 4
-						region = "STATE_QUEENSLAND"
 					}
 				}
 				reserves = 1
@@ -994,11 +982,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:AST"
 						levels = 2
-						region = "STATE_QUEENSLAND"
 					}
 				}
 				reserves = 1
@@ -1088,11 +1074,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:AST"
 						levels = 4
-						region = "STATE_SOUTH_AUSTRALIA"
 					}
 				}
 				reserves = 1
@@ -1186,11 +1170,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:AST"
 						levels = 2
-						region = "STATE_SOUTH_AUSTRALIA"
 					}
 				}
 				reserves = 1
@@ -1259,11 +1241,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:AST"
 						levels = 2
-						region = "STATE_WESTERN_AUSTRALIA"
 					}
 				}
 				reserves = 1
@@ -1443,11 +1423,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:AST"
 						levels = 2
-						region = "STATE_WESTERN_AUSTRALIA"
 					}
 				}
 				reserves = 1
@@ -1481,11 +1459,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:AST"
 						levels = 3
-						region = "STATE_NORTHERN_TERRITORY"
 					}
 				}
 				reserves = 1
@@ -1529,11 +1505,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:AST"
 						levels = 1
-						region = "STATE_NORTHERN_TERRITORY"
 					}
 				}
 				reserves = 1
@@ -1583,11 +1557,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:NZL"
 						levels = 4
-						region = "STATE_NORTH_ISLAND"
 					}
 				}
 				reserves = 1
@@ -1916,11 +1888,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:NZL"
 						levels = 3
-						region = "STATE_NORTH_ISLAND"
 					}
 				}
 				reserves = 1
@@ -1972,11 +1942,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:NZL"
 						levels = 1
-						region = "STATE_SOUTH_ISLAND"
 					}
 				}
 				reserves = 1
@@ -2090,11 +2058,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:NZL"
 						levels = 2
-						region = "STATE_SOUTH_ISLAND"
 					}
 				}
 				reserves = 1

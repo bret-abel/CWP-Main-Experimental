@@ -21,11 +21,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:RUS"
 						levels = 6
-						region = "STATE_INGRIA"
 					}
 				}
 				reserves = 1
@@ -449,11 +447,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 41
-						region = "STATE_MOSCOW"
 					}
 				}
 				reserves = 1
@@ -873,11 +869,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:RUS"
 						levels = 2
-						region = "STATE_VOLHYNIA"
 					}
 				}
 				reserves = 1
@@ -890,11 +884,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 25
-						region = "STATE_VOLHYNIA"
 					}
 				}
 				reserves = 1
@@ -1113,11 +1105,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 30
-						region = "STATE_KIEV"
 					}
 				}
 				reserves = 1
@@ -1354,11 +1344,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 14
-						region = "STATE_BRYANSK"
 					}
 				}
 				reserves = 1
@@ -1589,11 +1577,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 10
-						region = "STATE_ORSHA"
 					}
 				}
 				reserves = 1
@@ -1898,11 +1884,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 8
-						region = "STATE_TVER"
 					}
 				}
 				reserves = 1
@@ -1992,11 +1976,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 8
-						region = "STATE_CRIMEA"
 					}
 				}
 				reserves = 1
@@ -2009,11 +1991,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:RUS"
 						levels = 8
-						region = "STATE_CRIMEA"
 					}
 				}
 				reserves = 1
@@ -2142,11 +2122,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:RUS"
 						levels = 4
-						region = "STATE_LUHANSK"
 					}
 				}
 				reserves = 1
@@ -2211,11 +2189,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 16
-						region = "STATE_LUHANSK"
 					}
 				}
 				reserves = 1
@@ -2393,11 +2369,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 19
-						region = "STATE_KURSK"
 					}
 				}
 				reserves = 1
@@ -2446,11 +2420,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:RUS"
 						levels = 4
-						region = "STATE_KURSK"
 					}
 				}
 				reserves = 1
@@ -2618,11 +2590,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 11
-						region = "STATE_NOVGOROD"
 					}
 				}
 				reserves = 1
@@ -2735,11 +2705,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 13
-						region = "STATE_CHERSON"
 					}
 				}
 				reserves = 1
@@ -2752,11 +2720,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:RUS"
 						levels = 6
-						region = "STATE_CHERSON"
 					}
 				}
 				reserves = 1
@@ -2767,11 +2733,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:RUS"
 						levels = 4
-						region = "STATE_CHERSON"
 					}
 				}
 				reserves = 1
@@ -2892,11 +2856,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 4
-						region = "STATE_GALICH"
 					}
 				}
 				reserves = 1
@@ -3066,11 +3028,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 8
-						region = "STATE_MINSK"
 					}
 				}
 				reserves = 1
@@ -3176,11 +3136,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:RUS"
 						levels = 5
-						region = "STATE_ROSTOV"
 					}
 				}
 				reserves = 1
@@ -3253,11 +3211,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 9
-						region = "STATE_ROSTOV"
 					}
 				}
 				reserves = 1
@@ -3620,11 +3576,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 4
-						region = "STATE_ESTONIA"
 					}
 				}
 				reserves = 1
@@ -3637,11 +3591,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:RUS"
 						levels = 5
-						region = "STATE_ESTONIA"
 					}
 				}
 				reserves = 1
@@ -3713,11 +3665,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 6
-						region = "STATE_LATVIA"
 					}
 				}
 				reserves = 1
@@ -3730,11 +3680,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:RUS"
 						levels = 5
-						region = "STATE_LATVIA"
 					}
 				}
 				reserves = 1
@@ -3806,11 +3754,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 5
-						region = "STATE_EAST_LITHUANIA"
 					}
 				}
 				reserves = 1
@@ -3896,11 +3842,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 5
-						region = "STATE_WEST_LITHUANIA"
 					}
 				}
 				reserves = 1
@@ -3913,11 +3857,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:RUS"
 						levels = 5
-						region = "STATE_WEST_LITHUANIA"
 					}
 				}
 				reserves = 1
@@ -4041,11 +3983,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:RUS"
 						levels = 4
-						region = "STATE_KRALOVEC"
 					}
 				}
 				reserves = 1
@@ -4174,11 +4114,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:POL"
 						levels = 10
-						region = "STATE_MAZOVIA"
 					}
 				}
 				reserves = 1
@@ -4243,11 +4181,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:POL"
 						levels = 1
-						region = "STATE_MAZOVIA"
 					}
 				}
 				reserves = 1
@@ -4448,11 +4384,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:POL"
 						levels = 5
-						region = "STATE_SILESIA"
 					}
 				}
 				reserves = 1
@@ -4541,11 +4475,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:POL"
 						levels = 10
-						region = "STATE_CENTRAL_POLAND"
 					}
 				}
 				reserves = 1
@@ -4611,11 +4543,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:POL"
 						levels = 2
-						region = "STATE_CENTRAL_POLAND"
 					}
 				}
 				reserves = 1
@@ -4766,11 +4696,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:POL"
 						levels = 10
-						region = "STATE_LESSER_POLAND"
 					}
 				}
 				reserves = 1
@@ -5064,11 +4992,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:POL"
 						levels = 5
-						region = "STATE_POMEMASURIA"
 					}
 				}
 				reserves = 1
@@ -5100,11 +5026,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_port"
 				add_ownership = {
-					building = {
-						type = "building_port"
+					country = {
 						country = "c:POL"
 						levels = 7
-						region = "STATE_POMEMASURIA"
 					}
 				}
 				reserves = 1
@@ -5206,11 +5130,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:POL"
 						levels = 1
-						region = "STATE_GREATER_POLAND"
 					}
 				}
 				reserves = 1
@@ -5281,11 +5203,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:POL"
 						levels = 5
-						region = "STATE_GREATER_POLAND"
 					}
 				}
 				reserves = 1
@@ -5302,11 +5222,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:POL"
 						levels = 10
-						region = "STATE_KRAKOW"
 					}
 				}
 				reserves = 1
@@ -5487,11 +5405,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 7
-						region = "STATE_EAST_GALICIA"
 					}
 				}
 				reserves = 1
@@ -5538,11 +5454,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:RUS"
 						levels = 6
-						region = "STATE_EAST_GALICIA"
 					}
 				}
 				reserves = 1
@@ -5614,11 +5528,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 2
-						region = "STATE_MUKACHEVO"
 					}
 				}
 				reserves = 1
@@ -5706,11 +5618,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HUN"
 						levels = 2
-						region = "STATE_CENTRAL_HUNGARY"
 					}
 				}
 				reserves = 1
@@ -5900,11 +5810,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ROM"
 						levels = 1
-						region = "STATE_BEKES"
 					}
 				}
 				reserves = 1
@@ -5937,11 +5845,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:HUN"
 						levels = 5
-						region = "STATE_TRANSDANUBIA"
 					}
 				}
 				reserves = 1
@@ -6113,8 +6019,7 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_NORTHERN_SERBIA = {
-		region_state:YUG = {
-		}
+		region_state:YUG
 	}
 	s:STATE_BANAT = {
 		region_state:ROM = {
@@ -6216,11 +6121,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ROM"
 						levels = 1
-						region = "STATE_BANAT"
 					}
 				}
 				reserves = 1
@@ -6531,11 +6434,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ROM"
 						levels = 2
-						region = "STATE_SOUTHERN_TRANSYLVANIA"
 					}
 				}
 				reserves = 1
@@ -6603,11 +6504,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ROM"
 						levels = 2
-						region = "STATE_NORTHERN_TRANSYLVANIA"
 					}
 				}
 				reserves = 1
@@ -6693,11 +6592,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ROM"
 						levels = 2
-						region = "STATE_MOLDAVIA"
 					}
 				}
 				reserves = 1
@@ -6748,11 +6645,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_university"
 				add_ownership = {
-					building = {
-						type = "building_university"
+					country = {
 						country = "c:ROM"
 						levels = 12
-						region = "STATE_WALLACHIA"
 					}
 				}
 				reserves = 1
@@ -6889,11 +6784,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:ROM"
 						levels = 9
-						region = "STATE_WALLACHIA"
 					}
 				}
 				reserves = 1
@@ -6961,11 +6854,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
-					building = {
-						type = "building_government_administration"
+					country = {
 						country = "c:RUS"
 						levels = 8
-						region = "STATE_BESSARABIA"
 					}
 				}
 				reserves = 1
