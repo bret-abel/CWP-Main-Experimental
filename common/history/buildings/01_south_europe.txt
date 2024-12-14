@@ -10652,13 +10652,16 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_CRETE = {
-		region_state:GRE
+		region_state:GRE = {
+		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
-		region_state:GRE
+		region_state:GRE = {
+		}
 	}
 	s:STATE_EAST_AEGEAN_ISLANDS = {
-		region_state:GRE
+		region_state:GRE = {
+		}
 	}
 	s:STATE_ATTICA = {
 		region_state:GRE = {

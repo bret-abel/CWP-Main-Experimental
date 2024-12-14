@@ -3115,7 +3115,8 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_LHASA = {
-		region_state:TIB
+		region_state:TIB = {
+		}
 	}
 	s:STATE_NGARI = {
 		region_state:TIB = {
@@ -3157,7 +3158,8 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_HIMALAYAS = {
-		region_state:HND
+		region_state:HND = {
+		}
 		region_state:NEP = {
 			create_building = {
 				building = "building_rice_farm"

@@ -358,7 +358,8 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_HAIL = {
-		region_state:NEJ
+		region_state:NEJ = {
+		}
 	}
 	s:STATE_CYPRUS = {
 		region_state:CYP = {

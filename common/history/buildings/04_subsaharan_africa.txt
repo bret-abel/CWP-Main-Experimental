@@ -2493,7 +2493,8 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:ZZB
+		region_state:ZZB = {
+		}
 	}
 	s:STATE_TANGANYIKA = {
 		region_state:TNZ = {
@@ -2682,7 +2683,8 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:RWD
+		region_state:RWD = {
+		}
 	}
 	s:STATE_KENYA = {
 		region_state:KKY = {
@@ -2978,13 +2980,16 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_OROMIA = {
-		region_state:ETH
+		region_state:ETH = {
+		}
 	}
 	s:STATE_AMHARA = {
-		region_state:ETH
+		region_state:ETH = {
+		}
 	}
 	s:STATE_GONDER = {
-		region_state:ETH
+		region_state:ETH = {
+		}
 	}
 	s:STATE_KAZEMBE = {
 		region_state:LZO = {
@@ -3107,7 +3112,8 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:BMB
+		region_state:BMB = {
+		}
 	}
 	s:STATE_SOMALILAND = {
 		region_state:SLL = {
@@ -3375,10 +3381,12 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_EQUATORIA = {
-		region_state:SDN
+		region_state:SDN = {
+		}
 	}
 	s:STATE_GUINEA_ISLANDS = {
-		region_state:POR
+		region_state:POR = {
+		}
 		region_state:SPA = {
 			create_building = {
 				building = "building_port"
@@ -3518,7 +3526,8 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:BMB
+		region_state:BMB = {
+		}
 	}
 	s:STATE_WADDAI = {
 		region_state:EQA = {
@@ -6394,7 +6403,8 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:ESW
+		region_state:ESW = {
+		}
 	}
 	s:STATE_EASTERN_CAPE = {
 		region_state:SAF = {

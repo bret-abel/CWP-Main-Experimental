@@ -6113,7 +6113,8 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_NORTHERN_SERBIA = {
-		region_state:YUG
+		region_state:YUG = {
+		}
 	}
 	s:STATE_BANAT = {
 		region_state:ROM = {

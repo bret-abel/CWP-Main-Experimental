@@ -408,10 +408,12 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_KORDOFAN = {
-		region_state:SDN
+		region_state:SDN = {
+		}
 	}
 	s:STATE_DARFUR = {
-		region_state:SDN
+		region_state:SDN = {
+		}
 	}
 	s:STATE_BLUE_NILE = {
 		region_state:SDN = {
@@ -873,7 +875,8 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:MOR
+		region_state:MOR = {
+		}
 	}
 	s:STATE_INNER_MOROCCO = {
 		region_state:MOR = {
@@ -1421,7 +1424,8 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_SAHARA = {
-		region_state:FRA
+		region_state:FRA = {
+		}
 	}
 	s:STATE_WEST_SAHARA = {
 		region_state:SPA = {
@@ -1480,7 +1484,8 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_INNER_MAURITANIA = {
-		region_state:WAU
+		region_state:WAU = {
+		}
 	}
 	s:STATE_EASTERN_MALI = {
 		region_state:WAU = {
@@ -1592,13 +1597,16 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_TIMBUKTU = {
-		region_state:WAU
+		region_state:WAU = {
+		}
 	}
 	s:STATE_NIGER = {
-		region_state:WAU
+		region_state:WAU = {
+		}
 	}
 	s:STATE_CHAD = {
-		region_state:EQA
+		region_state:EQA = {
+		}
 	}
 }
 
