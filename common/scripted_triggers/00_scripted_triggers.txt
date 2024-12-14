@@ -14,26 +14,27 @@
 #
 country_has_voting_franchise = {
 	OR = {
-		has_modifier = country_voting_power_base_add
-		has_modifier = country_voting_power_from_literacy_add
-		has_modifier = country_voting_power_wealth_threshold_add
-		has_modifier = country_academics_voting_power_add
-		has_modifier = country_administrators_voting_power_add
-		has_modifier = country_clergy_voting_power_add
-		has_modifier = country_creatives_voting_power_add
-		has_modifier = country_engineers_voting_power_add
-		has_modifier = country_farmers_voting_power_add
-		has_modifier = country_informal_workers_voting_power_add
-		has_modifier = country_investors_voting_power_add
-		has_modifier = country_laborers_voting_power_add
-		has_modifier = country_landlords_voting_power_add
-		has_modifier = country_officers_voting_power_add
-		has_modifier = country_service_workers_voting_power_add
-		has_modifier = country_soldiers_voting_power_add
-		has_modifier = country_slum_dwellers_voting_power_add
-		has_modifier = country_technicians_voting_power_add
+		has_country_modifier = country_voting_power_base_add
+		has_country_modifier = country_voting_power_from_literacy_add
+		has_country_modifier = country_voting_power_wealth_threshold_add
+		has_country_modifier = country_academics_voting_power_add
+		has_country_modifier = country_administrators_voting_power_add
+		has_country_modifier = country_clergy_voting_power_add
+		has_country_modifier = country_creatives_voting_power_add
+		has_country_modifier = country_engineers_voting_power_add
+		has_country_modifier = country_farmers_voting_power_add
+		has_country_modifier = country_informal_workers_voting_power_add
+		has_country_modifier = country_investors_voting_power_add
+		has_country_modifier = country_laborers_voting_power_add
+		has_country_modifier = country_landlords_voting_power_add
+		has_country_modifier = country_officers_voting_power_add
+		has_country_modifier = country_service_workers_voting_power_add
+		has_country_modifier = country_soldiers_voting_power_add
+		has_country_modifier = country_slum_dwellers_voting_power_add
+		has_country_modifier = country_technicians_voting_power_add
 	}
 }
+
 
 
 country_has_education_system = {
