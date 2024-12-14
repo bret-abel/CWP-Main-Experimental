@@ -15,10 +15,10 @@ building_food_industry = {
 		pmg_automation_food
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_food
-	}
+			}
 	required_construction = construction_cost_high
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
     possible = {
         owner = {
            not = {
@@ -42,8 +42,7 @@ building_distilleries = {
 		pmg_automation_distillery
 		pmg_professional_service_use_creatives
 		pmg_green_tech_industry
-		pmg_ownership_distillery
-	}
+			}
 	required_construction = construction_cost_high
 	can_build_government = {
 		owner = {
@@ -67,6 +66,7 @@ building_distilleries = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_textile_manufactories = {
@@ -82,8 +82,7 @@ building_textile_manufactories = {
 		pmg_automation_textiles
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_textiles
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -93,6 +92,7 @@ building_textile_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_furniture_manufactories = {
@@ -109,8 +109,7 @@ building_furniture_manufactories = {
 		pmg_automation_furniture
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_furniture
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -120,6 +119,7 @@ building_furniture_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_glassworks = {
@@ -135,8 +135,7 @@ building_glassworks = {
 		pmg_automation_glassworks
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_glassworks
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -146,6 +145,7 @@ building_glassworks = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_tool_manufactories = {
@@ -161,8 +161,7 @@ building_tool_manufactories = {
 		pmg_automation_tools
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_tools
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -173,6 +172,7 @@ building_tool_manufactories = {
     }
 	ai_value = 2000	# Tools are very important
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_paper_manufactories = {
@@ -188,8 +188,7 @@ building_paper_manufactories = {
 		pmg_automation_paper
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_paper
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -199,6 +198,7 @@ building_paper_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_chemical_plants = {
@@ -214,8 +214,7 @@ building_chemical_plants = {
 		pmg_automation_chemical_plants
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_chemical_plants
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -225,6 +224,7 @@ building_chemical_plants = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_synthetics_plant = {
@@ -241,8 +241,7 @@ building_synthetics_plant = {
 		pmg_automation_synthetics_plant
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_synthetics_plant
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -252,6 +251,7 @@ building_synthetics_plant = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_steelworks = {
@@ -267,8 +267,7 @@ building_steelworks = {
 		pmg_automation_steelworks
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_steelworks
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -278,6 +277,7 @@ building_steelworks = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_aluminum_refinery = {
@@ -293,8 +293,7 @@ building_aluminum_refinery = {
 		pmg_automation_steelworks
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_steelworks
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -304,6 +303,7 @@ building_aluminum_refinery = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_motor_industry = {
@@ -320,8 +320,7 @@ building_motor_industry = {
 		pmg_automation_motors
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_motors
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -331,6 +330,7 @@ building_motor_industry = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_automobile_manufactories = {
@@ -348,8 +348,7 @@ building_automobile_manufactories = {
 		pmg_automation_automobiles
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_automobiles
-	}
+			}
 	required_construction = construction_cost_high
 
     possible = {
@@ -360,6 +359,7 @@ building_automobile_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_shipyards = {
@@ -374,8 +374,7 @@ building_shipyards = {
 		pmg_automation_shipyard
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_shipyard
-	}
+			}
 	required_construction = construction_cost_high
 
 	possible = {
@@ -387,6 +386,7 @@ building_shipyards = {
 		}
 	}
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_drydocks = {
@@ -403,8 +403,7 @@ building_drydocks = {
 		pmg_automation_shipyard
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_shipyard
-	}
+			}
 	required_construction = construction_cost_high
 
 	possible = {
@@ -414,6 +413,7 @@ building_drydocks = {
 		}
 	}
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_advanced_military_manufactories = {
@@ -430,8 +430,7 @@ building_advanced_military_manufactories = {
 		pmg_automation_advanced_military_manufactories
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_advanced_military_manufactories
-	}
+			}
 	required_construction = construction_cost_very_high
     possible = {
         owner = {
@@ -441,6 +440,7 @@ building_advanced_military_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_electronics_manufactories = {
@@ -457,8 +457,7 @@ building_electronics_manufactories = {
 		pmg_automation_electronics
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_electronics
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -468,6 +467,7 @@ building_electronics_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_small_arms_manufactories = {
@@ -484,8 +484,7 @@ building_small_arms_manufactories = {
 		pmg_automation_small_arms
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_small_arms
-	}
+			}
 	required_construction = construction_cost_very_high
     possible = {
         owner = {
@@ -495,6 +494,7 @@ building_small_arms_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_explosives_industry = {
@@ -511,8 +511,7 @@ building_explosives_industry = {
 		pmg_automation_munitions
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_munitions
-	}
+			}
 	required_construction = construction_cost_very_high
     possible = {
         owner = {
@@ -522,6 +521,7 @@ building_explosives_industry = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_fuel_refineries = {
@@ -538,8 +538,7 @@ building_fuel_refineries = {
 		pmg_automation_fuel_refineries
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_fuel_refineries
-	}
+			}
 	required_construction = construction_cost_very_high
     possible = {
         owner = {
@@ -549,6 +548,7 @@ building_fuel_refineries = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_semiconductor_manufactories = {
@@ -564,8 +564,7 @@ building_semiconductor_manufactories = {
 		pmg_automation_semiconductor
 		pmg_professional_service_use_clericals
 		pmg_green_tech_industry
-		pmg_ownership_semiconductor
-	}
+			}
 	required_construction = construction_cost_very_high
     possible = {
         owner = {
@@ -575,6 +574,7 @@ building_semiconductor_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_aircraft_manufactories = {
@@ -592,8 +592,7 @@ building_aircraft_manufactories = {
 		pmg_automation_aircraft
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_aircraft
-	}
+			}
 	required_construction = construction_cost_very_high
     possible = {
         owner = {
@@ -603,6 +602,7 @@ building_aircraft_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_uranium_refineries = {
@@ -619,8 +619,7 @@ building_uranium_refineries = {
 		pmg_automation_fuel_refineries
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_uranium_refineries
-	}
+			}
 	required_construction = construction_cost_very_high
     possible = {
         owner = {
@@ -630,6 +629,7 @@ building_uranium_refineries = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_battery_manufactories = {
@@ -645,8 +645,7 @@ building_battery_manufactories = {
 		pmg_automation_battery
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_battery
-	}
+			}
 	required_construction = construction_cost_very_high
     possible = {
         owner = {
@@ -656,6 +655,7 @@ building_battery_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_pharmaceutical_industry = {
@@ -672,8 +672,7 @@ building_pharmaceutical_industry = {
 		pmg_automation_pharmaceuticals
 		pmg_professional_service_use_clericals
 		pmg_green_tech_industry
-		pmg_ownership_pharmaceuticals
-	}
+			}
 	required_construction = construction_cost_very_high
     possible = {
         owner = {
@@ -683,6 +682,7 @@ building_pharmaceutical_industry = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_computer_manufactories = {
@@ -698,8 +698,7 @@ building_computer_manufactories = {
 		pmg_automation_computers
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-		pmg_ownership_computers
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -709,6 +708,7 @@ building_computer_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_consumer_electronics_manufactories = {
@@ -724,8 +724,7 @@ building_consumer_electronics_manufactories = {
 		pmg_automation_consumer_electronics_manufactories
 		pmg_professional_service_use_clericals
 		pmg_green_tech_industry
-		pmg_ownership_household_appliance_manufactories
-	}
+			}
 	required_construction = construction_cost_high
     possible = {
         owner = {
@@ -735,4 +734,5 @@ building_consumer_electronics_manufactories = {
        }  
     }
 	ownership_type = self
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
