@@ -165,3 +165,23 @@ pmg_ownership_airport = {
 		pm_worker_cooperatives_airport
 	}
 }
+
+pmg_ownership_building_financial_district = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_financial_district_privately_owned
+		pm_financial_district_publicly_traded
+		pm_financial_district_principle_divine_economics_2
+	}
+}
+
+pmg_ownership_building_company_headquarter = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_company_headquarter_privately_owned
+	}
+}

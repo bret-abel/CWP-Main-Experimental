@@ -349,6 +349,11 @@ goods_output_aircraft_carriers_add = {
 	percent = no
 }
 
+goods_output_refined_fuel_add = {
+	good = yes 
+	percent = no
+}
+
 goods_output_aluminum_add = {
 	good = yes
 	percent = no

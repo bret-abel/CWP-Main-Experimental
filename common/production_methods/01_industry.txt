@@ -3708,8 +3708,7 @@ pm_oil_refineries = {
 		}
 		level_scaled = {
 			building_employment_laborers_add = 8000
-			building_employment_engineers_add = 500
-			building_employment_engineers_add = 500
+			building_employment_engineers_add = 1000
 		}
 	}
 }

@@ -509,7 +509,7 @@ building_fuel_refineries = {
 		pmg_automation_fuel_refineries
 		pmg_professional_service_use_engineers
 		pmg_green_tech_industry
-			}
+	}
 	required_construction = construction_cost_very_high
     possible = {
         owner = {

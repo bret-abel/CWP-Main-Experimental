@@ -126,7 +126,8 @@ building_financial_district = {
 	icon = "gfx/interface/icons/building_icons/building_financial_district.dds"
 
 	production_method_groups = {
-			}
+		pmg_ownership_building_financial_district
+	}
 	
 	investment_scores = {
 		bg_manufacturing_score = {
@@ -235,7 +236,8 @@ building_company_headquarter = {
 	icon = "gfx/interface/icons/building_icons/building_company_hq.dds"
 
 	production_method_groups = {
-			}
+		pmg_ownership_building_company_headquarter
+	}
 	
 	investment_scores = {}
 
