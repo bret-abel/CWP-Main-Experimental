@@ -332,3 +332,52 @@ bank_credibility = {
 	percent = yes
 	num_decimals = 0
 }
+
+## Pop Voting Power
+country_administrators_voting_power_add = {
+	decimals = 0
+	color = neutral
+	game_data = { ai_value = 0 }
+}
+
+country_clergy_voting_power_add = {
+	decimals = 0
+	color = neutral
+	game_data = { ai_value = 0 }
+}
+
+country_creatives_voting_power_add = {
+	decimals = 0
+	color = neutral
+	game_data = { ai_value = 0 }
+}
+
+country_informal_workers_voting_power_add = {
+	decimals = 0
+	color = neutral
+	game_data = { ai_value = 0 }
+}
+
+country_investors_voting_power_add = {
+	decimals = 0
+	color = neutral
+	game_data = { ai_value = 0 }
+}
+
+country_landlords_voting_power_add = {
+	decimals = 0
+	color = neutral
+	game_data = { ai_value = 0 }
+}
+
+country_service_workers_voting_power_add = {
+	decimals = 0
+	color = neutral
+	game_data = { ai_value = 0 }
+}
+
+country_slum_dwellers_voting_power_add = {
+	decimals = 0
+	color = neutral
+	game_data = { ai_value = 0 }
+}

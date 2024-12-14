@@ -129,9 +129,6 @@ ai_strategy_plantation_economy = {
 		tea = {
 			stance = wants_export
 		}
-		opium = {
-			stance = wants_export
-		}
 		tobacco = {
 			stance = wants_export
 		}
@@ -460,9 +457,6 @@ ai_strategy_placate_population = {
 		healthcare = {
 			stance = wants_high_supply
 		}
-		opium = {
-			stance = does_not_want
-		}
 	}
 	possible = {
 		has_law = law_type:law_anti_industrialization
@@ -617,9 +611,6 @@ ai_strategy_maintain_hegemony = {
 			}
 		}
 		uranium = {
-			stance = wants_high_supply
-		}
-		refined_uranium = {
 			stance = wants_high_supply
 		}
 	}

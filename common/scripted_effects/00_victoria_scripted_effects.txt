@@ -42,9 +42,9 @@ adopt_random_antigovernment_ideology = {
 		random_list = {
 			50 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_progressive_ideology = yes
 							}
 						}
@@ -53,7 +53,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_council_elective
 							}
 						}
@@ -64,9 +64,9 @@ adopt_random_antigovernment_ideology = {
 			}
 			100 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_socialist_ideology = yes
 							}
 						}
@@ -78,7 +78,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_hereditary
 							}
 						}
@@ -86,7 +86,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_autocracy
 							}
 						}
@@ -102,7 +102,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_fascist_ideology = yes
 								}
@@ -115,9 +115,9 @@ adopt_random_antigovernment_ideology = {
 			}
 			100 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_socialist_ideology = yes
 							}
 						}
@@ -129,7 +129,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_hereditary
 							}
 						}
@@ -137,7 +137,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_autocracy
 							}
 						}
@@ -153,7 +153,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_fascist_ideology = yes
 								}
@@ -166,9 +166,9 @@ adopt_random_antigovernment_ideology = {
 			}
 			100 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_socialist_ideology = yes
 							}
 						}
@@ -177,7 +177,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_hereditary
 							}
 						}
@@ -185,7 +185,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_autocracy
 							}
 						}
@@ -204,7 +204,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_fascist_ideology = yes
 								}
@@ -217,9 +217,9 @@ adopt_random_antigovernment_ideology = {
 			}
 			100 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_fascist_ideology = yes
 							}
 						}
@@ -228,7 +228,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_liberal_ideology = yes
 									has_progressive_ideology = yes
@@ -241,7 +241,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_socialist_ideology = yes
 								}
@@ -251,7 +251,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_fascist_ideology = yes
 								}
@@ -263,7 +263,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_open_borders
 							}
 						}
@@ -271,7 +271,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_multiculturalist
 							}
 						}
@@ -281,7 +281,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_integrationist
 							}
 						}
@@ -291,7 +291,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_council_elective
 							}
 						}
@@ -304,10 +304,10 @@ adopt_random_antigovernment_ideology = {
 			}
 			50 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						has_law = law_type:law_religious_institutions
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_ideology = ideology:ideology_atheist
 							}
 						}
@@ -316,7 +316,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_hereditary
 							}
 						}
@@ -324,7 +324,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_religious_institutions
 							}
 						}
@@ -332,7 +332,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_theocratic
 							}
 						}
@@ -343,9 +343,9 @@ adopt_random_antigovernment_ideology = {
 			}
 			50 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_socialist_ideology = yes
 							}
 						}
@@ -354,7 +354,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_hereditary
 							}
 						}
@@ -362,7 +362,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_autocracy
 							}
 						}
@@ -370,7 +370,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_oligarchy
 							}
 						}
@@ -378,7 +378,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_representative_democracy
 							}
 						}
@@ -389,9 +389,9 @@ adopt_random_antigovernment_ideology = {
 			}
 			100 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_fascist_ideology = yes
 							}
 						}
@@ -400,7 +400,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_progressive_ideology = yes
 									has_liberal_ideology = yes
@@ -413,7 +413,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_socialist_ideology = yes
 								}
@@ -423,7 +423,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_fascist_ideology = yes
 								}
@@ -435,7 +435,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_council_elective
 							}
 						}
@@ -448,9 +448,9 @@ adopt_random_antigovernment_ideology = {
 			}
 			50 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_reactionary_ideology = yes
 							}
 						}
@@ -459,7 +459,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_socialization
 							}
 						}
@@ -467,7 +467,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_anti_industrialization
 							}
 						}
@@ -475,7 +475,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_isolationism
 							}
 						}
@@ -483,7 +483,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_socialist_ideology = yes
 								}
@@ -496,14 +496,14 @@ adopt_random_antigovernment_ideology = {
 			}
 			50 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						OR = {
 							has_law = law_type:law_socialization
 							has_law = law_type:law_free_market
 							has_law = law_type:law_interventionism
 						}
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_ideology = ideology:ideology_primitivist
 							}
 						}
@@ -512,7 +512,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								any_scope_state = {
 									any_scope_building = {
 										is_building_group = bg_heavy_industry
@@ -526,7 +526,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								any_scope_building = {
 									is_building_group = bg_heavy_industry
 									level >= 5
@@ -555,7 +555,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_ruling_interest_group = ig_capitalists
 							}
 						}
@@ -565,7 +565,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_ruling_interest_group = ig_ruralists
 							}
 						}
@@ -578,9 +578,9 @@ adopt_random_antigovernment_ideology = {
 			}
 			50 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_ideology = ideology:ideology_feminist
 							}
 						}
@@ -589,7 +589,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_hereditary
 							}
 						}
@@ -600,9 +600,9 @@ adopt_random_antigovernment_ideology = {
 			}
 			50 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_ideology = ideology:ideology_environmentalist
 							}
 						}
@@ -611,7 +611,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_hereditary
 							}
 						}
@@ -622,9 +622,9 @@ adopt_random_antigovernment_ideology = {
 			}
 			50 = {
 				trigger = {
-					owner = {
+					owner ?= {
 						NOT = {
-							ruler = {
+							ruler ?= {
 								has_ideology = ideology:ideology_pacifist
 							}
 						}
@@ -633,7 +633,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_hereditary
 							}
 						}
@@ -645,7 +645,7 @@ adopt_random_antigovernment_ideology = {
 			50 = {
 				trigger = {
 					NOT = {
-						owner.ruler = {
+						owner.ruler ?= {
 							has_reactionary_ideology = yes
 						}
 					}
@@ -653,7 +653,7 @@ adopt_random_antigovernment_ideology = {
 				modifier = {
 					if = {
 						limit = {
-							this.interest_group = {
+							this.interest_group ?= {
 								OR = {
 									is_interest_group_type = ig_elites
 									is_interest_group_type = ig_moralists
@@ -666,7 +666,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_socialist_ideology = yes
 									has_progressive_ideology = yes
@@ -677,7 +677,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_socialist_ideology = yes
 								}
@@ -687,7 +687,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner.ruler = {
+							owner.ruler ?= {
 								OR = {
 									has_fascist_ideology = yes
 									has_reactionary_ideology = yes
@@ -700,7 +700,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							this.interest_group = {
+							this.interest_group ?= {
 								OR = {
 									is_interest_group_type = ig_capitalists
 									is_interest_group_type = ig_laborists
@@ -712,23 +712,23 @@ adopt_random_antigovernment_ideology = {
 						}
 					}
 				}
-				set_ideology = ideology:ideology_monarchist
+				set_ideology = ideology:ideology_royalist
 			}
 			50 = {
 				trigger = {
 					NOT = {
-						owner.ruler = {
+						owner.ruler ?= {
 							has_liberal_ideology = yes
 						}
 					}
-					owner = {
+					owner ?= {
 						has_law = law_type:law_hereditary
 					}
 				}
 				modifier = {
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_hereditary
 							}
 						}
@@ -738,7 +738,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_autocracy
 							}
 						}
@@ -748,7 +748,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_oligarchy
 							}
 						}
@@ -756,7 +756,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							owner = {
+							owner ?= {
 								has_law = law_type:law_representative_democracy
 							}
 						}
@@ -764,7 +764,7 @@ adopt_random_antigovernment_ideology = {
 					}
 					if = {
 						limit = {
-							this.interest_group = {
+							this.interest_group ?= {
 								is_interest_group_type = ig_elites
 							}
 						}
@@ -1171,7 +1171,7 @@ gen_ruler_party = {
 	if = {
 		limit = {
 			OR = {
-				ruler = {
+				ruler ?= {
 					has_socialist_ideology = yes
 				}
 				ruler.interest_group.leader = {
@@ -1193,7 +1193,7 @@ gen_ruler_party = {
 	else_if = {
 		limit = {
 			OR = {
-				ruler = {
+				ruler ?= {
 					has_fascist_ideology = yes
 				}
 				ruler.interest_group.leader = {
@@ -1215,7 +1215,7 @@ gen_ruler_party = {
 	else_if = {
 		limit = {
 			OR = {
-				ruler = {
+				ruler ?= {
 					has_socialist_ideology = yes
 				}
 				ruler.interest_group.leader = {
@@ -1237,7 +1237,7 @@ gen_ruler_party = {
 	else_if = {
 		limit = {
 			OR = {
-				ruler = {
+				ruler ?= {
 					or = {
 						has_progressive_ideology = yes
 						has_ideology = ideology:ideology_feminist
@@ -1270,7 +1270,7 @@ gen_ruler_party = {
 	else_if = {
 		limit = {
 			OR = {
-				ruler = {
+				ruler ?= {
 					has_liberal_ideology = yes
 				}
 				ruler.interest_group.leader = {
@@ -1292,7 +1292,7 @@ gen_ruler_party = {
 	else_if = {
 		limit = {
 			OR = {
-				ruler = {
+				ruler ?= {
 					has_ideology = ideology:ideology_pacifist
 				}
 				ruler.interest_group.leader = {

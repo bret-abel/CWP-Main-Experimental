@@ -219,7 +219,8 @@ combat_unit_type_mechanized_infantry = {
 	upkeep_modifier = {
 		goods_input_small_arms_add = 2
 		goods_input_ammunition_add = 1
-		goods_input_armored_fighting_vehicle_add = 1
+		goods_input_tanks_add = 1
+		goods_input_refined_fuel_add = 1
 	}
 
 	unlocking_technologies = { armored_personnel_carriers }
@@ -393,7 +394,7 @@ combat_unit_type_self_propelled_artillery = {
 	upkeep_modifier = {
 		goods_input_artillery_add = 2
 		goods_input_ammunition_add = 1
-		goods_input_armored_fighting_vehicle_add = 1
+		goods_input_tanks_add = 1
 	}
 	
 	battle_modifier = {
@@ -441,7 +442,7 @@ combat_unit_type_mlrs_artillery = {
 	upkeep_modifier = {
 		goods_input_artillery_add = 3
 		goods_input_ammunition_add = 2
-		goods_input_armored_fighting_vehicle_add = 1
+		goods_input_tanks_add = 1
 	}
 	
 	battle_modifier = {
@@ -534,7 +535,7 @@ combat_unit_type_armoured_reconnaissance = {
 	group = combat_unit_group_artillery
 	
 	upkeep_modifier = {
-		goods_input_armored_fighting_vehicle_add = 1
+		goods_input_tanks_add = 1
 		goods_input_ammunition_add = 1
 	}
 	
@@ -1241,7 +1242,7 @@ combat_unit_type_supercarrier = {
 		goods_input_missiles_add = 2
 		goods_input_electronics_add = 1
 		goods_input_military_aircraft_add = 3
-		goods_input_refined_uranium_add = 1
+		goods_input_uranium_add = 1
 	}
 	
 	battle_modifier = {
@@ -1303,7 +1304,7 @@ combat_unit_type_nuclear_battlecruiser = {
 		goods_input_surface_ships_add = 4
 		goods_input_missiles_add = 3
 		goods_input_electronics_add = 1
-		goods_input_refined_uranium_add = 1
+		goods_input_uranium_add = 1
 	}
 	
 	battle_modifier = {
@@ -1401,7 +1402,7 @@ combat_unit_type_nuclear_attack_submarine = {
 		goods_input_submarines_add = 2
 		goods_input_ammunition_add = 2
 		goods_input_electronics_add = 1
-		goods_input_refined_uranium_add = 1
+		goods_input_uranium_add = 1
 	}
 	
 	battle_modifier = {
@@ -1433,7 +1434,7 @@ combat_unit_type_cruise_missile_submarine = {
 		goods_input_submarines_add = 3
 		goods_input_missiles_add = 2
 		goods_input_electronics_add = 1
-		goods_input_refined_uranium_add = 1
+		goods_input_uranium_add = 1
 	}
 	
 	battle_modifier = {

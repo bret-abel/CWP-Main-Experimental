@@ -397,7 +397,6 @@ company_basic_uranium_mining = {
 	
 	building_types = {  
 		building_uranium_mine
-		building_uranium_refineries
 	}
 	potential = {
 		always = yes
@@ -407,7 +406,6 @@ company_basic_uranium_mining = {
 			any_scope_building = {
 				OR = {
 					is_building_type = building_uranium_mine
-					is_building_type = building_uranium_refineries
 				}
 				level >= 5
 			}
@@ -519,8 +517,8 @@ company_basic_electronics = {
 	}
 	
 	prosperity_modifier = {
-		building_semiconductor_manufactories_throughput_add = 0.1
-	}	
+		building_computer_manufactories_throughput_add = 0.1
+	}
 }
 
 company_basic_chemicals = {
@@ -570,7 +568,6 @@ company_basic_arms_industry = {
 	building_types = {  
 		building_small_arms_manufactories
 		building_explosives_industry
-		building_advanced_military_manufactories
 	}
 	potential = {
 		always = yes
@@ -578,12 +575,11 @@ company_basic_arms_industry = {
 	possible = { 
 		any_scope_state = {
 			any_scope_building = {
-					OR = {
-						is_building_type = building_small_arms_manufactories
-		                is_building_type = building_explosives_industry
-		                is_building_type = building_advanced_military_manufactories
-					}
-				level >= 10
+				OR = {
+					is_building_type = building_small_arms_manufactories
+					is_building_type = building_explosives_industry
+				}
+				level >= 3
 			}
 		}
 	}
@@ -688,38 +684,6 @@ company_basic_automobiles = {
 	
 	prosperity_modifier = {
 		state_market_access = 0.1
-	}	
-}
-
-company_basic_semiconductors = {
-	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
-
-	uses_dynamic_naming = yes
-
-	dynamic_company_type_names = {
-		"dynamic_company_type_company"
-	}
-	
-	building_types = {  
-		building_semiconductor_manufactories
-	}
-	potential = {
-		always = yes
-	}
-	possible = { 
-		any_scope_state = {
-			any_scope_building = {
-					OR = {
-						is_building_type = building_semiconductor_manufactories
-					}
-				level >= 10
-			}
-		}
-	}
-	
-	prosperity_modifier = {
-		building_computer_manufactories_throughput_add = 0.1
 	}	
 }
 
