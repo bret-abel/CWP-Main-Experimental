@@ -16,7 +16,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -117,23 +116,6 @@ BUILDINGS = {
 	s:STATE_SICHUAN = {
 		region_state:ROC = {
 			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:ROC"
-						levels = 6
-						region = "STATE_SICHUAN"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
 				building = "building_tea_plantation"
 				add_ownership = {
 					building = {
@@ -180,7 +162,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -313,23 +294,6 @@ BUILDINGS = {
 	s:STATE_YUNNAN = {
 		region_state:ROC = {
 			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:ROC"
-						levels = 16
-						region = "STATE_YUNNAN"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
 				building = "building_tea_plantation"
 				add_ownership = {
 					building = {
@@ -376,7 +340,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -473,23 +436,6 @@ BUILDINGS = {
 	s:STATE_GUIZHOU = {
 		region_state:ROC = {
 			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:ROC"
-						levels = 7
-						region = "STATE_GUIZHOU"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
 				building = "building_tea_plantation"
 				add_ownership = {
 					building = {
@@ -536,7 +482,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -1317,7 +1262,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -4221,7 +4165,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -4754,23 +4697,6 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:THA"
-						levels = 2
-						region = "STATE_BANGKOK"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
@@ -4855,23 +4781,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_anchorage"
-				}
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:VNM"
-						levels = 15
-						region = "STATE_TONKIN"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
 				}
 			}
 			create_building = {
@@ -5087,23 +4996,6 @@ BUILDINGS = {
 	s:STATE_LAOS = {
 		region_state:VNM = {
 			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:VNM"
-						levels = 20
-						region = "STATE_LAOS"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
 				building = "building_silk_plantation"
 				add_ownership = {
 					building = {
@@ -5141,23 +5033,6 @@ BUILDINGS = {
 	}
 	s:STATE_CHIANG_MAI = {
 		region_state:THA = {
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:THA"
-						levels = 2
-						region = "STATE_CHIANG_MAI"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
 			create_building = {
 				building = "building_rice_farm"
 				add_ownership = {
@@ -5209,23 +5084,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_anchorage"
-				}
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:THA"
-						levels = 9
-						region = "STATE_NAKHON_RATCHASIMA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
 				}
 			}
 			create_building = {
@@ -5299,23 +5157,6 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:MYM"
-						levels = 5
-						region = "STATE_TENASSERIM"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
 				building = "building_rice_farm"
 				add_ownership = {
 					building = {
@@ -5363,23 +5204,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_anchorage"
-				}
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:THA"
-						levels = 7
-						region = "STATE_TENASSERIM"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
 				}
 			}
 			create_building = {
@@ -5438,23 +5262,6 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:MYM"
-						levels = 4
-						region = "STATE_KACHIN"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
 				building = "building_rice_farm"
 				add_ownership = {
 					building = {
@@ -5491,23 +5298,6 @@ BUILDINGS = {
 					"pm_professional_bureaucrats"
 				}
 			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:MYM"
-						levels = 4
-						region = "STATE_SHAN_STATES"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
 		}
 	}
 	s:STATE_BURMA = {
@@ -5527,23 +5317,6 @@ BUILDINGS = {
 					"pm_modern_bureaucracy"
 					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
-				}
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:MYM"
-						levels = 4
-						region = "STATE_BURMA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
 				}
 			}
 		}
@@ -5580,23 +5353,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_anchorage"
-				}
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:MYM"
-						levels = 3
-						region = "STATE_PEGU"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
 				}
 			}
 			create_building = {
@@ -6459,7 +6215,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_automobiles"
-					"pm_no_luxury_cars"
 					"pm_refined_oil_production"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
@@ -6550,7 +6305,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -6815,7 +6569,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_automobiles"
-					"pm_no_luxury_cars"
 					"pm_refined_oil_production"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
@@ -6940,7 +6693,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -7138,7 +6890,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_electronics"
-					"pm_no_sensors"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -7403,7 +7154,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_automobiles"
-					"pm_no_luxury_cars"
 					"pm_refined_oil_production"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
@@ -7477,7 +7227,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -7937,7 +7686,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -8094,7 +7842,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_automobiles"
-					"pm_no_luxury_cars"
 					"pm_refined_oil_production"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"

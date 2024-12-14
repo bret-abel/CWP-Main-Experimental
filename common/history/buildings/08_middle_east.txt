@@ -779,7 +779,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -1508,23 +1507,6 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:PER"
-						levels = 1
-						region = "STATE_KHORASAN"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
 					building = {
@@ -2130,7 +2112,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -2631,25 +2612,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_semi_automatic_rifles"
 					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
-			}
-			create_building = {
-				building = "building_advanced_military_manufactories"
-				add_ownership = {
-					building = {
-						type = "building_advanced_military_manufactories"
-						country = "c:TUR"
-						levels = 1
-						region = "STATE_BURSA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_pre_war_tanks_prod"
-					"pm_powered_assembly_lines_industry"
-					"pm_no_armored_fighting_vehicle_prod"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
 				}
@@ -3964,25 +3926,6 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_advanced_military_manufactories"
-				add_ownership = {
-					building = {
-						type = "building_advanced_military_manufactories"
-						country = "c:TUR"
-						levels = 1
-						region = "STATE_ANKARA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_pre_war_tanks_prod"
-					"pm_no_armored_fighting_vehicle_prod"
-					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
-			}
-			create_building = {
 				building = "building_airport"
 				add_ownership = {
 					building = {
@@ -4009,7 +3952,6 @@ BUILDINGS = {
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -4029,7 +3971,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_automobiles"
-					"pm_no_luxury_cars"
 					"pm_refined_oil_production"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"

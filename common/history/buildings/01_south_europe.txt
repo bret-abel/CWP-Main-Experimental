@@ -296,7 +296,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -315,7 +314,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_automobiles"
-					"pm_no_luxury_cars"
 					"pm_refined_oil_production"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
@@ -757,7 +755,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -864,7 +861,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_automobiles"
-					"pm_no_luxury_cars"
 					"pm_refined_oil_production"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
@@ -1130,7 +1126,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_electronics"
-					"pm_no_sensors"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -1834,7 +1829,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -2225,7 +2219,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -2626,7 +2619,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -3069,7 +3061,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -3106,7 +3097,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_automobiles"
-					"pm_no_luxury_cars"
 					"pm_refined_oil_production"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
@@ -3302,7 +3292,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -3321,7 +3310,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_automobiles"
-					"pm_no_luxury_cars"
 					"pm_refined_oil_production"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
@@ -3645,7 +3633,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -3681,7 +3668,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_automobiles"
-					"pm_no_luxury_cars"
 					"pm_refined_oil_production"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
@@ -3925,7 +3911,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -4426,7 +4411,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -4514,25 +4498,6 @@ BUILDINGS = {
 					"pm_electric_saw_mills"
 					"pm_no_equipment"
 					"pm_manual_transportation"
-				}
-			}
-			create_building = {
-				building = "building_advanced_military_manufactories"
-				add_ownership = {
-					building = {
-						type = "building_advanced_military_manufactories"
-						country = "c:ITA"
-						levels = 3
-						region = "STATE_VENETIA"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_pre_war_tanks_prod"
-					"pm_wartime_halftacks_production"
-					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -4811,7 +4776,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -5005,7 +4969,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -5885,7 +5848,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -6207,7 +6169,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -6737,7 +6698,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -7068,7 +7028,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -7472,7 +7431,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -7716,7 +7674,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -8070,7 +8027,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -8512,7 +8468,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -8716,7 +8671,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -8955,7 +8909,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -9479,7 +9432,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -10432,7 +10384,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -10812,7 +10763,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -11096,7 +11046,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"

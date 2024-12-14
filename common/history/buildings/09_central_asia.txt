@@ -1178,25 +1178,6 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_uranium_refineries"
-				add_ownership = {
-					building = {
-						type = "building_uranium_refineries"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_KAZAN"
-					}
-				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_brute_force_calutron_separation_refineries"
-					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
-			}
-			create_building = {
 				building = "building_government_administration"
 				add_ownership = {
 					building = {
@@ -1429,26 +1410,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_synthetic_fiber_production_textiles"
 					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
-			}
-			create_building = {
-				building = "building_advanced_military_manufactories"
-				add_ownership = {
-					building = {
-						type = "building_advanced_military_manufactories"
-						country = "c:RUS"
-						levels = 3
-						region = "STATE_TARTARIA"
-					}
-				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_1st_gen_mbt_ami"
-					"pm_wartime_halftacks_production"
-					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
 				}
@@ -1830,24 +1791,6 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:RUS"
-						levels = 10
-						region = "STATE_KHIVA"
-					}
-				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_mechanized_harvesting_opium"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
 				building = "building_railway"
 				add_ownership = {
 					building = {
@@ -1976,29 +1919,10 @@ BUILDINGS = {
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
 					"pm_synthetic_fiber_production_furniture"
-				}
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:RUS"
-						levels = 10
-						region = "STATE_WEST_UZBEKIA"
-					}
-				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_mechanized_harvesting_opium"
-					"pm_no_transport_plantation"
 				}
 			}
 			create_building = {
@@ -2200,7 +2124,6 @@ BUILDINGS = {
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_no_household_appliance_manufacturing"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -2222,24 +2145,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_default_building_silk_plantation"
 					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:RUS"
-						levels = 20
-						region = "STATE_EAST_UZBEKIA"
-					}
-				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_mechanized_harvesting_opium"
 					"pm_no_transport_plantation"
 				}
 			}
@@ -2333,24 +2238,6 @@ BUILDINGS = {
 					"pm_steam_trains"
 					"pm_paved_roads"
 					"pm_cargo_prioritization"
-				}
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:RUS"
-						levels = 20
-						region = "STATE_TAJIKISTAN"
-					}
-				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_mechanized_harvesting_opium"
-					"pm_no_transport_plantation"
 				}
 			}
 		}
@@ -2521,24 +2408,6 @@ BUILDINGS = {
 					"pm_steam_trains"
 					"pm_paved_roads"
 					"pm_cargo_prioritization"
-				}
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_TURKMENIA"
-					}
-				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_mechanized_harvesting_opium"
-					"pm_no_transport_plantation"
 				}
 			}
 		}
@@ -2964,65 +2833,14 @@ BUILDINGS = {
 					"pm_manual_transportation"
 				}
 			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:HND"
-						levels = 10
-						region = "STATE_PASHTUNISTAN"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
 		}
 	}
 	s:STATE_WESTERN_AFGHANISTAN = {
 		region_state:AFH = {
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:AFH"
-						levels = 3
-						region = "STATE_WESTERN_AFGHANISTAN"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
 		}
 	}
 	s:STATE_EASTERN_AFGHANISTAN = {
 		region_state:AFH = {
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:AFH"
-						levels = 2
-						region = "STATE_EASTERN_AFGHANISTAN"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
 		}
 	}
 	s:STATE_BALUCHISTAN = {
@@ -3093,23 +2911,6 @@ BUILDINGS = {
 					"pm_manual_resource_extraction_iron"
 					"pm_traditional_tools"
 					"pm_manual_transportation"
-				}
-			}
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:HND"
-						levels = 10
-						region = "STATE_BALUCHISTAN"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
 				}
 			}
 		}

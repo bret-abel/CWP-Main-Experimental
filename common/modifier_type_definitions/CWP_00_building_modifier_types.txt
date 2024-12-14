@@ -1,9 +1,4 @@
-﻿building_advanced_military_manufactories_throughput_add = {
-	good = yes
-	percent = yes
-}
-
-building_aircraft_manufactories_throughput_add = {
+﻿building_aircraft_manufactories_throughput_add = {
 	good = yes
 	percent = yes
 }
@@ -149,11 +144,6 @@ goods_input_aluminum_mult = {
 	percent = yes
 }
 
-goods_input_armored_fighting_vehicle_add = {
-	good = no
-	percent = no
-}
-
 goods_input_batteries_add = {
 	good = no
 	percent = no
@@ -197,6 +187,11 @@ goods_input_computers_add = {
 goods_input_consumer_electronics_add = {
 	good = no
 	percent = no
+}
+
+goods_input_consumer_electronics_mult = {
+	good = no
+	percent = yes
 }
 
 goods_input_copper_add = {
@@ -245,11 +240,6 @@ goods_input_healthcare_add = {
 }
 
 goods_input_high_quality_fabric_add = {
-	good = no
-	percent = no
-}
-
-goods_input_household_appliances_add = {
 	good = no
 	percent = no
 }
@@ -324,21 +314,6 @@ goods_input_refined_fuel_add = {
 	percent = no
 }
 
-goods_input_refined_uranium_add = {
-	good = no
-	percent = no
-}
-
-goods_input_semiconductors_add = {
-	good = no
-	percent = no
-}
-
-goods_input_sensors_add = {
-	good = yes
-	percent = no
-}
-
 goods_input_services_add = {
 	good = no
 	percent = no
@@ -375,11 +350,6 @@ goods_output_aircraft_carriers_add = {
 }
 
 goods_output_aluminum_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_armored_fighting_vehicle_add = {
 	good = yes
 	percent = no
 }
@@ -459,22 +429,12 @@ goods_output_high_quality_fabric_mult = {
 	percent = yes
 }
 
-goods_output_household_appliances_add = {
-	good = yes
-	percent = no
-}
-
 goods_output_housing_add = {
 	good = yes
 	percent = no
 }
 
 goods_output_lift_capacity_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_luxury_cars_add = {
 	good = yes
 	percent = no
 }
@@ -540,26 +500,6 @@ goods_output_rare_earth_elements_add = {
 }
 
 goods_output_recreational_drugs_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_refined_fuel_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_refined_uranium_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_semiconductors_add = {
-	good = yes
-	percent = no
-}
-
-goods_output_sensors_add = {
 	good = yes
 	percent = no
 }
