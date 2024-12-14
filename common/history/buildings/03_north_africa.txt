@@ -1500,24 +1500,7 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_WESTERN_MALI = {
-		region_state:WAU = {
-			create_building = {
-				building = "building_opium_plantation"
-				add_ownership = {
-					building = {
-						type = "building_opium_plantation"
-						country = "c:WAU"
-						levels = 4
-						region = "STATE_WESTERN_MALI"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_opium_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
+		region_state:WAU = {			
 			create_building = {
 				building = "building_government_administration"
 				add_ownership = {

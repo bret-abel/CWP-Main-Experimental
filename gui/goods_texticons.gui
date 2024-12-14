@@ -211,7 +211,7 @@ texticon = {
 texticon = {
 	icon = furniture
 	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/furniture.dds"
+		texture = "gfx/interface/icons/goods_icons/household_appliances.dds"
 		size = { 25 25 }
 		offset = { 0 7 }
 		fontsize = 18
@@ -410,16 +410,6 @@ texticon = {
 }
 
 texticon = {
-	icon = opium
-	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/opium.dds"
-		size = { 25 25 }
-		offset = { 0 7 }
-		fontsize = 18
-	}
-}
-
-texticon = {
 	icon = paper
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/paper.dds"
@@ -532,16 +522,6 @@ texticon = {
 }
 
 texticon = {
-	icon = armored_fighting_vehicle
-	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/armored_fighting_vehicle.dds"
-		size = { 25 25 }
-		offset = { 0 7 }
-		fontsize = 18
-	}
-}
-
-texticon = {
 	icon = missiles
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/missiles.dds"
@@ -565,16 +545,6 @@ texticon = {
 	icon = tourism
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/tourism.dds"
-		size = { 25 25 }
-		offset = { 0 7 }
-		fontsize = 18
-	}
-}
-
-texticon = {
-	icon = household_appliances
-	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/household_appliances.dds"
 		size = { 25 25 }
 		offset = { 0 7 }
 		fontsize = 18
@@ -672,16 +642,6 @@ texticon = {
 }
 
 texticon = {
-	icon = semiconductors
-	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/semiconductors.dds"
-		size = { 25 25 }
-		offset = { 0 7 }
-		fontsize = 18
-	}
-}
-
-texticon = {
 	icon = computers
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/computers.dds"
@@ -711,15 +671,6 @@ texticon = {
 	}
 }
 
-texticon = {
-	icon = refined_uranium
-	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/refined_uranium.dds"
-		size = { 25 25 }
-		offset = { 0 7 }
-		fontsize = 18
-	}
-}
 
 texticon = {
 	icon = batteries
@@ -815,16 +766,6 @@ texticon = {
 	icon = military_aircraft
 	iconsize = {
 		texture = "gfx/interface/icons/goods_icons/military_aircraft.dds"
-		size = { 25 25 }
-		offset = { 0 7 }
-		fontsize = 18
-	}
-}
-
-texticon = {
-	icon = luxury_cars
-	iconsize = {
-		texture = "gfx/interface/icons/goods_icons/luxury_cars.dds"
 		size = { 25 25 }
 		offset = { 0 7 }
 		fontsize = 18

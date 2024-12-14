@@ -29,41 +29,6 @@ building_cotton_plantation = {
 			}
 }
 
-building_opium_plantation = {
-	ownership_type = self
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
-	building_group = bg_opium_plantations
-	icon ="gfx/interface/icons/building_icons/opium_plantation.dds"
-	required_construction = construction_cost_low
-	city_type = farm
-	levels_per_mesh = 5
-	production_method_groups = {
-		pmg_base_building_opium_plantation
-		pmg_harvesting_process_opium_plantation
-		pmg_transportation_plantation
-			}
-	can_build_government = {
-		error_check = {
-			severity = fail
-			owner = {
-				NOT = {
-					is_banning_goods = g:opium
-				}
-			}
-		}
-	}
-	can_build_private = {
-		error_check = {
-			severity = fail
-			owner = {
-				NOT = {
-					is_banning_goods = g:opium
-				}
-			}
-		}
-	}
-}
-
 building_tea_plantation = {
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
