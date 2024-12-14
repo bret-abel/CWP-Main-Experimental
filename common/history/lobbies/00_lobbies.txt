@@ -1,0 +1,176 @@
+﻿LOBBIES = {
+	c:RUS = {
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:USA
+			add_interest_group = ig:ig_securocrats
+			add_interest_group = ig:ig_elites
+		}
+	}
+	c:USA = {
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:RUS
+			add_interest_group = ig:ig_securocrats
+		}
+	}
+	c:GRE = {
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:TUR
+			add_interest_group = ig:ig_securocrats
+			add_interest_group = ig:ig_patriots
+			add_interest_group = ig:ig_moralists
+		}
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:RUS
+			add_interest_group = ig:ig_laborists
+		}
+	}
+	c:TUR = {
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:GRE
+			add_interest_group = ig:ig_securocrats
+			add_interest_group = ig:ig_patriots
+			add_interest_group = ig:ig_moralists
+		}
+	}
+	c:POL = {
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:RUS
+			add_interest_group = ig:ig_ruralists
+			add_interest_group = ig:ig_patriots
+		}
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:RUS
+			add_interest_group = ig:ig_laborists
+			add_interest_group = ig:ig_securocrats
+		}
+	}
+	c:CZH = {
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:RUS
+			add_interest_group = ig:ig_intelligentsia
+			add_interest_group = ig:ig_moralists
+		}
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:RUS
+			add_interest_group = ig:ig_laborists
+		}
+	}
+	c:BUL = {
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:RUS
+			add_interest_group = ig:ig_laborists
+		}
+	}
+	c:HUN = {
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:RUS
+			add_interest_group = ig:ig_laborists
+		}
+	}
+	c:ROM = {
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:RUS
+			add_interest_group = ig:ig_laborists
+		}
+	}
+	c:FRA = {
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:GBR
+			add_interest_group = ig:ig_elites
+		}
+	}
+	c:GBR = {
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:FRA
+			add_interest_group = ig:ig_elites
+		}
+	}
+	c:ITA = {
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:RUS
+			add_interest_group = ig:ig_laborists
+		}
+	}
+	c:FIN = {
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:RUS
+			add_interest_group = ig:ig_patriots
+			add_interest_group = ig:ig_securocrats
+		}
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:SWE
+			add_interest_group = ig:ig_elites
+			add_interest_group = ig:ig_securocrats
+		}
+	}
+	c:SWE = {
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:FIN
+			add_interest_group = ig:ig_elites
+			add_interest_group = ig:ig_securocrats
+		}
+	}
+	c:VNM = {
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:ROC
+			add_interest_group = ig:ig_laborists
+			add_interest_group = ig:ig_patriots
+			add_interest_group = ig:ig_securocrats
+		}
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:PRC
+			add_interest_group = ig:ig_laborists
+			add_interest_group = ig:ig_patriots
+			add_interest_group = ig:ig_securocrats
+		}
+		create_political_lobby = {  
+			type = lobby_pro_country  
+			target = c:USA
+			add_interest_group = ig:ig_laborists
+		}
+	}
+	c:PER = {
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:RUS
+			add_interest_group = ig:ig_securocrats
+		}
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:GBR
+			add_interest_group = ig:ig_patriots
+		}
+		create_political_lobby = {  
+			type = lobby_anti_country  
+			target = c:USA
+			add_interest_group = ig:ig_moralists
+		}
+	}
+}	
+
+
+
+
+
+
+
