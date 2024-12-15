@@ -188,7 +188,7 @@ types topfrontend_types {
 							}
 
 							state = {
-								trigger_when = "[Alert.IsRemoving]"
+								trigger_when = "[Alert.IsRemovalRequested]"
 								name = Remove0
 								next = Remove1
 								position = { 0 0 }
@@ -199,6 +199,7 @@ types topfrontend_types {
 								position_y = -40
 								duration = 0.3
 								alpha = 0
+								on_start = "[Alert.StartRemoving]"
 								on_finish = "[Alert.RemovingFinished]"
 							}	
 							
