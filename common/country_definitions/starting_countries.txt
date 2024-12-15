@@ -250,7 +250,7 @@ BUL = { #Bulgaria
 }
 
 RUS = { #Soviet Union, for Russia use RSF
-	color = { 1 0 0 }
+	color = { 0.3 0 0 }
 	country_type = recognized
 	tier = hegemony
 	valid_as_home_country_for_separatists = {
