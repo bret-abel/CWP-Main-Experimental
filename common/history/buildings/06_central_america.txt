@@ -1,1403 +1,1881 @@
-﻿BUILDINGS={
-	s:STATE_SAN_SALVADOR={
-		region_state:ELS={
-			create_building={
-				building="building_shipyards"
-				add_ownership={
-					building={
-						type="building_shipyards"
-						country="c:ELS"
-						levels=2
-						region="STATE_SAN_SALVADOR"
+﻿
+
+BUILDINGS = {
+	s:STATE_SAN_SALVADOR = {
+		region_state:ELS = {
+			create_building = {
+				building = "building_shipyards"
+				add_ownership = {
+					building = {
+						type = "building_shipyards"
+						country = "c:ELS"
+						levels = 2
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_cargo_ships" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_cargo_ships"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:ELS"
-						levels=2
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:ELS"
+						levels = 2
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
+				}
 			}
-			create_building={
-				building="building_coffee_plantation"
-				add_ownership={
-					building={
-						type="building_coffee_plantation"
-						country="c:ELS"
-						levels=6
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = "building_coffee_plantation"
+						country = "c:ELS"
+						levels = 6
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_coffee_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_coffee_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
 			}
-			create_building={
-				building="building_rubber_plantation"
-				add_ownership={
-					building={
-						type="building_rubber_plantation"
-						country="c:ELS"
-						levels=6
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_rubber_plantation"
+				add_ownership = {
+					building = {
+						type = "building_rubber_plantation"
+						country = "c:ELS"
+						levels = 6
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_rubber_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_rubber_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
 			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:ELS"
-						levels=4
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_fishing_wharf"
+				add_ownership = {
+					building = {
+						type = "building_fishing_wharf"
+						country = "c:ELS"
+						levels = 4
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_no_whaling" "pm_traditional_packaging_fishing" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_fishing"
+					"pm_no_whaling"
+					"pm_traditional_packaging_fishing"
+				}
 			}
-			create_building={
-				building="building_sugar_plantation"
-				add_ownership={
-					building={
-						type="building_sugar_plantation"
-						country="c:ELS"
-						levels=4
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = "building_sugar_plantation"
+						country = "c:ELS"
+						levels = 4
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_sugar_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_sugar_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
 			}
-			create_building={
-				building="building_banana_plantation"
-				add_ownership={
-					building={
-						type="building_banana_plantation"
-						country="c:ELS"
-						levels=3
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_banana_plantation"
+				add_ownership = {
+					building = {
+						type = "building_banana_plantation"
+						country = "c:ELS"
+						levels = 3
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_banana_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_banana_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
 			}
-			create_building={
-				building="building_maize_farm"
-				add_ownership={
-					building={
-						type="building_maize_farm"
-						country="c:ELS"
-						levels=11
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = "building_maize_farm"
+						country = "c:ELS"
+						levels = 11
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_mechanized_harvesting" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming"
+					"pm_mechanized_harvesting"
+				}
 			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_livestock_ranch"
-						country="c:ELS"
-						levels=6
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_livestock_ranch"
+						country = "c:ELS"
+						levels = 6
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_butchering_tools" "pm_unrefrigerated" "pm_standard_fences" "pm_simple_ranch" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_butchering_tools"
+					"pm_standard_fences"
+					"pm_unrefrigerated"
+					"pm_simple_ranch"
+				}
 			}
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:ELS"
-						levels=5
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:ELS"
+						levels = 5
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_informal_bureaucracy" "pm_professional_service_industry_no" "pm_professional_bureaucrats" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_informal_bureaucracy"
+					"pm_professional_service_industry_no"
+					"pm_professional_bureaucrats"
+				}
 			}
-			create_building={
-				building="building_food_industry"
-				add_ownership={
-					building={
-						type="building_food_industry"
-						country="c:ELS"
-						levels=23
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_food_industry"
+						country = "c:ELS"
+						levels = 23
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_improved_food_manufactories" "pm_preservatives_fish" "pm_preservatives_meat" "pm_preservatives_fruit" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_improved_food_manufactories"
+					"pm_preservatives_fish"
+					"pm_preservatives_meat"
+					"pm_preservatives_fruit"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_textile_manufactories"
-				add_ownership={
-					building={
-						type="building_textile_manufactories"
-						country="c:ELS"
-						levels=35
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_textile_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_textile_manufactories"
+						country = "c:ELS"
+						levels = 35
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_fiber_production_textiles" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_fiber_production_textiles"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_furniture_manufactories"
-				add_ownership={
-					building={
-						type="building_furniture_manufactories"
-						country="c:ELS"
-						levels=2
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_furniture_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufactories"
+						country = "c:ELS"
+						levels = 2
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_fiber_production_furniture" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_fiber_production_furniture"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_tool_manufactories"
-				add_ownership={
-					building={
-						type="building_tool_manufactories"
-						country="c:ELS"
-						levels=3
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_tool_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_tool_manufactories"
+						country = "c:ELS"
+						levels = 3
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_rudimentary_tools" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_rudimentary_tools"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_paper_manufactories"
-				add_ownership={
-					building={
-						type="building_paper_manufactories"
-						country="c:ELS"
-						levels=3
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_paper_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_paper_manufactories"
+						country = "c:ELS"
+						levels = 3
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_base_paper" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_base_paper"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:ELS"
-						levels=7
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_logging_camp"
+						country = "c:ELS"
+						levels = 7
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_manual_transportation" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_forestry"
+					"pm_no_equipment"
+					"pm_manual_transportation"
+				}
 			}
-			create_building={
-				building="building_railway"
-				add_ownership={
-					building={
-						type="building_railway"
-						country="c:ELS"
-						levels=11
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_railway"
+						country = "c:ELS"
+						levels = 11
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_steam_trains"
+					"pm_paved_roads"
+					"pm_cargo_prioritization"
+				}
 			}
-			create_building={
-				building="building_construction_sector"
-				add_ownership={
-					building={
-						type="building_construction_sector"
-						country="c:ELS"
-						levels=2
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_construction_sector"
+				add_ownership = {
+					building = {
+						type = "building_construction_sector"
+						country = "c:ELS"
+						levels = 2
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_pre_war_buildings" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_pre_war_buildings"
+				}
 			}
-			create_building={
-				building="building_drydocks"
-				add_ownership={
-					building={
-						type="building_drydocks"
-						country="c:ELS"
-						levels=1
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_drydocks"
+				add_ownership = {
+					building = {
+						type = "building_drydocks"
+						country = "c:ELS"
+						levels = 1
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_wartime_designs" "pm_wartime_submarines_prod" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_wartime_designs"
+					"pm_wartime_submarines_prod"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_motor_industry"
-				add_ownership={
-					building={
-						type="building_motor_industry"
-						country="c:ELS"
-						levels=2
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_motor_industry"
+				add_ownership = {
+					building = {
+						type = "building_motor_industry"
+						country = "c:ELS"
+						levels = 2
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_combustion_gas_engines_motors" "pm_no_electronics_motors" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_combustion_gas_engines_motors"
+					"pm_no_electronics_motors"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_tobacco_plantation"
-						country="c:ELS"
-						levels=1
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_tobacco_plantation"
+				add_ownership = {
+					building = {
+						type = "building_tobacco_plantation"
+						country = "c:ELS"
+						levels = 1
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_tobacco_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_tobacco_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
 			}
-			create_building={
-				building="building_distilleries"
-				add_ownership={
-					building={
-						type="building_distilleries"
-						country="c:ELS"
-						levels=1
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_distilleries"
+				add_ownership = {
+					building = {
+						type = "building_distilleries"
+						country = "c:ELS"
+						levels = 1
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_basic_distillation_liquor" "pm_basic_distillation_wine" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_distillation_liquor"
+					"pm_basic_distillation_wine"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_electronics_manufactories"
-				add_ownership={
-					building={
-						type="building_electronics_manufactories"
-						country="c:ELS"
-						levels=1
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_electronics_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_electronics_manufactories"
+						country = "c:ELS"
+						levels = 1
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_pre_war_electronics" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_pre_war_electronics"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_fuel_refineries"
-				add_ownership={
-					building={
-						type="building_fuel_refineries"
-						country="c:ELS"
-						levels=2
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_fuel_refineries"
+				add_ownership = {
+					building = {
+						type = "building_fuel_refineries"
+						country = "c:ELS"
+						levels = 2
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_oil_refineries" "pm_no_plastics" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_oil_refineries"
+					"pm_no_plastics"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_pharmaceutical_industry"
-				add_ownership={
-					building={
-						type="building_pharmaceutical_industry"
-						country="c:ELS"
-						levels=4
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_pharmaceutical_industry"
+				add_ownership = {
+					building = {
+						type = "building_pharmaceutical_industry"
+						country = "c:ELS"
+						levels = 4
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_modern_medicine" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_modern_medicine"
+					"pm_no_opiates"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_steelworks"
-				add_ownership={
-					building={
-						type="building_steelworks"
-						country="c:ELS"
-						levels=1
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_steelworks"
+				add_ownership = {
+					building = {
+						type = "building_steelworks"
+						country = "c:ELS"
+						levels = 1
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_early_steelmaking" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_early_steelmaking"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
 			}
-			create_building={
-				building="building_aircraft_manufactories"
-				add_ownership={
-					building={
-						type="building_aircraft_manufactories"
-						country="c:ELS"
-						levels=1
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_hospitals"
+				add_ownership = {
+					building = {
+						type = "building_hospitals"
+						country = "c:ELS"
+						levels = 5
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_no_environmental_tech" "pm_early_military_aircraft_prod" "pm_no_missile_production" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_civilian_aircraft" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_hospitals"
+					"pm_traditional_treatments"
+					"pm_professional_service_industry_no"
+					"pm_privatized_hospital"
+				}
 			}
-			create_building={
-				building="building_glassworks"
-				add_ownership={
-					building={
-						type="building_glassworks"
-						country="c:ELS"
-						levels=1
-						region="STATE_SAN_SALVADOR"
+			create_building = {
+				building = "building_aircraft_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_aircraft_manufactories"
+						country = "c:ELS"
+						levels = 1
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_pre_war_glassworking" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_early_military_aircraft_prod"
+					"pm_no_missile_production"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+					"pm_no_civilian_aircraft"
+				}
 			}
-		}
-	}
-	s:STATE_GUATEMALA={
-		region_state:GUA={
-			create_building={
-				building="building_rubber_plantation"
-				add_ownership={
-					building={
-						type="building_rubber_plantation"
-						country="c:GUA"
-						levels=16
-						region="STATE_GUATEMALA"
+			create_building = {
+				building = "building_glassworks"
+				add_ownership = {
+					building = {
+						type = "building_glassworks"
+						country = "c:ELS"
+						levels = 1
+						region = "STATE_SAN_SALVADOR"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_rubber_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GUA"
-						levels=2
-					}
+				reserves = 1
+				activate_production_methods = {
+					"pm_pre_war_glassworking"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
 				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-			create_building={
-				building="building_iron_mine"
-				add_ownership={
-					building={
-						type="building_iron_mine"
-						country="c:GUA"
-						levels=3
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_manual_resource_extraction_iron" "pm_traditional_tools" "pm_manual_transportation" "pm_privately_owned_mine" }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:GUA"
-						levels=3
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_manual_transportation" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:GUA"
-						levels=4
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_traditional_packaging_fishing" "pm_pre_war_whaling_ships" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				add_ownership={
-					building={
-						type="building_coffee_plantation"
-						country="c:GUA"
-						levels=8
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_coffee_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_banana_plantation"
-				add_ownership={
-					building={
-						type="building_banana_plantation"
-						country="c:GUA"
-						levels=5
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_banana_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_tobacco_plantation"
-						country="c:GUA"
-						levels=5
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_tobacco_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_maize_farm"
-				add_ownership={
-					building={
-						type="building_maize_farm"
-						country="c:GUA"
-						levels=11
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_manual_harvesting" "pm_fertilizers" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_livestock_ranch"
-						country="c:GUA"
-						levels=12
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_butchering_tools" "pm_unrefrigerated" "pm_standard_fences" "pm_intensive_grazing_ranch" }
-			}
-			create_building={
-				building="building_sugar_plantation"
-				add_ownership={
-					building={
-						type="building_sugar_plantation"
-						country="c:GUA"
-						levels=2
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_sugar_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_construction_sector"
-				add_ownership={
-					building={
-						type="building_construction_sector"
-						country="c:GUA"
-						levels=2
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_pre_war_buildings" }
-			}
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:GUA"
-						levels=3
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_informal_bureaucracy" "pm_professional_service_industry_no" "pm_professional_bureaucrats" }
-			}
-			create_building={
-				building="building_railway"
-				add_ownership={
-					building={
-						type="building_railway"
-						country="c:GUA"
-						levels=3
-						region="STATE_GUATEMALA"
-					}
-				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
-			}
-			create_building={
-				building="building_cotton_plantation"
-				add_ownership={
-					building={
-						type="building_cotton_plantation"
-						country="c:GUA"
-						levels=3
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_cotton_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_furniture_manufactories"
-				add_ownership={
-					building={
-						type="building_furniture_manufactories"
-						country="c:GUA"
-						levels=1
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_fiber_production_furniture" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_paper_manufactories"
-				add_ownership={
-					building={
-						type="building_paper_manufactories"
-						country="c:GUA"
-						levels=1
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_base_paper" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_tool_manufactories"
-				add_ownership={
-					building={
-						type="building_tool_manufactories"
-						country="c:GUA"
-						levels=1
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_rudimentary_tools" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_food_industry"
-				add_ownership={
-					building={
-						type="building_food_industry"
-						country="c:GUA"
-						levels=1
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_improved_food_manufactories" "pm_preservatives_fish" "pm_preservatives_meat" "pm_preservatives_fruit" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_textile_manufactories"
-				add_ownership={
-					building={
-						type="building_textile_manufactories"
-						country="c:GUA"
-						levels=1
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_fiber_production_textiles" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-		}
-		region_state:GBR={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-			create_building={
-				building="building_rubber_plantation"
-				add_ownership={
-					building={
-						type="building_rubber_plantation"
-						country="c:GBR"
-						levels=1
-						region="STATE_GUATEMALA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_rubber_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
 			}
 		}
 	}
-	s:STATE_HONDURAS={
-		region_state:HON={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:HON"
-						levels=2
+	s:STATE_GUATEMALA = {
+		region_state:GUA = {
+			create_building = {
+				building = "building_rubber_plantation"
+				add_ownership = {
+					building = {
+						type = "building_rubber_plantation"
+						country = "c:GUA"
+						levels = 16
+						region = "STATE_GUATEMALA"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_rubber_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
 			}
-			create_building={
-				building="building_rubber_plantation"
-				add_ownership={
-					building={
-						type="building_rubber_plantation"
-						country="c:HON"
-						levels=8
-						region="STATE_HONDURAS"
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:GUA"
+						levels = 2
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_rubber_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
+				}
 			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:HON"
-						levels=4
-						region="STATE_HONDURAS"
+			create_building = {
+				building = "building_iron_mine"
+				add_ownership = {
+					building = {
+						type = "building_iron_mine"
+						country = "c:GUA"
+						levels = 3
+						region = "STATE_GUATEMALA"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_traditional_packaging_fishing" "pm_pre_war_whaling_ships" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_manual_resource_extraction_iron"
+					"pm_traditional_tools"
+					"pm_manual_transportation"
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_logging_camp"
+						country = "c:GUA"
+						levels = 3
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_forestry"
+					"pm_no_equipment"
+					"pm_manual_transportation"
+				}
+			}
+			create_building = {
+				building = "building_fishing_wharf"
+				add_ownership = {
+					building = {
+						type = "building_fishing_wharf"
+						country = "c:GUA"
+						levels = 4
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_fishing"
+					"pm_traditional_packaging_fishing"
+					"pm_pre_war_whaling_ships"
+				}
+			}
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = "building_coffee_plantation"
+						country = "c:GUA"
+						levels = 8
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_coffee_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_banana_plantation"
+				add_ownership = {
+					building = {
+						type = "building_banana_plantation"
+						country = "c:GUA"
+						levels = 5
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_banana_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_tobacco_plantation"
+				add_ownership = {
+					building = {
+						type = "building_tobacco_plantation"
+						country = "c:GUA"
+						levels = 5
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_tobacco_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_maize_farm"
+				add_ownership = {
+					building = {
+						type = "building_maize_farm"
+						country = "c:GUA"
+						levels = 11
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_manual_harvesting"
+					"pm_fertilizers"
+				}
+			}
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_livestock_ranch"
+						country = "c:GUA"
+						levels = 12
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_butchering_tools"
+					"pm_standard_fences"
+					"pm_unrefrigerated"
+					"pm_intensive_grazing_ranch"
+				}
+			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = "building_sugar_plantation"
+						country = "c:GUA"
+						levels = 2
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_sugar_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_construction_sector"
+				add_ownership = {
+					building = {
+						type = "building_construction_sector"
+						country = "c:GUA"
+						levels = 2
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_pre_war_buildings"
+				}
+			}
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:GUA"
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_informal_bureaucracy"
+					"pm_professional_service_industry_no"
+					"pm_professional_bureaucrats"
+				}
+			}
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_railway"
+						country = "c:GUA"
+						levels = 3
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_steam_trains"
+					"pm_paved_roads"
+					"pm_cargo_prioritization"
+				}
+			}
+			create_building = {
+				building = "building_cotton_plantation"
+				add_ownership = {
+					building = {
+						type = "building_cotton_plantation"
+						country = "c:GUA"
+						levels = 3
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_cotton_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_furniture_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufactories"
+						country = "c:GUA"
+						levels = 1
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_fiber_production_furniture"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_paper_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_paper_manufactories"
+						country = "c:GUA"
+						levels = 1
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_base_paper"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_tool_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_tool_manufactories"
+						country = "c:GUA"
+						levels = 1
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_rudimentary_tools"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_food_industry"
+						country = "c:GUA"
+						levels = 1
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_improved_food_manufactories"
+					"pm_preservatives_fish"
+					"pm_preservatives_meat"
+					"pm_preservatives_fruit"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_textile_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_textile_manufactories"
+						country = "c:GUA"
+						levels = 1
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_fiber_production_textiles"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+		}
+		region_state:GBR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
+				}
+			}
+			create_building = {
+				building = "building_rubber_plantation"
+				add_ownership = {
+					building = {
+						type = "building_rubber_plantation"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_GUATEMALA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_rubber_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
 			}
 		}
 	}
-	s:STATE_NICARAGUA={
-		region_state:NIC={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:NIC"
-						levels=2
+	s:STATE_HONDURAS = {
+		region_state:HON = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:HON"
+						levels = 2
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
+				}
 			}
-			create_building={
-				building="building_rubber_plantation"
-				add_ownership={
-					building={
-						type="building_rubber_plantation"
-						country="c:NIC"
-						levels=8
-						region="STATE_NICARAGUA"
+			create_building = {
+				building = "building_rubber_plantation"
+				add_ownership = {
+					building = {
+						type = "building_rubber_plantation"
+						country = "c:HON"
+						levels = 8
+						region = "STATE_HONDURAS"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_rubber_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_rubber_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
 			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:NIC"
-						levels=2
-						region="STATE_NICARAGUA"
+			create_building = {
+				building = "building_fishing_wharf"
+				add_ownership = {
+					building = {
+						type = "building_fishing_wharf"
+						country = "c:HON"
+						levels = 4
+						region = "STATE_HONDURAS"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_manual_transportation" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:NIC"
-						levels=2
-						region="STATE_NICARAGUA"
-					}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_fishing"
+					"pm_traditional_packaging_fishing"
+					"pm_pre_war_whaling_ships"
 				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_traditional_packaging_fishing" "pm_pre_war_whaling_ships" }
 			}
 		}
 	}
-	s:STATE_COSTA_RICA={
-		region_state:COS={
-		}
-	}
-	s:STATE_PANAMA={
-		region_state:PNM={
-		}
-		region_state:USA={
-		}
-	}
-	s:STATE_HAITI={
-		region_state:HAI={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:HAI"
-						levels=2
+	s:STATE_NICARAGUA = {
+		region_state:NIC = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:NIC"
+						levels = 2
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
+				}
+			}
+			create_building = {
+				building = "building_rubber_plantation"
+				add_ownership = {
+					building = {
+						type = "building_rubber_plantation"
+						country = "c:NIC"
+						levels = 8
+						region = "STATE_NICARAGUA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_rubber_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_logging_camp"
+						country = "c:NIC"
+						levels = 2
+						region = "STATE_NICARAGUA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_forestry"
+					"pm_no_equipment"
+					"pm_manual_transportation"
+				}
+			}
+			create_building = {
+				building = "building_fishing_wharf"
+				add_ownership = {
+					building = {
+						type = "building_fishing_wharf"
+						country = "c:NIC"
+						levels = 2
+						region = "STATE_NICARAGUA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_fishing"
+					"pm_traditional_packaging_fishing"
+					"pm_pre_war_whaling_ships"
+				}
 			}
 		}
 	}
-	s:STATE_SANTO_DOMINGO={
-		region_state:DCR={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:DCR"
-						levels=2
+	s:STATE_COSTA_RICA = {
+		region_state:COS
+	}
+	s:STATE_PANAMA = {
+		region_state:PNM
+		region_state:USA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:USA"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
+				}
 			}
 		}
 	}
-	s:STATE_PUERTO_RICO={
-		region_state:USA={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=2
+	s:STATE_HAITI = {
+		region_state:HAI = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:HAI"
+						levels = 2
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
+				}
 			}
 		}
 	}
-	s:STATE_BAHAMAS={
-		region_state:GBR={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
+	s:STATE_SANTO_DOMINGO = {
+		region_state:DCR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:DCR"
+						levels = 2
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_rice_farm"
-				add_ownership={
-					building={
-						type="building_rice_farm"
-						country="c:GBR"
-						levels=2
-						region="STATE_BAHAMAS"
-					}
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
 				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_manual_harvesting" }
-			}
-			create_building={
-				building="building_railway"
-				add_ownership={
-					building={
-						type="building_railway"
-						country="c:GBR"
-						levels=1
-						region="STATE_BAHAMAS"
-					}
-				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
 			}
 		}
 	}
-	s:STATE_WEST_INDIES={
-		region_state:USA={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
+	s:STATE_PUERTO_RICO = {
+		region_state:USA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:USA"
+						levels = 2
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				add_ownership={
-					building={
-						type="building_coffee_plantation"
-						country="c:USA"
-						levels=2
-						region="STATE_WEST_INDIES"
-					}
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
 				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_coffee_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-		}
-		region_state:GBR={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=8
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_tobacco_plantation"
-						country="c:GBR"
-						levels=11
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_tobacco_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_rice_farm"
-				add_ownership={
-					building={
-						type="building_rice_farm"
-						country="c:GBR"
-						levels=7
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_manual_harvesting" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				add_ownership={
-					building={
-						type="building_coffee_plantation"
-						country="c:GBR"
-						levels=1
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_coffee_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_sugar_plantation"
-				add_ownership={
-					building={
-						type="building_sugar_plantation"
-						country="c:GBR"
-						levels=1
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_sugar_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_motor_industry"
-				add_ownership={
-					building={
-						type="building_motor_industry"
-						country="c:GBR"
-						levels=12
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_combustion_gas_engines_motors" "pm_no_electronics_motors" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_chemical_plants"
-				add_ownership={
-					building={
-						type="building_chemical_plants"
-						country="c:GBR"
-						levels=8
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_organophosphates_fertilizer" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_aluminum_refinery"
-				add_ownership={
-					building={
-						type="building_aluminum_refinery"
-						country="c:GBR"
-						levels=3
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_hall_heroult_process" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_railway"
-				add_ownership={
-					building={
-						type="building_railway"
-						country="c:GBR"
-						levels=2
-						region="STATE_WEST_INDIES"
-					}
-				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
-			}
-			create_building={
-				building="building_aircraft_manufactories"
-				add_ownership={
-					building={
-						type="building_aircraft_manufactories"
-						country="c:GBR"
-						levels=5
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_pre_war_aircraft" "pm_no_aircraft_production" "pm_no_missile_production" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:GBR"
-						levels=1
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_pre_war_whaling_ships" "pm_traditional_packaging_fishing" }
-			}
-		}
-		region_state:FRA={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:FRA"
-						levels=3
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_sugar_plantation"
-				add_ownership={
-					building={
-						type="building_sugar_plantation"
-						country="c:FRA"
-						levels=20
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_sugar_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_railway"
-				add_ownership={
-					building={
-						type="building_railway"
-						country="c:FRA"
-						levels=1
-						region="STATE_WEST_INDIES"
-					}
-				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
-			}
-			create_building={
-				building="building_aircraft_manufactories"
-				add_ownership={
-					building={
-						type="building_aircraft_manufactories"
-						country="c:FRA"
-						levels=3
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_pre_war_aircraft" "pm_no_aircraft_production" "pm_no_missile_production" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_explosives_industry"
-				add_ownership={
-					building={
-						type="building_explosives_industry"
-						country="c:FRA"
-						levels=2
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_plastic_explosives" "pm_pre_war_ammunition" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_fuel_refineries"
-				add_ownership={
-					building={
-						type="building_fuel_refineries"
-						country="c:FRA"
-						levels=4
-						region="STATE_WEST_INDIES"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_oil_refineries" "pm_rudimentary_polymers" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
 		}
 	}
-	s:STATE_JAMAICA={
-		region_state:GBR={
-			create_building={
-				building="building_bauxite_mine"
-				add_ownership={
-					building={
-						type="building_bauxite_mine"
-						country="c:GBR"
-						levels=10
-						region="STATE_JAMAICA"
+	s:STATE_BAHAMAS = {
+		region_state:GBR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_manual_resource_extraction_bauxite" "pm_traditional_tools" "pm_manual_transportation" "pm_privately_owned_mine" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
+				}
 			}
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=4
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_rice_farm"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_BAHAMAS"
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming_building_rice_farm"
+					"pm_manual_harvesting"
+				}
+			}
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_railway"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_BAHAMAS"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_steam_trains"
+					"pm_paved_roads"
+					"pm_cargo_prioritization"
+				}
 			}
 		}
 	}
-	s:STATE_CUBA={
-		region_state:CUB={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:CUB"
-						levels=6
+	s:STATE_WEST_INDIES = {
+		region_state:USA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:USA"
+						levels = 1
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
+				}
 			}
-			create_building={
-				building="building_airport"
-				add_ownership={
-					building={
-						type="building_airport"
-						country="c:CUB"
-						levels=1
-						region="STATE_CUBA"
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = "building_coffee_plantation"
+						country = "c:USA"
+						levels = 2
+						region = "STATE_WEST_INDIES"
 					}
 				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_airfield" }
-			}
-			create_building={
-				building="building_textile_manufactories"
-				add_ownership={
-					building={
-						type="building_textile_manufactories"
-						country="c:CUB"
-						levels=2
-						region="STATE_CUBA"
-					}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_coffee_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
 				}
-				reserves=1
-				activate_production_methods={ "pm_fiber_production_textiles" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_tobacco_plantation"
-				add_ownership={
-					building={
-						type="building_tobacco_plantation"
-						country="c:CUB"
-						levels=8
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_tobacco_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_sugar_plantation"
-				add_ownership={
-					building={
-						type="building_sugar_plantation"
-						country="c:CUB"
-						levels=9
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_sugar_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				add_ownership={
-					building={
-						type="building_coffee_plantation"
-						country="c:CUB"
-						levels=7
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_coffee_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_banana_plantation"
-				add_ownership={
-					building={
-						type="building_banana_plantation"
-						country="c:CUB"
-						levels=10
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_banana_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_livestock_ranch"
-						country="c:CUB"
-						levels=5
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_butchering_tools" "pm_unrefrigerated" "pm_standard_fences" "pm_simple_ranch" }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:CUB"
-						levels=5
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_manual_transportation" }
-			}
-			create_building={
-				building="building_furniture_manufactories"
-				add_ownership={
-					building={
-						type="building_furniture_manufactories"
-						country="c:CUB"
-						levels=2
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_fiber_production_furniture" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_tool_manufactories"
-				add_ownership={
-					building={
-						type="building_tool_manufactories"
-						country="c:CUB"
-						levels=2
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_rudimentary_tools" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_construction_sector"
-				add_ownership={
-					building={
-						type="building_construction_sector"
-						country="c:CUB"
-						levels=2
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_pre_war_buildings" }
-			}
-			create_building={
-				building="building_railway"
-				add_ownership={
-					building={
-						type="building_railway"
-						country="c:CUB"
-						levels=2
-						region="STATE_CUBA"
-					}
-				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
-			}
-			create_building={
-				building="building_rice_farm"
-				add_ownership={
-					building={
-						type="building_rice_farm"
-						country="c:CUB"
-						levels=3
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_manual_harvesting" }
-			}
-			create_building={
-				building="building_distilleries"
-				add_ownership={
-					building={
-						type="building_distilleries"
-						country="c:CUB"
-						levels=1
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_basic_distillation_liquor" "pm_basic_distillation_wine" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_coal_mine"
-				add_ownership={
-					building={
-						type="building_coal_mine"
-						country="c:CUB"
-						levels=1
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_manual_resource_extraction_coal" "pm_traditional_tools" "pm_manual_transportation" "pm_privately_owned_mine" }
-			}
-			create_building={
-				building="building_food_industry"
-				add_ownership={
-					building={
-						type="building_food_industry"
-						country="c:CUB"
-						levels=2
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_improved_food_manufactories" "pm_preservatives_fish" "pm_preservatives_meat" "pm_preservatives_fruit" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
-			}
-			create_building={
-				building="building_fishing_wharf"
-				add_ownership={
-					building={
-						type="building_fishing_wharf"
-						country="c:CUB"
-						levels=2
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_no_whaling" "pm_traditional_packaging_fishing" }
-			}
-			create_building={
-				building="building_rubber_plantation"
-				add_ownership={
-					building={
-						type="building_rubber_plantation"
-						country="c:CUB"
-						levels=3
-						region="STATE_CUBA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_rubber_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
 			}
 		}
-		region_state:USA={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
+		region_state:GBR = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 8
 					}
 				}
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
+				}
 			}
-			create_building={
-				building="building_railway"
-				add_ownership={
-					building={
-						type="building_railway"
-						country="c:USA"
-						levels=1
-						region="STATE_CUBA"
+			create_building = {
+				building = "building_tobacco_plantation"
+				add_ownership = {
+					building = {
+						type = "building_tobacco_plantation"
+						country = "c:GBR"
+						levels = 11
+						region = "STATE_WEST_INDIES"
 					}
 				}
-				subsidized=no
-				reserves=1
-				activate_production_methods={ "pm_electric_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_tobacco_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_rice_farm"
+						country = "c:GBR"
+						levels = 7
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming_building_rice_farm"
+					"pm_manual_harvesting"
+				}
+			}
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = "building_coffee_plantation"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_coffee_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = "building_sugar_plantation"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_sugar_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_motor_industry"
+				add_ownership = {
+					building = {
+						type = "building_motor_industry"
+						country = "c:GBR"
+						levels = 12
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_combustion_gas_engines_motors"
+					"pm_no_electronics_motors"
+					"pm_powered_assembly_lines_industry"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_chemical_plants"
+				add_ownership = {
+					building = {
+						type = "building_chemical_plants"
+						country = "c:GBR"
+						levels = 8
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_organophosphates_fertilizer"
+					"pm_powered_assembly_lines_industry"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_aluminum_refinery"
+				add_ownership = {
+					building = {
+						type = "building_aluminum_refinery"
+						country = "c:GBR"
+						levels = 3
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_hall_heroult_process"
+					"pm_powered_assembly_lines_industry"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_railway"
+						country = "c:GBR"
+						levels = 2
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_steam_trains"
+					"pm_paved_roads"
+					"pm_cargo_prioritization"
+				}
+			}
+			create_building = {
+				building = "building_aircraft_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_aircraft_manufactories"
+						country = "c:GBR"
+						levels = 5
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_pre_war_aircraft"
+					"pm_no_aircraft_production"
+					"pm_no_missile_production"
+					"pm_powered_assembly_lines_industry"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_fishing_wharf"
+				add_ownership = {
+					building = {
+						type = "building_fishing_wharf"
+						country = "c:GBR"
+						levels = 1
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_fishing"
+					"pm_pre_war_whaling_ships"
+					"pm_traditional_packaging_fishing"
+				}
+			}
+		}
+		region_state:FRA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:FRA"
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
+				}
+			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = "building_sugar_plantation"
+						country = "c:FRA"
+						levels = 20
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_sugar_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_railway"
+						country = "c:FRA"
+						levels = 1
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_steam_trains"
+					"pm_paved_roads"
+					"pm_cargo_prioritization"
+				}
+			}
+			create_building = {
+				building = "building_aircraft_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_aircraft_manufactories"
+						country = "c:FRA"
+						levels = 3
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_pre_war_aircraft"
+					"pm_no_aircraft_production"
+					"pm_no_missile_production"
+					"pm_powered_assembly_lines_industry"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_explosives_industry"
+				add_ownership = {
+					building = {
+						type = "building_explosives_industry"
+						country = "c:FRA"
+						levels = 2
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_plastic_explosives"
+					"pm_pre_war_ammunition"
+					"pm_powered_assembly_lines_industry"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_fuel_refineries"
+				add_ownership = {
+					building = {
+						type = "building_fuel_refineries"
+						country = "c:FRA"
+						levels = 4
+						region = "STATE_WEST_INDIES"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_oil_refineries"
+					"pm_rudimentary_polymers"
+					"pm_powered_assembly_lines_industry"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+		}
+	}
+	s:STATE_JAMAICA = {
+		region_state:GBR = {
+			create_building = {
+				building = "building_bauxite_mine"
+				add_ownership = {
+					building = {
+						type = "building_bauxite_mine"
+						country = "c:GBR"
+						levels = 10
+						region = "STATE_JAMAICA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_manual_resource_extraction_bauxite"
+					"pm_traditional_tools"
+					"pm_manual_transportation"
+				}
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:GBR"
+						levels = 4
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
+				}
+			}
+		}
+	}
+	s:STATE_CUBA = {
+		region_state:CUB = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:CUB"
+						levels = 6
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
+				}
+			}
+			create_building = {
+				building = "building_airport"
+				add_ownership = {
+					building = {
+						type = "building_airport"
+						country = "c:CUB"
+						levels = 1
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_airfield"
+				}
+			}
+			create_building = {
+				building = "building_textile_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_textile_manufactories"
+						country = "c:CUB"
+						levels = 2
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_fiber_production_textiles"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_tobacco_plantation"
+				add_ownership = {
+					building = {
+						type = "building_tobacco_plantation"
+						country = "c:CUB"
+						levels = 8
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_tobacco_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_sugar_plantation"
+				add_ownership = {
+					building = {
+						type = "building_sugar_plantation"
+						country = "c:CUB"
+						levels = 9
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_sugar_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_coffee_plantation"
+				add_ownership = {
+					building = {
+						type = "building_coffee_plantation"
+						country = "c:CUB"
+						levels = 7
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_coffee_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_banana_plantation"
+				add_ownership = {
+					building = {
+						type = "building_banana_plantation"
+						country = "c:CUB"
+						levels = 10
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_banana_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_livestock_ranch"
+				add_ownership = {
+					building = {
+						type = "building_livestock_ranch"
+						country = "c:CUB"
+						levels = 5
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_butchering_tools"
+					"pm_standard_fences"
+					"pm_unrefrigerated"
+					"pm_simple_ranch"
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				add_ownership = {
+					building = {
+						type = "building_logging_camp"
+						country = "c:CUB"
+						levels = 5
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_forestry"
+					"pm_no_equipment"
+					"pm_manual_transportation"
+				}
+			}
+			create_building = {
+				building = "building_furniture_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_furniture_manufactories"
+						country = "c:CUB"
+						levels = 2
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_fiber_production_furniture"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_tool_manufactories"
+				add_ownership = {
+					building = {
+						type = "building_tool_manufactories"
+						country = "c:CUB"
+						levels = 2
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_rudimentary_tools"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_construction_sector"
+				add_ownership = {
+					building = {
+						type = "building_construction_sector"
+						country = "c:CUB"
+						levels = 2
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_pre_war_buildings"
+				}
+			}
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_railway"
+						country = "c:CUB"
+						levels = 2
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_steam_trains"
+					"pm_paved_roads"
+					"pm_cargo_prioritization"
+				}
+			}
+			create_building = {
+				building = "building_rice_farm"
+				add_ownership = {
+					building = {
+						type = "building_rice_farm"
+						country = "c:CUB"
+						levels = 3
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_farming_building_rice_farm"
+					"pm_manual_harvesting"
+				}
+			}
+			create_building = {
+				building = "building_distilleries"
+				add_ownership = {
+					building = {
+						type = "building_distilleries"
+						country = "c:CUB"
+						levels = 1
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_distillation_liquor"
+					"pm_basic_distillation_wine"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_coal_mine"
+				add_ownership = {
+					building = {
+						type = "building_coal_mine"
+						country = "c:CUB"
+						levels = 1
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_manual_resource_extraction_coal"
+					"pm_traditional_tools"
+					"pm_manual_transportation"
+				}
+			}
+			create_building = {
+				building = "building_food_industry"
+				add_ownership = {
+					building = {
+						type = "building_food_industry"
+						country = "c:CUB"
+						levels = 2
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_improved_food_manufactories"
+					"pm_preservatives_fish"
+					"pm_preservatives_meat"
+					"pm_preservatives_fruit"
+					"pm_no_automation"
+					"pm_professional_service_industry_no"
+					"pm_no_environmental_tech"
+				}
+			}
+			create_building = {
+				building = "building_fishing_wharf"
+				add_ownership = {
+					building = {
+						type = "building_fishing_wharf"
+						country = "c:CUB"
+						levels = 2
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_simple_fishing"
+					"pm_no_whaling"
+					"pm_traditional_packaging_fishing"
+				}
+			}
+			create_building = {
+				building = "building_hospitals"
+				add_ownership = {
+					building = {
+						type = "building_hospitals"
+						country = "c:CUB"
+						levels = 3
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_hospitals"
+					"pm_traditional_treatments"
+					"pm_professional_service_industry_no"
+					"pm_privatized_hospital"
+				}
+			}
+			create_building = {
+				building = "building_rubber_plantation"
+				add_ownership = {
+					building = {
+						type = "building_rubber_plantation"
+						country = "c:CUB"
+						levels = 3
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_rubber_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+		}
+		region_state:USA = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:USA"
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_port"
+				}
+			}
+			create_building = {
+				building = "building_railway"
+				add_ownership = {
+					building = {
+						type = "building_railway"
+						country = "c:USA"
+						levels = 1
+						region = "STATE_CUBA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_electric_trains"
+					"pm_paved_roads"
+					"pm_cargo_prioritization"
+				}
 			}
 		}
 	}
 }
+
