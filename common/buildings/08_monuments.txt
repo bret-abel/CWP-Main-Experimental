@@ -401,8 +401,8 @@ building_white_house = {
 
 # ###CWP Monuments (already existing)
 # building_kremlin = {
-	ownership_type = self
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+#	ownership_type = self
+#	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 # 	building_group = bg_monuments
 # 	icon ="gfx/interface/icons/building_icons/white_house.dds"	#temp
 # 	expandable = no
@@ -436,8 +436,8 @@ building_white_house = {
 # 	required_construction = construction_cost_monument
 # }
 # building_national_mall = {
-	ownership_type = self
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+#	ownership_type = self
+#	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 # 	building_group = bg_monuments
 # 	icon ="gfx/interface/icons/building_icons/white_house.dds"	#temp
 # 	expandable = no
@@ -471,8 +471,8 @@ building_white_house = {
 # 	required_construction = construction_cost_monument
 # }
 # building_monte_carlo_casino = {
-	ownership_type = self
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+#	ownership_type = self
+#	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 # 	building_group = bg_monuments
 # 	icon ="gfx/interface/icons/building_icons/white_house.dds"	#temp
 # 	expandable = no
@@ -508,8 +508,8 @@ building_white_house = {
 #### CWP Constructible Monuments
 #### CWP Mega-Projects
 #building_three_gorges_dam = {
-	ownership_type = self
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+#	ownership_type = self
+#	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 #	building_group = bg_monuments
 #	icon ="gfx/interface/icons/building_icons/big_ben.dds"
 #	expandable = no
@@ -544,8 +544,8 @@ building_white_house = {
 #}
 #
 #building_brasilia = {
-	ownership_type = self
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+#	ownership_type = self
+#	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 #	building_group = bg_monuments
 #	icon ="gfx/interface/icons/building_icons/big_ben.dds"
 #	expandable = no
