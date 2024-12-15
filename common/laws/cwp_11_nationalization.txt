@@ -9,6 +9,8 @@
 		country_administrators_pol_str_mult = 0.5
 		country_gold_reserve_limit_mult = 0.5
 		state_infrastructure_from_population_mult = -0.1
+
+		country_disable_privatization_bool = yes
 	}
 	possible_political_movements = {
 		law_heavy_industry_nationalization
@@ -221,6 +223,10 @@ law_no_nationalization = {
 	modifier = {
 		country_private_construction_allocation_mult = 0.75
 		state_infrastructure_from_population_mult = 0.1
+
+		country_disable_nationalization_bool = yes
+		country_force_privatization_bool = yes
+		country_company_pay_to_establish_bool = yes
 	}
 	possible_political_movements = {
 		law_public_utility_companies
