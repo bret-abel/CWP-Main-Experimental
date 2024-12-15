@@ -62,7 +62,6 @@ building_spaceport = {
 	required_construction = construction_cost_very_high
 	production_method_groups = {
 		pmg_base_spaceport
-		pmg_spaceport_ownership
 	}
 	ai_value = 100	# ¯\_(ツ)_/¯
 }
@@ -83,7 +82,6 @@ building_mission_control = {
 		pmg_space_tourism
 		pmg_telecommunication_satellites
 		pmg_asteroid_mining
-		pmg_spaceport_ownership
 	}
 	ai_value = 100	# ¯\_(ツ)_/¯
 }

@@ -24,7 +24,6 @@
 	}
 	production_method_groups = {
 		pmg_canal_base
-		pmg_canal_ownership
 	}
 	possible = {
 		always = no
@@ -57,7 +56,6 @@ building_panama_canal = {
 	}
 	production_method_groups = {
 		pmg_canal_base
-		pmg_canal_ownership
 	}
 	possible = {
 		always = no
