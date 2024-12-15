@@ -329,7 +329,6 @@ building_hospitals = {
 		pmg_funding_hospitals
 	}
 	required_construction = construction_cost_high
-	
 }
 
 building_slums = {
