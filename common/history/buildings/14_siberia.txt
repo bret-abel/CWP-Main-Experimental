@@ -1,1149 +1,922 @@
-﻿
-
-BUILDINGS = {
-	s:STATE_URAL = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_food_industry"
-				add_ownership = {
-					building = {
-						type = "building_food_industry"
-						country = "c:RUS"
-						levels = 4
-						region = "STATE_URAL"
+﻿BUILDINGS={
+	s:STATE_URAL={
+		region_state:RUS={
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_food_industry"
+						country="c:RUS"
+						levels=4
+						region="STATE_URAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_improved_food_manufactories"
-					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
-					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_improved_food_manufactories" "pm_preservatives_fish" "pm_preservatives_meat" "pm_preservatives_fruit" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_rye_farm"
-				add_ownership = {
-					building = {
-						type = "building_rye_farm"
-						country = "c:RUS"
-						levels = 15
-						region = "STATE_URAL"
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:RUS"
+						levels=15
+						region="STATE_URAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_simple_farming"
-					"pm_manual_harvesting"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_manual_harvesting" }
 			}
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 12
-						region = "STATE_URAL"
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=12
+						region="STATE_URAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_no_equipment"
-					"pm_manual_transportation"
-					"pm_simple_forestry"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_transportation" "pm_no_equipment" "pm_simple_forestry" }
 			}
-			create_building = {
-				building = "building_university"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 4
+			create_building={
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=4
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_higher_education"
-					"pm_state_directed_research"
-					"pm_secular_faculty"
-				}
+				reserves=1
+				activate_production_methods={ "pm_higher_education" "pm_state_directed_research" "pm_secular_faculty" }
 			}
-			create_building = {
-				building = "building_chemical_plants"
-				add_ownership = {
-					building = {
-						type = "building_chemical_plants"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_URAL"
+			create_building={
+				building="building_chemical_plants"
+				add_ownership={
+					building={
+						type="building_chemical_plants"
+						country="c:RUS"
+						levels=1
+						region="STATE_URAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_pre_war_fertilizer_plant"
-					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_pre_war_fertilizer_plant" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_steelworks"
-				add_ownership = {
-					building = {
-						type = "building_steelworks"
-						country = "c:RUS"
-						levels = 13
-						region = "STATE_URAL"
+			create_building={
+				building="building_steelworks"
+				add_ownership={
+					building={
+						type="building_steelworks"
+						country="c:RUS"
+						levels=13
+						region="STATE_URAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_early_steelmaking"
-					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_early_steelmaking" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_railway"
-				add_ownership = {
-					building = {
-						type = "building_railway"
-						country = "c:RUS"
-						levels = 7
-						region = "STATE_URAL"
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=7
+						region="STATE_URAL"
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_steam_trains"
-					"pm_paved_roads"
-					"pm_cargo_prioritization"
-				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
 			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 5
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=5
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
-					"pm_professional_bureaucrats"
-				}
+				reserves=1
+				activate_production_methods={ "pm_modern_bureaucracy" "pm_professional_service_industry_no" "pm_professional_bureaucrats" }
 			}
-			create_building = {
-				building = "building_coal_mine"
-				add_ownership = {
-					building = {
-						type = "building_coal_mine"
-						country = "c:RUS"
-						levels = 10
-						region = "STATE_URAL"
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					building={
+						type="building_coal_mine"
+						country="c:RUS"
+						levels=10
+						region="STATE_URAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_coal"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_coal" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
-			create_building = {
-				building = "building_distilleries"
-				add_ownership = {
-					building = {
-						type = "building_distilleries"
-						country = "c:RUS"
-						levels = 10
-						region = "STATE_URAL"
+			create_building={
+				building="building_distilleries"
+				add_ownership={
+					building={
+						type="building_distilleries"
+						country="c:RUS"
+						levels=10
+						region="STATE_URAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_basic_distillation_liquor"
-					"pm_disabled_distillery_wine"
-					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_basic_distillation_liquor" "pm_disabled_distillery_wine" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_iron_mine"
-				add_ownership = {
-					building = {
-						type = "building_iron_mine"
-						country = "c:RUS"
-						levels = 40
-						region = "STATE_URAL"
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:RUS"
+						levels=40
+						region="STATE_URAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_iron"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_iron" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
-			create_building = {
-				building = "building_explosives_industry"
-				add_ownership = {
-					building = {
-						type = "building_explosives_industry"
-						country = "c:RUS"
-						levels = 30
-						region = "STATE_URAL"
+			create_building={
+				building="building_explosives_industry"
+				add_ownership={
+					building={
+						type="building_explosives_industry"
+						country="c:RUS"
+						levels=30
+						region="STATE_URAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_rudimentary_explosives"
-					"pm_no_ammo"
-					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_rudimentary_explosives" "pm_no_ammo" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_combustion_plant"
-				add_ownership = {
-					building = {
-						type = "building_combustion_plant"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_URAL"
+			create_building={
+				building="building_combustion_plant"
+				add_ownership={
+					building={
+						type="building_combustion_plant"
+						country="c:RUS"
+						levels=5
+						region="STATE_URAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_coal_fired_plant"
-					"pm_professional_service_industry_no"
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_coal_fired_plant" "pm_professional_service_industry_no" }
+			}
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=10
+					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_non_formal_training" }
 			}
 		}
 	}
-	s:STATE_TOMSK = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_rye_farm"
-				add_ownership = {
-					building = {
-						type = "building_rye_farm"
-						country = "c:RUS"
-						levels = 20
-						region = "STATE_TOMSK"
+	s:STATE_TOMSK={
+		region_state:RUS={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:RUS"
+						levels=20
+						region="STATE_TOMSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_simple_farming"
-					"pm_manual_harvesting"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_manual_harvesting" }
 			}
-			create_building = {
-				building = "building_food_industry"
-				add_ownership = {
-					building = {
-						type = "building_food_industry"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_TOMSK"
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_food_industry"
+						country="c:RUS"
+						levels=5
+						region="STATE_TOMSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_improved_food_manufactories"
-					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
-					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_improved_food_manufactories" "pm_preservatives_fish" "pm_preservatives_meat" "pm_preservatives_fruit" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_university"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 3
+			create_building={
+				building="building_university"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=3
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_higher_education"
-					"pm_state_directed_research"
-					"pm_secular_faculty"
-				}
+				reserves=1
+				activate_production_methods={ "pm_higher_education" "pm_state_directed_research" "pm_secular_faculty" }
 			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 10
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=10
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
-					"pm_professional_bureaucrats"
-				}
+				reserves=1
+				activate_production_methods={ "pm_modern_bureaucracy" "pm_professional_service_industry_no" "pm_professional_bureaucrats" }
 			}
-			create_building = {
-				building = "building_iron_mine"
-				add_ownership = {
-					building = {
-						type = "building_iron_mine"
-						country = "c:RUS"
-						levels = 24
-						region = "STATE_TOMSK"
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:RUS"
+						levels=24
+						region="STATE_TOMSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_iron"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_iron" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
-			create_building = {
-				building = "building_railway"
-				add_ownership = {
-					building = {
-						type = "building_railway"
-						country = "c:RUS"
-						levels = 4
-						region = "STATE_TOMSK"
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=4
+						region="STATE_TOMSK"
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_steam_trains"
-					"pm_paved_roads"
-					"pm_cargo_prioritization"
-				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
 			}
-			create_building = {
-				building = "building_explosives_industry"
-				add_ownership = {
-					building = {
-						type = "building_explosives_industry"
-						country = "c:RUS"
-						levels = 20
-						region = "STATE_TOMSK"
+			create_building={
+				building="building_explosives_industry"
+				add_ownership={
+					building={
+						type="building_explosives_industry"
+						country="c:RUS"
+						levels=20
+						region="STATE_TOMSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_rudimentary_explosives"
-					"pm_no_ammo"
-					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_rudimentary_explosives" "pm_no_ammo" "pm_no_automation" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_coal_mine"
-				add_ownership = {
-					building = {
-						type = "building_coal_mine"
-						country = "c:RUS"
-						levels = 10
-						region = "STATE_TOMSK"
+			create_building={
+				building="building_coal_mine"
+				add_ownership={
+					building={
+						type="building_coal_mine"
+						country="c:RUS"
+						levels=10
+						region="STATE_TOMSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_coal"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_coal" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
-			create_building = {
-				building = "building_combustion_plant"
-				add_ownership = {
-					building = {
-						type = "building_combustion_plant"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_TOMSK"
+			create_building={
+				building="building_combustion_plant"
+				add_ownership={
+					building={
+						type="building_combustion_plant"
+						country="c:RUS"
+						levels=5
+						region="STATE_TOMSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_coal_fired_plant"
-					"pm_professional_service_industry_no"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_coal_fired_plant" "pm_professional_service_industry_no" }
 			}
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_TOMSK"
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=5
+						region="STATE_TOMSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_electric_saw_mills"
-					"pm_no_equipment"
-					"pm_manual_transportation"
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_electric_saw_mills" "pm_no_equipment" "pm_manual_transportation" }
+			}
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=15
+					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_non_formal_training" }
 			}
 		}
 	}
-	s:STATE_TUVA = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_TUVA"
+	s:STATE_TUVA={
+		region_state:RUS={
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=5
+						region="STATE_TUVA"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_electric_saw_mills"
-					"pm_no_equipment"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_electric_saw_mills" "pm_no_equipment" "pm_manual_transportation" }
 			}
 		}
 	}
-	s:STATE_TOBOLSK = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_food_industry"
-				add_ownership = {
-					building = {
-						type = "building_food_industry"
-						country = "c:RUS"
-						levels = 2
-						region = "STATE_TOBOLSK"
+	s:STATE_TOBOLSK={
+		region_state:RUS={
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_food_industry"
+						country="c:RUS"
+						levels=2
+						region="STATE_TOBOLSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_improved_food_manufactories"
-					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
-					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_improved_food_manufactories" "pm_preservatives_fish" "pm_preservatives_meat" "pm_preservatives_fruit" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_rye_farm"
-				add_ownership = {
-					building = {
-						type = "building_rye_farm"
-						country = "c:RUS"
-						levels = 15
-						region = "STATE_TOBOLSK"
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:RUS"
+						levels=15
+						region="STATE_TOBOLSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_simple_farming"
-					"pm_manual_harvesting"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_manual_harvesting" }
 			}
-			create_building = {
-				building = "building_oil_rig"
-				add_ownership = {
-					building = {
-						type = "building_oil_rig"
-						country = "c:RUS"
-						levels = 10
-						region = "STATE_TOBOLSK"
+			create_building={
+				building="building_oil_rig"
+				add_ownership={
+					building={
+						type="building_oil_rig"
+						country="c:RUS"
+						levels=10
+						region="STATE_TOBOLSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_oil_rigs"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_oil_rigs" "pm_manual_transportation" }
 			}
-			create_building = {
-				building = "building_fuel_refineries"
-				add_ownership = {
-					building = {
-						type = "building_fuel_refineries"
-						country = "c:RUS"
-						levels = 9
-						region = "STATE_TOBOLSK"
+			create_building={
+				building="building_fuel_refineries"
+				add_ownership={
+					building={
+						type="building_fuel_refineries"
+						country="c:RUS"
+						levels=9
+						region="STATE_TOBOLSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_oil_refineries"
-					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-					"pm_rudimentary_polymers"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_oil_refineries" "pm_no_environmental_tech" "pm_no_automation" "pm_professional_service_industry_no" "pm_rudimentary_polymers" }
 			}
-			create_building = {
-				building = "building_railway"
-				add_ownership = {
-					building = {
-						type = "building_railway"
-						country = "c:RUS"
-						levels = 2
-						region = "STATE_TOBOLSK"
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=2
+						region="STATE_TOBOLSK"
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_steam_trains"
-					"pm_paved_roads"
-					"pm_cargo_prioritization"
-				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
 			}
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_TOBOLSK"
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=5
+						region="STATE_TOBOLSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_electric_saw_mills"
-					"pm_no_equipment"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_electric_saw_mills" "pm_no_equipment" "pm_manual_transportation" }
 			}
 		}
 	}
-	s:STATE_UPPER_YENISEYSK = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_railway"
-				add_ownership = {
-					building = {
-						type = "building_railway"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_UPPER_YENISEYSK"
+	s:STATE_UPPER_YENISEYSK={
+		region_state:RUS={
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=1
+						region="STATE_UPPER_YENISEYSK"
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_steam_trains"
-					"pm_paved_roads"
-					"pm_cargo_prioritization"
-				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
 			}
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 10
-						region = "STATE_UPPER_YENISEYSK"
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=10
+						region="STATE_UPPER_YENISEYSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_no_equipment"
-					"pm_manual_transportation"
-					"pm_simple_forestry"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_transportation" "pm_no_equipment" "pm_simple_forestry" }
 			}
-			create_building = {
-				building = "building_port"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 1
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_anchorage"
-				}
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
-	s:STATE_OB = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_railway"
-				add_ownership = {
-					building = {
-						type = "building_railway"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_OB"
+	s:STATE_OB={
+		region_state:RUS={
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=1
+						region="STATE_OB"
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_steam_trains"
-					"pm_paved_roads"
-					"pm_cargo_prioritization"
-				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
 			}
-			create_building = {
-				building = "building_port"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 1
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_anchorage"
-				}
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
 			}
-			create_building = {
-				building = "building_food_industry"
-				add_ownership = {
-					building = {
-						type = "building_food_industry"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_OB"
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_food_industry"
+						country="c:RUS"
+						levels=1
+						region="STATE_OB"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_improved_food_manufactories"
-					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
-					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_improved_food_manufactories" "pm_preservatives_fish" "pm_preservatives_meat" "pm_preservatives_fruit" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_OB"
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=5
+						region="STATE_OB"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_electric_saw_mills"
-					"pm_no_equipment"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_electric_saw_mills" "pm_no_equipment" "pm_manual_transportation" }
 			}
 		}
 	}
-	s:STATE_NENETSIA = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_railway"
-				add_ownership = {
-					building = {
-						type = "building_railway"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_NENETSIA"
+	s:STATE_NENETSIA={
+		region_state:RUS={
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=1
+						region="STATE_NENETSIA"
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_steam_trains"
-					"pm_paved_roads"
-					"pm_cargo_prioritization"
-				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
 			}
-			create_building = {
-				building = "building_port"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 1
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_anchorage"
-				}
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
 			}
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_NENETSIA"
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=5
+						region="STATE_NENETSIA"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_electric_saw_mills"
-					"pm_no_equipment"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_electric_saw_mills" "pm_no_equipment" "pm_manual_transportation" }
 			}
 		}
 	}
-	s:STATE_CHUKOTKA = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_gold_mine"
-				add_ownership = {
-					building = {
-						type = "building_gold_mine"
-						country = "c:RUS"
-						levels = 2
-						region = "STATE_CHUKOTKA"
+	s:STATE_CHUKOTKA={
+		region_state:RUS={
+			create_building={
+				building="building_gold_mine"
+				add_ownership={
+					building={
+						type="building_gold_mine"
+						country="c:RUS"
+						levels=2
+						region="STATE_CHUKOTKA"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_gold"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_gold" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
 		}
 	}
-	s:STATE_KAMCHATKA = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_KAMCHATKA"
+	s:STATE_KAMCHATKA={
+		region_state:RUS={
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=5
+						region="STATE_KAMCHATKA"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_electric_saw_mills"
-					"pm_no_equipment"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_electric_saw_mills" "pm_no_equipment" "pm_manual_transportation" }
 			}
 		}
 	}
-	s:STATE_OKHOTSK = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 2
+	s:STATE_OKHOTSK={
+		region_state:RUS={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=2
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
-					"pm_professional_bureaucrats"
-				}
+				reserves=1
+				activate_production_methods={ "pm_modern_bureaucracy" "pm_professional_service_industry_no" "pm_professional_bureaucrats" }
 			}
 		}
 	}
-	s:STATE_YAKUTSK = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_rye_farm"
-				add_ownership = {
-					building = {
-						type = "building_rye_farm"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_YAKUTSK"
+	s:STATE_YAKUTSK={
+		region_state:RUS={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:RUS"
+						levels=5
+						region="STATE_YAKUTSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_simple_farming"
-					"pm_manual_harvesting"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_manual_harvesting" }
 			}
-			create_building = {
-				building = "building_gold_mine"
-				add_ownership = {
-					building = {
-						type = "building_gold_mine"
-						country = "c:RUS"
-						levels = 8
-						region = "STATE_YAKUTSK"
+			create_building={
+				building="building_gold_mine"
+				add_ownership={
+					building={
+						type="building_gold_mine"
+						country="c:RUS"
+						levels=8
+						region="STATE_YAKUTSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_gold"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_gold" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
-			create_building = {
-				building = "building_railway"
-				add_ownership = {
-					building = {
-						type = "building_railway"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_YAKUTSK"
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=1
+						region="STATE_YAKUTSK"
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_steam_trains"
-					"pm_paved_roads"
-					"pm_cargo_prioritization"
-				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
 			}
-			create_building = {
-				building = "building_port"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 1
+			create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_anchorage"
-				}
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
 			}
-			create_building = {
-				building = "building_food_industry"
-				add_ownership = {
-					building = {
-						type = "building_food_industry"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_YAKUTSK"
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_food_industry"
+						country="c:RUS"
+						levels=1
+						region="STATE_YAKUTSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_improved_food_manufactories"
-					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
-					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_improved_food_manufactories" "pm_preservatives_fish" "pm_preservatives_meat" "pm_preservatives_fruit" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_YAKUTSK"
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=5
+						region="STATE_YAKUTSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_electric_saw_mills"
-					"pm_no_equipment"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_electric_saw_mills" "pm_no_equipment" "pm_manual_transportation" }
 			}
 		}
 	}
-	s:STATE_TRANS_BAIKAL = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 6
+	s:STATE_TRANS_BAIKAL={
+		region_state:RUS={
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=6
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
-					"pm_professional_bureaucrats"
-				}
+				reserves=1
+				activate_production_methods={ "pm_modern_bureaucracy" "pm_professional_service_industry_no" "pm_professional_bureaucrats" }
 			}
-			create_building = {
-				building = "building_iron_mine"
-				add_ownership = {
-					building = {
-						type = "building_iron_mine"
-						country = "c:RUS"
-						levels = 6
-						region = "STATE_TRANS_BAIKAL"
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:RUS"
+						levels=6
+						region="STATE_TRANS_BAIKAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_iron"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_iron" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
-			create_building = {
-				building = "building_phosphorus_mine"
-				add_ownership = {
-					building = {
-						type = "building_phosphorus_mine"
-						country = "c:RUS"
-						levels = 4
-						region = "STATE_TRANS_BAIKAL"
+			create_building={
+				building="building_phosphorus_mine"
+				add_ownership={
+					building={
+						type="building_phosphorus_mine"
+						country="c:RUS"
+						levels=4
+						region="STATE_TRANS_BAIKAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_phosphorus"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_phosphorus" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
-			create_building = {
-				building = "building_bauxite_mine"
-				add_ownership = {
-					building = {
-						type = "building_bauxite_mine"
-						country = "c:RUS"
-						levels = 12
-						region = "STATE_TRANS_BAIKAL"
+			create_building={
+				building="building_bauxite_mine"
+				add_ownership={
+					building={
+						type="building_bauxite_mine"
+						country="c:RUS"
+						levels=12
+						region="STATE_TRANS_BAIKAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_bauxite"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_bauxite" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
-			create_building = {
-				building = "building_railway"
-				add_ownership = {
-					building = {
-						type = "building_railway"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_TRANS_BAIKAL"
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=1
+						region="STATE_TRANS_BAIKAL"
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_steam_trains"
-					"pm_paved_roads"
-					"pm_cargo_prioritization"
-				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
 			}
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_TRANS_BAIKAL"
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=5
+						region="STATE_TRANS_BAIKAL"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_electric_saw_mills"
-					"pm_no_equipment"
-					"pm_manual_transportation"
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_electric_saw_mills" "pm_no_equipment" "pm_manual_transportation" }
+			}
+			create_building={
+				building="building_barracks"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=15
+					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_non_formal_training" }
 			}
 		}
 	}
-	s:STATE_IRKUTSK = {
-		region_state:RUS = {
-			create_building = {
-				building = "building_rye_farm"
-				add_ownership = {
-					building = {
-						type = "building_rye_farm"
-						country = "c:RUS"
-						levels = 15
-						region = "STATE_IRKUTSK"
+	s:STATE_IRKUTSK={
+		region_state:RUS={
+			create_building={
+				building="building_rye_farm"
+				add_ownership={
+					building={
+						type="building_rye_farm"
+						country="c:RUS"
+						levels=15
+						region="STATE_IRKUTSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_simple_farming"
-					"pm_manual_harvesting"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_manual_harvesting" }
 			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 7
+			create_building={
+				building="building_government_administration"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=7
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
-					"pm_professional_bureaucrats"
-				}
+				reserves=1
+				activate_production_methods={ "pm_modern_bureaucracy" "pm_professional_service_industry_no" "pm_professional_bureaucrats" }
 			}
-			create_building = {
-				building = "building_iron_mine"
-				add_ownership = {
-					building = {
-						type = "building_iron_mine"
-						country = "c:RUS"
-						levels = 12
-						region = "STATE_IRKUTSK"
+			create_building={
+				building="building_iron_mine"
+				add_ownership={
+					building={
+						type="building_iron_mine"
+						country="c:RUS"
+						levels=12
+						region="STATE_IRKUTSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_iron"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_iron" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
-			create_building = {
-				building = "building_railway"
-				add_ownership = {
-					building = {
-						type = "building_railway"
-						country = "c:RUS"
-						levels = 2
-						region = "STATE_IRKUTSK"
+			create_building={
+				building="building_railway"
+				add_ownership={
+					building={
+						type="building_railway"
+						country="c:RUS"
+						levels=2
+						region="STATE_IRKUTSK"
 					}
 				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_steam_trains"
-					"pm_paved_roads"
-					"pm_cargo_prioritization"
-				}
+				subsidized=no
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
 			}
-			create_building = {
-				building = "building_bauxite_mine"
-				add_ownership = {
-					building = {
-						type = "building_bauxite_mine"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_IRKUTSK"
+			create_building={
+				building="building_bauxite_mine"
+				add_ownership={
+					building={
+						type="building_bauxite_mine"
+						country="c:RUS"
+						levels=5
+						region="STATE_IRKUTSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_manual_resource_extraction_bauxite"
-					"pm_traditional_tools"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_bauxite" "pm_traditional_tools" "pm_manual_transportation" "pm_government_run_mine" }
 			}
-			create_building = {
-				building = "building_food_industry"
-				add_ownership = {
-					building = {
-						type = "building_food_industry"
-						country = "c:RUS"
-						levels = 1
-						region = "STATE_IRKUTSK"
+			create_building={
+				building="building_food_industry"
+				add_ownership={
+					building={
+						type="building_food_industry"
+						country="c:RUS"
+						levels=1
+						region="STATE_IRKUTSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_improved_food_manufactories"
-					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
-					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_improved_food_manufactories" "pm_preservatives_fish" "pm_preservatives_meat" "pm_preservatives_fruit" "pm_powered_assembly_lines_industry" "pm_professional_service_industry_no" "pm_no_environmental_tech" }
 			}
-			create_building = {
-				building = "building_logging_camp"
-				add_ownership = {
-					building = {
-						type = "building_logging_camp"
-						country = "c:RUS"
-						levels = 5
-						region = "STATE_IRKUTSK"
+			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					building={
+						type="building_logging_camp"
+						country="c:RUS"
+						levels=5
+						region="STATE_IRKUTSK"
 					}
 				}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_electric_saw_mills"
-					"pm_no_equipment"
-					"pm_manual_transportation"
-				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_electric_saw_mills" "pm_no_equipment" "pm_manual_transportation" }
 			}
 		}
 	}
 }
-
