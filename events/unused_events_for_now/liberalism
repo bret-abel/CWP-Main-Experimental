@@ -203,7 +203,6 @@ liberalism.1 = {
 					is_interest_group_type = ig_intelligentsia
 					is_interest_group_type = ig_industrialists
 					is_interest_group_type = ig_conservatives
-					is_interest_group_type = ig_petty_bourgeoisie
 					is_interest_group_type = ig_national_liberals
 				}
 				leader = {

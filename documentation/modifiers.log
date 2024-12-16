@@ -5,7 +5,6 @@ Tag: interest_group_ig_devout_pol_str_mult, Categories: interest_group
 Tag: interest_group_ig_industrialists_pol_str_mult, Categories: interest_group
 Tag: interest_group_ig_intelligentsia_pol_str_mult, Categories: interest_group
 Tag: interest_group_ig_landowners_pol_str_mult, Categories: interest_group
-Tag: interest_group_ig_petty_bourgeoisie_pol_str_mult, Categories: interest_group
 Tag: interest_group_ig_rural_folk_pol_str_mult, Categories: interest_group
 Tag: interest_group_ig_trade_unions_pol_str_mult, Categories: interest_group
 Tag: interest_group_pol_str_mult, Categories: interest_group
@@ -59,7 +58,6 @@ Tag: interest_group_ig_devout_approval_add, Categories: interest_group
 Tag: interest_group_ig_industrialists_approval_add, Categories: interest_group
 Tag: interest_group_ig_intelligentsia_approval_add, Categories: interest_group
 Tag: interest_group_ig_landowners_approval_add, Categories: interest_group
-Tag: interest_group_ig_petty_bourgeoisie_approval_add, Categories: interest_group
 Tag: interest_group_ig_rural_folk_approval_add, Categories: interest_group
 Tag: interest_group_ig_trade_unions_approval_add, Categories: interest_group
 Tag: interest_group_ig_armed_forces_pop_attraction_mult, Categories: interest_group
@@ -67,7 +65,6 @@ Tag: interest_group_ig_devout_pop_attraction_mult, Categories: interest_group
 Tag: interest_group_ig_industrialists_pop_attraction_mult, Categories: interest_group
 Tag: interest_group_ig_intelligentsia_pop_attraction_mult, Categories: interest_group
 Tag: interest_group_ig_landowners_pop_attraction_mult, Categories: interest_group
-Tag: interest_group_ig_petty_bourgeoisie_pop_attraction_mult, Categories: interest_group
 Tag: interest_group_ig_rural_folk_pop_attraction_mult, Categories: interest_group
 Tag: interest_group_ig_trade_unions_pop_attraction_mult, Categories: interest_group
 Tag: interest_group_approval_add, Categories: interest_group
@@ -783,9 +780,6 @@ Tag: interest_group_ig_market_liberals_pop_attraction_mult, Categories: interest
 Tag: interest_group_ig_conservatives_approval_add, Categories: interest_group
 Tag: interest_group_ig_conservatives_pol_str_mult, Categories: interest_group
 Tag: interest_group_ig_conservatives_pop_attraction_mult, Categories: interest_group
-Tag: interest_group_ig_petty_bourgeoisie_approval_add, Categories: interest_group
-Tag: interest_group_ig_petty_bourgeoisie_pol_str_mult, Categories: interest_group
-Tag: interest_group_ig_petty_bourgeoisie_pop_attraction_mult, Categories: interest_group
 Tag: interest_group_ig_socialists_approval_add, Categories: interest_group
 Tag: interest_group_ig_socialists_pol_str_mult, Categories: interest_group
 Tag: interest_group_ig_socialists_pop_attraction_mult, Categories: interest_group
