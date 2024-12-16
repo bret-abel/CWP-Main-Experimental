@@ -17,27 +17,6 @@ law_autocracy = {
 		country_legitimacy_ideological_incoherence_mult = 0.5
 		interest_group_in_government_attraction_mult = 0.5
 	}
-	possible_political_movements = {
-		law_oligarchy
-		law_anocracy
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_landlords"
-			if = {
-				limit = {
-					owner = {
-						NOT = {
-							has_law = law_type:law_oligarchy
-						}
-					}
-					is_pop_type = landlords
-				}
-				value = 0.25
-			}
-		}
-	}
 	ai_enact_weight_modifier = {
 		#Petitions
 		value = 0
@@ -69,27 +48,6 @@ law_oligarchy = {
 		country_legitimacy_ideological_incoherence_mult = -0.1
 		interest_group_in_government_attraction_mult = 0.25
 	}
-	possible_political_movements = {
-		law_autocracy
-		law_anocracy
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_landlords"
-			if = {
-				limit = {
-					owner = {
-						NOT = {
-							has_law = law_type:law_autocracy
-						}
-					}
-					is_pop_type = landlords
-				}
-				value = 0.25
-			}
-		}
-	}
 	ai_enact_weight_modifier = {
 		#Petitions
 		value = 0
@@ -119,50 +77,9 @@ law_anocracy = {
 		country_legitimacy_govt_total_clout_add = 140
 		interest_group_in_government_attraction_mult = 0.15
 	}
-	possible_political_movements = {
-		law_oligarchy
-		law_representative_democracy
-		law_consensus_democracy
-	}
 	on_activate = {
 		scripted_effect_parties_disappearance = yes
 		clear_legal_single_party = yes
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_ADMINISTRATORS"
-			if = {
-				limit = {
-					is_pop_type = administrators
-				}
-				value = 0.25
-			}
-		}
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_LITERACY"
-			if = {
-				limit = {
-					NOT = {
-						strata = rich
-					}
-					owner = {
-						NOR = {
-							has_law = law_type:law_representative_democracy
-							has_law = law_type:law_consensus_democracy
-							has_law = law_type:law_direct_democracy
-						}
-					}
-				}
-				add = {
-					value = literacy_rate
-					divide = 2
-				}
-			}
-		}
 	}
 	ai_enact_weight_modifier = {
 		#Petitions
@@ -197,34 +114,9 @@ law_representative_democracy = {
 		country_voting_power_from_literacy_add = 30
 		country_voting_power_wealth_threshold_add = 10
 	}
-	possible_political_movements = {
-		law_anocracy
-		law_consensus_democracy
-	}
 	on_activate = {
 		scripted_effect_parties_emergence = yes
 		clear_legal_single_party = yes
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_LITERACY"
-			if = {
-				limit = {
-					wealth < 25
-					owner = {
-						NOR = {
-							has_law = law_type:law_consensus_democracy
-							has_law = law_type:law_direct_democracy
-						}
-					}
-				}
-				add = {
-					value = literacy_rate
-					divide = 2
-				}
-			}
-		}
 	}
 	ai_enact_weight_modifier = {
 		#Petitions
@@ -259,46 +151,9 @@ law_consensus_democracy = {
 		country_voting_power_base_add = 30
 		state_political_strength_from_wealth_mult = -0.25
 	}
-	possible_political_movements = {
-		law_representative_democracy
-		law_direct_democracy
-	}
 	on_activate = {
 		scripted_effect_parties_emergence = yes
 		clear_legal_single_party = yes
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_LITERACY"
-			if = {
-				limit = {
-					owner = {
-						NOT = {
-							has_law = law_type:law_direct_democracy
-						}
-					}
-				}
-				if = {
-					limit = {
-						wealth < 15
-					}
-					add = {
-						value = literacy_rate
-						divide = 2
-					}
-				}
-				if = {
-					limit = {
-						wealth < 10
-					}
-					add = {
-						value = literacy_rate
-						divide = 2
-					}
-				}
-			}
-		}
 	}
 	ai_enact_weight_modifier = {
 		#Petitions
@@ -331,27 +186,11 @@ law_direct_democracy = {
 		country_authority_mult = -0.5
 		country_legitimacy_govt_size_add = 4
 	}
-	possible_political_movements = {
-		law_representative_democracy
-		law_consensus_democracy
-	}
 	on_activate = {
 		scripted_effect_parties_disappearance = yes
 		clear_legal_single_party = yes
 	}
 	ai_will_do = {
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_LITERACY"
-			if = {
-				limit = {
-					wealth < 10
-				}
-				add = literacy_rate
-			}
-		}
 	}
 	ai_enact_weight_modifier = {
 		#Petitions

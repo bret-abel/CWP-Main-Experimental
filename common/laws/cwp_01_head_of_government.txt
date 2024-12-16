@@ -12,14 +12,6 @@ law_hereditary = {
 		country_legitimacy_ideological_incoherence_mult = 0.1
 		country_authority_add = 200
 	}
-	possible_political_movements = {
-		law_executive
-		law_parliamentary
-		law_council_elective
-	}
-	pop_support = {
-		value = 0
-	}
 	ai_will_do = {
 		exists = ruler
 		ruler = {
@@ -61,12 +53,6 @@ law_administrative = {
 		country_legitimacy_ideological_incoherence_mult = 0.15
 		country_authority_add = 250
 	}
-	possible_political_movements = {
-	}
-	pop_support = {
-		# Pops don't want this law
-		value = 0
-	}
 	ai_will_do = {
 		# AI Won't voluntarily adopt this law
 		always = no
@@ -92,24 +78,6 @@ law_theocratic = {
 		country_legitimacy_headofstate_add = 20
 		country_legitimacy_ideological_incoherence_mult = 0.1
 		country_clergy_pol_str_mult = 0.5
-	}
-	possible_political_movements = {
-		law_hereditary
-		law_executive
-		law_parliamentary
-		law_council_elective
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_CLERGY"
-			if = {
-				limit = {
-					is_pop_type = clergy
-				}
-				value = 0.33
-			}
-		}
 	}
 	ai_will_do = {
 		exists = ruler
@@ -147,21 +115,6 @@ law_executive = {
 		country_legitimacy_ideological_incoherence_mult = 0.2
 		country_authority_add = 100
 	}
-	possible_political_movements = {
-		law_council_elective
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_MIDDLE_STRATA"
-			if = {
-				limit = {
-					strata = middle
-				}
-				value = 0.05
-			}
-		}
-	}
 	ai_will_do = {
 		exists = ruler
 		ruler = {
@@ -195,21 +148,6 @@ law_parliamentary = {
 	modifier = {
 		country_legitimacy_govt_total_votes_add = 30
 		country_authority_add = 50
-	}
-	possible_political_movements = {
-		law_council_elective
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_MIDDLE_STRATA"
-			if = {
-				limit = {
-					strata = middle
-				}
-				value = 0.05
-			}
-		}
 	}
 	ai_will_do = {
 		exists = ruler
@@ -252,22 +190,6 @@ law_council_elective = {
 		country_legitimacy_ideological_incoherence_mult = -0.3
 		country_authority_add = 25
 
-	}
-	possible_political_movements = {
-		law_executive
-		law_parliamentary
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_LOWER_STRATA"
-			if = {
-				limit = {
-					strata = poor
-				}
-				value = 0.05
-			}
-		}
 	}
 	ai_will_do = {
 		exists = ruler

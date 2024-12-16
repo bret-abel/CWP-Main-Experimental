@@ -19,14 +19,6 @@ law_export_orientation = {
 	tariff_modifier_import_priority = {
 		tariff_export_add = 0.15
 	}
-	possible_political_movements = {
-		law_import_substitution
-		law_protectionism
-		law_free_trade
-	}
-	pop_support = {
-		value = 0
-	}
 	# Don't change back to mercantilism once we have protectionism or free trade
 	ai_will_do = {
 		NOR = {
@@ -63,13 +55,6 @@ law_import_substitution = {
 	}
 	tariff_modifier_import_priority = {
 		tariff_export_add = 0.45
-	}
-	possible_political_movements = {
-		law_protectionism
-		law_free_trade
-	}
-	pop_support = {
-		value = 0
 	}
 	# Don't change back to mercantilism once we have protectionism or free trade
 	ai_will_do = {
@@ -111,14 +96,6 @@ law_protectionism = {
 	modifier = {
 		country_leverage_resistance_mult = 0.25
 	}
-	possible_political_movements = {
-		law_export_orientation
-		law_import_substitution
-		law_free_trade
-	}
-	pop_support = {
-		value = 0
-	}
 	ai_enact_weight_modifier = {
 		#Petitions
 		value = 0
@@ -150,14 +127,6 @@ law_free_trade = {
 		country_trade_route_cost_mult = -1
 		country_leverage_resistance_mult = -0.25
 	}
-	possible_political_movements = {
-		law_export_orientation
-		law_import_substitution
-		law_protectionism
-	}
-	pop_support = {
-		value = 0
-	}
 	ai_enact_weight_modifier = {
 		#Petitions
 		value = 0
@@ -187,15 +156,6 @@ law_isolationism = {
 		market_disallow_trade_routes = yes
 
 		country_leverage_resistance_mult = 1.0
-	}
-	possible_political_movements = {
-		law_export_orientation
-		law_import_substitution
-		law_free_trade
-		law_protectionism
-	}
-	pop_support = {
-		value = 0
 	}
 	ai_will_do = {
 		always = no

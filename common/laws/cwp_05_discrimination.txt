@@ -253,11 +253,6 @@ law_segregationist = {
 		country_disallow_government_work_full_acceptance_bool = no
 	}
 
-	possible_political_movements = {
-		law_supremacist
-		law_integrationist
-	}
-
 	ai_enact_weight_modifier = {
 		#Petitions
 		value = 0
@@ -479,9 +474,6 @@ law_syncretist = {
 		country_disallow_government_work_second_rate_citizen_bool = no
 		country_disallow_government_work_full_acceptance_bool = no
 	}
-	possible_political_movements = {
-		law_multiculturalist
-	}
 	ai_will_do = {
 		exists = ruler
 		ruler = {
@@ -490,9 +482,6 @@ law_syncretist = {
 				value > neutral
 			}
 		}
-	}
-	pop_support = {
-		value = 0
 	}
 	ai_enact_weight_modifier = {
 		#Petitions
