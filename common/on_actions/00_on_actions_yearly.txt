@@ -137,7 +137,6 @@ on_yearly_events = {
 		#50 = strike.6
 		#50 = strike.7
 
-		#10 = opium_wars.8
 		
 		10 = communism.7
 		#10 = communism.9

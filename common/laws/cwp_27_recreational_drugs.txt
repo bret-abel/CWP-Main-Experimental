@@ -5,25 +5,11 @@
 	on_activate = {
 		if = {
 			limit = {
-				NOT = {
-					is_banning_goods = g:opium
-				}
-			}
-			add_banned_goods = g:opium
-			every_scope_state = {
-				if = {
-					limit = {
-						has_building = building_opium_plantation
-					}
-					remove_building = building_opium_plantation
-				}
+			
 			}
 			every_primary_culture = {
 				if = {
-					limit = {
-						has_cultural_obsession = opium
-					}
-					remove_cultural_obsession = opium
+				
 					root = {
 						effect_remove_obsessions = yes
 					}
@@ -137,24 +123,21 @@ law_tobacco_allowed = {
 		if = {
 			limit = {
 				NOT = {
-					is_banning_goods = g:opium
+	
 				}
 			}
-			add_banned_goods = g:opium
+			
 			every_scope_state = {
 				if = {
 					limit = {
-						has_building = building_opium_plantation
+						
 					}
-					remove_building = building_opium_plantation
+				
 				}
 			}
 			every_primary_culture = {
 				if = {
-					limit = {
-						has_cultural_obsession = opium
-					}
-					remove_cultural_obsession = opium
+					
 					root = {
 						effect_remove_obsessions = yes
 					}
@@ -261,24 +244,22 @@ law_alcohol_allowed = {
 		if = {
 			limit = {
 				NOT = {
-					is_banning_goods = g:opium
+				
 				}
 			}
-			add_banned_goods = g:opium
+		
 			every_scope_state = {
 				if = {
 					limit = {
-						has_building = building_opium_plantation
+						
 					}
-					remove_building = building_opium_plantation
+					
 				}
 			}
 			every_primary_culture = {
 				if = {
 					limit = {
-						has_cultural_obsession = opium
 					}
-					remove_cultural_obsession = opium
 					root = {
 						effect_remove_obsessions = yes
 					}
@@ -352,9 +333,7 @@ law_all_drugs_allowed = {
 	on_activate = {
 		if = {
 			limit = {
-				is_banning_goods = g:opium
 			}
-			remove_banned_goods = g:opium
 		}
 		if = {
 			limit = {
