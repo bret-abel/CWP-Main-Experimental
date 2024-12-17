@@ -153,48 +153,6 @@ law_religious_policies = {
 		country_allow_conversion_second_rate_citizen_bool = yes
 		country_allow_conversion_full_acceptance_bool = yes
 	}
-	possible_political_movements = {
-		law_religious_institutions
-		law_church_disestablishment
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_ACADEMICS"
-			# Academics generally against religious persecution
-			if = {
-				limit = {
-					owner = {
-						NOT = {
-							has_law = law_type:law_church_disestablishment
-						}
-					}
-					is_pop_type = academics
-				}
-				value = 0.25
-			}
-		}
-		add = {
-			desc = "POP_DISCRIMINATED"
-			if = {
-				limit = {
-					religion_accepted = no
-					owner = {
-						NOT = {
-							has_law = law_type:law_church_disestablishment
-						}
-					}
-				}
-				add = 0.5
-				if = {
-					limit = {
-						standard_of_living <= 10
-					}
-					add = 0.5
-				}
-			}
-		}
-	}
 	ai_enact_weight_modifier = {
 		#Petitions
 		value = 0
@@ -295,29 +253,6 @@ law_state_atheism = {
 		custom_tooltip = {
 			text = state_atheism_conversion_tt
 			effect_atheism_activate_law = yes
-		}
-	}
-	pop_support = {
-		value = 0
-		# Some euphoric academics will support this
-		add = {
-			desc = "POP_ACADEMICS"
-			if = {
-				limit = {
-					is_pop_type = academics
-				}
-				value = 0.1
-			}
-		}
-		# Atheists will support this
-		add = {
-			desc = "POP_ATHEISTS"
-			if = {
-				limit = {
-					has_pop_religion = atheist
-				}
-				value = 0.5
-			}
 		}
 	}
 	ai_will_do = {

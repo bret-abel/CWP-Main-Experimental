@@ -5,15 +5,6 @@
 	disallowing_laws = {
 		law_compulsory_education
 	}
-	pop_support = {
-		value = 0
-	}
-	possible_political_movements = {
-		law_church_run_schools
-		law_mixed_funded_schools
-		law_private_schools
-		law_state_funded_schools
-	}
 	# AI will never abolish institutions entirely
 	ai_will_do = {
 		always = no
@@ -51,41 +42,6 @@ law_church_run_schools = {
 	modifier = {
 		country_institution_schools_max_investment_add = 1
 	}
-	possible_political_movements = {
-		law_mixed_funded_schools
-		law_private_schools
-		law_state_funded_schools
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_CLERGY"
-			if = {
-				limit = {
-					is_pop_type = clergy
-				}
-				value = 0.33
-			}
-		}
-		add = {
-			desc = "POP_POVERTY"
-			if = {
-				limit = {
-					owner = {
-						NOT = {
-							has_law = law_type:law_state_funded_schools
-						}
-					}
-				}
-				# SoL 14 gives 0.1 pop support, 13 -> 0.2, 12 -> 0.3, ... 5 -> 1.0
-				value = 15
-				subtract = standard_of_living
-				multiply = 0.1
-				min = 0
-				max = 1
-			}
-		}
-	}
 	ai_enact_weight_modifier = {
 		#Petitions
 		value = 0
@@ -116,24 +72,6 @@ law_private_schools = {
 	}
 	modifier = {
 		country_institution_schools_max_investment_add = 1
-	}
-	possible_political_movements = {
-		law_church_run_schools
-		law_mixed_funded_schools
-		law_state_funded_schools
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_WEALTH"
-			# Wealth 20 gives 0.1 pop support, 22 -> 0.2, 24 -> 0.3, ..., 30 -> 0.6
-			value = wealth
-			subtract = 18
-			divide = 2
-			multiply = 0.1
-			min = 0
-			max = 0.6
-		}
 	}
 	ai_enact_weight_modifier = {
 		#Petitions
@@ -167,23 +105,6 @@ law_mixed_funded_schools = {
 	}
 	modifier = {
 		country_institution_schools_max_investment_add = 2
-	}
-	possible_political_movements = {
-		law_private_schools
-		law_state_funded_schools
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_WEALTH"
-			# Wealth 20 gives 0.1 pop support, 22 -> 0.2, 24 -> 0.3, ..., 30 -> 0.6
-			value = wealth
-			subtract = 18
-			divide = 2
-			multiply = 0.1
-			min = 0
-			max = 0.6
-		}
 	}
 	ai_enact_weight_modifier = {
 		#Petitions
@@ -221,31 +142,6 @@ law_state_funded_schools = {
 	}
 	modifier = {
 		country_institution_schools_max_investment_add = 3
-	}
-	possible_political_movements = {
-		law_mixed_funded_schools
-		law_private_schools
-	}
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_ACADEMICS"
-			if = {
-				limit = {
-					is_pop_type = academics
-				}
-				value = 0.25
-			}
-		}
-		add = {
-			desc = "POP_POVERTY"
-			# SoL 14 gives 0.1 pop support, 13 -> 0.2, 12 -> 0.3, ... 5 -> 1.0
-			value = 15
-			subtract = standard_of_living
-			multiply = 0.1
-			min = 0
-			max = 1
-		}
 	}
 	ai_enact_weight_modifier = {
 		#Petitions
