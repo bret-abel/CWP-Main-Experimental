@@ -3001,7 +3001,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_medicine"
-					"pm_no_opiates"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -3854,7 +3853,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_medicine"
-					"pm_no_opiates"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
 					"pm_powered_assembly_lines_industry"
@@ -3988,7 +3986,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_medicine"
-					"pm_no_opiates"
 					"pm_powered_assembly_lines_industry"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -4302,7 +4299,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_medicine"
-					"pm_no_opiates"
 					"pm_powered_assembly_lines_industry"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
@@ -7166,7 +7162,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_medicine"
-					"pm_no_opiates"
 					"pm_no_automation"
 					"pm_professional_service_industry_no"
 					"pm_no_environmental_tech"
