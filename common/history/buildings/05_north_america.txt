@@ -513,7 +513,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_pre_war_electronics"
 					"pm_powered_assembly_lines_electronics"
-					"pm_sensor_production_1"
 					"pm_no_environmental_tech"
 					"pm_professional_services_use_engineers"
 				}
@@ -3701,7 +3700,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_electronics"
-					"pm_sensor_production_1"
 					"pm_powered_assembly_lines_electronics"
 					"pm_professional_services_use_engineers"
 					"pm_no_environmental_tech"
@@ -4868,7 +4866,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_electronics"
-					"pm_sensor_production_1"
 					"pm_powered_assembly_lines_electronics"
 					"pm_professional_services_use_engineers"
 					"pm_no_environmental_tech"
@@ -6952,7 +6949,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_electronics"
-					"pm_sensor_production_1"
 					"pm_powered_assembly_lines_electronics"
 					"pm_professional_services_use_engineers"
 					"pm_no_environmental_tech"
@@ -8143,7 +8139,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_pre_war_electronics"
-					"pm_sensor_production_1"
 					"pm_powered_assembly_lines_electronics"
 					"pm_professional_services_use_engineers"
 					"pm_no_environmental_tech"
@@ -12905,7 +12900,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -13048,7 +13043,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -13066,7 +13061,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -13136,7 +13131,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -13174,7 +13169,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -13191,7 +13186,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -13262,7 +13257,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -13297,7 +13292,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -14006,7 +14001,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -14094,7 +14089,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -14333,7 +14328,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -14806,7 +14801,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -14894,7 +14889,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -14929,7 +14924,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -14968,7 +14963,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -14985,7 +14980,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 4
 						region = "STATE_NEW_YORK"
 					}
@@ -15020,7 +15015,7 @@ BUILDINGS = {
 				add_ownership = {
 					building = {
 						type = "building_financial_district"
-						country = "c:MEX"
+						country = "c:USA"
 						levels = 54
 						region = "STATE_NEW_YORK"
 					}

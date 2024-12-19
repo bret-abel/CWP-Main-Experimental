@@ -273,12 +273,6 @@
   pm_circuit_integrated_electronics: "Integrated Circuitry"
   pm_small_surface_mount_parts: "Small Surface Mount Parts"
   pm_multilayer_surface_boards: "Multilayer Surface Boards"
-  pm_no_sensors: "No Sensors"
-  pm_sensor_production_1: "Monopulse Radars"
-  pm_sensor_production_2: "Phased Array Radars"
-  pm_sensor_production_3: "Synthetic Aperture Radars"
-  pm_sensor_production_4: "Advanced Radars"
-  pm_sensor_production_5: "AI Driven Radars"
   ##### Small Arms Manufactories
   pm_semi_automatic_rifles: "Semi-Automatic Rifles"
   pm_assault_rifles: "Assault Rifles"

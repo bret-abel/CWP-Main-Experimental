@@ -1011,10 +1011,10 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_COSTA_RICA = {
-		region_state:COS
+		region_state:COS = {}
 	}
 	s:STATE_PANAMA = {
-		region_state:PNM
+		region_state:PNM = {}
 		region_state:USA = {
 			create_building = {
 				building = "building_port"

@@ -15,6 +15,12 @@ template information_tab_visibility_not {
 	visible = "[Not( Or( And( Country.IsLocalPlayer, Not(Or(InformationPanel.IsTabSelected('diplomacy'), InformationPanel.IsTabSelected('modifiers')))), And( Country.IsAIOrOtherPlayer, Not(Or(Or(InformationPanel.IsTabSelected('politics'), InformationPanel.IsTabSelected('diplomacy')), InformationPanel.IsTabSelected('interactions'))))))]"
 }
 
+template diplomatic_action_tooltip {
+	tooltipwidget = {
+		FancyTooltip_DiplomaticActionWithTargetCountry = {}
+	}
+}
+
 types country_panel_types
 {
 	type country_panel = default_block_window_two_lines {
@@ -598,27 +604,26 @@ types country_panel_types
 				}
 
 				#GDP
-				country_stats_entry = {	
-					onmousehierarchyenter = "[SelectMapModeByKey('mm_gdp')]"
-					onmousehierarchyleave = "[UnforceMapMode]"
+				country_stats_entry = {
+					onmousehierarchyenter = "[SetTempMapModeByKey('mm_gdp')]"
+					onmousehierarchyleave = "[RemoveTempMapMode]"
 					alwaystransparent = no
-					
+
 					blockoverride "stats_tooltip" {
 						using = GDP_tooltip_with_graph
 					}
 					blockoverride "information_icon" {
-						visible = no
-					}
-					textbox = {
-						position = { 190 25 }
-						raw_text = "[GetGlobalVariable('global_currency').GetCountry.MakeScope.Var('cwp_currency').GetFlagName]"
-						fontsize = 25
+						texture = "gfx/interface/icons/generic_icons/gdp.dds"
 					}
 					blockoverride "stats_label" {
 						text = "COUNTRY_GDP_ONE_LINE"
 					}
 					blockoverride "stats_value" {
-						raw_text = "#v [GetGlobalVariable('global_currency').GetCountry.MakeScope.Var('cwp_currency').GetFlagName] [SelectLocalization(LessThan_CFixedPoint(Country.MakeScope.ScriptValue('cwp_gdp_with_inflation'), '(CFixedPoint)1000000000000'), 'CWP_NORMAL', 'CWP_TRILLION')]#!"
+						raw_text = "@money![Country.GetGDP|Dv]"
+					}
+
+					blockoverride "stats_rank" {
+						text = "[Country.GetGDPRanking]"
 					}
 				}
 				
@@ -644,6 +649,7 @@ types country_panel_types
 					}
 					tooltip = "CURRENCY_TOOLTIP"
 				}
+				#Central Bank Credibility
 				country_stats_entry = {	
 					onmousehierarchyenter = "[SelectMapModeByKey('mm_gdp')]"
 					onmousehierarchyleave = "[UnforceMapMode]"
@@ -663,8 +669,8 @@ types country_panel_types
 
 				##POPULATION
 				country_stats_entry = {
-					onmousehierarchyenter = "[SelectMapModeByKey('mm_population')]"
-					onmousehierarchyleave = "[UnforceMapMode]"
+					onmousehierarchyenter = "[SetTempMapModeByKey('mm_population')]"
+					onmousehierarchyleave = "[RemoveTempMapMode]"
 					alwaystransparent = no
 
 					blockoverride "stats_tooltip" {
@@ -678,6 +684,9 @@ types country_panel_types
 					}
 					blockoverride "stats_value" {
 						raw_text = "#v [Country.GetTotalPopulation|D]#!"
+					}
+					blockoverride "stats_rank" {
+						text = "[Country.GetPopulationRanking]"
 					}
 				}				
 
@@ -699,8 +708,8 @@ types country_panel_types
 
 				##STANDARD OF LIVING
 				country_stats_entry = {
-					onmousehierarchyenter = "[SelectMapModeByKey('mm_standard_of_living')]"
-					onmousehierarchyleave = "[UnforceMapMode]"
+					onmousehierarchyenter = "[SetTempMapModeByKey('mm_standard_of_living')]"
+					onmousehierarchyleave = "[RemoveTempMapMode]"
 					alwaystransparent = no
 
 					blockoverride "stats_tooltip" {
@@ -710,26 +719,31 @@ types country_panel_types
 					blockoverride "stats_label" {
 						text = "COUNTRY_SOL_ONE_LINE"
 					}
-					
-					blockoverride "no_icon" {}
-					
-					#icon hack
-					widget = {
-						position = { -10 0 }
-						parentanchor = right|vcenter
-						size = { 35 30 }
-						scissor = yes
-						
-						textbox = {
-							size = { 100 30 }
-							elide = right
-							align = nobaseline
-							position = { 0 0 }
-							fontsize = 29
-							raw_text = "[LabelingHelper.GetIconForStandardOfLivingCFixedPoint(Country.GetAverageSoLByPopulation)|v] ([Country.GetAverageSoLByPopulation|v])"
+
+					blockoverride "stats_rank" {
+						text = "[Country.GetStandardOfLivingRanking]"
+					}
+
+					blockoverride "entire_icon" {}
+
+					blockoverride "icon_hack" {
+						widget = {
+							position = { -10 0 }
+							parentanchor = right|vcenter
+							size = { 35 30 }
+							scissor = yes
+
+							textbox = {
+								size = { 100 30 }
+								elide = right
+								align = nobaseline
+								position = { 0 0 }
+								fontsize = 29
+								raw_text = "[LabelingHelper.GetIconForStandardOfLivingCFixedPoint(Country.GetAverageSoLByPopulation)|v] ([Country.GetAverageSoLByPopulation|v])"
+							}
 						}
 					}
-					
+
 					blockoverride "stats_value" {
 						raw_text = "[LabelingHelper.GetLabelForStandardOfLivingNoIconCFixedPoint(Country.GetAverageSoLByPopulation)|v] ([Country.GetAverageSoLByPopulation|v1])"
 					}
@@ -983,8 +997,8 @@ types diplomatic
 				tooltip = "[Country.GetInfamyDesc]"
 				visible = "[Not(Country.IsColonizable)]"
 				minimumsize = { 100 80 }
-				onmousehierarchyenter = "[SelectMapModeByKey('mm_infamy')]"
-				onmousehierarchyleave = "[UnforceMapMode]"
+				onmousehierarchyenter = "[SetTempMapModeByKey('mm_infamy')]"
+				onmousehierarchyleave = "[RemoveTempMapMode]"
 				alwaystransparent = no
 
 				textbox = {

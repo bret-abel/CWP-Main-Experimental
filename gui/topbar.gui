@@ -14,7 +14,7 @@ types topbar_components
 {
 	### SECONDARY ICONS
 	type topbar_secondary_icons = container {
-		position = { 130 0 }
+		position = { 120 0 }
 
 		flowcontainer = {
 			visible = "[GetMetaPlayer.GetPlayedOrObservedCountry.IsValid]"
@@ -42,36 +42,44 @@ types topbar_components
 				using = dark_area_rounded
 				margin = { 0 -5 }
 				margin_left = 5
+				margin_right = 20
 			}
 
 			flowcontainer = {
 				name = "tutorial_highlight_gdp"
-				minimumsize = { 90 30 }
-				maximumsize = { 90 30 }
+				minimumsize = { 88 30 }
+				maximumsize = { 88 30 }
 				spacing = 2
 				using = GDP_tooltip_with_graph
 				using = tooltip_below
 
-				onmousehierarchyenter = "[SelectMapModeByKey('mm_gdp')]"
-				onmousehierarchyleave = "[UnforceMapMode]"
+				onmousehierarchyenter = "[SetTempMapModeByKey('mm_gdp')]"
+				onmousehierarchyleave = "[RemoveTempMapMode]"
 				alwaystransparent = no
 
+				icon = {
+					texture = "gfx/interface/icons/generic_icons/gdp.dds"
+					size = { @secondary_icon_size @secondary_icon_size }
+					parentanchor = vcenter
+				}
 				textbox = {
 					parentanchor = vcenter
-					raw_text = "#variable [GetGlobalVariable('global_currency').GetCountry.MakeScope.Var('cwp_currency').GetFlagName][SelectLocalization(LessThan_CFixedPoint(Country.MakeScope.ScriptValue('cwp_gdp_with_inflation'), '(CFixedPoint)1000000000000'), 'CWP_NORMAL', 'CWP_TRILLION')]#!"
+					raw_text = "#variable [Country.GetGDP|1*]#!"
 					autoresize = yes
 					align = left|nobaseline
+					elide = right
+					fontsize_min = 12
 				}
 			}
 
 			flowcontainer = {
-				minimumsize = { 90 30 }
-				maximumsize = { 90 30 }
+				minimumsize = { 84 30 }
+				maximumsize = { 84 30 }
 				spacing = 2
 				using = literacy_tooltip_with_graph
 				using = tooltip_below
-				onmousehierarchyenter = "[SelectMapModeByKey('mm_literacy')]"
-				onmousehierarchyleave = "[UnforceMapMode]"
+				onmousehierarchyenter = "[SetTempMapModeByKey('mm_literacy')]"
+				onmousehierarchyleave = "[RemoveTempMapMode]"
 				alwaystransparent = no
 
 				icon = {
@@ -84,16 +92,18 @@ types topbar_components
 					raw_text = "#variable [Country.GetIncorporatedLiteracyRate|%1]#!"
 					autoresize = yes
 					align = left|nobaseline
+					elide = right
+					fontsize_min = 12
 				}
 			}
 			flowcontainer = {
-				minimumsize = { 90 30 }
-				maximumsize = { 90 30 }
+				minimumsize = { 68 30 }
+				maximumsize = { 68 30 }
 				spacing = 2
 				using = average_standard_of_living_tooltip_with_graph
 				using = tooltip_below
-				onmousehierarchyenter = "[SelectMapModeByKey('mm_standard_of_living')]"
-				onmousehierarchyleave = "[UnforceMapMode]"
+				onmousehierarchyenter = "[SetTempMapModeByKey('mm_standard_of_living')]"
+				onmousehierarchyleave = "[RemoveTempMapMode]"
 				alwaystransparent = no
 
 				textbox = {
@@ -109,17 +119,19 @@ types topbar_components
 					text = "[Country.GetFormattedStandardOfLivingAll|v]"
 					autoresize = yes
 					align = left|nobaseline
-					margin_left = 3
+					elide = right
+					fontsize_min = 12
+					margin_right = 3
 				}
 			}
 			flowcontainer = {
-				minimumsize = { 90 30 }
-				maximumsize = { 90 30 }
+				minimumsize = { 78 30 }
+				maximumsize = { 78 30 }
 				spacing = 2
 				using = population_tooltip_with_graph
 				using = tooltip_below
-				onmousehierarchyenter = "[SelectMapModeByKey('mm_population')]"
-				onmousehierarchyleave = "[UnforceMapMode]"
+				onmousehierarchyenter = "[SetTempMapModeByKey('mm_population')]"
+				onmousehierarchyleave = "[RemoveTempMapMode]"
 				alwaystransparent = no
 
 				icon = {
@@ -132,16 +144,19 @@ types topbar_components
 					raw_text = "#variable [Country.GetTotalPopulation|D]#!"
 					autoresize = yes
 					align = left|nobaseline
+					elide = right
+					fontsize_min = 12
+					margin_right = 3
 				}
 			}
 			flowcontainer = {
-				minimumsize = { 90 30 }
-				maximumsize = { 90 30 }
+				minimumsize = { 76 30 }
+				maximumsize = { 76 30 }
 				spacing = 2
 				using = radicals_tooltip_with_graph
 				using = tooltip_below
-				onmousehierarchyenter = "[SelectMapModeByKey('mm_radicals')]"
-				onmousehierarchyleave = "[UnforceMapMode]"
+				onmousehierarchyenter = "[SetTempMapModeByKey('mm_radicals')]"
+				onmousehierarchyleave = "[RemoveTempMapMode]"
 				alpha = "[TransparentIfZero_int64(Country.GetNumRadicals)]"
 				alwaystransparent = no
 
@@ -155,16 +170,18 @@ types topbar_components
 					raw_text = "#variable [Country.GetNumRadicals|D]#!"
 					autoresize = yes
 					align = left|nobaseline
+					elide = right
+					fontsize_min = 12
 				}
 			}
 			flowcontainer = {
-				minimumsize = { 90 30 }
-				maximumsize = { 90 30 }
+				minimumsize = { 76 30 }
+				maximumsize = { 76 30 }
 				spacing = 2
 				using = loyalists_tooltip_with_graph
 				using = tooltip_below
-				onmousehierarchyenter = "[SelectMapModeByKey('mm_loyalists')]"
-				onmousehierarchyleave = "[UnforceMapMode]"
+				onmousehierarchyenter = "[SetTempMapModeByKey('mm_loyalists')]"
+				onmousehierarchyleave = "[RemoveTempMapMode]"
 				alpha = "[TransparentIfZero_int64(Country.GetNumLoyalists)]"
 				alwaystransparent = no
 
@@ -178,41 +195,34 @@ types topbar_components
 					raw_text = "#variable [Country.GetNumLoyalists|D]#!"
 					autoresize = yes
 					align = left|nobaseline
+					elide = right
+					fontsize_min = 12
 				}
 			}
-			button = {
-				minimumsize = { 90 30 }
-				maximumsize = { 90 30 }
-				tooltip = NUCLEAR_TOOLTIP
+			flowcontainer = {
+				minimumsize = { 66 30 }
+				maximumsize = { 66 30 }
+				spacing = 2
+				tooltip = "[Country.GetInfamyDesc]"
 				using = tooltip_below
-				visible = "[GetPlayer.MakeScope.Var('nuclear_stockpile').IsSet]"
-				onclick = "[InformationPanelBar.OpenPanelTab('military', 'wmd')]"
-				onclick = "[GetVariableSystem.Clear('international_open')]" 
-				onclick = "[GetVariableSystem.Clear('un_panel')]" 
-				onclick = "[GetVariableSystem.Clear('banks_panel')]" 
-				onclick = "[GetVariableSystem.Clear('nato_panel')]" 
-				onclick = "[GetVariableSystem.Clear('warsaw_pact_panel')]" 
+				onmousehierarchyenter = "[SetTempMapModeByKey('mm_infamy')]"
+				onmousehierarchyleave = "[RemoveTempMapMode]"
+				alpha = "[TransparentIfZero(Country.GetInfamy)]"
 				alwaystransparent = no
-				flowcontainer = {
-					widget = {
-						size = { 28 28 }
-						parentanchor = vcenter
-						position = { 0 0 }
-						icon = {
-							texture = "gfx/interface/icons/lens_toolbar_icons/nuclear_weapons.dds"
-							size = { 30 30 }
-							parentanchor = vcenter
-						}
-					}
-	
-					textbox = {
-						parentanchor = vcenter
-						raw_text = "#variable [GetPlayer.MakeScope.ScriptValue('nuclear_stockpile_sv')]#!"
-						autoresize = yes
-						align = left|nobaseline
-					}
-				}
 
+				icon = {
+					size = { @secondary_icon_size @secondary_icon_size }
+					texture = "[Country.GetInfamyIconTexture]"
+					parentanchor = vcenter
+				}
+				textbox = {
+					parentanchor = vcenter
+					raw_text = "#variable [Country.GetInfamy|0]#!"
+					autoresize = yes
+					align = left|nobaseline
+					elide = right
+					fontsize_min = 12
+				}
 			}
 		}
 	}

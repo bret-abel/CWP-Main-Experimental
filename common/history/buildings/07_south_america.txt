@@ -5114,10 +5114,10 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_LOS_RIOS = {
-		region_state:CHL
+		region_state:CHL = {}
 	}
 	s:STATE_ARAUCANIA = {
-		region_state:CHL
+		region_state:CHL = {}
 		region_state:ARG = {
 			create_building = {
 				building = "building_government_administration"

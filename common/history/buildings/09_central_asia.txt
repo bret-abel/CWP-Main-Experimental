@@ -2930,7 +2930,7 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_HIMALAYAS = {
-		region_state:HND
+		region_state:HND = {}
 		region_state:NEP = {
 			create_building = {
 				building = "building_rice_farm"
