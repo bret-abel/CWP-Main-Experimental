@@ -35,7 +35,12 @@
 			limit = {
 				or = {
 					literacy_rate > 0.1
-					religion_accepted = yes
+					state = {
+						state_religious_acceptance = {
+							target = ROOT.religion
+							value > religious_acceptance_medium
+					   	}
+					}
 				}
 			}
 			add = {
@@ -47,7 +52,12 @@
 			}
 			if = {
 				limit = {
-					religion_accepted = yes
+					state = {
+						state_religious_acceptance = {
+							target = ROOT.religion
+							value > religious_acceptance_medium
+					   	}
+					}
 				}
 				add = {
 					value = 0.1
@@ -80,7 +90,12 @@
 			}
 			if = {
 				limit = {
-					religion_accepted = no
+					state = {
+						state_religious_acceptance = {
+							target = ROOT.religion
+							value < religious_acceptance_medium
+					   	}
+					}
 				}
 				multiply = {
 					value = 0.05

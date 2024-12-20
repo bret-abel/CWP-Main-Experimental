@@ -61,7 +61,7 @@
 			desc = "POP_NOT_DISCRIMINATED"
 			if = {
 				limit = {
-					pop_is_discriminated = no
+					pop_acceptance >= acceptance_status_4
 				}
 				value = 25
 			}

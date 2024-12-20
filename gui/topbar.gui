@@ -895,7 +895,7 @@ types topbar_components
 		position = { -4 78 }
 
 		onclick = "[MapListPanelManager.OpenCurrentPanel]"
-		onclick = "[SelectMapModeByKey('mm_default')]"
+		onclick = "[SetTempMapModeByKey('mm_default')]"
 
 		### RANK
 		rank_badge = {

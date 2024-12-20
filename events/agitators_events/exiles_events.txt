@@ -168,8 +168,8 @@ exiles_events.2 = {
 		}
 		any_character_in_exile_pool = {
 			this.culture = {
-				NOT = {
-					culture_is_discriminated_in = root
+				root = {
+					cultural_acceptance_base = { target = prev value >= acceptance_status_4 }
 				}
 			}
 			this.interest_group_type = {
@@ -207,8 +207,8 @@ exiles_events.2 = {
 		random_character_in_exile_pool = {
 			limit = {
 				this.culture = {
-					NOT = {
-						culture_is_discriminated_in = root
+					root = {
+						cultural_acceptance_base = { target = prev value >= acceptance_status_4 }
 					}
 				}
 				this.interest_group_type = {
@@ -582,8 +582,8 @@ exiles_events.6 = {
 		any_political_movement = { count >= 2 }
 		any_character_in_exile_pool = {
 			this.culture = {
-				NOT = {
-					culture_is_discriminated_in = root
+				root = {
+					cultural_acceptance_base = { target = prev value >= acceptance_status_4 }
 				}
 			}
 		}
@@ -599,8 +599,8 @@ exiles_events.6 = {
 		random_character_in_exile_pool = {
 			limit = {
 				this.culture = {
-					NOT = {
-						culture_is_discriminated_in = root
+					root = {
+						cultural_acceptance_base = { target = prev value >= acceptance_status_4 }
 					}
 				}
 			}
@@ -663,8 +663,8 @@ exiles_events.7 = {
 		}
 		any_character_in_exile_pool = {
 			this.culture = {
-				NOT = {
-					culture_is_discriminated_in = root
+				root = {
+					cultural_acceptance_base = { target = prev value >= acceptance_status_4 }
 				}
 			}
 		}
@@ -680,8 +680,8 @@ exiles_events.7 = {
 		random_character_in_exile_pool = {
 			limit = {
 				this.culture = {
-					NOT = {
-						culture_is_discriminated_in = root
+					root = {
+						cultural_acceptance_base = { target = prev value >= acceptance_status_4 }
 					}
 				}
 			}

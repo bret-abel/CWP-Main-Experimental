@@ -56,7 +56,12 @@
 			}
 			if = {
 				limit = {
-					culture_accepted = no
+					state = {
+						state_cultural_acceptance = {  
+							target = PREV.culture
+						   	value < acceptance_status_4 
+					   	}
+					}
 				}
 				multiply = {
 					value = 0.1

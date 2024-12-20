@@ -629,8 +629,8 @@ types country_panel_types
 				
 				#Currency
 				country_stats_entry = {	
-					onmousehierarchyenter = "[SelectMapModeByKey('mm_gdp')]"
-					onmousehierarchyleave = "[UnforceMapMode]"
+					onmousehierarchyenter = "[SetTempMapModeByKey('mm_gdp')]"
+					onmousehierarchyleave = "[RemoveTempMapMode]"
 					alwaystransparent = no
 					
 					blockoverride "information_icon" {
@@ -651,8 +651,8 @@ types country_panel_types
 				}
 				#Central Bank Credibility
 				country_stats_entry = {	
-					onmousehierarchyenter = "[SelectMapModeByKey('mm_gdp')]"
-					onmousehierarchyleave = "[UnforceMapMode]"
+					onmousehierarchyenter = "[SetTempMapModeByKey('mm_gdp')]"
+					onmousehierarchyleave = "[RemoveTempMapMode]"
 					alwaystransparent = no
 					
 					blockoverride "information_icon" {

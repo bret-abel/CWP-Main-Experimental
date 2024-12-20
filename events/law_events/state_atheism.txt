@@ -131,7 +131,7 @@ state_atheism.2 = {
 			is_incorporated = yes
 			has_building = building_university
 			any_scope_pop = {
-				is_pop_type = academics
+				is_pop_type = engineers
 			}
 		}
 	}
@@ -144,7 +144,7 @@ state_atheism.2 = {
 				is_incorporated = yes
 				has_building = building_university
 				any_scope_pop = {
-					is_pop_type = academics
+					is_pop_type = engineers
 				}
 			}
 			save_scope_as = godless_state
@@ -156,7 +156,7 @@ state_atheism.2 = {
 			}
 			random_scope_pop = {
 				limit = {
-					is_pop_type = academics
+					is_pop_type = engineers
 				}
 				save_scope_as = godless_pop
 			}

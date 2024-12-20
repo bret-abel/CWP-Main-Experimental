@@ -34,7 +34,7 @@
 		if = {
 			limit = {
 				OR = {
-					culture_accepted = yes
+					pop_acceptance >= acceptance_status_4
 					is_pop_type = soldiers
 				}
 			}

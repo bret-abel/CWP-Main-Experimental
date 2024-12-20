@@ -48,7 +48,6 @@
 			is_pop_type = engineers
 			is_pop_type = clericals
 			is_pop_type = engineers
-			is_pop_type = creatives
 		}
 	}
 	pop_weight = {
@@ -106,15 +105,6 @@
 					is_pop_type = engineers
 				}
 				value = 150
-			}
-		}
-		add = {
-			desc = "POP_CREATIVES"
-			if = {
-				limit = {
-					is_pop_type = creatives
-				}
-				value = 50
 			}
 		}
 		multiply = {

@@ -4853,16 +4853,20 @@ agitators_election_events.43 = {
 		}
 		any_scope_state = {
 			any_scope_culture = {
-				culture_is_discriminated_in = root
+				ROOT = {
+					cultural_acceptance_base = { target = prev value < acceptance_status_5 }
+				}
 				save_temporary_scope_as = discrim_culture
 			}
 			culture_percent_state = {
-				target = scope:discrim_culture
-				value >= 0.05
+			    target = scope:discrim_culture
+			    value >= 0.05
 			}
 		}
 		any_scope_culture = {
-			culture_is_discriminated_in = root
+			ROOT = {
+				cultural_acceptance_base = { target = prev value < acceptance_status_5 }
+			}
 			any_state = {
 				owner = ROOT
 				is_incorporated = yes
@@ -4897,7 +4901,9 @@ agitators_election_events.43 = {
 		radical_agitator_election_scope_effect = yes
 		random_scope_culture = {
 			limit = {
-				culture_is_discriminated_in = root
+				ROOT = {
+					cultural_acceptance_base = { target = prev value < acceptance_status_5 }
+				}
 				any_state = {
 					owner = ROOT
 					is_incorporated = yes
