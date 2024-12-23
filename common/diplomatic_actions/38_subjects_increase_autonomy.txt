@@ -109,20 +109,14 @@ da_increase_autonomy_of_self = {
 		}
 		liberty_desire >= 75
 		can_increase_autonomy = yes
-		
-		OR = {
-			NOT = {
-				has_government_type = gov_chartered_company
-			} 
-			has_technology_researched = civilizing_mission
+
+		NOT = {
+			is_subject_type = subject_type_personal_union
 		}
 
-		OR = {
-			NOT = {
-				is_subject_type = subject_type_personal_union
-			} 
-			has_technology_researched = nationalism
-		}				
+		NOT = {
+			has_government_type = gov_chartered_company
+		}
 		
 		custom_tooltip = {
 			text = "REQUEST_AUTONOMY_ON_COOLDOWN"

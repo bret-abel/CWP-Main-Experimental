@@ -763,10 +763,6 @@ grant_foreign_investment_rights = {
 
 		has_diplomatic_relevance = scope:target_country
 
-		scope:target_country = {
-			has_technology_researched = stock_exchange
-		}
-
 		custom_tooltip = {
 			text = DIPLO_ACTION_RELATIONS_POOR_OR_LESS_NOT
 			scope:target_country.relations:root > relations_threshold:poor

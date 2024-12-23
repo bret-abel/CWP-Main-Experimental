@@ -863,10 +863,6 @@ military_assistance_request = {
 
 		has_diplomatic_relevance = scope:target_country
 
-		scope:target_country = {
-			has_technology_researched = general_staff
-		}
-
 		scope:target_country.country_rank >= ROOT.country_rank
 
 		scope:target_country.army_power_projection > ROOT.army_power_projection

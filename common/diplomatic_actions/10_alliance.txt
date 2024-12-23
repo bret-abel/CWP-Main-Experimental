@@ -595,16 +595,6 @@
 
 		propose_score = {
 			value = 10
-
-			if = {
-				limit = {
-					country_has_primary_culture = cu:british
-					asian_ally_against_russia_trigger = yes
-				}
-				add = {
-					value = 50
-				}
-			}
 			
 			add = {
 				value = scope:target_country.country_rank
@@ -636,16 +626,6 @@
 					value = 50
 				}			
 			}
-
-			if = {
-				limit = {
-					country_has_primary_culture = cu:british
-					asian_ally_against_russia_trigger = yes
-				}
-				add = {
-					value = 50
-				}
-			}
 		}
 		
 		owe_obligation_chance = {
@@ -667,17 +647,7 @@
 					}				
 					value = 10
 				}	
-			}	
-
-			if = {
-				limit = {
-					country_has_primary_culture = cu:british
-					asian_ally_against_russia_trigger = yes
-				}
-				add = {
-					value = 25
-				}
-			}		
+			}
 		}	
 	}
 }
