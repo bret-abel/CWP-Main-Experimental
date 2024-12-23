@@ -16,8 +16,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_hall_heroult_process"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -94,8 +92,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_powered_assembly_lines_industry_tools"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 					"pm_power_tools"
 				}
 			}
@@ -129,7 +125,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_coal_fired_plant"
-					"pm_professional_service_industry_no"
 				}
 			}
 			create_building = {
@@ -146,8 +141,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_powered_assembly_lines_industry"
 					"pm_no_ammo"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 					"pm_teflon_chemicals"
 				}
 			}
@@ -164,8 +157,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 					"pm_organophosphates_fertilizer"
 				}
 			}
@@ -199,8 +190,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_combustion_gas_engines_motors"
 					"pm_no_electronics_motors"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -218,8 +207,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_early_steelmaking"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -287,8 +274,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_pre_war_glassworking"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -302,7 +287,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_professional_bureaucrats"
-					"pm_professional_service_industry_no"
 					"pm_modern_bureaucracy"
 				}
 			}
@@ -320,8 +304,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_semi_automatic_rifles"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -422,8 +404,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_power_tools"
 					"pm_powered_assembly_lines_industry_tools"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -439,7 +419,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_coal_fired_plant"
-					"pm_professional_service_industry_no"
 				}
 			}
 			create_building = {
@@ -457,8 +436,6 @@ BUILDINGS = {
 					"pm_teflon_chemicals"
 					"pm_no_ammo"
 					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -475,8 +452,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_organophosphates_fertilizer"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -510,8 +485,6 @@ BUILDINGS = {
 					"pm_combustion_gas_engines_motors"
 					"pm_no_electronics_motors"
 					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -528,8 +501,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_early_steelmaking"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -597,8 +568,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_pre_war_glassworking"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -612,7 +581,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -633,8 +601,6 @@ BUILDINGS = {
 					"pm_preservatives_meat"
 					"pm_preservatives_fruit"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -800,8 +766,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_power_tools"
 					"pm_powered_assembly_lines_industry_tools"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -834,7 +798,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_coal_fired_plant"
-					"pm_professional_service_industry_no"
 				}
 			}
 			create_building = {
@@ -852,8 +815,6 @@ BUILDINGS = {
 					"pm_teflon_chemicals"
 					"pm_no_ammo"
 					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -887,8 +848,6 @@ BUILDINGS = {
 					"pm_combustion_gas_engines_motors"
 					"pm_no_electronics_motors"
 					"pm_powered_assembly_lines_industry"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -905,8 +864,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_early_steelmaking"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -923,8 +880,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_organophosphates_fertilizer"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -990,7 +945,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1008,8 +962,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_pre_war_glassworking"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1029,8 +981,6 @@ BUILDINGS = {
 					"pm_preservatives_meat"
 					"pm_preservatives_fruit"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1146,8 +1096,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_early_steelmaking"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1178,7 +1126,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1416,8 +1363,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_pre_war_glassworking"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1431,7 +1376,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1513,7 +1457,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1597,8 +1540,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 					"pm_organophosphates_fertilizer"
 				}
 			}
@@ -1700,7 +1641,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_coal_fired_plant"
-					"pm_professional_service_industry_no"
 				}
 			}
 			create_building = {
@@ -1716,8 +1656,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 					"pm_power_tools"
 				}
 			}
@@ -1750,8 +1688,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_fiber_production_textiles"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1768,8 +1704,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1789,8 +1723,6 @@ BUILDINGS = {
 					"pm_preservatives_meat"
 					"pm_preservatives_fruit"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1807,7 +1739,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_antibiotics"
 					"pm_trauma_centers"
-					"pm_professional_service_industry_no"
 				}
 			}
 			create_building = {
@@ -1824,8 +1755,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_modern_medicine"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1843,8 +1772,6 @@ BUILDINGS = {
 					"pm_combustion_gas_engines_motors"
 					"pm_no_electronics_motors"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1861,8 +1788,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_base_paper"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1894,7 +1819,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_professional_bureaucrats"
-					"pm_professional_service_industry_no"
 					"pm_modern_bureaucracy"
 				}
 			}
@@ -1912,8 +1836,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_no_ammo"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 					"pm_teflon_chemicals"
 				}
 			}
@@ -2032,7 +1954,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_trauma_centers"
 					"pm_antibiotics"
-					"pm_professional_service_industry_no"
 				}
 			}
 			create_building = {
@@ -2064,7 +1985,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -2082,8 +2002,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_fiber_production_textiles"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -2099,7 +2017,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_coal_fired_plant"
-					"pm_professional_service_industry_no"
 				}
 			}
 		}

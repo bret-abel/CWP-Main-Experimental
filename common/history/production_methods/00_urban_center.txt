@@ -10,10 +10,6 @@
 		}
 		activate_production_method = {
 			building_type = building_urban_center
-			production_method = pm_professional_services
-		}
-		activate_production_method = {
-			building_type = building_urban_center
 			production_method = pm_local_planning
 		}
 		activate_production_method = {
@@ -33,10 +29,6 @@
 		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_limited_zoning
-		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
 		}
 		activate_production_method = {
 			building_type = building_urban_center
@@ -66,10 +58,6 @@
 			building_type = building_urban_center
 			production_method = pm_limited_zoning
 		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
-		}
 	}
 	c:NET ?= {
 		activate_production_method = {
@@ -80,14 +68,6 @@
 			building_type = building_urban_center
 			production_method = pm_residential_zoning
 		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
-		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
-		}
 	}
 	c:SWE ?= {
 		activate_production_method = {
@@ -97,14 +77,6 @@
 		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_residential_zoning
-		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
-		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
 		}
 	}
 	c:JAP ?= {
@@ -120,10 +92,6 @@
 			building_type = building_urban_center
 			production_method = pm_limited_zoning
 		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
-		}
 	}
 	c:RUS ?= {
 		activate_production_method = {
@@ -133,10 +101,6 @@
 		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_limited_zoning
-		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
 		}
 		activate_production_method = {
 			building_type = building_urban_center
@@ -152,10 +116,6 @@
 			building_type = building_urban_center
 			production_method = pm_limited_zoning
 		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
-		}
 	}
 	c:CZH ?= {
 		activate_production_method = {
@@ -165,10 +125,6 @@
 		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_limited_zoning
-		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
 		}
 	}
 	c:POL ?= {
@@ -180,10 +136,6 @@
 			building_type = building_urban_center
 			production_method = pm_limited_zoning
 		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
-		}
 	}
 	c:SWI ?= {
 		activate_production_method = {
@@ -193,10 +145,6 @@
 		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_limited_zoning
-		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
 		}
 		activate_production_method = {
 			building_type = building_urban_center
@@ -211,10 +159,6 @@
 		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_limited_zoning
-		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
 		}
 		activate_production_method = {
 			building_type = building_urban_center
@@ -246,10 +190,6 @@
 		}
 		activate_production_method = {
 			building_type = building_urban_center
-			production_method = pm_some_professional_services
-		}
-		activate_production_method = {
-			building_type = building_urban_center
 			production_method = pm_state_urban_clergy
 		}
 	}
@@ -257,10 +197,6 @@
 		activate_production_method = {
 			building_type = building_urban_center
 			production_method = pm_limited_zoning
-		}
-		activate_production_method = {
-			building_type = building_urban_center
-			production_method = pm_some_professional_services
 		}
 	}
 }

@@ -10,11 +10,7 @@ building_food_industry = {
 	production_method_groups = {
 		pmg_base_building_food_industry
 		pmg_fish_packing
-		pmg_meat_packing
-		pmg_fruit_packing
 		pmg_automation_food
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
 	ownership_type = self
@@ -24,7 +20,7 @@ building_food_industry = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 }
 
@@ -40,8 +36,6 @@ building_distilleries = {
 		pmg_distilling_liquor
 		pmg_distilling_wine
 		pmg_automation_distillery
-		pmg_professional_service_use_creatives
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
 	can_build_government = {
@@ -63,7 +57,7 @@ building_distilleries = {
            NOT = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -80,8 +74,6 @@ building_textile_manufactories = {
 	production_method_groups = {
 		pmg_base_textile
 		pmg_automation_textiles
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -89,7 +81,7 @@ building_textile_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -106,8 +98,6 @@ building_furniture_manufactories = {
 	production_method_groups = {
 		pmg_base_furniture
 		pmg_automation_furniture
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -115,7 +105,7 @@ building_furniture_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -132,8 +122,6 @@ building_glassworks = {
 	production_method_groups = {
 		pmg_base_glassworks
 		pmg_automation_glassworks
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -141,7 +129,7 @@ building_glassworks = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -158,8 +146,6 @@ building_tool_manufactories = {
 	production_method_groups = {
 		pmg_base_tools
 		pmg_automation_tools
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -167,7 +153,7 @@ building_tool_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ai_value = 2000	# Tools are very important
 	ownership_type = self
@@ -185,8 +171,6 @@ building_paper_manufactories = {
 	production_method_groups = {
 		pmg_base_paper
 		pmg_automation_paper
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -194,7 +178,7 @@ building_paper_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -211,8 +195,6 @@ building_chemical_plants = {
 	production_method_groups = {
 		pmg_base_fertilizer
 		pmg_automation_chemical_plants
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -220,7 +202,7 @@ building_chemical_plants = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -238,8 +220,6 @@ building_synthetics_plant = {
 		pmg_synthetic_fabrics
 		pmg_synthetic_rubber
 		pmg_automation_synthetics_plant
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -247,7 +227,7 @@ building_synthetics_plant = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -264,8 +244,6 @@ building_steelworks = {
 	production_method_groups = {
 		pmg_base_steelworks
 		pmg_automation_steelworks
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -273,7 +251,7 @@ building_steelworks = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -290,8 +268,6 @@ building_aluminum_refinery = {
 	production_method_groups = {
 		pmg_base_aluminum_refining
 		pmg_automation_steelworks
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -299,7 +275,7 @@ building_aluminum_refinery = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -317,8 +293,6 @@ building_motor_industry = {
 		pmg_base_motors
 		pmg_electronic_improvements_motors
 		pmg_automation_motors
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -326,7 +300,7 @@ building_motor_industry = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -345,8 +319,6 @@ building_automobile_manufactories = {
 		pmg_base_tanks
 		pmg_propulsion_automobiles
 		pmg_automation_automobiles
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
 
@@ -355,7 +327,7 @@ building_automobile_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -371,17 +343,15 @@ building_shipyards = {
 	production_method_groups = {
 		pmg_base_shipyard
 		pmg_automation_shipyard
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
 
 	possible = {
 		is_sea_adjacent = yes
-		owner = { 
-			NOT = { 
-				has_law = law_type:law_anti_industrialization 
-			} 
+		owner = {
+			NOT = {
+				has_law = law_type:law_anti_industrialization
+			}
 		}
 	}
 	ownership_type = self
@@ -397,18 +367,15 @@ building_drydocks = {
 	}
 	production_method_groups = {
 		pmg_surface_ships_shipyard
-		#pmg_aircraft_carrier_shipyard
 		pmg_submarines_shipyard
 		pmg_automation_shipyard
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
 
 	possible = {
 		is_sea_adjacent = yes
-		owner = { 
-			NOT = { has_law = law_type:law_anti_industrialization } 
+		owner = {
+			NOT = { has_law = law_type:law_anti_industrialization }
 		}
 	}
 	ownership_type = self
@@ -426,8 +393,6 @@ building_electronics_manufactories = {
 	production_method_groups = {
 		pmg_base_electronics
 		pmg_automation_electronics
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -435,7 +400,7 @@ building_electronics_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -453,8 +418,6 @@ building_small_arms_manufactories = {
 		pmg_base_small_arms
 		pmg_base_artillery
 		pmg_automation_small_arms
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_very_high
     possible = {
@@ -462,7 +425,7 @@ building_small_arms_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -480,8 +443,6 @@ building_explosives_industry = {
 		pmg_base_explosives
 		pmg_base_munitions
 		pmg_automation_munitions
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_very_high
     possible = {
@@ -489,7 +450,7 @@ building_explosives_industry = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -507,8 +468,6 @@ building_fuel_refineries = {
 		pmg_base_fuel_refineries
 		pmg_raw_plastics
 		pmg_automation_fuel_refineries
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 	}
 	required_construction = construction_cost_very_high
     possible = {
@@ -516,7 +475,7 @@ building_fuel_refineries = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -533,8 +492,6 @@ building_semiconductor_manufactories = {
 	production_method_groups = {
 		pmg_base_semiconductor
 		pmg_automation_semiconductor
-		pmg_professional_service_use_clericals
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_very_high
     possible = {
@@ -542,7 +499,7 @@ building_semiconductor_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -561,8 +518,6 @@ building_aircraft_manufactories = {
 		pmg_military_aircraft
 		pmg_missiles_production
 		pmg_automation_aircraft
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_very_high
     possible = {
@@ -570,7 +525,7 @@ building_aircraft_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -588,8 +543,6 @@ building_battery_manufactories = {
 	production_method_groups = {
 		pmg_base_battery
 		pmg_automation_battery
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_very_high
     possible = {
@@ -597,7 +550,7 @@ building_battery_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -614,8 +567,6 @@ building_pharmaceutical_industry = {
 	production_method_groups = {
 		pmg_base_pharmaceuticals
 		pmg_automation_pharmaceuticals
-		pmg_professional_service_use_clericals
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_very_high
     possible = {
@@ -623,7 +574,7 @@ building_pharmaceutical_industry = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -640,8 +591,6 @@ building_computer_manufactories = {
 	production_method_groups = {
 		pmg_base_computers
 		pmg_automation_computers
-		pmg_professional_service_use_engineers
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -649,7 +598,7 @@ building_computer_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
@@ -666,8 +615,6 @@ building_consumer_electronics_manufactories = {
 	production_method_groups = {
 		pmg_base_consumer_electronics
 		pmg_automation_consumer_electronics_manufactories
-		pmg_professional_service_use_clericals
-		pmg_green_tech_industry
 			}
 	required_construction = construction_cost_high
     possible = {
@@ -675,7 +622,7 @@ building_consumer_electronics_manufactories = {
            not = {
                has_law = law_type:law_anti_industrialization
            }
-       }  
+       }
     }
 	ownership_type = self
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"

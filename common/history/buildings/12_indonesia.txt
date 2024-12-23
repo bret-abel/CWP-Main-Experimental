@@ -60,7 +60,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_informal_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -77,7 +76,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_informal_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -207,7 +205,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_informal_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -224,7 +221,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_informal_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -355,7 +351,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_professional_bureaucrats"
-					"pm_professional_service_industry_no"
 					"pm_modern_bureaucracy"
 				}
 			}
@@ -505,7 +500,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -655,7 +649,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -839,7 +832,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -990,7 +982,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1141,7 +1132,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1291,7 +1281,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1425,7 +1414,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1524,7 +1512,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_informal_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1727,7 +1714,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1792,7 +1778,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_informal_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -1845,8 +1830,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_pre_war_glassworking"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1863,8 +1846,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_fiber_production_furniture"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1914,8 +1895,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_base_paper"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 			create_building = {
@@ -1932,8 +1911,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_modern_medicine"
 					"pm_no_automation"
-					"pm_professional_service_industry_no"
-					"pm_no_environmental_tech"
 				}
 			}
 		}
@@ -2099,7 +2076,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_professional_bureaucrats"
-					"pm_professional_service_industry_no"
 					"pm_modern_bureaucracy"
 				}
 			}
@@ -2152,7 +2128,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -2282,7 +2257,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_coal_fired_plant"
-					"pm_professional_service_industry_no"
 				}
 			}
 			create_building = {
@@ -2299,7 +2273,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_hospitals"
 					"pm_traditional_treatments"
-					"pm_professional_service_industry_no"
 					"pm_privatized_hospital"
 				}
 			}
@@ -2436,7 +2409,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_hospitals"
 					"pm_traditional_treatments"
-					"pm_professional_service_industry_no"
 					"pm_privatized_hospital"
 				}
 			}
@@ -2451,7 +2423,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_modern_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}
@@ -2587,7 +2558,6 @@ BUILDINGS = {
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 					"pm_informal_bureaucracy"
 				}
@@ -2680,7 +2650,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_informal_bureaucracy"
-					"pm_professional_service_industry_no"
 					"pm_professional_bureaucrats"
 				}
 			}

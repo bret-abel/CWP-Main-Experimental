@@ -370,12 +370,6 @@ effect_remove_industry = {
 	}
 	if = {
 		limit = {
-			has_building = building_skyscraper
-		}
-		remove_building = building_skyscraper
-	}
-	if = {
-		limit = {
 			has_building = building_spaceport
 		}
 		remove_building = building_spaceport
