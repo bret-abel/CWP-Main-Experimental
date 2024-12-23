@@ -4,56 +4,64 @@ BUILDINGS = {
 	s:STATE_ILE_DE_FRANCE = {
 		region_state:FRA = {
 			create_building = {
-				building = building_eiffel_tower
+				building = "building_eiffel_tower"
+				level=1
 			}
 		}
 	}
 	s:STATE_CAMBODIA = {
 		region_state:VNM = {
 			create_building = {
-				building = building_angkor_wat
+				building = "building_angkor_wat"
+				level=1
 			}
 		}
 	}
 	s:STATE_HOME_COUNTIES = {
 		region_state:GBR = {
 			create_building = {
-				building = building_big_ben
+				building = "building_big_ben"
+				level=1
 			}
 		}
 	}
 	s:STATE_BEIJING = {
 		region_state:PRC = {
 			create_building = {
-				building = building_forbidden_city
+				building = "building_forbidden_city"
+				level=1
 			}
 		}
 	}
 	s:STATE_EASTERN_THRACE = {
 		region_state:TUR = {
-			create_building = {
-				building = building_hagia_sophia
+			create_building={
+				building="building_hagia_sophia"
+				level=1
 			}
 		}
 	}
 	s:STATE_EASTERN_MALI = {
 		region_state:WAU = {
 			create_building = {
-				building = building_mosque_of_djenne
+				building = "building_mosque_of_djenne"
+				level=1
 			}
 		}
 	}
 	s:STATE_MOSCOW = {
 		region_state:RUS = {
 			create_building = {
-				building = building_red_square
+				building = "building_red_square"
+				level=1
 			}
 		}
 	}
 	s:STATE_NEW_YORK = {
 		region_state:USA = {
 			create_building = {
-				building = building_statue_of_liberty
+				building = "building_statue_of_liberty"
+				level=1
 			}
 		}
 	}
@@ -64,7 +72,8 @@ BUILDINGS = {
 		s:STATE_NEW_YORK = {
 			region_state:USA = {
 				create_building = {
-					building = building_central_park
+					building = "building_central_park"
+					level=1
 				}
 			}
 		}
@@ -72,21 +81,24 @@ BUILDINGS = {
 	s:STATE_UTTAR_PRADESH = {
 		region_state:HND = {
 			create_building = {
-				building = building_taj_mahal
+				building = "building_taj_mahal"
+				level=1
 			}
 		}
 	}
 	s:STATE_LAZIO = {
 		region_state:ITA = {
 			create_building = {
-				building = building_vatican_city
+				building = "building_vatican_city"
+				level=1
 			}
 		}
 	}
 	s:STATE_CHESAPEAKE = {
 		region_state:USA = {
 			create_building = {
-				building = building_white_house
+				building = "building_white_house"
+				level=1
 			}
 		}
 	}
@@ -97,7 +109,8 @@ BUILDINGS = {
 		s:STATE_CHESAPEAKE = {
 			region_state:USA = {
 				create_building = {
-					building = building_capitol_hill
+					building = "building_capitol_hill"
+					level=1
 				}
 			}
 		}
@@ -105,70 +118,80 @@ BUILDINGS = {
 	s:STATE_ICA = {
 		region_state:PEU = {
 			create_building = {
-				building = building_machu_picchu
+				building = "building_machu_picchu"
+				level=1
 			}
 		}
 	}
 	s:STATE_LARISTAN = {
 		region_state:PER = {
 			create_building = {
-				building = building_argebam
+				building = "building_argebam"
+				level=1
 			}
 		}
 	}
 	s:STATE_YUCATAN = {
 		region_state:MEX = {
 			create_building = {
-				building = building_chichen_itza
+				building = "building_chichen_itza"
+				level=1
 			}
 		}
 	}
 	s:STATE_POLYNESIA = {
 		region_state:FRA = {
 			create_building = {
-				building = building_easter_island_heads
+				building = "building_easter_island_heads"
+				level=1
 			}
 		}
 	}
 	s:STATE_MAURITANIA = {
 		region_state:WAU = {
 			create_building = {
-				building = building_eye_of_sahara
+				building = "building_eye_of_sahara"
+				level=1
 			}
 		}
 	}
 	s:STATE_LOWER_EGYPT = {
 		region_state:EGY = {
 			create_building = {
-				building = building_giza_necropolis
+				building = "building_giza_necropolis"
+				level=1
 			}
 		}
 	}
 	s:STATE_ISFAHAN = {
 		region_state:PER = {
 			create_building = {
-				building = building_khaju_bridge
+				building = "building_khaju_bridge"
+				level=1
 			}
 		}
 	}
 	s:STATE_TRANSJORDAN = {
 		region_state:EOT = {
 			create_building = {
-				building = building_petra
+				building = "building_petra"
+				level=1
 			}
 		}
 	}
 	s:STATE_PANAMA = {
 		region_state:USA = {
 			create_building = {
-				building = building_panama_canal
+				building = "building_panama_canal"
+				level=1
 			}
 		}
 	}
 	s:STATE_SINAI = {
 		region_state:GBR = {
 			create_building = {
-				building = building_suez_canal
+				building = "building_suez_canal"
+				level=1
 			}
 		}
 	}
