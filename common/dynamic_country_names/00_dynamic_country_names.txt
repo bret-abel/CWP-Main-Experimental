@@ -1798,9 +1798,8 @@ MYM = {
 		trigger = {
 			exists = scope:actor
 			scope:actor = {
-				has_law = law_type:law_integrationist
-				has_law = law_type:law_multiculturalist
-				has_law = law_type:law_syncretist
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_multicultural
 			}
 		}
 	}
@@ -3669,9 +3668,8 @@ MTB = {
 						country_has_primary_culture = cu:english
 						country_has_primary_culture = cu:boer
 					}
-					NOR = {
-						has_law = law_type:law_multiculturalist
-						has_law = law_type:law_syncretist
+					NOT = {
+						has_law = law_type:law_multicultural
 					}
 				}
 			}
@@ -3699,9 +3697,8 @@ LZO = {
 							country_has_primary_culture = cu:english
 							country_has_primary_culture = cu:boer
 						}
-						NOR = {
-							has_law = law_type:law_multiculturalist
-							has_law = law_type:law_syncretist
+						NOT = {
+							has_law = law_type:law_multicultural
 						}
 					}
 				}

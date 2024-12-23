@@ -28,7 +28,7 @@ revolution_pulse_events.1 = {
 			is_insurrectionary = yes
 			OR = {
 				law_stance = {
-					law = law_type:law_supremacist
+					law = law_type:law_national_supremacy
 					value >= neutral
 				}
 				leader = {
@@ -60,7 +60,7 @@ revolution_pulse_events.1 = {
 				is_insurrectionary = yes
 				OR = {
 					law_stance = {
-						law = law_type:law_supremacist
+						law = law_type:law_national_supremacy
 						value > neutral
 					}
 					leader = {
@@ -109,7 +109,7 @@ revolution_pulse_events.1 = {
 			limit = {
 				OR = {
 					law_stance = {
-						law = law_type:law_supremacist
+						law = law_type:law_national_supremacy
 						value > neutral
 					}
 					leader = {
@@ -2452,18 +2452,18 @@ revolution_pulse_events.19 = {
 		default_option = yes
 		ROOT = {
 			activate_law = law_type:law_autocracy
-			activate_law = law_type:law_ethnonationalist	
+			activate_law = law_type:law_ethnostate	
 			activate_law = law_type:law_outlawed_dissent
 		}
 		every_interest_group = {
 			limit = {
 				OR = {
 					law_stance = {
-						law = law_type:law_supremacist
+						law = law_type:law_national_supremacy
 						value < neutral
 					}
 					law_stance = {
-						law = law_type:law_ethnonationalist
+						law = law_type:law_ethnostate
 						value < neutral
 					}
 					law_stance = {
@@ -2496,18 +2496,18 @@ revolution_pulse_events.19 = {
 		default_option = yes
 		ROOT = {
 			activate_law = law_type:law_autocracy
-			activate_law = law_type:law_ethnonationalist	
+			activate_law = law_type:law_ethnostate	
 			activate_law = law_type:law_outlawed_dissent
 		}
 		every_interest_group = {
 			limit = {
 				OR = {
 					law_stance = {
-						law = law_type:law_supremacist
+						law = law_type:law_national_supremacy
 						value < neutral
 					}
 					law_stance = {
-						law = law_type:law_ethnonationalist
+						law = law_type:law_ethnostate
 						value < neutral
 					}
 					law_stance = {
@@ -2553,11 +2553,11 @@ revolution_pulse_events.19 = {
 			limit = {
 				OR = {
 					law_stance = {
-						law = law_type:law_supremacist
+						law = law_type:law_national_supremacy
 						value < neutral
 					}
 					law_stance = {
-						law = law_type:law_ethnonationalist
+						law = law_type:law_ethnostate
 						value < neutral
 					}
 					law_stance = {
@@ -2639,14 +2639,14 @@ revolution_pulse_events.20 = {
 		}
 		ROOT = {
 			activate_law = law_type:law_autocracy
-			activate_law = law_type:law_supremacist
+			activate_law = law_type:law_national_supremacy
 			activate_law = law_type:law_censorship
 		}
 		every_interest_group = {
 			limit = {
 				OR = {
 					law_stance = {
-						law = law_type:law_supremacist
+						law = law_type:law_national_supremacy
 						value < neutral
 					}
 					law_stance = {

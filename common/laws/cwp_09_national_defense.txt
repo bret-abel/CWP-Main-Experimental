@@ -38,6 +38,18 @@
 			add = 750
 		}
 	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_army_model_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
 }
 
 law_irregular_military = {
@@ -83,6 +95,18 @@ law_irregular_military = {
 			add = 750
 		}
 	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_army_model_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
 }
 
 law_reserve_military = {
@@ -120,6 +144,18 @@ law_reserve_military = {
 			add = 750
 		}
 	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_army_model_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
 }
 
 law_professional_military = {
@@ -147,6 +183,18 @@ law_professional_military = {
 				scope:law = var:desired_law_var
 			}
 			add = 750
+		}
+	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_army_model_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
 		}
 	}
 }
@@ -177,6 +225,18 @@ law_volunteer_only_military = {
 				scope:law = var:desired_law_var
 			}
 			add = 750
+		}
+	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_army_model_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
 		}
 	}
 }
@@ -220,6 +280,18 @@ law_private_military = {
 				scope:law = var:desired_law_var
 			}
 			add = 750
+		}
+	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_army_model_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
 		}
 	}
 }

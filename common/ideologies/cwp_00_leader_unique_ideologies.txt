@@ -1,13 +1,12 @@
 ﻿ideology_dixiecrat = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/jackson_democrat.dds"
 	character_ideology = yes
-	lawgroup_discrimination = {
-		law_ethnonationalist = neutral
-		law_supremacist = approve
-		law_segregationist = strongly_approve
-		law_integrationist = neutral
-		law_multiculturalist = disapprove
-		law_syncretist = strongly_disapprove
+	lawgroup_citizenship = {
+		law_ethnostate = neutral
+		law_national_supremacy = approve
+		law_racial_segregation = strongly_approve
+		law_cultural_exclusion = neutral
+		law_multicultural = disapprove
 	}
 	lawgroup_distribution_of_power = {
 		law_autocracy = strongly_disapprove
@@ -38,9 +37,8 @@
 				and = {
 					exists = c:USA
 					THIS = c:USA
-					nor = {
-						has_law = law_type:law_multiculturalist
-						has_law = law_type:law_syncretist
+					NOT = {
+						has_law = law_type:law_multicultural
 					}
 				}
 			}

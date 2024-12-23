@@ -10,7 +10,7 @@
 			distributionOfPower = autocracy
 			criminalJustice = arbitrary_justice
 			centralization = federalized
-			discrimination = integrationist
+			citizenship = cultural_exclusion
 			churchAndState = religious_policies
 			bureaucraticSystems = appointed_bureaucrats
 			policing = decentralized_police

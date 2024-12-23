@@ -27,7 +27,7 @@ kalmar_union = {
 	possible = {
 		exists = c:SCA
 		THIS = c:SCA
-		has_law = law_type:law_monarchy
+		has_law = law_type:law_hereditary
 		ruler = {
 			has_culture = cu:danish
 		}
@@ -40,7 +40,7 @@ fennoscandia = {
 	possible = {
 		exists = c:SCA
 		THIS = c:SCA
-		has_law = law_type:law_monarchy
+		has_law = law_type:law_hereditary
 		ruler = {
 			has_culture = cu:finnish
 		}
@@ -53,7 +53,7 @@ usa_monarchy = {
 	possible = {
 		exists = c:USA
 		THIS = c:USA
-		has_law = law_type:law_monarchy
+		has_law = law_type:law_hereditary
 	}
 }
 
@@ -72,7 +72,7 @@ mexican_empire = {
 	possible = {
 		exists = c:MEX
 		THIS = c:MEX
-		has_law = law_type:law_monarchy
+		has_law = law_type:law_hereditary
 	}
 }
 

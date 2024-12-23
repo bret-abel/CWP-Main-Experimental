@@ -272,7 +272,7 @@ adopt_random_antigovernment_ideology = {
 					if = {
 						limit = {
 							owner ?= {
-								has_law = law_type:law_multiculturalist
+								has_law = law_type:law_multicultural
 							}
 						}
 						multiply = {
@@ -282,7 +282,7 @@ adopt_random_antigovernment_ideology = {
 					if = {
 						limit = {
 							owner ?= {
-								has_law = law_type:law_integrationist
+								has_law = law_type:law_cultural_exclusion
 							}
 						}
 						multiply = {
@@ -1016,7 +1016,7 @@ fascist_agitator_election_scope_effect = {
 					}
 					NOT = {
 						law_stance = {
-							law = law_type:law_ethnonationalist
+							law = law_type:law_ethnostate
 							value < neutral
 						}
 					}

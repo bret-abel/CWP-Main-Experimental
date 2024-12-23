@@ -2325,31 +2325,31 @@ decolonization.666 = {
 				modifier = {
 					if = {
 						limit = {
-							has_law = law_type:law_ethnonationalist
+							has_law = law_type:law_ethnostate
 						}
 						add = 100
 					}
 					if = {
 						limit = {
-							has_law = law_type:law_supremacist
+							has_law = law_type:law_national_supremacy
 						}
 						add = 80
 					}
 					if = {
 						limit = {
-							has_law = law_type:law_segregationist
+							has_law = law_type:law_racial_segregation
 						}
 						add = 50
 					}
 					if = {
 						limit = {
-							has_law = law_type:law_integrationist
+							has_law = law_type:law_cultural_exclusion
 						}
 						add = 10
 					}
 					if = {
 						limit = {
-							has_law = law_type:law_syncretist
+							has_law = law_type:law_multicultural
 						}
 						add = -10
 					}

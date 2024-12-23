@@ -18,7 +18,7 @@
 			distributionOfPower = representative_democracy
 			criminalJustice = labor_camps
 			centralization = unitary
-			discrimination = integrationist
+			citizenship = cultural_exclusion
 			churchAndState = church_disestablishment
 			bureaucraticSystems = appointed_bureaucrats
 			policing = professional_police

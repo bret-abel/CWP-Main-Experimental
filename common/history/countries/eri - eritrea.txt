@@ -12,7 +12,7 @@
 			criminalJustice = penal_correction
 			policing = militarized_police
 			centralization = confederated
-			discrimination = segregationist
+			citizenship = racial_segregation
 			churchAndState = religious_policies
 			bureaucraticSystems = independent_bureaucrats
 			policing = decentralized_police

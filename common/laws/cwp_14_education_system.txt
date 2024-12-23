@@ -54,6 +54,40 @@ law_church_run_schools = {
 			add = 750
 		}
 	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_education_system_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
+	ai_impose_chance = {
+		value = 0
+		
+		if = {
+			limit = {
+				has_law = law_type:law_church_run_schools
+				power_bloc ?= { has_principle_group = principle_group:principle_group_advanced_research }
+			}
+			add = base_impose_law_weight
+		}
+
+		if = {
+			limit = {
+				has_law = law_type:law_church_run_schools
+				scope:target_country = {
+					has_law = law_type:law_informal_schooling
+				}
+				power_bloc ?= { has_principle_group = principle_group:principle_group_advanced_research }
+			}
+			add = 10
+		}
+	}
 }
 
 law_private_schools = {
@@ -83,6 +117,40 @@ law_private_schools = {
 				scope:law = var:desired_law_var
 			}
 			add = 750
+		}
+	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_education_system_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
+	ai_impose_chance = {
+		value = 0
+		
+		if = {
+			limit = {
+				has_law = law_type:law_private_schools
+				power_bloc ?= { has_principle_group = principle_group:principle_group_advanced_research }
+			}
+			add = base_impose_law_weight
+		}
+
+		if = {
+			limit = {
+				has_law = law_type:law_private_schools
+				scope:target_country = {
+					has_law = law_type:law_informal_schooling
+				}
+				power_bloc ?= { has_principle_group = principle_group:principle_group_advanced_research }
+			}
+			add = 10
 		}
 	}
 }
@@ -116,6 +184,40 @@ law_mixed_funded_schools = {
 				scope:law = var:desired_law_var
 			}
 			add = 750
+		}
+	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_education_system_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
+	ai_impose_chance = {
+		value = 0
+		
+		if = {
+			limit = {
+				has_law = law_type:law_mixed_funded_schools
+				power_bloc ?= { has_principle_group = principle_group:principle_group_advanced_research }
+			}
+			add = base_impose_law_weight
+		}
+
+		if = {
+			limit = {
+				has_law = law_type:law_mixed_funded_schools
+				scope:target_country = {
+					has_law = law_type:law_no_schools
+				}
+				power_bloc ?= { has_principle_group = principle_group:principle_group_advanced_research }
+			}
+			add = 10
 		}
 	}
 }
@@ -153,6 +255,40 @@ law_state_funded_schools = {
 				scope:law = var:desired_law_var
 			}
 			add = 750
+		}
+	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_education_system_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
+	ai_impose_chance = {
+		value = 0
+		
+		if = {
+			limit = {
+				has_law = law_type:law_state_funded_schools
+				power_bloc ?= { has_principle_group = principle_group:principle_group_advanced_research }
+			}
+			add = base_impose_law_weight
+		}
+
+		if = {
+			limit = {
+				has_law = law_type:law_state_funded_schools
+				scope:target_country = {
+					has_law = law_type:law_no_schools
+				}
+				power_bloc ?= { has_principle_group = principle_group:principle_group_advanced_research }
+			}
+			add = 10
 		}
 	}
 }

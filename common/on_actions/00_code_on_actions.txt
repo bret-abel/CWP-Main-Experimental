@@ -1764,9 +1764,9 @@ on_law_enactment_pass = {
 				root = {
 					and = {
 						or = {
-							currently_enacting_law.type = law_type:law_segregationist
-							currently_enacting_law.type = law_type:law_supremacist
-							currently_enacting_law.type = law_type:law_ethnonationalist
+							currently_enacting_law.type = law_type:law_racial_segregation
+							currently_enacting_law.type = law_type:law_national_supremacy
+							currently_enacting_law.type = law_type:law_ethnostate
 						}
 						ig:ig_entrepreneurs = {
 							nor = {
@@ -1787,9 +1787,8 @@ on_law_enactment_pass = {
 				root = {
 					and = {
 						or = {
-							currently_enacting_law.type = law_type:law_syncretist
-							currently_enacting_law.type = law_type:law_multiculturalist
-							currently_enacting_law.type = law_type:law_integrationist
+							currently_enacting_law.type = law_type:law_multicultural
+							currently_enacting_law.type = law_type:law_cultural_exclusion
 						}
 						ig:ig_entrepreneurs = {
 							nor = {

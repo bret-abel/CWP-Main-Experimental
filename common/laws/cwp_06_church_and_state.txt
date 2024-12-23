@@ -60,6 +60,40 @@ law_religious_nationalism = {
 			add = 750
 		}
 	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_church_and_state_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
+	ai_impose_chance = {
+		value = 0
+		
+		if = {
+			limit = {
+				has_law = law_type:law_religious_nationalism
+				power_bloc ?= { has_identity = identity:identity_religious }
+				religion = scope:target_country.religion			
+			}
+			
+			add = base_impose_law_weight	
+			
+			# Very important for religious blocs
+			if = {
+				limit = { scope:target_country = { has_law = law_type:law_religious_policies } }
+				multiply = 2 
+			}
+			else = {
+				multiply = 5
+			}
+		}
+	}
 }
 
 law_religious_institutions = {
@@ -109,6 +143,40 @@ law_religious_institutions = {
 				scope:law = var:desired_law_var
 			}
 			add = 750
+		}
+	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_church_and_state_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
+	ai_impose_chance = {
+		value = 0
+		
+		if = {
+			limit = {
+				has_law = law_type:law_religious_institutions
+				power_bloc ?= { has_identity = identity:identity_religious }
+				religion = scope:target_country.religion			
+			}
+			
+			add = base_impose_law_weight	
+			
+			# Very important for religious blocs
+			if = {
+				limit = { scope:target_country = { has_law = law_type:law_religious_policies } }
+				multiply = 2 
+			}
+			else = {
+				multiply = 5
+			}
 		}
 	}
 }
@@ -165,6 +233,18 @@ law_religious_policies = {
 			add = 750
 		}
 	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_church_and_state_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
 }
 
 law_church_disestablishment = {
@@ -212,6 +292,18 @@ law_church_disestablishment = {
 				scope:law = var:desired_law_var
 			}
 			add = 750
+		}
+	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_church_and_state_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
 		}
 	}
 }
@@ -277,6 +369,39 @@ law_state_atheism = {
 				scope:law = var:desired_law_var
 			}
 			add = 750
+		}
+	}
+	can_impose = {
+		OR = {
+			AND = {
+				is_in_same_power_bloc = scope:target_country
+				AND = {
+					modifier:country_can_impose_same_lawgroup_church_and_state_in_power_bloc_bool = yes
+					has_law = scope:law
+				}
+			}
+			can_impose_law_default = yes
+		}
+	}
+	ai_impose_chance = {
+		value = 0
+		
+		if = {
+			limit = {
+				has_law = law_type:law_state_atheism
+				power_bloc ?= { has_identity = identity:identity_ideological_union }			
+			}
+			
+			add = base_impose_law_weight	
+			
+			# Atheist leaders of ideological unions want to spread the cult of reason
+			if = {
+				limit = { scope:target_country = { has_law = law_type:law_church_disestablishment } }
+				multiply = 0.5
+			}
+			else = {
+				multiply = 2
+			}
 		}
 	}
 }

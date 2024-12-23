@@ -9,7 +9,7 @@
 			distributionOfPower = anocracy
 			criminalJustice = political_incarceration
 			centralization = federalized
-			discrimination = integrationist
+			citizenship = cultural_exclusion
 			churchAndState = church_disestablishment
 			bureaucraticSystems = politicized_bureaucrats
 			policing = secret_police

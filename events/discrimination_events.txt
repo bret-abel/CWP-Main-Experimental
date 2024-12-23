@@ -155,7 +155,7 @@ discrimination_events.1 = {
 			every_interest_group = {
 				limit = {
 					law_stance = {
-						law = law_type:law_supremacist
+						law = law_type:law_national_supremacy
 						value > neutral
 					}
 				}
@@ -285,7 +285,7 @@ discrimination_events.2 = {
 		every_interest_group = {
 			limit = {
 				law_stance = {
-					law = law_type:law_supremacist
+					law = law_type:law_national_supremacy
 					value > neutral
 				}
 			}
@@ -310,7 +310,7 @@ discrimination_events.2 = {
 		every_interest_group = {
 			limit = {
 				law_stance = {
-					law = law_type:law_supremacist
+					law = law_type:law_national_supremacy
 					value > neutral
 				}
 			}
@@ -402,7 +402,7 @@ discrimination_events.3 = {
 		every_interest_group = {
 			limit = {
 				law_stance = {
-					law = law_type:law_multiculturalist
+					law = law_type:law_multicultural
 					value > neutral
 				}
 			}
@@ -415,7 +415,7 @@ discrimination_events.3 = {
 		every_interest_group = {
 			limit = {
 				law_stance = {
-					law = law_type:law_supremacist
+					law = law_type:law_national_supremacy
 					value > neutral
 				}
 			}

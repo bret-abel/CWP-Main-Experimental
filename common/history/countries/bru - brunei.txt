@@ -10,7 +10,7 @@
 			policing = professional_police
 			centralization = confederated
 			churchAndState = religious_policies
-			discrimination = segregationist
+			citizenship = racial_segregation
 			bureaucraticSystems = appointed_bureaucrats
 			nationalDefense = reserve_military
 			economicSystem = decentralization

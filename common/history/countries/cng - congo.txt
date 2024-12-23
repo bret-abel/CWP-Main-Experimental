@@ -7,7 +7,7 @@
 			distributionOfPower = oligarchy
 			criminalJustice = arbitrary_justice
 			centralization = confederated
-			discrimination = segregationist
+			citizenship = racial_segregation
 			churchAndState = religious_policies
 			bureaucraticSystems = appointed_bureaucrats
 			policing = militarized_police

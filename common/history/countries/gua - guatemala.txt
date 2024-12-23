@@ -9,7 +9,7 @@
 			distributionOfPower = autocracy
 			criminalJustice = arbitrary_justice
 			centralization = confederated
-			discrimination = supremacist
+			citizenship = national_supremacy
 			churchAndState = religious_nationalism
 			bureaucraticSystems = appointed_bureaucrats
 			policing = decentralized_police
