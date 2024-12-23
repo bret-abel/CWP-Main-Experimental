@@ -9,10 +9,10 @@
 @panel_width_plus_30 = 570			# used to be 490
 @panel_width_plus_70 = 610			# used to be 530
 
-types international
+types international_panel
 {
-	type international_panel = default_block_window {
-		name = "international_panel"
+	type international_overview_panel = default_block_window {
+		name = "international_overview_panel"
 		visible = "[GetVariableSystem.Exists('international_open')]"
 		
 		blockoverride "animation_state_block" {
