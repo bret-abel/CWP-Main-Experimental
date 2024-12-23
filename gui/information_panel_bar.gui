@@ -497,7 +497,7 @@ types information_panel_bar_types {
 				}
 				
 				### INTERNATIONAL
-				sidebar_label_button = {
+				sidebar_label_button_small = {
 					enabled = "[GetMetaPlayer.GetPlayedOrObservedCountry.IsValid]"
 					position = { -100 @international_position }
 					blockoverride "onclick" {

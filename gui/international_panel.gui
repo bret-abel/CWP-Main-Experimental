@@ -10,23 +10,23 @@
 @panel_width_plus_70 = 610			# used to be 530
 
 types international
-{	
+{
 	type international_panel = default_block_window {
-		name = "information_panel_bar"
+		name = "international_panel"
 		visible = "[GetVariableSystem.Exists('international_open')]"
 		
 		blockoverride "animation_state_block" {
 			state = {
 				name = _show
 				start_sound = {
-					soundeffect = "event:/SFX/UI/SideBar/budget"
+					soundeffect = "event:/SFX/UI/SideBar/powerbloc"
 				}
 			}
 
 			state = {
 				name = _hide
 				start_sound = {
-					soundeffect = "event:/SFX/UI/SideBar/budget_stop"
+					soundeffect = "event:/SFX/UI/SideBar/powerbloc_stop"
 				}
 			}
 		}
