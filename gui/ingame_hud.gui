@@ -13,7 +13,7 @@ template information_panels {
 	diplomatic_play_panel = {}
 	election_panel = {}
 	front_panel = {}
-	international_panel = {}
+	international_overview_panel = {}
 	un_panel = {}
 	banks_panel = {}
 	nato_panel = {}
