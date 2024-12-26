@@ -57,18 +57,11 @@ types topbar_components
 				onmousehierarchyleave = "[RemoveTempMapMode]"
 				alwaystransparent = no
 
-				icon = {
-					texture = "gfx/interface/icons/generic_icons/gdp.dds"
-					size = { @secondary_icon_size @secondary_icon_size }
-					parentanchor = vcenter
-				}
 				textbox = {
 					parentanchor = vcenter
-					raw_text = "#variable [Country.GetGDP|1*]#!"
+					raw_text = "#variable [Country.MakeScope.Var('cwp_currency').GetFlagName][SelectLocalization(LessThan_CFixedPoint(Country.MakeScope.ScriptValue('cwp_gdp'), '(CFixedPoint)1000000000000'), 'CWP_NORMAL', 'CWP_TRILLION')]#!"
 					autoresize = yes
 					align = left|nobaseline
-					elide = right
-					fontsize_min = 12
 				}
 			}
 

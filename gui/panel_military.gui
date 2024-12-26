@@ -1098,7 +1098,7 @@ types panel_military {
 						spacing = 10
 						button = {
 							using = default_button # Approve
-							text = "Air Burst"
+							raw_text = "Air Burst"
 							enabled = "[Not(GetPlayer.MakeScope.Var('air_burst_focus').IsSet)]"
 							onclick = "[GetScriptedGui('wmd_nuclear_detonation_focus_air').Execute( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							size = { 195 40 }
@@ -1106,7 +1106,7 @@ types panel_military {
 						}
 						button = {
 							using = default_button
-							text = "Ground Burst" # Reject
+							raw_text = "Ground Burst" # Reject
 							enabled = "[Not(GetPlayer.MakeScope.Var('ground_burst_focus').IsSet)]"
 							onclick = "[GetScriptedGui('wmd_nuclear_detonation_focus_ground').Execute( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							size = { 195 40 }
@@ -1130,35 +1130,35 @@ types panel_military {
 						spacing = 10
 						button = {
 							using = default_button # Approve
-							text = "20%"
+							raw_text = "20%"
 							enabled = "[Not(EqualTo_CFixedPoint(GetPlayer.MakeScope.Var('nuclear_deployment_percentage').GetValue, '(CFixedPoint)20'))]"
 							onclick = "[GetScriptedGui('wmd_deployment_20').Execute( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							size = { 60 40 }
 						}
 						button = {
 							using = default_button
-							text = "40%" # Reject
+							raw_text = "40%" # Reject
 							enabled = "[Not(EqualTo_CFixedPoint(GetPlayer.MakeScope.Var('nuclear_deployment_percentage').GetValue, '(CFixedPoint)40'))]"
 							onclick = "[GetScriptedGui('wmd_deployment_40').Execute( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							size = { 60 40 }
 						}
 						button = {
 							using = default_button
-							text = "60%" # Reject
+							raw_text = "60%" # Reject
 							enabled = "[Not(EqualTo_CFixedPoint(GetPlayer.MakeScope.Var('nuclear_deployment_percentage').GetValue, '(CFixedPoint)60'))]"
 							onclick = "[GetScriptedGui('wmd_deployment_60').Execute( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							size = { 60 40 }
 						}
 						button = {
 							using = default_button
-							text = "80%" # Reject
+							raw_text = "80%" # Reject
 							enabled = "[Not(EqualTo_CFixedPoint(GetPlayer.MakeScope.Var('nuclear_deployment_percentage').GetValue, '(CFixedPoint)80'))]"
 							onclick = "[GetScriptedGui('wmd_deployment_80').Execute( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							size = { 60 40 }
 						}
 						button = {
 							using = default_button
-							text = "100%" # Reject
+							raw_text = "100%" # Reject
 							enabled = "[Not(EqualTo_CFixedPoint(GetPlayer.MakeScope.Var('nuclear_deployment_percentage').GetValue, '(CFixedPoint)100'))]"
 							onclick = "[GetScriptedGui('wmd_deployment_100').Execute( GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							size = { 60 40 }
