@@ -18,8 +18,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_improved_food_manufactories"
 					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -262,8 +260,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_improved_food_manufactories"
 					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -442,8 +438,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_improved_food_manufactories"
 					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -635,8 +629,7 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_improved_food_manufactories"
 					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
+				
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -856,8 +849,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_improved_food_manufactories"
 					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -1089,8 +1080,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_improved_food_manufactories"
 					"pm_preservatives_fish"
-					"pm_preservatives_meat"
-					"pm_preservatives_fruit"
 					"pm_powered_assembly_lines_industry"
 				}
 			}

@@ -170,9 +170,6 @@ pm_rfids_fish = {
 }
 
 ## Meat Packing PMG
-pm_preservatives_meat = {
-	texture = "gfx/interface/icons/production_method_icons/industry/no_canning.dds"
-}
 
 pm_packaging_meat = {
 	texture = "gfx/interface/icons/production_method_icons/industry/canneries.dds"	# Meat packing, canning. Pink
