@@ -31,6 +31,22 @@ types international_panel
 			}
 		}
 
+		blockoverride "header_close_button" {
+			onclick = "[GetVariableSystem.Clear('international_open')]"
+			onclick = "[GetVariableSystem.Clear('un_panel')]" 
+			onclick = "[GetVariableSystem.Clear('banks_panel')]" 
+			onclick = "[GetVariableSystem.Clear('nato_panel')]" 
+			onclick = "[GetVariableSystem.Clear('warsaw_pact_panel')]" 
+			onclick = "[GetVariableSystem.Clear('imf_panel')]" 
+		}
+		blockoverride "header_back_button" {
+			onclick = "[GetVariableSystem.Clear('international_open')]"
+			onclick = "[GetVariableSystem.Clear('un_panel')]" 
+			onclick = "[GetVariableSystem.Clear('banks_panel')]" 
+			onclick = "[GetVariableSystem.Clear('nato_panel')]" 
+			onclick = "[GetVariableSystem.Clear('warsaw_pact_panel')]" 
+			onclick = "[GetVariableSystem.Clear('imf_panel')]" 
+		}
 		blockoverride "window_header_name" {
 			text = "INTERNATIONAL_ORGANIZATIONS"
 		}
