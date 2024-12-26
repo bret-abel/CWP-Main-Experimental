@@ -297,9 +297,6 @@ pm_rfids_meat = {
 }
 
 ## Fruit Packing PMG
-pm_preservatives_fruit = {
-	texture = "gfx/interface/icons/production_method_icons/industry/no_canning.dds"
-}
 
 pm_packaging_fruit = {
 	texture = "gfx/interface/icons/production_method_icons/industry/canneries.dds"

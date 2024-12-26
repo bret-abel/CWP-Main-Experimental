@@ -22,7 +22,6 @@ pmg_fish_packing = {
 pmg_meat_packing = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_preservatives_meat
 		pm_packaging_meat
 		pm_commercial_forklifts_meat
 		pm_food_scanning_meat
@@ -34,7 +33,6 @@ pmg_meat_packing = {
 pmg_fruit_packing = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
-		pm_preservatives_fruit
 		pm_packaging_fruit
 		pm_commercial_forklifts_fruit
 		pm_food_scanning_fruit
