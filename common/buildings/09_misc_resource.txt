@@ -37,7 +37,7 @@ building_fishing_wharf = {
 }
 
 building_oil_rig = {
-	building_group = bg_oil_extraction
+	building_group = bg_oil_rig
 	icon = "gfx/interface/icons/building_icons/oil_rig.dds"
 	city_type = mine
 	levels_per_mesh = 5

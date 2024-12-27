@@ -281,7 +281,7 @@ building_financial_district = {
 			}
 		}
 		bg_oil_extraction_score = {
-			group = "bg_oil_extraction"
+			group = "bg_oil_rig"
 			score = {
 				value = 1
 				
