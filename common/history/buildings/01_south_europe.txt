@@ -7740,7 +7740,7 @@ BUILDINGS = {
 			create_building = {
 				building = "building_railway"
 				add_ownership = {
-					building = {
+					country = {
 						type = "building_railway"
 						country = "c:TUR"
 						levels = 2
@@ -7757,11 +7757,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
-					building = {
-						type = "building_construction_sector"
+				country = {
 						country = "c:TUR"
 						levels = 11
-						region = "STATE_EASTERN_THRACE"
 					}
 				}
 				reserves = 1
@@ -7789,11 +7787,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_chemical_plants"
 				add_ownership = {
-					building = {
-						type = "building_chemical_plants"
+					country = {
 						country = "c:TUR"
 						levels = 1
-						region = "STATE_EASTERN_THRACE"
 					}
 				}
 				reserves = 1
@@ -7802,26 +7798,31 @@ BUILDINGS = {
 					"pm_no_automation"
 				}
 			}
-			create_building = {
-				building = "building_textile_manufactories"
-				add_ownership = {
-					building = {
-						type = "building_textile_manufactories"
-						country = "c:TUR"
-						levels = 6
-						region = "STATE_EASTERN_THRACE"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_fiber_production_textiles"
-					"pm_no_automation"
-				}
-			}
+create_building = {
+    building = "building_textile_manufactories"
+    add_ownership = {
+        building = {
+            type = "building_textile_manufactories"
+            country = "c:TUR"
+            levels = 4 
+            region = "STATE_EASTERN_THRACE"
+        }
+        country = {
+            country = "c:TUR"
+            levels = 2 
+        }
+    }
+    reserves = 1
+    activate_production_methods = { 
+		"pm_fiber_production_textiles"
+		"pm_no_automation"
+	 }
+}
+
 			create_building = {
 				building = "building_airport"
 				add_ownership = {
-					building = {
+					country = {
 						type = "building_airport"
 						country = "c:TUR"
 						levels = 1
@@ -7900,11 +7901,9 @@ BUILDINGS = {
 			create_building = {
 				building = "building_paper_manufactories"
 				add_ownership = {
-					building = {
-						type = "building_paper_manufactories"
+					country = {
 						country = "c:TUR"
 						levels = 2
-						region = "STATE_EASTERN_THRACE"
 					}
 				}
 				reserves = 1
@@ -7916,7 +7915,7 @@ BUILDINGS = {
 			create_building = {
 				building = "building_iron_mine"
 				add_ownership = {
-					building = {
+					country = {
 						type = "building_iron_mine"
 						country = "c:TUR"
 						levels = 2
@@ -7933,7 +7932,7 @@ BUILDINGS = {
 			create_building = {
 				building = "building_motor_industry"
 				add_ownership = {
-					building = {
+					country = {
 						type = "building_motor_industry"
 						country = "c:TUR"
 						levels = 1
@@ -7950,7 +7949,7 @@ BUILDINGS = {
 			create_building = {
 				building = "building_tobacco_plantation"
 				add_ownership = {
-					building = {
+					country = {
 						type = "building_tobacco_plantation"
 						country = "c:TUR"
 						levels = 1
