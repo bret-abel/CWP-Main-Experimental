@@ -9,6 +9,14 @@ BUILDINGS = {
 			}
 		}
 	}
+	s:STATE_RIO_DE_JANEIRO = {
+		region_state:BRZ = {
+			create_building = {
+				building = "building_cristo_redentor"
+				level=1
+			}
+		}
+	}
 	s:STATE_CAMBODIA = {
 		region_state:VNM = {
 			create_building = {

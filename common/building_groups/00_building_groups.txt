@@ -497,6 +497,55 @@ bg_trade = {
 	}
 }
 
+# Needed for autonomous investment to track investments separately from other ownership buildings
+bg_financial_districts = {
+	parent_group = bg_owner_buildings
+}
+
+bg_company_headquarter = {
+	parent_group = bg_owner_buildings
+}
+
+bg_owner_buildings = {
+	parent_group = bg_urban_facilities
+	
+	min_productivity_to_hire = 10.0
+
+	category = urban
+
+	lens = trade
+
+	always_possible = yes
+	
+	can_use_slaves = no
+
+	auto_place_buildings = yes
+
+	owns_other_buildings = yes
+	
+	always_self_owning = yes
+
+	ignores_productivity_when_hiring = yes
+
+	proportionality_limit = 1.0
+
+	economy_of_scale = no
+
+	default_building = building_financial_district
+
+	cash_reserves_max = 10000
+
+	urbanization = 0
+
+	infrastructure_usage_per_level = 0.1
+
+	fired_pops_become_radical = no
+
+	should_auto_expand = {
+		always = no
+	}
+}
+
 # Infrastructure
 bg_infrastructure = {
 	category = development
@@ -616,49 +665,4 @@ bg_chemical_weapons = {
 
 bg_biological_weapons = {
 	parent_group = bg_wmd
-}
-bg_owner_buildings = {
-	parent_group = bg_urban_facilities
-	
-	min_productivity_to_hire = 10.0
-
-	category = urban
-
-	lens = trade
-
-	always_possible = yes
-	
-	can_use_slaves = yes
-
-	auto_place_buildings = yes
-
-	owns_other_buildings = yes
-	
-	always_self_owning = yes
-
-	ignores_productivity_when_hiring = yes
-
-	proportionality_limit = 1.0
-
-	economy_of_scale = no
-
-	default_building = building_financial_district
-
-	cash_reserves_max = 10000
-
-	urbanization = 0
-
-	infrastructure_usage_per_level = 0.1
-
-	fired_pops_become_radical = no
-
-	should_auto_expand = {
-		always = no
-	}
-}
-
-
-# Needed for autonomous investment to track investments separately from other ownership buildings
-bg_financial_districts = {
-	parent_group = bg_owner_buildings
 }
