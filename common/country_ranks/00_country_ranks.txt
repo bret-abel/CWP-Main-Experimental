@@ -37,7 +37,7 @@ superpower = {
 		state_migration_pull_mult = 0.5
 		country_agitator_slots_add = 4
 		country_leverage_resistance_add = 1000
-		country_max_companies_add = 10
+		country_max_companies_add = 100
 	}
 }
 
@@ -68,7 +68,7 @@ great_power = {
 		country_agitator_slots_add = 2
 		state_migration_pull_mult = 0.25
 		country_leverage_resistance_add = 1000
-		country_max_companies_add = 8
+		country_max_companies_add = 100
 	}
 }
 
@@ -93,7 +93,7 @@ major_power = {
 		state_migration_pull_mult = 0.1
 		country_agitator_slots_add = 3
 		country_leverage_resistance_add = 750
-		country_max_companies_add = 8
+		country_max_companies_add = 100
 	}
 }
 
@@ -113,7 +113,7 @@ minor_power = {
 		country_max_declared_interests_add = 2
 		country_agitator_slots_add = 2
 		country_leverage_resistance_add = 500
-		country_max_companies_add = 4
+		country_max_companies_add = 100
 	}
 }
 
@@ -131,6 +131,7 @@ insignificant_power = {
 		country_diplomatic_play_maneuvers_add = 50
 		state_migration_pull_mult = -0.25
 		country_agitator_slots_add = 1
+		country_max_companies_add = 100
 	}
 }
 
@@ -154,6 +155,7 @@ unrecognized_major_power = {
 		country_max_declared_interests_add = 2
 		country_tech_spread_mult = -0.15
 		country_agitator_slots_add = 3
+		country_max_companies_add = 100
 	}
 }
 
@@ -176,6 +178,7 @@ unrecognized_regional_power = {
 		country_tech_spread_mult = -0.2
 		state_migration_pull_mult = -0.25
 		country_agitator_slots_add = 2
+		country_max_companies_add = 100
 	}
 }
 
@@ -194,6 +197,7 @@ unrecognized_power = {
 		country_tech_spread_mult = -0.25
 		state_migration_pull_mult = -0.5
 		country_agitator_slots_add = 1
+		country_max_companies_add = 100
 	}
 }
 
