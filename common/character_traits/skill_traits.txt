@@ -183,7 +183,7 @@ basic_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_cannon_artillery  
+							target = unit_type:combat_unit_type_light_artillery  
 							value >= 0.20  
 						}  
 					}
@@ -217,7 +217,7 @@ basic_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_shrapnel_artillery  
+							target = unit_type:combat_unit_type_self_propelled_artillery  
 							value >= 0.20  
 						}  
 					}
@@ -234,7 +234,7 @@ basic_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_siege_artillery
+							target = unit_type:combat_unit_type_mlrs_artillery
 							value >= 0.20  
 						}  
 					}
@@ -250,10 +250,20 @@ basic_artillery_commander = {
 						any_scope_general = {
 							this = root
 						}
-						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_heavy_tank
-							value >= 0.20  
-						}  
+						OR = {
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_combat_engineers
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_armoured_reconnaissance
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_attack_helicopters
+								value >= 0.20  
+							}
+						}
 					}
 				}
 			}
@@ -314,7 +324,7 @@ experienced_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_shrapnel_artillery  
+							target = unit_type:combat_unit_type_self_propelled_artillery  
 							value >= 0.20  
 						}  
 					}
@@ -331,7 +341,7 @@ experienced_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_siege_artillery
+							target = unit_type:combat_unit_type_mlrs_artillery
 							value >= 0.20  
 						}  
 					}
@@ -347,10 +357,20 @@ experienced_artillery_commander = {
 						any_scope_general = {
 							this = root
 						}
-						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_heavy_tank
-							value >= 0.20  
-						}  
+						OR = {
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_combat_engineers
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_armoured_reconnaissance
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_attack_helicopters
+								value >= 0.20  
+							}
+						}
 					}
 				}
 			}
@@ -394,7 +414,7 @@ expert_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_shrapnel_artillery  
+							target = unit_type:combat_unit_type_self_propelled_artillery  
 							value >= 0.20  
 						}  
 					}
@@ -411,7 +431,7 @@ expert_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_siege_artillery
+							target = unit_type:combat_unit_type_mlrs_artillery
 							value >= 0.20  
 						}  
 					}
@@ -427,10 +447,20 @@ expert_artillery_commander = {
 						any_scope_general = {
 							this = root
 						}
-						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_heavy_tank
-							value >= 0.20  
-						}  
+						OR = {
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_combat_engineers
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_armoured_reconnaissance
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_attack_helicopters
+								value >= 0.20  
+							}
+						}
 					}
 				}
 			}
@@ -497,11 +527,7 @@ trench_rat = {
 				commander_military_formation = {
 					OR = {
 						formation_army_unit_type_fraction = {
-							target = unit_type:combat_unit_type_trench_infantry
-							value >= 0.25
-						}
-						formation_army_unit_type_fraction = {
-							target = unit_type:combat_unit_type_squad_infantry
+							target = unit_type:combat_unit_type_light_infantry
 							value >= 0.25
 						}
 					}
@@ -542,11 +568,7 @@ defense_in_depth_specialist = {
 				commander_military_formation = {
 					OR = {
 						formation_army_unit_type_fraction = {
-							target = unit_type:combat_unit_type_trench_infantry
-							value >= 0.25
-						}
-						formation_army_unit_type_fraction = {
-							target = unit_type:combat_unit_type_squad_infantry
+							target = unit_type:combat_unit_type_light_infantry
 							value >= 0.25
 						}
 					}
