@@ -50,16 +50,8 @@
 		}
 		custom_tooltip = {
 			text = korea_aligns_west
-			every_country = {
-				limit = {
-					has_variable = western_bloc_leader
-				}
-				SCOPE:korean_unifier = {
-					create_diplomatic_pact = {
-						country = prev
-						type = diplomatic_alignment
-					}
-				}
+			SCOPE:korean_unifier = {
+				join_power_bloc = c:USA
 			}
 		}
 	}
@@ -73,16 +65,8 @@
 		}
 		custom_tooltip = {
 			text = korea_aligns_east
-			every_country = {
-				limit = {
-					has_variable = eastern_bloc_leader
-				}
-				SCOPE:korean_unifier = {
-					create_diplomatic_pact = {
-						country = prev
-						type = diplomatic_alignment
-					}
-				}
+			SCOPE:korean_unifier = {
+				join_power_bloc = c:RUS
 			}
 		}
 	}

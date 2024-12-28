@@ -163,6 +163,26 @@ NAI = {
 
     # Below data is used to calculate how much weight the AI places on enacting/revoking a law
     CHANGE_LAW_POTENTIAL_CIVIL_WAR_ENACT_CHANCE = 1 # Chance that the AI will proceed with a law change that could cause a civil war (1 = 1%)
+
+	### all power bloc related weights
+
+	MIN_RANK_TO_FORM_POWER_BLOC = 6						# AIs with a lower rank value than this will never try to form power blocs
+	POWER_BLOC_IDENTITY_RANDOM_FACTOR = 1				# The higher this is, the more random AI selection of power bloc identities will be
+	POWER_BLOC_PRINCIPLE_RANDOM_FACTOR = 1				# The higher this is, the more random AI selection of power bloc principles will be
+	POWER_BLOC_STATUE_RANDOM_FACTOR = 1					# The higher this is, the more random AI selection of power bloc statues will be
+
+	LEAVE_POWER_BLOC_SCORE_THRESHOLD = -100 				# Leave the power bloc if score is less than this. Score is the acceptance value for 'invite_to_power_bloc' diplomatic action
+	POWER_BLOC_KICK_MEMBER_LOW_COHESION_THRESHOLD = 40					# If current cohesion is less than this consider it low and add the corresponding score
+	POWER_BLOC_KICK_MEMBER_LOW_COHESION_SCORE = 5						# Score to kick a member (which is anyone) if current cohesion is low (multiplied by delta between cohesion and threshold)
+	POWER_BLOC_KICK_MEMBER_COHESION_CHANGE_SCORE = 2					# Score to kick the member if cohesion change is high enough (multiplied by cohesion chance)
+	POWER_BLOC_KICK_MEMBER_LEVERAGE_ADVANTAGE_SCORE = -0.1			# Score to kick the member if active leverage on them is high enough (multiplied by active leverage)
+	POWER_BLOC_KICK_MEMBER_POOR_RELATIONS_SCORE = 25				# Score to kick the member if relations with the member are Poor, x2 if Cold, x3 if Hostile
+	POWER_BLOC_KICK_MEMBER_HOSTILE_ATTITUDE_SCORE = 25 				# Score to kick the member if attitude towards them is Hostile, x2 if Very Hostile
+	POWER_BLOC_KICK_MEMBER_MARKET_SHARE_SCORE = -50					# Score to kick the member based on their market share in the bloc (if PB has a unified market)
+	POWER_BLOC_KICK_MEMBER_HIGH_ARMY_MILITARY_STRENGTH_SCORE = -25		# Score to kick the member if their army strength is above average (if PB is a military alliance)
+	POWER_BLOC_KICK_MEMBER_HIGH_NAVY_MILITARY_STRENGTH_SCORE = -15		# Score to kick the member if their navy strength is above average (if PB is a military alliance)
+	POWER_BLOC_KICK_MEMBER_SCORE_THRESHOLD = 100						# Kick the member if the total score is less than this
+	POWER_BLOC_KICK_MEMBER_RANDOM_FACTOR = 0.5							# The higher this is, the more random AI will be about which member to kick from the power bloc
 }
 
 NCharacters = {
