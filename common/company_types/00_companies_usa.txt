@@ -1,7 +1,7 @@
 ﻿# IBM International Business Machines
 company_international_business_machines = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
 	
@@ -46,7 +46,7 @@ company_international_business_machines = {
 # The Boeing Company
 company_boeing = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
 	
@@ -92,7 +92,7 @@ company_boeing = {
 # Walt Disney Productions
 company_walt_disney_productions = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
 	
@@ -135,7 +135,7 @@ company_walt_disney_productions = {
 # General Motors
 company_general_motors = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
 	
@@ -180,7 +180,7 @@ company_general_motors = {
 # Chrysler Company
 company_chrysler = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
 	

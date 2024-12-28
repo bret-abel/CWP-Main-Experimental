@@ -1,7 +1,7 @@
 ﻿# Rolls Royce Holdings
 company_rolls_royce_holdings = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
 	
@@ -47,7 +47,7 @@ company_rolls_royce_holdings = {
 # British Broadcasting Company
 company_british_broadcasting_company = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
 	
@@ -93,7 +93,7 @@ company_british_broadcasting_company = {
 # British Petroleum Corporation
 company_british_petroleum_corporation = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
 	
