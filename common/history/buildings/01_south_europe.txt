@@ -7767,6 +7767,37 @@ BUILDINGS = {
 					"pm_prefabricated_buildings"
 				}
 			}
+			create_building ={
+            building = "building_wheat_farm"
+			add_ownership = {
+            building = {
+				type = "building_wheat_farm"
+				country = "c:TUR"
+				Levels = 5
+			    region = "STATE_EASTERN_THRACE"
+			}
+			country = {
+				country = "c:TUR"
+				Levels = 3
+			}
+
+			}
+
+			}
+			create_building = {
+				building = "building_combustion_plant"
+				add_ownership = {
+					country = {
+						country = "c:TUR" 
+						level = 1 
+					}
+				}
+					reserves = 1
+				activate_production_methods = {
+					"pm_coal_fired_plant"
+				}
+			}
+
 			create_building = {
 				building = "building_fishing_wharf"
 				add_ownership = {
@@ -7864,23 +7895,6 @@ create_building = {
 				}
 			}
 			create_building = {
-				building = "building_silk_plantation"
-				add_ownership = {
-					building = {
-						type = "building_silk_plantation"
-						country = "c:TUR"
-						levels = 5
-						region = "STATE_EASTERN_THRACE"
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_default_building_silk_plantation"
-					"pm_manual_harvesting_plantation"
-					"pm_no_transport_plantation"
-				}
-			}
-			create_building = {
 				building = "building_livestock_ranch"
 				add_ownership = {
 					building = {
@@ -7952,7 +7966,7 @@ create_building = {
 					country = {
 						type = "building_tobacco_plantation"
 						country = "c:TUR"
-						levels = 1
+						levels = 4
 						region = "STATE_EASTERN_THRACE"
 					}
 				}
