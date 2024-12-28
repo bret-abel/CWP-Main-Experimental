@@ -91,8 +91,8 @@ company_boeing = {
 
 # Walt Disney Productions
 company_walt_disney_productions = {
-	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	icon = "gfx/interface/icons/company_icons/companies_usa/company_walt_disney_productions.dds"
+	background = "gfx/interface/icons/company_icons/companies_usa/company_walt_disney_productions_background.dds"
 	
 	flavored_company = yes
 	

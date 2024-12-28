@@ -2554,11 +2554,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_media_industry"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 5
-						region = "STATE_CALIFORNIA"
+					company = {
+						type = company_walt_disney_productions
+						country="c:USA"
+						levels=5
 					}
 				}
 				reserves = 1
@@ -3930,11 +3929,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_media_industry"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 100
-						region = "STATE_CALIFORNIA"
+					company = {
+						type = company_walt_disney_productions
+						country="c:USA"
+						levels=100
 					}
 				}
 				reserves = 1

@@ -107,6 +107,7 @@ COUNTRIES = {
 		add_company = company_type:company_walt_disney_productions
 		company:company_walt_disney_productions = {
 			set_company_establishment_date = 1923.10.16
+			set_company_state_region = s:STATE_CALIFORNIA
 		}
 		add_company = company_type:company_chrysler
 		company:company_chrysler = {
