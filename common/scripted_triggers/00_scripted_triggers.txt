@@ -109,13 +109,6 @@ violate_sovereignty_war_check = {
 	}
 }
 
-power_bloc_is_weak = {
-	power_bloc_leader = {
-		country_rank < rank_value:superpower
-	}
-}
-
-
 intervene_war_check = {
 	is_war = yes
 	trigger_if = {
@@ -1380,58 +1373,58 @@ any_revolution_ongoing = {
 	}
 }
 
-socialist_revolution_ongoing = {
-	custom_tooltip = {
-		text = socialist_revolution_ongoing_tt
-		any_political_movement = {
-			is_revolutionary = yes
-			OR = {
-				is_political_movement_type = movement_socialist
-				is_political_movement_type = movement_anarchist
-				is_political_movement_type = movement_communist
-				is_political_movement_type = movement_nihilist
-			}		
-		}	
-	}		
-}
+#socialist_revolution_ongoing = {
+#	custom_tooltip = {
+#		text = socialist_revolution_ongoing_tt
+#		any_political_movement = {
+#			is_revolutionary = yes
+#			OR = {
+#				is_political_movement_type = movement_socialist
+#				is_political_movement_type = movement_anarchist
+#				is_political_movement_type = movement_communist
+#				is_political_movement_type = movement_nihilist
+#			}		
+#		}	
+#	}		
+#}
 
-liberal_revolution_ongoing = {
-	custom_tooltip = {
-		text = liberal_revolution_ongoing_tt
-		any_political_movement = {
-			is_revolutionary = yes
-			OR = {
-				is_political_movement_type = movement_liberal
-				is_political_movement_type = movement_india_pan_national
-				is_political_movement_type = movement_radical
-				is_political_movement_type = movement_labor
-				is_political_movement_type = movement_feminist
-				is_political_movement_type = movement_land_reform
-				is_political_movement_type = movement_anti_slavery
-			}		
-		}
-	}
-}
+#liberal_revolution_ongoing = {
+#	custom_tooltip = {
+#		text = liberal_revolution_ongoing_tt
+#		any_political_movement = {
+#			is_revolutionary = yes
+#			OR = {
+#				is_political_movement_type = movement_liberal
+#				is_political_movement_type = movement_india_pan_national
+#				is_political_movement_type = movement_radical
+#				is_political_movement_type = movement_labor
+#				is_political_movement_type = movement_feminist
+#				is_political_movement_type = movement_land_reform
+#				is_political_movement_type = movement_anti_slavery
+#			}		
+#		}
+#	}
+#}
 
-reactionary_revolution_ongoing = {
-	custom_tooltip = {
-		text = reactionary_revolution_ongoing_tt
-		any_political_movement = {
-			is_revolutionary = yes
-			OR = {
-				is_political_movement_type = movement_fascist
-				is_political_movement_type = movement_reactionary
-				is_political_movement_type = movement_corporatist
-				is_political_movement_type = movement_royalist_absolutist
-				is_political_movement_type = movement_royalist_constitutional
-				is_political_movement_type = movement_orleanist
-				is_political_movement_type = movement_bonapartist
-				is_political_movement_type = movement_legitimist
-				is_political_movement_type = movement_pro_slavery
-			}
-		}
-	}
-}
+#reactionary_revolution_ongoing = {
+#	custom_tooltip = {
+#		text = reactionary_revolution_ongoing_tt
+#		any_political_movement = {
+#			is_revolutionary = yes
+#			OR = {
+#				is_political_movement_type = movement_fascist
+#				is_political_movement_type = movement_reactionary
+#				is_political_movement_type = movement_corporatist
+#				is_political_movement_type = movement_royalist_absolutist
+#				is_political_movement_type = movement_royalist_constitutional
+#				is_political_movement_type = movement_orleanist
+#				is_political_movement_type = movement_bonapartist
+#				is_political_movement_type = movement_legitimist
+#				is_political_movement_type = movement_pro_slavery
+#			}
+#		}
+#	}
+#}
 
 ig_is_socialist = {
 	OR = {
