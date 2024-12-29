@@ -109,6 +109,13 @@ violate_sovereignty_war_check = {
 	}
 }
 
+power_bloc_is_weak = {
+	power_bloc_leader = {
+		country_rank < rank_value:superpower
+	}
+}
+
+
 intervene_war_check = {
 	is_war = yes
 	trigger_if = {

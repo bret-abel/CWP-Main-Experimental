@@ -252,7 +252,7 @@
 					
 			if = {
 				limit = {
-					gdp >= 2000000
+					gdp >= 200000000
 				}
 				
 				subtract = {
