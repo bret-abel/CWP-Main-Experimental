@@ -504,6 +504,12 @@ goods_output_rare_earth_elements_add = {
 	percent = no
 }
 
+goods_output_rare_earth_elements_mult = {
+	color = good
+	percent = yes
+}
+
+
 goods_output_recreational_drugs_add = {
 	color = good
 	percent = no

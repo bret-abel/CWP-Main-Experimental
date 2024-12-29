@@ -435,6 +435,7 @@ STATE_KERALA = {
     id = 474
     subsistence_building = building_subsistence_rice_paddies
     provinces = { x2121D0 x21A0D0 xA0A050 xA11A79 xB0934C xCCDC34 xD0F0A0 xE4EB67 xEC8405 xFD0A78 }
+    traits = { state_trait_chavara }
     prime_land = { xA0A050 xB0934C }
     city = xCCDC34
     port = xE4EB67
