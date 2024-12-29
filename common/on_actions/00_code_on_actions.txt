@@ -247,7 +247,10 @@ on_monthly_pulse_country = {
 		un_resolution_events.101
 		un_resolution_events.102
 		un_resolution_events.103
-		# Flavor Events
+		
+		## Flavor Events
+
+		# Decolonization Events
 		decolonization.501
 		decolonization.502
 		decolonization.503
@@ -272,18 +275,36 @@ on_monthly_pulse_country = {
 		decolonization.601
 		decolonization.602
 		decolonization.603
+
+		# French West Africa Events
 		french_west_africa_events.1
+
+		# French Constitution Events
 		a_new_constitution.101
+
+		# Libya Events
 		libya.1
 		libya.2
+
+		# Saarland Events
 		saarland.2
+
+		# East Germany Events
 		ddr_flavor.1
+
+		# Miscellaneous Events
 		communism.8		# Vanilla Red Army rename
 		unable_to_enact.1		#Vanilla enactment event
+		
 		# Exile Agitators Events
 		yeet_agitator_events.1
 		yeet_agitator_events.2
 		yeet_agitator_events.3
+
+		# Set Hierarchy Events
+		set_hierarchy_event.1 # Sets British Indian Caste System
+		set_hierarchy_event.2 # Replaces British Indian Caste System with Default
+
 		# Decolonization Chaos Gamerule Event
 		debug.999
 	}
