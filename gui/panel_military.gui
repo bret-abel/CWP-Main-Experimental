@@ -667,7 +667,7 @@ types panel_military {
 
 								dynamicgridbox = {
 									datamodel = "[GetMobilizationOptionGroups]"
-									datamodel_wrap = 3
+									datamodel_wrap = 2
 									flipdirection = yes
 									parentanchor = hcenter
 
@@ -1224,12 +1224,9 @@ types panel_military {
 		widget = {
 			parentanchor = hcenter
 			minimumsize = { 520 40 }
-			spacing = 30
-			direction = horizontal
-	
 			flowcontainer = {
 				margin = { 15 15 }
-				parentanchor = left
+				parentanchor = left|vcenter
 				textbox = {
 					block "header" {
 						raw_text = "Nuclear Weapons"
