@@ -17,4 +17,13 @@ company_basic_arms_industry: "National Defense Corporation"
 dynamic_company_basic_financial_dynamic_name_tag_singular: "Finance"
 dynamic_company_basic_financial_dynamic_name_tag_plural: "Finances"
 
+#Flavored Company Names
+
+
+### USA ###
+
 company_walt_disney_productions: "Walt Disney Productions"
+company_ford_motor: "Ford Motor Company"
+company_general_motors: "General Motors"
+company_chrysler: "Chrysler"
+company_us_steel_corp: "US Steel Corporation"

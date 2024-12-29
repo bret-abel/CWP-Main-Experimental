@@ -100,23 +100,25 @@ COUNTRIES = {
 		}
 		set_next_election_date = 1948.11.2
 
-		add_company = company_type:company_international_business_machines
-		company:company_international_business_machines = {
-			set_company_establishment_date = 1911.6.12
+		add_company = company_type:company_general_motors
+		company:company_general_motors = {
+			set_company_establishment_date = 1908.9.16
+			set_company_state_region = s:STATE_MICHIGAN
 		}
-		add_company = company_type:company_walt_disney_productions
-		company:company_walt_disney_productions = {
-			set_company_establishment_date = 1923.10.16
-			set_company_state_region = s:STATE_CALIFORNIA
+		add_company = company_type:company_ford_motor
+		company:company_ford_motor = {
+			set_company_establishment_date = 1903.6.16
+			set_company_state_region = s:STATE_MICHIGAN
 		}
 		add_company = company_type:company_chrysler
 		company:company_chrysler = {
 			set_company_establishment_date = 1925.6.6
+			set_company_state_region = s:STATE_MICHIGAN
 		}
-		add_company = company_type:company_boeing
-		company:company_boeing = {
-			set_company_establishment_date = 1916.7.15
+		add_company = company_type:company_us_steel_corp
+		company:company_us_steel_corp = {
+			set_company_establishment_date = 1901.3.2
+			set_company_state_region = s:STATE_KEYSTONE
 		}
-
 	}
 }

@@ -92,7 +92,7 @@ company_boeing = {
 # Walt Disney Productions
 company_walt_disney_productions = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_walt_disney_productions.dds"
-	background = "gfx/interface/icons/company_icons/companies_usa/company_walt_disney_productions_background.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
 	
@@ -134,7 +134,52 @@ company_walt_disney_productions = {
 
 # General Motors
 company_general_motors = {
-	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_general_motors.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_automobile_manufactories
+		building_motor_industry
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_atlantic_seaboard
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				region = sr:region_atlantic_seaboard
+			}
+		}
+	}		
+	
+	possible = { 
+		any_scope_state = {
+			is_incorporated = yes
+			state_region = s:STATE_MICHIGAN
+			any_scope_building = {
+				is_building_type = building_automobile_manufactories
+				level >= 10
+			}
+		}
+		has_technology_researched = combustion_gas_engine
+	}
+	
+	prosperity_modifier = {
+		building_motor_industry_throughput_add = 0.15
+	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# Ford Motor Company
+company_ford_motor = {
+	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_ford_motor.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
@@ -179,7 +224,7 @@ company_general_motors = {
 
 # Chrysler Company
 company_chrysler = {
-	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
+	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_chrysler.dds"
 	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
 	
 	flavored_company = yes
@@ -216,6 +261,52 @@ company_chrysler = {
 	prosperity_modifier = {
 		building_automobile_manufactories_throughput_add = 0.15
 	}
+	
+	ai_weight = {
+		value = 3 # Higher base value for flavored companies
+	}
+}
+
+# United States Steel Corporation
+company_us_steel_corp = {
+	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_steel_corporation.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	
+	flavored_company = yes
+	
+	building_types = {  
+		building_steelworks
+		building_iron_mine
+		building_coal_mine
+	}
+	
+	potential = {
+		has_interest_marker_in_region = region_atlantic_seaboard
+	}
+	
+	attainable = {
+		hidden_trigger = { # Hide attainable if it's always fulfilled by possible
+			any_scope_state = {
+				state_region = s:STATE_KEYSTONE
+			}
+		}
+	}		
+	
+	possible = {
+		any_scope_state = {
+			state_region = s:STATE_KEYSTONE
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_steelworks
+				level >= 3
+			}
+		}
+	}
+	
+	prosperity_modifier = {
+		building_railway_throughput_add = 0.05
+		building_steelworks_throughput_add = 0.05
+	}	
 	
 	ai_weight = {
 		value = 3 # Higher base value for flavored companies

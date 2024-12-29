@@ -290,11 +290,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_steelworks"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 30
-						region = "STATE_NEW_YORK"
+					company = {
+						type = company_us_steel_corp
+						country="c:USA"
+						levels=30
 					}
 				}
 				reserves = 1
@@ -462,11 +461,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_steelworks"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 50
-						region = "STATE_NEW_YORK"
+					company = {
+						type = company_us_steel_corp
+						country="c:USA"
+						levels=50
 					}
 				}
 				reserves = 1
@@ -625,11 +623,15 @@ BUILDINGS = {
 			create_building = {
 				building = "building_automobile_manufactories"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 10
-						region = "STATE_NEW_YORK"
+					company = {
+						type = company_chrysler
+						country="c:USA"
+						levels=2
+					}
+					company = {
+						type = company_ford_motor
+						country="c:USA"
+						levels=8
 					}
 				}
 				reserves = 1
@@ -852,11 +854,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_steelworks"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 20
-						region = "STATE_NEW_YORK"
+					company = {
+						type = company_us_steel_corp
+						country="c:USA"
+						levels=20
 					}
 				}
 				reserves = 1
@@ -1874,11 +1875,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_steelworks"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 50
-						region = "STATE_NEW_YORK"
+					company = {
+						type = company_us_steel_corp
+						country="c:USA"
+						levels=50
 					}
 				}
 				reserves = 1
@@ -2409,6 +2409,21 @@ BUILDINGS = {
 						levels = 39
 						region = "STATE_NEW_YORK"
 					}
+					company = {
+						type = company_chrysler
+						country="c:USA"
+						levels=10
+					}
+					company = {
+						type = company_ford_motor
+						country="c:USA"
+						levels=14
+					}
+					company = {
+						type = company_general_motors
+						country="c:USA"
+						levels=15
+					}
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -2554,10 +2569,11 @@ BUILDINGS = {
 			create_building = {
 				building = "building_media_industry"
 				add_ownership = {
-					company = {
-						type = company_walt_disney_productions
-						country="c:USA"
-						levels=5
+					building = {
+						type = "building_financial_district"
+						country = "c:USA"
+						levels = 5
+						region = "STATE_CALIFORNIA"
 					}
 				}
 				reserves = 1
@@ -3101,11 +3117,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_steelworks"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 30
-						region = "STATE_CALIFORNIA"
+					company = {
+						type = company_us_steel_corp
+						country="c:USA"
+						levels=30
 					}
 				}
 				reserves = 1
@@ -3377,11 +3392,20 @@ BUILDINGS = {
 			create_building = {
 				building = "building_automobile_manufactories"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 20
-						region = "STATE_CALIFORNIA"
+					company = {
+						type = company_chrysler
+						country="c:USA"
+						levels=5
+					}
+					company = {
+						type = company_ford_motor
+						country="c:USA"
+						levels=10
+					}
+					company = {
+						type = company_general_motors
+						country="c:USA"
+						levels=10
 					}
 				}
 				reserves = 1
@@ -3783,11 +3807,20 @@ BUILDINGS = {
 			create_building = {
 				building = "building_motor_industry"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 50
-						region = "STATE_CALIFORNIA"
+					company = {
+						type = company_general_motors
+						country="c:USA"
+						levels=15
+					}
+					company = {
+						type = company_chrysler
+						country="c:USA"
+						levels=15
+					}
+					company = {
+						type = company_ford_motor
+						country="c:USA"
+						levels=20
 					}
 				}
 				reserves = 1
@@ -3929,10 +3962,11 @@ BUILDINGS = {
 			create_building = {
 				building = "building_media_industry"
 				add_ownership = {
-					company = {
-						type = company_walt_disney_productions
-						country="c:USA"
-						levels=100
+					building = {
+						type = "building_financial_district"
+						country = "c:USA"
+						levels = 100
+						region = "STATE_CALIFORNIA"
 					}
 				}
 				reserves = 1
@@ -5387,11 +5421,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_steelworks"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 20
-						region = "STATE_ILLINOIS"
+					company = {
+						type = company_us_steel_corp
+						country="c:USA"
+						levels=20
 					}
 				}
 				reserves = 1
@@ -5787,11 +5820,20 @@ BUILDINGS = {
 			create_building = {
 				building = "building_automobile_manufactories"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 60
-						region = "STATE_ILLINOIS"
+					company = {
+						type = company_general_motors
+						country="c:USA"
+						levels=30
+					}
+					company = {
+						type = company_ford_motor
+						country="c:USA"
+						levels=30
+					}
+					company = {
+						type = company_chrysler
+						country="c:USA"
+						levels=30
 					}
 				}
 				reserves = 1
@@ -5804,11 +5846,15 @@ BUILDINGS = {
 			create_building = {
 				building = "building_motor_industry"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 10
-						region = "STATE_ILLINOIS"
+					company = {
+						type = company_general_motors
+						country="c:USA"
+						levels=3
+					}
+					company = {
+						type = company_ford_motor
+						country="c:USA"
+						levels=7
 					}
 				}
 				reserves = 1
@@ -6026,11 +6072,15 @@ BUILDINGS = {
 			create_building = {
 				building = "building_automobile_manufactories"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 20
-						region = "STATE_ILLINOIS"
+					company = {
+						type = company_ford_motor
+						country="c:USA"
+						levels=15
+					}
+					company = {
+						type = company_general_motors
+						country="c:USA"
+						levels=5
 					}
 				}
 				reserves = 1
@@ -6043,11 +6093,15 @@ BUILDINGS = {
 			create_building = {
 				building = "building_motor_industry"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 50
-						region = "STATE_ILLINOIS"
+					company = {
+						type = company_general_motors
+						country="c:USA"
+						levels=30
+					}
+					company = {
+						type = company_chrysler
+						country="c:USA"
+						levels=20
 					}
 				}
 				reserves = 1
@@ -6126,11 +6180,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_steelworks"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 20
-						region = "STATE_ILLINOIS"
+					company = {
+						type = company_us_steel_corp
+						country="c:USA"
+						levels=20
 					}
 				}
 				reserves = 1
@@ -7320,11 +7373,15 @@ BUILDINGS = {
 			create_building = {
 				building = "building_automobile_manufactories"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 15
-						region = "STATE_ILLINOIS"
+					company = {
+						type = company_ford_motor
+						country="c:USA"
+						levels=10
+					}
+					company = {
+						type = company_chrysler
+						country="c:USA"
+						levels=5
 					}
 				}
 				reserves = 1
@@ -7370,11 +7427,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_motor_industry"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 5
-						region = "STATE_ILLINOIS"
+					company = {
+						type = company_chrysler
+						country="c:USA"
+						levels=5
 					}
 				}
 				reserves = 1
@@ -7387,11 +7443,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_steelworks"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 40
-						region = "STATE_ILLINOIS"
+					company = {
+						type = company_us_steel_corp
+						country="c:USA"
+						levels=40
 					}
 				}
 				reserves = 1
@@ -7793,11 +7848,10 @@ BUILDINGS = {
 			create_building = {
 				building = "building_automobile_manufactories"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 10
-						region = "STATE_TEXAS"
+					company = {
+						type = company_chrysler
+						country="c:USA"
+						levels=10
 					}
 				}
 				reserves = 1
@@ -8604,11 +8658,15 @@ BUILDINGS = {
 			create_building = {
 				building = "building_automobile_manufactories"
 				add_ownership = {
-					building = {
-						type = "building_financial_district"
-						country = "c:USA"
-						levels = 10
-						region = "STATE_TEXAS"
+					company = {
+						type = company_general_motors
+						country="c:USA"
+						levels=7
+					}
+					company = {
+						type = company_chrysler
+						country="c:USA"
+						levels=3
 					}
 				}
 				reserves = 1
