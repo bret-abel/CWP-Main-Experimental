@@ -30,6 +30,7 @@
 			create_building = {
 				building = building_nuclear_research_facility
 				subsidized = yes
+				level = 1
 			}
 		}
 	}
