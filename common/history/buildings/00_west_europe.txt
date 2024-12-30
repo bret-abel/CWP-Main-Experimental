@@ -2605,11 +2605,11 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_ALAND = {
-		region_state:FIN
+		region_state:FIN = {}
 	}
 	s:STATE_OSTROBOTHNIA = {
-		region_state:FIN
-		region_state:RUS
+		region_state:FIN = {}
+		region_state:RUS = {}
 	}
 	s:STATE_HOME_COUNTIES = {
 		region_state:GBR = {
@@ -12170,7 +12170,7 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:AUS
+		region_state:AUS = {}
 	}
 	s:STATE_BOHEMIA = {
 		region_state:CZH = {
@@ -12708,7 +12708,7 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_STYRIA = {
-		region_state:BOZ
+		region_state:BOZ = {}
 	}
 	s:STATE_TYROL = {
 		region_state:FOZ = {
@@ -12813,8 +12813,8 @@ BUILDINGS = {
 				}
 			}
 		}
-		region_state:AOZ
-		region_state:BOZ
+		region_state:AOZ = {}
+		region_state:BOZ = {}
 	}
 	s:STATE_SOUTH_TYROL = {
 		region_state:ITA = {

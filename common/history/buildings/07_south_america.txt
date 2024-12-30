@@ -2057,16 +2057,16 @@ BUILDINGS = {
 		}
 	}
 	s:STATE_ANTOFAGASTA = {
-		region_state:CHL
+		region_state:CHL = {}
 	}
 	s:STATE_SANTA_CRUZ = {
-		region_state:BOL
+		region_state:BOL = {}
 	}
 	s:STATE_LA_PAZ = {
-		region_state:BOL
+		region_state:BOL = {}
 	}
 	s:STATE_POTOSI = {
-		region_state:BOL
+		region_state:BOL = {}
 	}
 	s:STATE_CAJAMARCA = {
 		region_state:PEU = {
@@ -7732,4 +7732,3 @@ BUILDINGS = {
 		}
 	}
 }
-
