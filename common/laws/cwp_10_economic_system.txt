@@ -125,12 +125,14 @@ law_free_market = {
 		state_service_workers_investment_pool_efficiency_mult = 0.25
 		state_landlords_investment_pool_efficiency_mult = 0.25
 		country_private_construction_allocation_mult = 0.75
+		country_max_companies_add = 1
+		country_government_dividends_reinvestment_add = 1.0
 		country_subsidies_bg_infrastructure = yes
 		country_subsidies_bg_trade = yes
 		country_private_buildings_protected = yes
-		country_max_companies_add = 1
-
-		country_government_dividends_reinvestment_add = 1.0		
+		country_disable_nationalization_bool = yes
+		country_force_privatization_bool = yes
+		country_company_pay_to_establish_bool = yes
 	}
 	build_from_investment_pool = {
 		bg_manufacturing
