@@ -7,6 +7,7 @@ NGraphics = {
 	FLATMAP_DETAILS_COLOR = { 0.0 0.0 0.0 1.0 }		# Opacity of flatmap details on land
 	# Route Spline fix
 	ROUTE_PAVED_ROAD_TECH = "urbanization"
+	ROUTE_PAVED_ROAD_MIN_INFRASTRUCTURE = 100 #making paved roads nowadays is easier than in the victorian era
 }
 NCamera = {
 	ZOOM_STEPS = {
