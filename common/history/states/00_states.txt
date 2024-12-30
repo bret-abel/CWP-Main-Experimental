@@ -11376,8 +11376,18 @@
 				xD91A27
 				xA0E070
 				xAD1F3C
-				x5C2250
+			}
+		}
+		create_state = {
+			country = c:AST
+			owned_provinces = {
 				x5C2239
+			}
+		}
+		create_state = {
+			country = c:SGP
+			owned_provinces = {
+				x5C2250
 			}
 		}
 		add_homeland = cu:javan
@@ -20423,8 +20433,6 @@
 				x4942AE
 				xEC8C89
 				x9D4D37
-				x4C065D
-				xA2E3E6
 			}
 			state_type = unincorporated
 		}
@@ -20433,6 +20441,20 @@
 			owned_provinces = {
 				xD0E090
 				x60E0B0
+			}
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:AST
+			owned_provinces = {
+				xA2E3E6
+			}
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:SAF
+			owned_provinces = {
+				x4C065D
 			}
 			state_type = unincorporated
 		}

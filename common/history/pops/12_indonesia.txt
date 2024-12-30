@@ -146,6 +146,30 @@
 				size = 126199
 			}
 		}
+		region_state:AST = {
+			create_pop = {
+				culture = han
+				size = 542
+			}
+			create_pop = {
+				culture = australian
+				size = 385
+			}
+			create_pop = {
+				culture = javan
+				size = 102
+			}
+		}
+		region_state:SGP = {
+			create_pop = {
+				culture = javan
+				size = 240
+			}
+			create_pop = {
+				culture = han
+				size = 98
+			}
+		}
 	}
 	s:STATE_CENTRAL_JAVA = {
 		region_state:IDS = {

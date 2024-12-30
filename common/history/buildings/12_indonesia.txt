@@ -852,6 +852,36 @@ BUILDINGS = {
 				}
 			}
 		}
+		region_state:AST = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:AST"
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
+				}
+			}
+		}
+		region_state:SGP = {
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:SGP"
+						levels = 1
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
+				}
+			}
+		}
 	}
 	s:STATE_CENTRAL_JAVA = {
 		region_state:IDS = {
