@@ -310,7 +310,7 @@ STATE_BAGHDAD = {
     }
     city = x205060
     farm = x205060
-    mine = x4F90CC
+    mine = x1EDF69
     arable_land = 115
     arable_resources = { bg_rice_farms bg_livestock_ranches bg_silk_plantations bg_tobacco_plantations }
 }
