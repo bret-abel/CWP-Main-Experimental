@@ -412,7 +412,7 @@ types ongoing_outliner_items {
 		parentanchor = right
 		
 		datamodel_reuse_widgets = yes
-		datacontext = "[AccessCategory('diplo_plays')]"
+		datacontext = "[Outliner.AccessCategory('diplo_plays')]"
 		datamodel = "[OutlinerEntry.AccessSubEntries]"
 		visible = "[OutlinerEntry.IsShown]"
 		spacing = 3

@@ -1362,11 +1362,11 @@ types panel_military {
 								}
 								textbox = {
 									raw_text = "[GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('target', Country.MakeScope ).ScriptValue('wmd_target_list_states_count_per_country')|v0 )] States - [GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('target', Country.MakeScope ).ScriptValue('wmd_target_list_states_population_per_country')|vd )] Population Targeted"
-									using = fontsize_min
+									fontsize_min = 12
 								}
 								textbox = {
 									raw_text = "Estimated Casualties - [GuiScope.SetRoot( Country.MakeScope ).AddScope('initiator', GetPlayer.MakeScope ).ScriptValue('wmd_target_list_states_estimated_casualties_per_country'))|-d]"
-									using = fontsize_min
+									fontsize_min = 12
 								}
 							}
 							flowcontainer = {
