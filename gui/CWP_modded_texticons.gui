@@ -1,0 +1,88 @@
+texticon = {
+  icon = bureaucrats
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/bureaucrats_30.dds"
+    fontsize = 26
+  }
+}
+texticon = {
+  icon = capitalists
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/capitalists_30.dds"
+    fontsize = 26
+  }
+}
+texticon = {
+  icon = elites
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/elites_30.dds"
+    fontsize = 26
+  }
+}
+texticon = {
+  icon = entrepreneurs
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/entrepreneurs_30.dds"
+    fontsize = 26
+  }
+}
+texticon = {
+  icon = intelligentsia
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/intelligentsia_30.dds"
+    fontsize = 26
+  }
+}
+texticon = {
+  icon = laborists
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/laborists_30.dds"
+    fontsize = 26
+  }
+}
+texticon = {
+  icon = moralists
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/moralists_30.dds"
+    fontsize = 26
+  }
+}
+texticon = {
+  icon = patriots
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/patriots_30.dds"
+    fontsize = 26
+  }
+}
+texticon = {
+  icon = ruralists
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/ruralists_30.dds"
+    fontsize = 26
+  }
+}
+texticon = {
+  icon = securocrats
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/securocrats_30.dds"
+    fontsize = 26
+  }
+}
+texticon = {
+  icon = urbanists
+  iconsize = {
+    offset = { 0 6 }
+    texture = "gfx/interface/icons/ig_icons/urbanists_30.dds"
+    fontsize = 26
+  }
+}
