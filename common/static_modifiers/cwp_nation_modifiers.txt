@@ -38,7 +38,7 @@ last_stand = {
 
 racial_tension = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
-	state_radicals_from_sol_change_mult = 0.25
+	state_radicals_from_political_movements_mult = 0.25
 }
 
 forced_neutrality = {

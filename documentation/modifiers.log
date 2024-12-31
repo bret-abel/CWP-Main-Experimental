@@ -131,9 +131,9 @@ Tag: state_middle_standard_of_living_add, Categories: state
 Tag: state_rich_standard_of_living_add, Categories: state
 Tag: state_expected_sol_mult, Categories: state
 Tag: state_expected_sol_from_literacy, Categories: state
-Tag: state_poor_expected_sol, Categories: state
-Tag: state_middle_expected_sol, Categories: state
-Tag: state_rich_expected_sol, Categories: state
+Tag: state_lower_strata_expected_sol_add, Categories: state
+Tag: state_middle_strata_expected_sol_add, Categories: state
+Tag: state_upper_strata_expected_sol_add, Categories: state
 Tag: state_unincorporated_standard_of_living_add, Categories: state
 Tag: state_urbanization_add, Categories: state
 Tag: state_urbanization_mult, Categories: state
@@ -157,7 +157,6 @@ Tag: state_conversion_mult, Categories: state
 Tag: state_bureaucracy_population_base_cost_factor_mult, Categories: state
 Tag: state_dependent_political_participation_add, Categories: state
 Tag: state_political_strength_from_wealth_mult, Categories: state
-Tag: state_political_strength_from_discrimination_mult, Categories: state
 Tag: state_political_strength_from_welfare_mult, Categories: state
 Tag: state_port_range_add, Categories: state
 Tag: state_infrastructure_add, Categories: state
@@ -193,8 +192,8 @@ Tag: state_minimum_wealth_add, Categories: state
 Tag: state_turmoil_effects_mult, Categories: state
 Tag: state_mortality_turmoil_mult, Categories: state
 Tag: state_radicals_from_discrimination_mult, Categories: state
-Tag: state_radicals_from_sol_change_mult, Categories: state
-Tag: state_loyalists_from_sol_change_mult, Categories: state
+Tag: state_radicals_from_political_movements_mult, Categories: state
+Tag: state_loyalists_from_political_movements_mult, Categories: state
 Tag: state_radicals_from_sol_change_accepted_culture_mult, Categories: state
 Tag: state_loyalists_from_sol_change_accepted_culture_mult, Categories: state
 Tag: state_radicals_from_sol_change_accepted_religion_mult, Categories: state
@@ -635,7 +634,7 @@ Tag: building_combustion_plant_throughput_add, Categories: building
 Tag: building_computer_manufactories_throughput_add, Categories: building
 Tag: building_electronics_manufactories_throughput_add, Categories: building
 Tag: building_explosives_industry_throughput_add, Categories: building
-Tag: building_furniture_manufactories_throughput_add, Categories: building
+Tag: building_furniture_manufacturies_throughput_add, Categories: building
 Tag: building_group_bg_automobile_manufactories_throughput_add, Categories: building
 Tag: building_group_bg_bureaucracy_throughput_add, Categories: building
 Tag: building_group_bg_electronics_throughput_add, Categories: building

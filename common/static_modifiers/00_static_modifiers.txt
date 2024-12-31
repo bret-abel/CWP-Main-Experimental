@@ -28,9 +28,9 @@ base_values = {
 	state_tax_capacity_add = 100
 	state_infrastructure_add = 3
 	
-	state_poor_expected_sol = 5
-	state_middle_expected_sol = 10
-	state_rich_expected_sol = 15
+	state_lower_strata_expected_sol_add = 5
+	state_middle_strata_expected_sol_add = 10
+	state_upper_strata_expected_sol_add = 15
 	state_expected_sol_from_literacy = 5
 	
 	# To balance for unincorporated states not paying taxes
@@ -77,10 +77,6 @@ character_base_values = {
 	character_health_add = 1	# Must be != 0. Even better if it's > 0
 }
 
-discrimination = {
-	state_political_strength_from_discrimination_mult = -0.9
-}
-
 coastal_state = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_infrastructure_add = 2
@@ -89,25 +85,31 @@ coastal_state = {
 working_conditions = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
 	building_group_bg_mining_laborers_mortality_mult = 0.1
-	building_group_bg_mining_engineers_mortality_mult = 0.05
+	# building_group_bg_mining_engineers_mortality_mult = 0.05 - Was originally machinest pop type
 	building_group_bg_mining_engineers_mortality_mult = 0.02
 	building_group_bg_mining_clericals_mortality_mult = 0.02
+	
 	building_group_bg_logging_laborers_mortality_mult = 0.1
-	building_group_bg_logging_engineers_mortality_mult = 0.05
+	# building_group_bg_logging_engineers_mortality_mult = 0.05 - Was originally machinest pop type
 	building_group_bg_logging_engineers_mortality_mult = 0.02
 	building_group_bg_logging_clericals_mortality_mult = 0.02
+	
 	building_group_bg_fossil_fuels_laborers_mortality_mult = 0.1
-	building_group_bg_fossil_fuels_engineers_mortality_mult = 0.05
+	# building_group_bg_fossil_fuels_engineers_mortality_mult = 0.05 - Was originally machinest pop type
 	building_group_bg_fossil_fuels_engineers_mortality_mult = 0.02
 	building_group_bg_fossil_fuels_clericals_mortality_mult = 0.02
+	
 	building_group_bg_light_industry_laborers_mortality_mult = 0.05
 	building_group_bg_light_industry_engineers_mortality_mult = 0.02
+	building_group_bg_light_industry_clericals_mortality_mult = 0.02
+	
 	building_group_bg_heavy_industry_laborers_mortality_mult = 0.1
-	building_group_bg_heavy_industry_engineers_mortality_mult = 0.05
+	# building_group_bg_heavy_industry_engineers_mortality_mult = 0.05 - Was originally machinest pop type
 	building_group_bg_heavy_industry_engineers_mortality_mult = 0.02
 	building_group_bg_heavy_industry_clericals_mortality_mult = 0.02
+	
 	building_group_bg_infrastructure_laborers_mortality_mult = 0.1
-	building_group_bg_infrastructure_engineers_mortality_mult = 0.05
+	# building_group_bg_infrastructure_engineers_mortality_mult = 0.05 - Was originally machinest pop type
 	building_group_bg_infrastructure_engineers_mortality_mult = 0.02
 	building_group_bg_infrastructure_clericals_mortality_mult = 0.02
 }
@@ -146,7 +148,7 @@ declared_bankruptcy = {
 	country_loan_interest_rate_mult = 0.5
 	unit_offense_mult = -0.5
 	unit_defense_mult = -0.5
-	state_radicals_from_sol_change_mult = 1
+	state_radicals_from_political_movements_mult = 1
 	state_construction_mult = -0.75
 }
 
@@ -191,13 +193,13 @@ moved_market_capital_recently = {
 tax_modifier_very_low = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 	country_legitimacy_base_add = 10
-	state_radicals_from_sol_change_mult = -0.2
+	state_radicals_from_political_movements_mult = -0.2
 }
 
 tax_modifier_low = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
 	country_legitimacy_base_add = 5
-	state_radicals_from_sol_change_mult = -0.1
+	state_radicals_from_political_movements_mult = -0.1
 }
 
 tax_modifier_medium = {
@@ -206,14 +208,14 @@ tax_modifier_medium = {
 tax_modifier_high = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
 	country_legitimacy_base_add = -5
-	state_radicals_from_sol_change_mult = 0.25
+	state_radicals_from_political_movements_mult = 0.25
 	interest_group_in_government_attraction_mult = -0.1
 }
 
 tax_modifier_very_high = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_negative.dds
 	country_legitimacy_base_add = -10
-	state_radicals_from_sol_change_mult = 0.5
+	state_radicals_from_political_movements_mult = 0.5
 	interest_group_in_government_attraction_mult = -0.2
 }
 
@@ -384,7 +386,7 @@ legislative_efficiency = {
 political_dysfunction = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
 	country_opposition_ig_approval_add = -10
-	state_radicals_from_sol_change_mult = 0.2
+	state_radicals_from_political_movements_mult = 0.2
 }
 
 # Excess DIP increases Infamy decay by up to 25% at 2x production to usage

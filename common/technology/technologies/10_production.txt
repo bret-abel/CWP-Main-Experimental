@@ -1323,7 +1323,7 @@ catalytic_converters = {
 	texture = "gfx/interface/icons/invention_icons/catalytic_converters.dds"
 	category = production
 	modifier = {
-		state_loyalists_from_sol_change_mult = 0.05
+		state_loyalists_from_political_movements_mult = 0.05
 		building_group_bg_automobile_manufactories_throughput_add = 0.1
 		building_group_bg_motor_industry_throughput_add = 0.1
 	}

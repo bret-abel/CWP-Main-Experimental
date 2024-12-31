@@ -23,7 +23,7 @@ building_explosives_industry_throughput_add = {
 	percent = yes
 }
 
-building_furniture_manufactories_throughput_add = {
+building_furniture_manufacturies_throughput_add = {
 	color = good
 	percent = yes
 }
@@ -102,6 +102,78 @@ building_group_bg_wind_power_throughput_add = {
 building_group_bg_fossil_fuels_mortality_mult = {
 	color = bad
 	percent = yes
+}
+
+building_group_bg_mining_clericals_mortality_mult = {
+	decimals=0
+	color=bad
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_group_bg_logging_clericals_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_fossil_fuels_laborers_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_fossil_fuels_engineers_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_fossil_fuels_clericals_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_light_industry_clericals_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_heavy_industry_clericals_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
+}
+
+building_group_bg_infrastructure_clericals_mortality_mult = {
+	decimals = 0
+	color = bad
+	percent = yes
+	game_data = {
+		ai_value = 0
+	}
 }
 
 building_group_bg_fossil_fuels_tax_mult = {

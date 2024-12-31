@@ -505,7 +505,7 @@ pm_state_directed_research = {
 	state_modifiers = {
 		unscaled = {
 			state_assimilation_mult = 0.1
-			state_loyalists_from_sol_change_mult = 0.05
+			state_loyalists_from_political_movements_mult = 0.05
 		}
 	}
 }
@@ -527,7 +527,7 @@ pm_religious_research_agenda = {
 	state_modifiers = {
 		unscaled = {
 			state_conversion_mult = 0.1
-			state_loyalists_from_sol_change_mult = 0.05
+			state_loyalists_from_political_movements_mult = 0.05
 		}
 	}
 }

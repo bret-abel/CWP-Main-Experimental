@@ -71,7 +71,7 @@ law_professional_police = {
 	institution_modifier = {
 		country_administrators_pol_str_mult = 0.1
 		state_radicals_from_discrimination_mult = -0.05
-		state_radicals_from_sol_change_mult = -0.05
+		state_radicals_from_political_movements_mult = -0.05
 	}
 	ai_enact_weight_modifier = {
 		#Petitions
@@ -99,7 +99,7 @@ law_militarized_police = {
 	}
 	institution = institution_criminal_justice_system
 	institution_modifier = {
-		state_radicals_from_sol_change_mult = -0.05
+		state_radicals_from_political_movements_mult = -0.05
 		state_radicals_from_discrimination_mult = -0.05
 		country_soldiers_pol_str_mult = 0.05
 		country_officers_pol_str_mult = 0.15
@@ -131,7 +131,7 @@ law_secret_police = {
 	}
 	institution = institution_criminal_justice_system
 	institution_modifier = {
-		state_radicals_from_sol_change_mult = -0.05
+		state_radicals_from_political_movements_mult = -0.05
 		state_radicals_from_discrimination_mult = -0.05
 		interest_group_in_government_attraction_mult = 0.05
 	}

@@ -1524,8 +1524,8 @@ pm_sensationalist_news = {
 	}
 	state_modifiers = {
 		throughput_scaled = {
-			state_loyalists_from_sol_change_mult = 0.1
-			state_radicals_from_sol_change_mult = 0.1
+			state_loyalists_from_political_movements_mult = 0.1
+			state_radicals_from_political_movements_mult = 0.1
 		}
 	}
 }
@@ -1545,7 +1545,7 @@ pm_state_news = {
 	}
 	state_modifiers = {
 		throughput_scaled = {
-			state_loyalists_from_sol_change_mult = 0.1
+			state_loyalists_from_political_movements_mult = 0.1
 			state_assimilation_mult = 0.25
 		}
 	}
@@ -1568,7 +1568,7 @@ pm_religious_news = {
 	}
 	state_modifiers = {
 		throughput_scaled = {
-			state_loyalists_from_sol_change_mult = 0.1
+			state_loyalists_from_political_movements_mult = 0.1
 			state_conversion_mult = 0.25
 		}
 	}
