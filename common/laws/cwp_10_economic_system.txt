@@ -72,7 +72,6 @@ law_anti_industrialization = {
 		country_subsidies_bg_ranching = yes
 		country_subsidies_bg_trade = yes
 
-		country_private_construction_allocation_mult = 0.25
 		country_leverage_resistance_mult = 0.25
 
 		building_nationalization_investment_return_add = 0.5
@@ -124,7 +123,6 @@ law_free_market = {
 		state_farmers_investment_pool_efficiency_mult = 0.25
 		state_service_workers_investment_pool_efficiency_mult = 0.25
 		state_landlords_investment_pool_efficiency_mult = 0.25
-		country_private_construction_allocation_mult = 0.75
 		country_max_companies_add = 1
 		country_government_dividends_reinvestment_add = 1.0
 		country_subsidies_bg_infrastructure = yes
@@ -171,7 +169,6 @@ law_interventionism = {
 	modifier = {
 		country_subsidies_all = yes
 		country_disable_nationalization_without_compensation_bool = yes
-		country_private_construction_allocation_mult = 0.5
 		building_nationalization_investment_return_add = 0.5
 		country_government_dividends_reinvestment_add = 0.5
 		country_government_dividends_efficiency_add = 0.25
@@ -232,7 +229,6 @@ law_socialization = {
 		building_nationalization_cost_mult = -0.5
 		building_nationalization_radicals_mult = -0.75
 		country_government_dividends_efficiency_add = 0.4
-		country_private_construction_allocation_mult = 0.35
 
 		country_leverage_resistance_mult = 0.25
 	}
