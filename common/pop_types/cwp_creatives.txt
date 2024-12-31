@@ -1,6 +1,6 @@
 ﻿clericals = {
 	#todo update icon
-	texture = gfx/interface/icons/pops_icons/clerks.dds
+	texture = gfx/interface/icons/pops_icons/professionals.dds
 	color = {
 		123
 		224

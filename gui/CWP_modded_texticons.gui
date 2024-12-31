@@ -1,3 +1,4 @@
+### INTEREST GROUP ICONS
 texticon = {
   icon = bureaucrats
   iconsize = {
@@ -84,5 +85,186 @@ texticon = {
     offset = { 0 6 }
     texture = "gfx/interface/icons/ig_icons/urbanists_30.dds"
     fontsize = 26
+  }
+}
+
+### POP ICONS
+texticon = {
+  icon = administrators
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/administrators.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = administrators
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/administrators_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
+  icon = clergy
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/clergy.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = clergy
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/clergy_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
+  icon = clericals
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/professionals.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = clericals
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/professionals_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
+  icon = engineers
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/engineers.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = engineers
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/engineers_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
+  icon = informal_workers
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/informal_workers.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = informal_workers
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/informal_workers_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
+  icon = investors
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/investors.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = investors
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/investors_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
+  icon = laborers
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/laborers.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = laborers
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/laborers_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
+  icon = landlords
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/landlords.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = landlords
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/landlords_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
+  icon = officers
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/officers.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = officers
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/officers_15.dds"
+    fontsize = 30
+  }
+}
+
+texticon = {
+  icon = soldiers
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/servicemembers.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = soldiers
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/servicemembers_15.dds"
+    fontsize = 30
   }
 }
