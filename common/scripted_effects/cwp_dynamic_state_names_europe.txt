@@ -1,8 +1,91 @@
-﻿assign_state_name_region_eastern_europe = {}
+﻿assign_state_name_region_eastern_europe = {
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_POMEMASURIA ?= this
+            }
+        }
+        STATE_POMEMASURIA_state_name_assign = yes
+    }
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_KRAKOW ?= this
+            }
+        }
+        STATE_KRAKOW_state_name_assign = yes
+    }
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_CHERSON ?= this
+            }
+        }
+		STATE_CHERSON_state_name_assign = yes
+    }
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_LUHANSK ?= this
+            }
+        }
+		STATE_LUHANSK_state_name_assign = yes
+    }
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_KIEV ?= this
+            }
+        }
+		STATE_KIEV_state_name_assign = yes
+    }
+}
 
-assign_state_name_region_central_europe = {}
+assign_state_name_region_central_europe = {
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_WEST_POMERANIA ?= this
+            }
+        }
+        STATE_WEST_POMERANIA_state_name_assign = yes
+    }
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_GREATER_POLAND ?= this
+            }
+        }
+        STATE_GREATER_POLAND_state_name_assign = yes
+    }
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_SILESIA ?= this
+            }
+        }
+        STATE_SILESIA_state_name_assign = yes
+    }
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_ALSACE_LORRAINE ?= this
+            }
+        }
+        STATE_ALSACE_LORRAINE_state_name_assign = yes
+    }
+}
 
-assign_state_name_region_western_europe = {}
+assign_state_name_region_western_europe = {
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_ULSTER ?= this
+            }
+        }
+        STATE_ULSTER_state_name_assign = yes
+    }
+}
 
 assign_state_name_region_balkans = {}
 
@@ -32,8 +115,8 @@ STATE_KRALOVEC_state_name_assign = {
                 }
             }
         }
-        set_state_name = STATE_KRALOVEC_polish
-        set_hub_names = polish
+        set_state_name = STATE_KRALOVEC_polish_cwp
+        set_hub_names = polish_cwp
     }
 	else_if = {
         limit = {
@@ -41,28 +124,18 @@ STATE_KRALOVEC_state_name_assign = {
 				country_has_primary_culture = cu:north_german
 			}
         }
-        set_state_name = STATE_KRALOVEC_german
-		set_hub_names = german
+        set_state_name = STATE_KRALOVEC_german_cwp
+		set_hub_names = german_cwp
     }
 	else_if = {
 		limit = {
 			owner = {
-				and = {
-					country_definition = {
-						any_primary_culture = {
-							shares_heritage_trait_with_any_primary_culture = c:RUS
-						}
-					}
-					NOT = {
-						any_primary_culture = {
-							cu:polish ?= this
-						}
-					}
-				}
-			}
-		}
-		
-		set_state_name = STATE_KRALOVEC_russian
+                any_primary_culture = {
+					cu:russian ?= this
+                }
+            }
+        }
+		set_state_name = STATE_KRALOVEC_russian_cwp
 		reset_hub_names = yes # Hubs are Russian by default
 	}
 	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
@@ -73,150 +146,236 @@ STATE_KRALOVEC_state_name_assign = {
 
 ### West Pomerania
 
-dyn_state_west_pomerania = {
-	type = state
-	text = {
-		trigger = {
+STATE_WEST_POMERANIA_state_name_assign = {
+	if = {
+        limit = {
 			owner = {
 				country_has_primary_culture = cu:north_german
 			}
-		}
-		localization_key = dyn_state_west_pomerania_ger
-	}
-	text = {
-		localization_key = dyn_state_west_pomerania
-		fallback = yes
+        }
+        set_state_name = STATE_WEST_POMERANIA_german_cwp
+		set_hub_names = german_cwp
+    }
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
 	}
 }
 
 ### Pomerania-Masuria
 
-dyn_state_pomemasuria = {
-	type = state
-	text = {
-		trigger = {
+STATE_POMEMASURIA_state_name_assign = {
+	if = {
+        limit = {
 			owner = {
 				country_has_primary_culture = cu:north_german
 			}
-		}
-		localization_key = dyn_state_pomemasuria_ger
-	}
-	text = {
-		localization_key = dyn_state_pomemasuria
-		fallback = yes
+        }
+        set_state_name = STATE_POMEMASURIA_german_cwp
+		set_hub_names = german_cwp
+    }
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
 	}
 }
 
+### Greater Poland
+
+STATE_GREATER_POLAND_state_name_assign = {
+	if = {
+        limit = {
+			owner = {
+				country_has_primary_culture = cu:north_german
+			}
+        }
+        set_state_name = STATE_GREATER_POLAND_german_cwp
+		set_hub_names = german_cwp
+    }
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
+	}
+}
+
+### Silesia
+
+STATE_SILESIA_state_name_assign = {
+	if = {
+        limit = {
+			owner = {
+				country_has_primary_culture = cu:north_german
+			}
+        }
+        set_state_name = STATE_SILESIA_german_cwp
+		set_hub_names = german_cwp
+    }
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
+	}
+}
+
+### Kraków
+
+STATE_KRAKOW_state_name_assign = {
+	if = {
+        limit = {
+			owner = {
+				country_has_primary_culture = cu:north_german
+			}
+        }
+        set_state_name = STATE_KRAKOW_german_cwp
+		set_hub_names = german_cwp
+    }
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
+	}
+}
+
+
 ### Cherson
 
-dyn_state_cherson = {
-	type = state
-	text = {
-		trigger = {
+STATE_CHERSON_state_name_assign = {
+	if = {
+        limit = {
+            owner = {
+                any_primary_culture = {
+					cu:polish ?= this
+                }
+            }
+        }
+        set_state_name = STATE_CHERSON_polish_cwp
+        set_hub_names = polish_cwp
+    }
+	else_if = {
+        limit = {
 			owner = {
-				country_has_primary_culture = cu:russian
-			}
-		}
-		localization_key = dyn_state_cherson_rus
-	}
-	text = {
-		trigger = {
-			owner = {
-				country_has_primary_culture = cu:polish
-			}
-		}
-		localization_key = dyn_state_cherson_pol
-	}
-	text = {
-		localization_key = dyn_state_cherson
-		fallback = yes
+                any_primary_culture = {
+					cu:russian ?= this
+                }
+				NOT = {
+					any_primary_culture = {
+						cu:ukrainian ?= this
+					}
+				}
+            }
+        }
+    	set_state_name = STATE_CHERSON_russian_cwp
+		set_hub_names = russian_cwp
+    }
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
 	}
 }
 
 ### Luhansk
 
-dyn_state_luhansk = {
-	type = state
-	text = {
-		trigger = {
+STATE_LUHANSK_state_name_assign = {
+	if = {
+        limit = {
+            owner = {
+                any_primary_culture = {
+					cu:polish ?= this
+                }
+            }
+        }
+        set_state_name = STATE_LUHANSK_polish_cwp
+        set_hub_names = polish_cwp
+    }
+	else_if = {
+        limit = {
 			owner = {
-				country_has_primary_culture = cu:russian
-			}
-		}
-		localization_key = dyn_state_luhansk_rus
-	}
-	text = {
-		trigger = {
-			owner = {
-				country_has_primary_culture = cu:polish
-			}
-		}
-		localization_key = dyn_state_luhansk_pol
-	}
-	text = {
-		localization_key = dyn_state_luhansk
-		fallback = yes
+                any_primary_culture = {
+					cu:russian ?= this
+                }
+				NOT = {
+					any_primary_culture = {
+						cu:ukrainian ?= this
+					}
+				}
+            }
+        }
+        set_state_name = STATE_LUHANSK_russian_cwp
+		set_hub_names = russian_cwp
+    }
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
 	}
 }
 
 ### Kyiv
 
-dyn_state_kiev = {
-	type = state
-	text = {
-		trigger = {
+STATE_KIEV_state_name_assign = {
+	if = {
+        limit = {
+            owner = {
+                any_primary_culture = {
+					cu:polish ?= this
+                }
+            }
+        }
+        set_state_name = STATE_KIEV_polish_cwp
+        set_hub_names = polish_cwp
+    }
+	else_if = {
+        limit = {
 			owner = {
-				country_has_primary_culture = cu:russian
-			}
-		}
-		localization_key = dyn_state_kiev_rus
-	}
-	text = {
-		trigger = {
-			owner = {
-				country_has_primary_culture = cu:polish
-			}
-		}
-		localization_key = dyn_state_kiev_pol
-	}
-	text = {
-		localization_key = dyn_state_kiev
-		fallback = yes
+                any_primary_culture = {
+					cu:russian ?= this
+                }
+				NOT = {
+					any_primary_culture = {
+						cu:ukrainian ?= this
+					}
+				}
+            }
+        }
+        set_state_name = STATE_KIEV_russian_cwp
+		set_hub_names = russian_cwp
+    }
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
 	}
 }
 
 ### Ulster
 
-dyn_state_ulster = {
-	type = state
-	text = {
-		trigger = {
-			owner = {
-				country_has_primary_culture = cu:irish
-			}
-		}
-		localization_key = dyn_state_ulster_ire
-	}
-	text = {
-		localization_key = dyn_state_ulster
-		fallback = yes
+STATE_ULSTER_state_name_assign = {
+	if = {
+        limit = {
+            owner = {
+                any_primary_culture = {
+					cu:irish ?= this
+                }
+            }
+        }
+        set_state_name = STATE_ULSTER_irish
+    }
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
 	}
 }
 
 ### Alsace-Lorraine
 
-dyn_state_alsace_lorraine = {
-	type = state
-	text = {
-		trigger = {
-			owner = {
+STATE_ALSACE_LORRAINE_state_name_assign = {
+	if = {
+        limit = {
+            owner = {
 				country_has_primary_culture = cu:north_german
 			}
-		}
-		localization_key = dyn_state_alsace_lorraine_ger
-	}
-	text = {
-		localization_key = dyn_state_alsace_lorraine
-		fallback = yes
+        }
+        set_state_name = STATE_ALSACE_LORRAINE_german_cwp
+		set_hub_names = german_cwp
+    }
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
 	}
 }

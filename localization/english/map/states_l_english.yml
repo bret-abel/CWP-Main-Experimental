@@ -209,7 +209,7 @@
  STATE_EAST_ANGLIA:0 "East Anglia"
  STATE_WEST_COUNTRY:0 "West Country"
  STATE_LOWLANDS:0 "Lowlands"
- STATE_ULSTER:0 "Ulster"
+ STATE_ULSTER:0 "Northern Ireland"
  STATE_MUNSTER:0 "Munster"
  STATE_LEINSTER:0 "Leinster"
  STATE_LANGUEDOC:0 "Languedoc"
@@ -573,7 +573,7 @@
  STATE_BREST:0 "Brest"
  STATE_MAZOVIA:0 "Mazovia"
  STATE_VOLHYNIA:0 "Volhynia"
- STATE_KIEV:0 "Kiev"
+ STATE_KIEV:0 "Kyiv"
  STATE_RIAU_ISLANDS:0 "Riau Islands"
  STATE_MALTA:0 "Malta"
  STATE_UMBRIA:0 "Umbria"
@@ -715,6 +715,51 @@
 
 ### DYNAMIC STATE NAMES
 
- STATE_KRALOVEC_polish:0 "Królewiec"
- STATE_KRALOVEC_german:0 "Königsberg"
- STATE_KRALOVEC_russian:0 "Kaliningrad"
+# Kaliningrad
+
+ STATE_KRALOVEC_polish_cwp:0 "Królewiec"
+ STATE_KRALOVEC_german_cwp:0 "Königsberg"
+ STATE_KRALOVEC_russian_cwp:0 "Kaliningrad"
+
+# West Pomerania
+
+ STATE_WEST_POMERANIA_german_cwp:0 "Hinterpommern"
+
+# Pomerania-Masuria
+
+ STATE_POMEMASURIA_german_cwp:0 "Pommern-Masuren"
+
+# Greater Poland
+
+ STATE_GREATER_POLAND_german_cwp:0 "Warthegau"
+
+# Silesia
+
+ STATE_SILESIA_german_cwp:0 "Schlesien"
+
+# Kraków
+
+ STATE_KRAKOW_german_cwp:0 "Krakau"
+
+# Cherson
+
+ STATE_CHERSON_polish_cwp:0 "Chersoń"
+ STATE_CHERSON_russian_cwp:0 "Kherson"
+
+# Luhansk
+
+ STATE_LUHANSK_polish_cwp:0 "Ługańsk"
+ STATE_LUHANSK_russian_cwp:0 "Lugansk"
+
+# Kyiv
+
+ STATE_KIEV_polish_cwp:0 "Kijów"
+ STATE_KIEV_russian_cwp:0 "Kiev"
+
+# Ulster
+
+ STATE_ULSTER_irish:0 "Ulster"
+
+# Alsace-Lorraine
+
+ STATE_ALSACE_LORRAINE_german_cwp:0 "Elsass-Lothringen"

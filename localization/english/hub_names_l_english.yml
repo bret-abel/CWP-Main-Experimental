@@ -928,7 +928,7 @@
   HUB_NAME_STATE_CHERSON_city: "Mykolaiv"
   HUB_NAME_STATE_CHERSON_port: "Odesa"
   HUB_NAME_STATE_CHERSON_mine: "Kropyvnytskyi"
-  HUB_NAME_STATE_CHERSON_farm: "Kherson"
+  HUB_NAME_STATE_CHERSON_farm: "Cherson"
   HUB_NAME_STATE_CHERSON_wood: "Voznesens'k"
   HUB_NAME_STATE_CRIMEA_city: "Simferopol"
   HUB_NAME_STATE_CRIMEA_port: "Sevastopol"
@@ -3015,14 +3015,100 @@
 
 #### DYNAMIC HUB NAMES
 
- HUB_NAME_STATE_KRALOVEC_city_polish: "Królewiec"
- HUB_NAME_STATE_KRALOVEC_port_polish: "Ruszowice"
- HUB_NAME_STATE_KRALOVEC_mine_polish: "Tylża"
- HUB_NAME_STATE_KRALOVEC_farm_polish: "Gąbin"
- HUB_NAME_STATE_KRALOVEC_wood_polish: "Wystruć"
+# Kaliningrad
 
- HUB_NAME_STATE_KRALOVEC_city_german: "Königsberg"
- HUB_NAME_STATE_KRALOVEC_port_german: "Rauschen"
- HUB_NAME_STATE_KRALOVEC_mine_german: "Tilsit"
- HUB_NAME_STATE_KRALOVEC_farm_german: "Gumbinnen"
- HUB_NAME_STATE_KRALOVEC_wood_german: "Insterburg"
+ HUB_NAME_STATE_KRALOVEC_city_polish_cwp: "Królewiec"
+ HUB_NAME_STATE_KRALOVEC_port_polish_cwp: "Ruszowice"
+ HUB_NAME_STATE_KRALOVEC_mine_polish_cwp: "Tylża"
+ HUB_NAME_STATE_KRALOVEC_farm_polish_cwp: "Gąbin"
+ HUB_NAME_STATE_KRALOVEC_wood_polish_cwp: "Wystruć"
+
+ HUB_NAME_STATE_KRALOVEC_city_german_cwp: "Königsberg"
+ HUB_NAME_STATE_KRALOVEC_port_german_cwp: "Rauschen"
+ HUB_NAME_STATE_KRALOVEC_mine_german_cwp: "Tilsit"
+ HUB_NAME_STATE_KRALOVEC_farm_german_cwp: "Gumbinnen"
+ HUB_NAME_STATE_KRALOVEC_wood_german_cwp: "Insterburg"
+
+# West Pomerania
+
+ HUB_NAME_STATE_WEST_POMERANIA_city_german_cwp: "Stettin"
+ HUB_NAME_STATE_WEST_POMERANIA_port_german_cwp: "Gdingen"
+ HUB_NAME_STATE_WEST_POMERANIA_mine_german_cwp: "Kolberg"
+ HUB_NAME_STATE_WEST_POMERANIA_farm_german_cwp: "Köslin"
+ HUB_NAME_STATE_WEST_POMERANIA_wood_german_cwp: "Schivelbein"
+
+# Pomerania-Masuria
+
+  HUB_NAME_STATE_POMEMASURIA_city_german_cwp: "Danzig"
+  HUB_NAME_STATE_POMEMASURIA_port_german_cwp: "Elbing"
+  HUB_NAME_STATE_POMEMASURIA_mine_german_cwp: "Konitz"
+  HUB_NAME_STATE_POMEMASURIA_farm_german_cwp: "Thorn"
+  HUB_NAME_STATE_POMEMASURIA_wood_german_cwp: "Sensburg"
+
+# Greater Poland
+
+  HUB_NAME_STATE_GREATER_POLAND_city_german_cwp: "Posen"
+  HUB_NAME_STATE_GREATER_POLAND_mine_german_cwp: "Lissa"
+  HUB_NAME_STATE_GREATER_POLAND_farm_german_cwp: "Bromberg"
+  HUB_NAME_STATE_GREATER_POLAND_wood_german_cwp: "Landsberg an der Warthe"
+
+# Silesia
+
+  HUB_NAME_STATE_SILESIA_city_german_cwp: "Breslau"
+  HUB_NAME_STATE_SILESIA_mine_german_cwp: "Kattowitz"
+  HUB_NAME_STATE_SILESIA_farm_german_cwp: "Königshütte"
+  HUB_NAME_STATE_SILESIA_wood_german_cwp: "Kreuzburg"
+
+# Kraków
+
+  HUB_NAME_STATE_KRAKOW_city_german_cwp: "Krakau"
+  HUB_NAME_STATE_KRAKOW_mine_german_cwp: "Neu Sandec"
+  HUB_NAME_STATE_KRAKOW_farm_german_cwp: "Tarnau "
+  HUB_NAME_STATE_KRAKOW_wood_german_cwp: "Bielitz-Biala"
+
+# Cherson
+
+  HUB_NAME_STATE_CHERSON_city_polish_cwp: "Mikołajów"
+  HUB_NAME_STATE_CHERSON_port_polish_cwp: "Odessa"
+  HUB_NAME_STATE_CHERSON_mine_polish_cwp: "Kropywnycki"
+  HUB_NAME_STATE_CHERSON_farm_polish_cwp: "Chersoń"
+  HUB_NAME_STATE_CHERSON_wood_polish_cwp: "Wozniesieńsk"
+
+  HUB_NAME_STATE_CHERSON_city_russian_cwp: "Mykolaiv"
+  HUB_NAME_STATE_CHERSON_port_russian_cwp: "Odessa"
+  HUB_NAME_STATE_CHERSON_mine_russian_cwp: "Kropyvnytskyi"
+  HUB_NAME_STATE_CHERSON_farm_russian_cwp: "Kherson"
+  HUB_NAME_STATE_CHERSON_wood_russian_cwp: "Voznesens'k"
+
+# Luhansk
+
+  HUB_NAME_STATE_LUHANSK_city_polish_cwp: "Charków"
+  HUB_NAME_STATE_LUHANSK_port_polish_cwp: "Mariupol"
+  HUB_NAME_STATE_LUHANSK_mine_polish_cwp: "Ługańsk"
+  HUB_NAME_STATE_LUHANSK_farm_polish_cwp: "Dniepr"
+  HUB_NAME_STATE_LUHANSK_wood_polish_cwp: "Zaporoże"
+
+  HUB_NAME_STATE_LUHANSK_city_russian_cwp: "Kharkov"
+  HUB_NAME_STATE_LUHANSK_port_russian_cwp: "Mariupol"
+  HUB_NAME_STATE_LUHANSK_mine_russian_cwp: "Lugansk"
+  HUB_NAME_STATE_LUHANSK_farm_russian_cwp: "Dnepr"
+  HUB_NAME_STATE_LUHANSK_wood_russian_cwp: "Zaporozhye"
+
+# Kyiv
+
+  HUB_NAME_STATE_KIEV_city_polish_cwp: "Kijów"
+  HUB_NAME_STATE_KIEV_mine_polish_cwp: "Żmerynka"
+  HUB_NAME_STATE_KIEV_farm_polish_cwp: "Sumy"
+  HUB_NAME_STATE_KIEV_wood_polish_cwp: "Żytomierz"
+
+  HUB_NAME_STATE_KIEV_city_russian_cwp: "Kiev"
+  HUB_NAME_STATE_KIEV_mine_russian_cwp: "Zhmerynka"
+  HUB_NAME_STATE_KIEV_farm_russian_cwp: "Sumy"
+  HUB_NAME_STATE_KIEV_wood_russian_cwp: "Zhitomir"
+
+# Alsace-Lorraine
+
+  HUB_NAME_STATE_ALSACE_LORRAINE_city_german_cwp: "Strassburg"
+  HUB_NAME_STATE_ALSACE_LORRAINE_mine_german_cwp: "Mülhausen"
+  HUB_NAME_STATE_ALSACE_LORRAINE_farm_german_cwp: "Metz"
+  HUB_NAME_STATE_ALSACE_LORRAINE_wood_german_cwp: "Hagenau"
