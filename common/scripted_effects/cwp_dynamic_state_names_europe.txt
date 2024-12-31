@@ -256,9 +256,7 @@ STATE_CHERSON_state_name_assign = {
 					cu:russian ?= this
                 }
 				NOT = {
-					any_primary_culture = {
-						cu:ukrainian ?= this
-					}
+					has_law = law_type:law_multicultural
 				}
             }
         }
@@ -292,9 +290,7 @@ STATE_LUHANSK_state_name_assign = {
 					cu:russian ?= this
                 }
 				NOT = {
-					any_primary_culture = {
-						cu:ukrainian ?= this
-					}
+					has_law = law_type:law_multicultural
 				}
             }
         }
@@ -328,9 +324,7 @@ STATE_KIEV_state_name_assign = {
 					cu:russian ?= this
                 }
 				NOT = {
-					any_primary_culture = {
-						cu:ukrainian ?= this
-					}
+					has_law = law_type:law_multicultural
 				}
             }
         }
