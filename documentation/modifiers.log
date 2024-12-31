@@ -759,15 +759,7 @@ Tag: building_synthetics_plant_throughput_add, Categories: building
 Tag: building_textile_manufactories_throughput_add, Categories: building
 Tag: building_tool_manufactories_throughput_add, Categories: building
 Tag: abolished_monarchy, Categories: none
-Tag: corruption_baseline, Categories: none
-Tag: country_corruption_add, Categories: country
-Tag: country_corruption_increase_add, Categories: country
-Tag: interest_group_corruption_growth, Categories: interest_group
-Tag: interest_group_corruption_decay, Categories: interest_group
-Tag: corruption_growth, Categories: none
-Tag: corruption_value_modifier, Categories: none
 Tag: country_subsidies_bg_financial_services, Categories: country
-Tag: interest_group_corruption_strength_mult, Categories: interest_group
 Tag: interest_group_ig_bureaucrats_approval_add, Categories: interest_group
 Tag: interest_group_ig_bureaucrats_pol_str_mult, Categories: interest_group
 Tag: interest_group_ig_bureaucrats_pop_attraction_mult, Categories: interest_group

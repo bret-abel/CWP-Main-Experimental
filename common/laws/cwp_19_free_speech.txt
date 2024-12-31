@@ -12,7 +12,6 @@ law_outlawed_dissent = {
 		country_tech_spread_mult = -0.15
 		political_movement_radicalism_mult = 0.25
 		political_movement_support_mult = -0.25
-		interest_group_corruption_growth = 0.25
 		country_leverage_resistance_mult = 0.5
 	}
 	ai_enact_weight_modifier = {
@@ -65,7 +64,6 @@ law_right_of_assembly = {
 		political_movement_radicalism_mult = -0.25
 		political_movement_support_mult = 0.25
 		country_agitator_slots_add = 2
-		interest_group_corruption_growth = -0.1
 	}
 	ai_enact_weight_modifier = {
 		#Petitions
@@ -89,7 +87,6 @@ law_protected_speech = {
 		political_movement_radicalism_mult = -0.5
 		political_movement_support_mult = 0.5
 		country_agitator_slots_add = 3
-		interest_group_corruption_growth = -0.25
 		country_leverage_resistance_mult = -0.25
 	}
 	ai_enact_weight_modifier = {

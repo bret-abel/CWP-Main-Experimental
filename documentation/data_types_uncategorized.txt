@@ -3100,18 +3100,6 @@ Return type: [unregistered]
 
 -----------------------
 
-concept_anti_corruption_resolution
-Definition type: Global function
-Return type: [unregistered]
-
------------------------
-
-concept_anti_corruption_resolution_desc
-Definition type: Global function
-Return type: [unregistered]
-
------------------------
-
 concept_apartheid_resolution
 Definition type: Global function
 Return type: [unregistered]
@@ -4127,30 +4115,6 @@ Return type: [unregistered]
 -----------------------
 
 concept_convoys_desc
-Definition type: Global function
-Return type: [unregistered]
-
------------------------
-
-concept_corruption
-Definition type: Global function
-Return type: [unregistered]
-
------------------------
-
-concept_corruption_baseline
-Definition type: Global function
-Return type: [unregistered]
-
------------------------
-
-concept_corruption_baseline_desc
-Definition type: Global function
-Return type: [unregistered]
-
------------------------
-
-concept_corruption_desc
 Definition type: Global function
 Return type: [unregistered]
 
@@ -5747,18 +5711,6 @@ Return type: [unregistered]
 -----------------------
 
 concept_ideology_worried_monetarist_desc
-Definition type: Global function
-Return type: [unregistered]
-
------------------------
-
-concept_ig_corruption
-Definition type: Global function
-Return type: [unregistered]
-
------------------------
-
-concept_ig_corruption_desc
 Definition type: Global function
 Return type: [unregistered]
 

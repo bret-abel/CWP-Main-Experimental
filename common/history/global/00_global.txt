@@ -398,13 +398,7 @@ GLOBAL = {
 			add = 1
 		}
 	}
-	## Corruption Variables
-	every_country = {
-		trigger_event = {
-			id = debug.100
-			days = 1
-		}
-	}
+	## Readiness
 	every_country = {
 		limit = {
 			not = {
