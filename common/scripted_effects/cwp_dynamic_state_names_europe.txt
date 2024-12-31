@@ -1,0 +1,222 @@
+﻿assign_state_name_region_eastern_europe = {}
+
+assign_state_name_region_central_europe = {}
+
+assign_state_name_region_western_europe = {}
+
+assign_state_name_region_balkans = {}
+
+assign_state_name_region_southern_europe = {}
+
+assign_state_name_region_baltic = {
+	if = {
+        limit = {
+            state_region = {
+                s:STATE_KRALOVEC ?= this
+            }
+        }
+        STATE_KRALOVEC_state_name_assign = yes
+    }
+}
+
+### EUROPE
+
+### Kaliningrad
+
+STATE_KRALOVEC_state_name_assign = {
+	if = {
+        limit = {
+            owner = {
+                any_primary_culture = {
+					cu:polish ?= this
+                }
+            }
+        }
+        set_state_name = STATE_KRALOVEC_polish
+        set_hub_names = polish
+    }
+	else_if = {
+        limit = {
+			owner = {
+				country_has_primary_culture = cu:north_german
+			}
+        }
+        set_state_name = STATE_KRALOVEC_german
+		set_hub_names = german
+    }
+	else_if = {
+		limit = {
+			owner = {
+				and = {
+					country_definition = {
+						any_primary_culture = {
+							shares_heritage_trait_with_any_primary_culture = c:RUS
+						}
+					}
+					NOT = {
+						any_primary_culture = {
+							cu:polish ?= this
+						}
+					}
+				}
+			}
+		}
+		
+		set_state_name = STATE_KRALOVEC_russian
+		reset_hub_names = yes # Hubs are Russian by default
+	}
+	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+		reset_state_name = yes
+		reset_hub_names = yes
+	}
+}
+
+### West Pomerania
+
+dyn_state_west_pomerania = {
+	type = state
+	text = {
+		trigger = {
+			owner = {
+				country_has_primary_culture = cu:north_german
+			}
+		}
+		localization_key = dyn_state_west_pomerania_ger
+	}
+	text = {
+		localization_key = dyn_state_west_pomerania
+		fallback = yes
+	}
+}
+
+### Pomerania-Masuria
+
+dyn_state_pomemasuria = {
+	type = state
+	text = {
+		trigger = {
+			owner = {
+				country_has_primary_culture = cu:north_german
+			}
+		}
+		localization_key = dyn_state_pomemasuria_ger
+	}
+	text = {
+		localization_key = dyn_state_pomemasuria
+		fallback = yes
+	}
+}
+
+### Cherson
+
+dyn_state_cherson = {
+	type = state
+	text = {
+		trigger = {
+			owner = {
+				country_has_primary_culture = cu:russian
+			}
+		}
+		localization_key = dyn_state_cherson_rus
+	}
+	text = {
+		trigger = {
+			owner = {
+				country_has_primary_culture = cu:polish
+			}
+		}
+		localization_key = dyn_state_cherson_pol
+	}
+	text = {
+		localization_key = dyn_state_cherson
+		fallback = yes
+	}
+}
+
+### Luhansk
+
+dyn_state_luhansk = {
+	type = state
+	text = {
+		trigger = {
+			owner = {
+				country_has_primary_culture = cu:russian
+			}
+		}
+		localization_key = dyn_state_luhansk_rus
+	}
+	text = {
+		trigger = {
+			owner = {
+				country_has_primary_culture = cu:polish
+			}
+		}
+		localization_key = dyn_state_luhansk_pol
+	}
+	text = {
+		localization_key = dyn_state_luhansk
+		fallback = yes
+	}
+}
+
+### Kyiv
+
+dyn_state_kiev = {
+	type = state
+	text = {
+		trigger = {
+			owner = {
+				country_has_primary_culture = cu:russian
+			}
+		}
+		localization_key = dyn_state_kiev_rus
+	}
+	text = {
+		trigger = {
+			owner = {
+				country_has_primary_culture = cu:polish
+			}
+		}
+		localization_key = dyn_state_kiev_pol
+	}
+	text = {
+		localization_key = dyn_state_kiev
+		fallback = yes
+	}
+}
+
+### Ulster
+
+dyn_state_ulster = {
+	type = state
+	text = {
+		trigger = {
+			owner = {
+				country_has_primary_culture = cu:irish
+			}
+		}
+		localization_key = dyn_state_ulster_ire
+	}
+	text = {
+		localization_key = dyn_state_ulster
+		fallback = yes
+	}
+}
+
+### Alsace-Lorraine
+
+dyn_state_alsace_lorraine = {
+	type = state
+	text = {
+		trigger = {
+			owner = {
+				country_has_primary_culture = cu:north_german
+			}
+		}
+		localization_key = dyn_state_alsace_lorraine_ger
+	}
+	text = {
+		localization_key = dyn_state_alsace_lorraine
+		fallback = yes
+	}
+}

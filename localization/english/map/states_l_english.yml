@@ -549,7 +549,7 @@
  STATE_ANHALT:0 "Saxony-Anhalt"
  STATE_WEST_POMERANIA:0 "West Pomerania"
  STATE_POMEMASURIA:0 "Pomerania-Masuria"
- STATE_KRALOVEC:0 "Kaliningrad"
+ STATE_KRALOVEC:0 "Kralovec"
  STATE_RHINELAND:0 "Rhineland-Palatinate"
  STATE_NORTH_RHINE:0 "North Rhine"
  STATE_SILESIA:0 "Silesia"
@@ -709,3 +709,12 @@
  STATE_OAXACA:0 "Oaxaca"
  STATE_SHENGJING:0 "Shengjing"
  STATE_JETISY:0 "Ili"
+
+
+
+
+### DYNAMIC STATE NAMES
+
+ STATE_KRALOVEC_polish:0 "Królewiec"
+ STATE_KRALOVEC_german:0 "Königsberg"
+ STATE_KRALOVEC_russian:0 "Kaliningrad"

@@ -3009,3 +3009,20 @@
   HUB_NAME_STATE_SAINT_HELENA_farm: "Helena"
   HUB_NAME_STATE_SAINT_HELENA_mine: "Helena"
   HUB_NAME_STATE_SAINT_HELENA_wood: "Helena"
+
+
+
+
+#### DYNAMIC HUB NAMES
+
+ HUB_NAME_STATE_KRALOVEC_city_polish: "Królewiec"
+ HUB_NAME_STATE_KRALOVEC_port_polish: "Ruszowice"
+ HUB_NAME_STATE_KRALOVEC_mine_polish: "Tylża"
+ HUB_NAME_STATE_KRALOVEC_farm_polish: "Gąbin"
+ HUB_NAME_STATE_KRALOVEC_wood_polish: "Wystruć"
+
+ HUB_NAME_STATE_KRALOVEC_city_german: "Königsberg"
+ HUB_NAME_STATE_KRALOVEC_port_german: "Rauschen"
+ HUB_NAME_STATE_KRALOVEC_mine_german: "Tilsit"
+ HUB_NAME_STATE_KRALOVEC_farm_german: "Gumbinnen"
+ HUB_NAME_STATE_KRALOVEC_wood_german: "Insterburg"
