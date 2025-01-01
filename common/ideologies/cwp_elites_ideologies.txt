@@ -101,7 +101,7 @@ ideology_republican = {
 }
 
 ideology_royalist = {
-	icon = "gfx/interface/icons/ideology_icons/unused/royalist.dds"
+	icon = "gfx/interface/icons/ideology_icons/royalist.dds"
 	lawgroup_head_of_government = {
 		law_executive = neutral
 		law_parliamentary = disapprove

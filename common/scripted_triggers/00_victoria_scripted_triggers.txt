@@ -177,7 +177,7 @@ ideology_jingoist_leader_valid_trigger = {
 	}
 }
 
-ideology_royalist_valid_trigger = {
+ideology_monarchist_valid_trigger = {
 	OR = {
 		is_interest_group_type = ig_moralists
 		is_interest_group_type = ig_ruralists
@@ -228,9 +228,6 @@ ideology_anarchist_valid_trigger = {
 
 ideology_ethno_nationalist_valid_trigger = {
 	trigger_if = {
-		limit = {
-			c:BIC ?= owner
-		}
 		NOR = {
 			is_interest_group_type = ig_laborists
 			is_interest_group_type = ig_ruralists
