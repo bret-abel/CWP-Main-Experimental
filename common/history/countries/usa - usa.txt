@@ -1,4 +1,4 @@
-COUNTRIES = {
+﻿COUNTRIES = {
 	c:USA = {
 		add_journal_entry = { type = west_german_unification }
 		add_journal_entry = { type = je_bretton_woods_agreement }
@@ -118,6 +118,11 @@ COUNTRIES = {
 		company:company_us_steel_corp = {
 			set_company_establishment_date = 1901.3.2
 			set_company_state_region = s:STATE_KEYSTONE
+		}
+		add_company = company_type:company_standard_oil
+		company:company_standard_oil = {
+			set_company_establishment_date = 1882.1.2
+			set_company_state_region = s:STATE_TEXAS
 		}
 	}
 }

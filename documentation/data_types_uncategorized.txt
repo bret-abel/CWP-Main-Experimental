@@ -5128,18 +5128,6 @@ Return type: [unregistered]
 
 -----------------------
 
-concept_government_ownership_share
-Definition type: Global function
-Return type: [unregistered]
-
------------------------
-
-concept_government_ownership_share_desc
-Definition type: Global function
-Return type: [unregistered]
-
------------------------
-
 concept_government_reform
 Definition type: Global function
 Return type: [unregistered]

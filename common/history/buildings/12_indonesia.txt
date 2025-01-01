@@ -2597,7 +2597,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = "c:USA"
-						levels = 1
+						levels = 3
 					}
 				}
 				reserves = 1
@@ -2608,16 +2608,30 @@ BUILDINGS = {
 			create_building = {
 				building = "building_strategic_airbase"
 				add_ownership = {
-					building = {
-						type = "building_strategic_airbase"
+					country = {
 						country = "c:USA"
-						levels = 1
-						region = "STATE_MICRONESIA"
+						levels=1
+					}
+				}
+				subsidized = yes
+				reserves = 1
+				activate_production_methods = {
+					"pm_reinforced_strategic_airbase"
+				}
+			}
+			create_building = {
+				building = "building_banana_plantation"
+				add_ownership = {
+					country = {
+						country = "c:USA"
+						levels=18
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
-					"pm_reinforced_strategic_airbase"
+					"pm_default_building_banana_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
 				}
 			}
 		}

@@ -1033,6 +1033,38 @@ BUILDINGS = {
 					"pm_basic_port"
 				}
 			}
+			create_building = {
+				building = "building_banana_plantation"
+				add_ownership = {
+					country = {
+						country = "c:USA"
+						levels = 15
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_default_building_banana_plantation"
+					"pm_manual_harvesting_plantation"
+					"pm_no_transport_plantation"
+				}
+			}
+			create_building = {
+				building = "building_copper_mine"
+				add_ownership = {
+					building = {
+						type = "building_financial_district"
+						country = "c:USA"
+						levels = 8
+						region = "STATE_LOUISIANA"
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_heavy_equipment_extraction_copper"
+					"pm_power_tools_copper"
+					"pm_hauling_trucks"
+				}
+			}
 		}
 	}
 	s:STATE_BAHAMAS = {

@@ -177,7 +177,7 @@
  CONSUMPTION_TAXES_GOODS_ENTRY:0 "[GOODS.GetName]による#variable [GetPlayer.MakeScope.Var('cwp_currency').GetFlagName]$VAL|K+$#!"
  DIVIDENDS_TAXES_BREAKDOWN:0 "#tooltip_header 利益配当税#!\n合計 : #v [GetPlayer.MakeScope.Var('cwp_currency').GetFlagName][GetPlayer.PredictDividendsTaxes|K+=]#!\n$TOOLTIP_DELIMITER$\n[GetPlayer.PredictDividendsTaxesDesc]"
  DIVIDENDS_TAX_FROM_BUILDING_DETAIL:0 "#N #variable [GetPlayer.MakeScope.Var('cwp_currency').GetFlagName]$VAL|D+$#!#! : [BuildingType.GetName]"
- GOVERNMENT_SHARES_FROM_BUILDING_DETAIL:0 "#N #variable [GetPlayer.MakeScope.Var('cwp_currency').GetFlagName]$VAL|D+$#!#! : [BuildingType.GetName]の[Concept('concept_government_ownership_share','$concept_government_ownership_shares$')]"
+ GOVERNMENT_SHARES_FROM_BUILDING_DETAIL:0 "[concept_nationally_owned][BuildingType.GetName]による#N #variable [GetPlayer.MakeScope.Var('cwp_currency').GetFlagName]$VAL|D+$#!#!"
  IMPORT_TARIFFS_FROM_GOODS_DETAIL:0 "#N #variable [GetPlayer.MakeScope.Var('cwp_currency').GetFlagName]$VAL|D+$#!#! : [Goods.GetName]の輸入"
  EXPORT_TARIFFS_FROM_GOODS_DETAIL:0 "#N #variable [GetPlayer.MakeScope.Var('cwp_currency').GetFlagName]$VAL|D+$#!#! : [Goods.GetName]の輸出"
  TARIFFS_BREAKDOWN:0 "#tooltip_header [concept_tariffs]#!\n合計 : #v [GetPlayer.MakeScope.Var('cwp_currency').GetFlagName][GetPlayer.PredictTariffs|K+=]#!\n$TOOLTIP_DELIMITER$\n[GetPlayer.PredictTariffsDesc]"
