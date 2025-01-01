@@ -5,7 +5,8 @@ company_international_business_machines = {
 	
 	flavored_company = yes
 	
-	building_types = {  
+	building_types = {
+		building_skyscraper
 		building_computer_manufactories
 		building_electronics_manufactories
 	}
@@ -50,7 +51,7 @@ company_boeing = {
 	
 	flavored_company = yes
 	
-	building_types = {  
+	building_types = {
 		building_aircraft_manufactories
 		building_motor_industry
 	}
@@ -96,7 +97,7 @@ company_walt_disney_productions = {
 	
 	flavored_company = yes
 	
-	building_types = {  
+	building_types = {
 		building_media_industry
 	}
 	
@@ -139,7 +140,8 @@ company_general_motors = {
 	
 	flavored_company = yes
 	
-	building_types = {  
+	building_types = {
+		building_railway
 		building_automobile_manufactories
 		building_motor_industry
 	}
@@ -184,7 +186,8 @@ company_ford_motor = {
 	
 	flavored_company = yes
 	
-	building_types = {  
+	building_types = {
+		building_railway
 		building_automobile_manufactories
 		building_motor_industry
 	}
@@ -229,7 +232,8 @@ company_chrysler = {
 	
 	flavored_company = yes
 	
-	building_types = {  
+	building_types = {
+		building_railway
 		building_automobile_manufactories
 		building_motor_industry
 	}
@@ -274,7 +278,8 @@ company_us_steel_corp = {
 	
 	flavored_company = yes
 	
-	building_types = {  
+	building_types = {
+		building_railway
 		building_steelworks
 		building_iron_mine
 		building_coal_mine
@@ -320,7 +325,8 @@ company_standard_oil = {
 	
 	flavored_company = yes
 	
-	building_types = {  
+	building_types = {
+		building_railway
 		building_oil_rig
 		building_fuel_refineries
 	}
