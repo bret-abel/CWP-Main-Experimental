@@ -835,7 +835,7 @@ types topbar_components
 		datacontext = "[GetPlayer]"
 		using = clickthrough_blocker
 		size = { 57 57 }
-		position = { -4 78 }
+		position = { -4 85 }
 
 		onclick = "[MapListPanelManager.OpenCurrentPanel]"
 		onclick = "[SetTempMapModeByKey('mm_default')]"
