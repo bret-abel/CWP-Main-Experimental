@@ -1,31 +1,67 @@
 ﻿ideology_moderate = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_no_ideology.dds"
-	character_ideology = yes
+	
 	show_in_list = no
-	possible = {
-		always = yes
+	
+	character_ideology = yes
+	
+	non_interest_group_leader_trigger = {
+		NOT = { has_role = agitator }
 	}
-	leader_weight = {
-		value = 300
-		# angry IG's more likely to have opinions
+	
+	interest_group_leader_weight = {
+		value = 50 # moderates are boring
+		
+		# angry IG's more likely to have ideological firebrands
 		if = {
 			limit = {
-				scope:interest_group = {
-					ig_approval < -5
-				}
+				ig_approval < -5
 			}
-			add = -150
+			add = -25
 		}
+		
 		# what makes a man turn neutral? lust for gold? power? or were you just born with a heart full of neutrality?
 		if = {
 			limit = {
-				scope:interest_group = {
-					ig_approval = 0
+				ig_approval > 5
+			}
+			add = 25
+		}
+		if = {
+			limit = {
+				OR = {
+					has_variable = communist_ig_var
+					has_variable = chose_vanguardism
+					has_variable = chose_anarchism
+					has_variable = chose_communism
+					has_variable = chose_ethno_nationalism
+					has_variable = chose_conservatism
+					has_variable = chose_fascism
 				}
 			}
-			add = 1
+			multiply = 0.1
 		}
 	}
+	
+	non_interest_group_leader_weight = {
+		value = 100
+		if = {
+			limit = {
+				interest_group = {
+					OR = {
+						has_variable = communist_ig_var
+						has_variable = chose_vanguardism
+						has_variable = chose_anarchism
+						has_variable = chose_communism
+						has_variable = chose_ethno_nationalism
+						has_variable = chose_conservatism
+						has_variable = chose_fascism
+					}
+				}
+			}
+			multiply = 0.1
+		}
+	}	
 }
 
 ideology_monarchist = {
@@ -95,7 +131,9 @@ ideology_monarchist = {
 
 ideology_atheist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_atheist.dds"
+	
 	character_ideology = yes
+	
 	lawgroup_head_of_government = {
 		law_council_elective = neutral
 		law_executive = neutral
@@ -104,6 +142,7 @@ ideology_atheist = {
 		law_hereditary = neutral
 		law_administrative = disapprove
 	}
+
 	lawgroup_church_and_state = {
 		law_state_atheism = strongly_approve
 		law_church_disestablishment = approve
@@ -111,40 +150,120 @@ ideology_atheist = {
 		law_religious_institutions = disapprove
 		law_religious_nationalism = strongly_disapprove
 	}
-	possible = {
-		scope:interest_group = {
-			or = {
-				is_interest_group_type = ig_intelligentsia
-				is_interest_group_type = ig_urbanists
-				is_interest_group_type = ig_bureaucrats
+
+	interest_group_leader_trigger = {
+		ideology_atheist_valid_trigger = yes
+	}
+	
+	non_interest_group_leader_trigger = {
+		# Agitators should have an ideology at odds with current laws
+		NAND = {
+			has_role = agitator
+			owner = {
+				OR = {
+					has_law = law_type:law_executive
+					has_law = law_type:law_parliamentary
+					has_law = law_type:law_council_elective
+				}
+				has_law = law_type:law_state_atheism
 			}
+		}
+		
+		# Monarchs cannot be republicans
+		NAND = {
+			owner = {
+				has_law = law_type:law_hereditary
+			}
+			OR = {
+				is_ruler = yes
+				is_heir = yes
+			}
+		}
+		interest_group = {
+			ideology_atheist_valid_trigger = yes
 		}
 	}
-	leader_weight = {
-		value = 10
+	
+	interest_group_leader_weight = {
+		value = 100
+		
+		# this is not very relevant if you're a republic with religious freedom
+		if = { 
+			limit = {
+				owner = {
+					NOR = {
+						has_law = law_type:law_state_atheism
+						has_law = law_type:law_church_disestablishment
+						has_law = law_type:law_religious_policies
+						has_law = law_type:law_hereditary
+					}
+				}
+			}
+			add = -75
+		}
+		
+		# will emerge to counter a powerful Devout IG
 		if = {
 			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_intelligentsia
+				owner = {
+					exists = ig:ig_moralists
+					ig:ig_moralists = {
+						is_powerful = yes
+					}
 				}
 			}
-			add = 20
+			add = 75
 		}
-		else_if = {
+
+		if = {
 			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_urbanists
+				OR = {
+					has_variable = communist_ig_var
+					has_variable = chose_vanguardism
+					has_variable = chose_anarchism
+					has_variable = chose_communism
+					has_variable = chose_ethno_nationalism
+					has_variable = chose_conservatism
+					has_variable = chose_fascism
 				}
 			}
-			add = 10
+			multiply = 0.1
+		}	
+	}
+	
+	non_interest_group_leader_weight = {
+		value = 100
+		
+		# this is not very relevant if you're a republic with religious freedom
+		if = { 
+			limit = {
+				owner = {
+					NOR = {
+						has_law = law_type:law_state_atheism
+						has_law = law_type:law_church_disestablishment
+						has_law = law_type:law_religious_policies
+						has_law = law_type:law_hereditary
+					}
+				}
+			}
+			add = -75
 		}
-		else_if = {
+
+		if = {
 			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_bureaucrats
+				interest_group = {
+					OR = {
+						has_variable = communist_ig_var
+						has_variable = chose_vanguardism
+						has_variable = chose_anarchism
+						has_variable = chose_communism
+						has_variable = chose_ethno_nationalism
+						has_variable = chose_conservatism
+						has_variable = chose_fascism
+					}
 				}
 			}
-			add = 50
+			multiply = 0.1
 		}
 	}
 }
@@ -666,13 +785,16 @@ ideology_environmentalist = {
 
 ideology_pacifist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_pacifist.dds"
+	
 	character_ideology = yes
+
 	lawgroup_wmds = {
 		law_first_strike = strongly_disapprove
 		law_deterrence = disapprove
 		law_civilian_applications = strongly_approve
 		law_no_wmds = strongly_approve
 	}
+
 	lawgroup_national_defense = {
 		law_disarmed_nation = strongly_approve
 		law_irregular_military = neutral
@@ -681,50 +803,119 @@ ideology_pacifist = {
 		law_professional_military = strongly_disapprove
 		law_volunteer_only_military = strongly_disapprove
 	}
-	possible = {
-		scope:interest_group = {
-			or = {
-				is_interest_group_type = ig_intelligentsia
-				is_interest_group_type = ig_urbanists
-				is_interest_group_type = ig_laborists
-				is_interest_group_type = ig_ruralists
-				is_interest_group_type = ig_moralists
+
+	interest_group_leader_trigger = {
+		ideology_pacifist_valid_trigger = yes
+	}
+	
+	non_interest_group_leader_trigger = {
+		# Agitators should have an ideology at odds with current laws
+		NAND = {
+			has_role = agitator
+			owner = {
+				OR = {
+					has_law = law_type:law_reserve_military
+					has_law = law_type:law_irregular_military
+					has_law = law_type:law_reserve_military
+				}
+				
 			}
+		}
+		interest_group = {
+			ideology_pacifist_valid_trigger = yes
 		}
 	}
-	leader_weight = {
-		value = 10
+	
+	interest_group_leader_weight = {
+		value = 100
+		# emerges to counter powerful armed forces
 		if = {
 			limit = {
-				scope:interest_group = {
-					or = {
-						is_interest_group_type = ig_intelligentsia
-						is_interest_group_type = ig_urbanists
+				owner = {
+					exists = ig:ig_securocrats
+					ig:ig_securocrats = {
+						is_powerful = yes
 					}
-				}
-			}
-			add = 20
-		}
-		else_if = {
-			limit = {
-				scope:interest_group = {
-					or = {
-						is_interest_group_type = ig_laborists
-						is_interest_group_type = ig_ruralists
-					}
-				}
-			}
-			add = 10
-		}
-		else_if = {
-			limit = {
-				scope:interest_group = {
-					is_interest_group_type = ig_moralists
 				}
 			}
 			add = 50
 		}
+		# less likely if issues are not relevant
+		if = {
+			limit = {
+				owner = {
+					NOR = {
+						has_law = law_type:law_private_military
+						has_law = law_type:law_volunteer_only_military
+						has_law = law_type:law_professional_military
+					}
+				}
+			}
+			add = -75
+		}
+		# more likely if a war you started isn't going well
+		if = {
+			limit = {
+				owner = {
+					is_at_war = yes
+					any_scope_war = {
+						attacker_warleader = { this = ROOT.owner }
+						has_war_support = {
+							target = root.owner
+							value < 0
+						}
+					}
+				}
+			}
+			add = 100
+		}
+		# more likely with devastation in incorporated states
+		if = {
+			limit = {
+				owner = {
+					any_scope_state = {
+						is_incorporated = yes
+						devastation > 0.2
+					}
+				}
+			}
+			add = 50
+		}
+		if = {
+			limit = {
+				OR = {
+					has_variable = communist_ig_var
+					has_variable = chose_vanguardism
+					has_variable = chose_anarchism
+					has_variable = chose_communism
+					has_variable = chose_ethno_nationalism
+					has_variable = chose_conservatism
+					has_variable = chose_fascism
+				}
+			}
+			multiply = 0.1
+		}
 	}
+	
+	non_interest_group_leader_weight = {
+		value = 100
+		if = {
+			limit = {
+				interest_group = {
+					OR = {
+						has_variable = communist_ig_var
+						has_variable = chose_vanguardism
+						has_variable = chose_anarchism
+						has_variable = chose_communism
+						has_variable = chose_ethno_nationalism
+						has_variable = chose_conservatism
+						has_variable = chose_fascism
+					}
+				}
+			}
+			multiply = 0.1
+		}
+	}		
 }
 
 ideology_abolitionist = {
