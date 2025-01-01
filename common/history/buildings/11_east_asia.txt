@@ -1470,6 +1470,19 @@ BUILDINGS = {
 					"pm_powered_assembly_lines_industry"
 				}
 			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:RUS"
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
+				}
+			}
 		}
 	}
 	s:STATE_OUTER_MANCHURIA = {
@@ -1644,6 +1657,19 @@ BUILDINGS = {
 					"pm_electric_saw_mills"
 					"pm_no_equipment"
 					"pm_manual_transportation"
+				}
+			}
+			create_building = {
+				building = "building_port"
+				add_ownership = {
+					country = {
+						country = "c:RUS"
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_anchorage"
 				}
 			}
 		}

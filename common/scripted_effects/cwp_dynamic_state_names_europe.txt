@@ -74,6 +74,14 @@ assign_state_name_region_central_europe = {
         }
         STATE_ALSACE_LORRAINE_state_name_assign = yes
     }
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_SAXONY ?= this
+            }
+        }
+        STATE_SAXONY_state_name_assign = yes
+    }
 }
 
 assign_state_name_region_western_europe = {
@@ -87,7 +95,16 @@ assign_state_name_region_western_europe = {
     }
 }
 
-assign_state_name_region_balkans = {}
+assign_state_name_region_balkans = {
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_EASTERN_THRACE ?= this
+            }
+        }
+        STATE_EASTERN_THRACE_state_name_assign = yes
+    }
+}
 
 assign_state_name_region_southern_europe = {}
 
@@ -103,6 +120,90 @@ assign_state_name_region_baltic = {
 }
 
 ### EUROPE
+
+### Eastern Thrace
+STATE_EASTERN_THRACE_state_name_assign = {
+    if = { # Greek
+        limit = {
+            owner = {
+                any_primary_culture = {
+					cu:greek ?= this
+                }
+            }
+        }
+        
+        set_state_name = STATE_EASTERN_THRACE_greek_cwp
+        set_hub_names = greek_cwp
+    }
+    else_if = { # Imperial Russia (Autocratic Empire)
+        limit = {
+            owner = {
+                any_primary_culture = {
+                    cu:russian ?= this
+                }
+                has_law = law_type:law_hereditary
+                country_has_voting_franchise = no
+            }
+        }
+        
+        set_state_name = STATE_EASTERN_THRACE_russian_cwp
+        
+        set_hub_name = {
+            type = city
+            name = HUB_NAME_STATE_EASTERN_THRACE_city_russian_tsargrad_cwp # Tsargrad
+        }
+        
+        set_hub_name = {
+            type = farm
+            name = HUB_NAME_STATE_EASTERN_THRACE_farm_russian_cwp
+        }
+        
+        set_hub_name = {
+            type = wood
+            name = HUB_NAME_STATE_EASTERN_THRACE_wood_russian_cwp
+        }
+
+        set_hub_name = {
+            type = mine
+            name = HUB_NAME_STATE_EASTERN_THRACE_mine_russian_cwp
+        }
+
+        set_hub_name = {
+            type = port
+            name = HUB_NAME_STATE_EASTERN_THRACE_port_russian_cwp
+        }
+    }
+    else_if = { # Imperial Russia
+        limit = {
+            owner = {
+                any_primary_culture = {
+                    cu:russian ?= this
+                }
+                NOT = { 
+                    has_law = law_type:law_hereditary
+                    has_law = law_type:law_socialization
+                }
+            }
+        }
+        
+        set_state_name = STATE_EASTERN_THRACE_russian_cwp
+        set_hub_names = russian_cwp
+    }
+    else_if = { # Ottoman
+        limit = {
+            owner = {
+                coa_def_monarchy_flag_trigger = yes
+            }
+        }
+        
+        set_state_name = STATE_EASTERN_THRACE_ottoman_cwp
+        set_hub_names = ottoman_cwp
+    }
+    else = {
+        reset_state_name = yes
+        reset_hub_names = yes
+    }
+}
 
 ### Kaliningrad
 
@@ -156,7 +257,7 @@ STATE_WEST_POMERANIA_state_name_assign = {
         set_state_name = STATE_WEST_POMERANIA_german_cwp
 		set_hub_names = german_cwp
     }
-	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+	else = {
 		reset_state_name = yes
 		reset_hub_names = yes
 	}
@@ -174,7 +275,7 @@ STATE_POMEMASURIA_state_name_assign = {
         set_state_name = STATE_POMEMASURIA_german_cwp
 		set_hub_names = german_cwp
     }
-	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+	else = {
 		reset_state_name = yes
 		reset_hub_names = yes
 	}
@@ -192,7 +293,7 @@ STATE_GREATER_POLAND_state_name_assign = {
         set_state_name = STATE_GREATER_POLAND_german_cwp
 		set_hub_names = german_cwp
     }
-	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+	else = {
 		reset_state_name = yes
 		reset_hub_names = yes
 	}
@@ -210,7 +311,7 @@ STATE_SILESIA_state_name_assign = {
         set_state_name = STATE_SILESIA_german_cwp
 		set_hub_names = german_cwp
     }
-	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+	else = {
 		reset_state_name = yes
 		reset_hub_names = yes
 	}
@@ -228,7 +329,7 @@ STATE_KRAKOW_state_name_assign = {
         set_state_name = STATE_KRAKOW_german_cwp
 		set_hub_names = german_cwp
     }
-	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+	else = {
 		reset_state_name = yes
 		reset_hub_names = yes
 	}
@@ -263,7 +364,7 @@ STATE_CHERSON_state_name_assign = {
     	set_state_name = STATE_CHERSON_russian_cwp
 		set_hub_names = russian_cwp
     }
-	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+	else = {
 		reset_state_name = yes
 		reset_hub_names = yes
 	}
@@ -297,7 +398,7 @@ STATE_LUHANSK_state_name_assign = {
         set_state_name = STATE_LUHANSK_russian_cwp
 		set_hub_names = russian_cwp
     }
-	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+	else = {
 		reset_state_name = yes
 		reset_hub_names = yes
 	}
@@ -331,7 +432,7 @@ STATE_KIEV_state_name_assign = {
         set_state_name = STATE_KIEV_russian_cwp
 		set_hub_names = russian_cwp
     }
-	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+	else = {
 		reset_state_name = yes
 		reset_hub_names = yes
 	}
@@ -350,7 +451,7 @@ STATE_ULSTER_state_name_assign = {
         }
         set_state_name = STATE_ULSTER_irish
     }
-	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+	else = {
 		reset_state_name = yes
 		reset_hub_names = yes
 	}
@@ -368,7 +469,30 @@ STATE_ALSACE_LORRAINE_state_name_assign = {
         set_state_name = STATE_ALSACE_LORRAINE_german_cwp
 		set_hub_names = german_cwp
     }
-	else = { # By putting an else at the end that resets the names we ensure that the names are switched back to their defaults if anyone else takes the states
+	else = {
+		reset_state_name = yes
+		reset_hub_names = yes
+	}
+}
+
+### Chemnitz
+
+STATE_SAXONY_state_name_assign = {
+	if = {
+        limit = {
+            owner = {
+                OR = {
+                    has_law = law_type:law_socialization
+                    has_law = law_type:law_council_elective
+                }
+			}
+        }
+		set_hub_name = {
+            type = wood
+            name = HUB_NAME_STATE_SAXONY_wood_communist
+        }
+    }
+	else = {
 		reset_state_name = yes
 		reset_hub_names = yes
 	}

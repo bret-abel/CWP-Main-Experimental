@@ -32,7 +32,7 @@ assign_state_hub_dynamic_names = {
         }
         assign_state_name_region_southern_europe = yes
     }
-    if = { # Baltic/Scandinavia region
+    if = { # Baltic/Scandinavia Region
     	limit = {
     		region = sr:region_baltic
     	}
@@ -74,25 +74,25 @@ assign_state_hub_dynamic_names = {
 
 	### Asia
 
-	#if = { # Anatolia Region
-    #    limit = {
-    #    	region = sr:region_anatolia
-    #    }
-    #    assign_state_name_region_anatolia = yes
-    #}
-    #if = { # Japan Region
-    #    limit = {
-    #    	region = sr:region_japan
-    #    }
-    #	assign_state_name_region_japan = yes
-    #}
+	if = { # Asia Minor Region
+        limit = {
+        	region = sr:region_asia_minor
+        }
+        assign_state_name_region_asia_minor = yes
+    }
+    if = { # East Asia Region
+        limit = {
+        	region = sr:region_east_asia
+        }
+    	assign_state_name_region_east_asia = yes
+    }
     #if = { # Indonesia Region
     #    limit = {
     #    	region = sr:region_indonesia
     #    }
     #	assign_state_name_region_indonesia = yes
     #}
-    if = { # Manchuria Region
+    if = { # China Region
         limit = {
         	region = sr:region_china
         }

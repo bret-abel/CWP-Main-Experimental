@@ -271,7 +271,7 @@
   HUB_NAME_STATE_SAXONY_city: "Dresden"
   HUB_NAME_STATE_SAXONY_mine: "Leipzig"
   HUB_NAME_STATE_SAXONY_farm: "Zwickau"
-  HUB_NAME_STATE_SAXONY_wood: "Karl-Marx-Stadt"
+  HUB_NAME_STATE_SAXONY_wood: "Chemnitz"
   HUB_NAME_STATE_FRANCONIA_city: "Nuremberg"
   HUB_NAME_STATE_FRANCONIA_mine: "Ansbach"
   HUB_NAME_STATE_FRANCONIA_farm: "Bamberg"
@@ -1080,11 +1080,11 @@
   HUB_NAME_STATE_KAMCHATKA_mine: "Mil'kovo"
   HUB_NAME_STATE_KAMCHATKA_farm: "Yelizovo"
   HUB_NAME_STATE_KAMCHATKA_wood: "Klyachi"
-  HUB_NAME_STATE_SAKHALIN_city: "Yuzno-Sakhalinsk"
+  HUB_NAME_STATE_SAKHALIN_city: "Vladimirovka"
   HUB_NAME_STATE_SAKHALIN_port: "Korsakov"
-  HUB_NAME_STATE_SAKHALIN_mine: "Smirnykh"
+  HUB_NAME_STATE_SAKHALIN_mine: "Tikhmenevsky"
   HUB_NAME_STATE_SAKHALIN_farm: "Okha"
-  HUB_NAME_STATE_SAKHALIN_wood: "Nogliki"
+  HUB_NAME_STATE_SAKHALIN_wood: "Alexandrovsky"
 
   #Japan
   HUB_NAME_STATE_HOKKAIDO_city: "Sapporo"
@@ -1167,11 +1167,11 @@
   HUB_NAME_STATE_SOUTHERN_MANCHURIA_mine: "Liaoyuan"
   HUB_NAME_STATE_SOUTHERN_MANCHURIA_farm: "Tonghua"
   HUB_NAME_STATE_SOUTHERN_MANCHURIA_wood: "Hunchun"
-  HUB_NAME_STATE_OUTER_MANCHURIA_city: "Khabarovsk"
-  HUB_NAME_STATE_OUTER_MANCHURIA_port: "Vladivostok"
-  HUB_NAME_STATE_OUTER_MANCHURIA_mine: "Belogorsk"
-  HUB_NAME_STATE_OUTER_MANCHURIA_farm: "Khodzho"
-  HUB_NAME_STATE_OUTER_MANCHURIA_wood: "Fevralsk"
+  HUB_NAME_STATE_OUTER_MANCHURIA_city: "Boli"
+  HUB_NAME_STATE_OUTER_MANCHURIA_port: "Hǎishēnwǎi"
+  HUB_NAME_STATE_OUTER_MANCHURIA_mine: "Báishān"
+  HUB_NAME_STATE_OUTER_MANCHURIA_farm: "Huòqiáo"
+  HUB_NAME_STATE_OUTER_MANCHURIA_wood: "Fèifūlálìsīkè"
   HUB_NAME_STATE_NORTHERN_MANCHURIA_city: "Qiqihar"
   HUB_NAME_STATE_NORTHERN_MANCHURIA_mine: "Nenjiang"
   HUB_NAME_STATE_NORTHERN_MANCHURIA_farm: "Harbin"
@@ -3112,3 +3112,87 @@
   HUB_NAME_STATE_ALSACE_LORRAINE_mine_german_cwp: "Mülhausen"
   HUB_NAME_STATE_ALSACE_LORRAINE_farm_german_cwp: "Metz"
   HUB_NAME_STATE_ALSACE_LORRAINE_wood_german_cwp: "Hagenau"
+
+# Saxony
+
+  HUB_NAME_STATE_SAXONY_wood_communist: "Karl-Marx-Stadt"
+
+ # East Aegean Islands
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_city_greek_cwp: "Chíos"
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_port_greek_cwp: "Ródos"
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_farm_greek_cwp: "Mytilēnē"
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_wood_greek_cwp: "Vathý"
+
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_city_ottoman_cwp: "Sakız"
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_port_ottoman_cwp: "Rodos"
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_farm_ottoman_cwp: "Midilli"
+ HUB_NAME_STATE_EAST_AEGEAN_ISLANDS_wood_ottoman_cwp: "Sisam"
+
+# Eastern Thrace
+
+ HUB_NAME_STATE_EASTERN_THRACE_city_greek_cwp: "Kōnstantinoúpolis"
+ HUB_NAME_STATE_EASTERN_THRACE_port_greek_cwp: "Kallípolis"
+ HUB_NAME_STATE_EASTERN_THRACE_mine_greek_cwp: "Saránta Ekklēsíai"
+ HUB_NAME_STATE_EASTERN_THRACE_farm_greek_cwp: "Adrianópolis"
+ HUB_NAME_STATE_EASTERN_THRACE_wood_greek_cwp: "Médeia"
+
+ HUB_NAME_STATE_EASTERN_THRACE_city_ottoman_cwp: "Kostantiniyye"
+ HUB_NAME_STATE_EASTERN_THRACE_port_ottoman_cwp: "Gelibolu"
+ HUB_NAME_STATE_EASTERN_THRACE_mine_ottoman_cwp: "Kırk Kilise"
+ HUB_NAME_STATE_EASTERN_THRACE_farm_ottoman_cwp: "Edirne"
+ HUB_NAME_STATE_EASTERN_THRACE_wood_ottoman_cwp: "Midye"
+
+ HUB_NAME_STATE_EASTERN_THRACE_city_russian_cwp: "Konstantinopol"
+ HUB_NAME_STATE_EASTERN_THRACE_port_russian_cwp: "Gallipoli"
+ HUB_NAME_STATE_EASTERN_THRACE_mine_russian_cwp: "Kyrkkilise"
+ HUB_NAME_STATE_EASTERN_THRACE_farm_russian_cwp: "Adrianopol"
+ HUB_NAME_STATE_EASTERN_THRACE_wood_russian_cwp: "Midia"
+ HUB_NAME_STATE_EASTERN_THRACE_city_russian_tsargrad_cwp: "Tsargrad"
+
+# Cyprus
+
+ HUB_NAME_STATE_CYPRUS_city_greek_cwp: "Lefkosía"
+ HUB_NAME_STATE_CYPRUS_port_greek_cwp: "Lárnaka"
+ HUB_NAME_STATE_CYPRUS_farm_greek_cwp: "Lefka"
+ HUB_NAME_STATE_CYPRUS_wood_greek_cwp: "Lemesós"
+
+ HUB_NAME_STATE_CYPRUS_city_turkish_cwp: "Lefkoşa"
+ HUB_NAME_STATE_CYPRUS_port_turkish_cwp: "Larnaka"
+ HUB_NAME_STATE_CYPRUS_farm_turkish_cwp: "Lefke"
+ HUB_NAME_STATE_CYPRUS_wood_turkish_cwp: "Limasol"
+
+# Shengjing
+
+  HUB_NAME_STATE_SHENGJING_city_russian_cwp: "Mukden"
+  HUB_NAME_STATE_SHENGJING_port_russian_cwp: "Dalniy"
+  HUB_NAME_STATE_SHENGJING_mine_russian_cwp: "Telin"
+  HUB_NAME_STATE_SHENGJING_farm_russian_cwp: "Jin'syan"
+  HUB_NAME_STATE_SHENGJING_wood_russian_cwp: "An'shan"
+
+  HUB_NAME_STATE_SHENGJING_city_japanese_cwp: "Hōten"
+  HUB_NAME_STATE_SHENGJING_port_japanese_cwp: "Dairen"
+  HUB_NAME_STATE_SHENGJING_mine_japanese_cwp: "Tetsurei"
+  HUB_NAME_STATE_SHENGJING_farm_japanese_cwp: "Kin-ken"
+  HUB_NAME_STATE_SHENGJING_wood_japanese_cwp: "Anzan"
+
+# Outer Manchuria
+
+ HUB_NAME_STATE_OUTER_MANCHURIA_city_russian_cwp: "Khabarovka"
+ HUB_NAME_STATE_OUTER_MANCHURIA_port_russian_cwp: "Vladivostok"
+ HUB_NAME_STATE_OUTER_MANCHURIA_mine_russian_cwp: "Belogorsk"
+ HUB_NAME_STATE_OUTER_MANCHURIA_farm_russian_cwp: "Khodzho"
+ HUB_NAME_STATE_OUTER_MANCHURIA_wood_russian_cwp: "Fevralsk"
+
+ HUB_NAME_STATE_OUTER_MANCHURIA_city_japanese_cwp: "Habarofuka"
+ HUB_NAME_STATE_OUTER_MANCHURIA_port_japanese_cwp: "Urajio"
+ HUB_NAME_STATE_OUTER_MANCHURIA_mine_japanese_cwp: "Berogorusuku"
+ HUB_NAME_STATE_OUTER_MANCHURIA_farm_japanese_cwp: "Hojo"
+ HUB_NAME_STATE_OUTER_MANCHURIA_wood_japanese_cwp: "Feburarisuku"
+
+# Sakhalin
+
+ HUB_NAME_STATE_SAKHALIN_city_japanese_cwp: "Toyohara"
+ HUB_NAME_STATE_SAKHALIN_port_japanese_cwp: "Otomari"
+ HUB_NAME_STATE_SAKHALIN_mine_japanese_cwp: "Shisuka"
+ HUB_NAME_STATE_SAKHALIN_farm_japanese_cwp: "Okutan"
+ HUB_NAME_STATE_SAKHALIN_wood_japanese_cwp: "Ako"
