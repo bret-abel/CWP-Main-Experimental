@@ -53,6 +53,12 @@
 			SCOPE:korean_unifier = {
 				join_power_bloc = c:USA
 			}
+			c:USA = {
+				create_diplomatic_pact = {
+					country = SCOPE:korean_unifier
+					type = foreign_investment_rights
+				}
+			}
 		}
 	}
 	else_if = {
@@ -67,6 +73,12 @@
 			text = korea_aligns_east
 			SCOPE:korean_unifier = {
 				join_power_bloc = c:RUS
+			}
+			c:RUS = {
+				create_diplomatic_pact = {
+					country = SCOPE:korean_unifier
+					type = foreign_investment_rights
+				}
 			}
 		}
 	}
