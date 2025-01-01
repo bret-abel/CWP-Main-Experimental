@@ -355,7 +355,7 @@ types topbar_components
 			using = hud_visibility
 			datacontext = "[AccessMetaPlayer.AccessPlayedOrObservedCountry]"
 			using = clickthrough_blocker
-			size = { 780 100 }
+			size = { 700 100 }
 			allow_outside = yes
 			resizeparent = yes
 
@@ -386,7 +386,7 @@ types topbar_components
 				#when you open/close any fullscreen (did not know where else to put it)
 				widget = {
 					using = fullscreen_hide
-					size = { 100% 100% }
+					size = { 105% 100% }
 
 					state = {
 						name = _show
@@ -766,7 +766,7 @@ types topbar_components
 				visible = "[GetMetaPlayer.GetPlayedOrObservedCountry.IsValid]"
 				size = { 24 24 }
 				parentanchor = bottom|right
-				position = { 10 -20 }
+				position = { 0 -27 }
 
 				alpha = 0
 
