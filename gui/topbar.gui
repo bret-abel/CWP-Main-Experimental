@@ -248,9 +248,9 @@ types topbar_components
 				name = "tutorial_highlight_currency"
 				minimumsize = { 90 20 }
 				maximumsize = { 90 20 }
-				#tooltipwidget = {
-				#	bank_credibility_tooltip = {}
-				#}
+				tooltipwidget = {
+					bank_credibility_tooltip = {}
+				}
 				onclick = "[InformationPanelBar.OpenPanelTab('budget', 'fiscal')]"
 				onclick = "[GetVariableSystem.Clear('international_open')]" 
 				onclick = "[GetVariableSystem.Clear('un_panel')]" 
@@ -273,9 +273,9 @@ types topbar_components
 			button = {
 				minimumsize = { 90 20 }
 				maximumsize = { 90 20 }
-				#tooltipwidget = {
-				#	inflation_tooltip = {}
-				#}
+				tooltipwidget = {
+					inflation_tooltip = {}
+				}
 				using = tooltip_below
 				alwaystransparent = no
 				onclick = "[InformationPanelBar.OpenPanelTab('budget', 'fiscal')]"
@@ -311,9 +311,9 @@ types topbar_components
 				minimumsize = { 90 20 }
 				maximumsize = { 90 20 }
 				using = tooltip_below
-				#tooltipwidget = {
-				#	money_supply_tooltip = {}
-				#}
+				tooltipwidget = {
+					money_supply_tooltip = {}
+				}
 				alwaystransparent = no
 				onclick = "[InformationPanelBar.OpenPanelTab('budget', 'fiscal')]"
 				onclick = "[GetVariableSystem.Clear('international_open')]" 
