@@ -2778,8 +2778,12 @@ BUILDINGS = {
 					building = {
 						type = "building_steelworks"
 						country = "c:GBR"
-						levels = 26
+						levels = 31
 						region = "STATE_HOME_COUNTIES"
+					}
+					country = {
+						country = "c:USA"
+						levels = 12
 					}
 				}
 				reserves = 1
@@ -18425,6 +18429,10 @@ BUILDINGS = {
 						levels = 30
 						region = "STATE_WEST_MIDLANDS"
 					}
+					country = {
+						country = "c:USA"
+						levels = 20
+					}
 				}
 				reserves = 1
 				activate_production_methods = {
@@ -18680,11 +18688,13 @@ BUILDINGS = {
 			create_building = {
 				building = "building_fuel_refineries"
 				add_ownership = {
-					building = {
-						type = "building_fuel_refineries"
+					country = {
 						country = "c:GBR"
+						levels = 5
+					}
+					country = {
+						country = "c:USA"
 						levels = 15
-						region = "STATE_WEST_MIDLANDS"
 					}
 				}
 				reserves = 1
