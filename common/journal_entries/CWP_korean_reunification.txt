@@ -27,10 +27,10 @@
 				who = c:STK
 				type = alliance
 			}
-			c:NRK = {
+			this = {
 				is_in_same_power_bloc = c:RUS
 			}
-			c:STK = {
+			this = {
 				is_in_same_power_bloc = c:USA
 			}
 			#If an additional country is to be added per event | unused
@@ -244,6 +244,16 @@
 	complete = {
 		hidden_trigger = {
 			always = no
+		}
+	}
+	invalid = {
+		NOR = {
+			this = {
+				is_in_same_power_bloc = c:RUS
+			}
+			this = {
+				is_in_same_power_bloc = c:USA
+			}
 		}
 	}
 	fail = {
