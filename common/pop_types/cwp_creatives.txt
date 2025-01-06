@@ -9,6 +9,7 @@
 	start_quality_of_life = 8
 	working_adult_ratio = 0.3
 	wage_weight = 2
+	paid_private_wage = yes
 	literacy_target = 0.2
 	education_access = 0.1
 	dependent_wage = 0.5	# per year
@@ -23,9 +24,15 @@
 			desc = POP_STARVATION
 			if = {
 				limit = {
-					standard_of_living < 5
+					is_in_mild_starvation = yes
 				}
-				value = 1
+				value = 0.5
+			}
+			else_if = {
+				limit = {
+					is_in_severe_starvation = yes
+				}
+				value = 1.5
 			}
 		}
 	}
