@@ -1,7 +1,7 @@
 ﻿# IBM International Business Machines
 company_international_business_machines = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_computer_industries.dds"
 	
 	flavored_company = yes
 	
@@ -47,7 +47,7 @@ company_international_business_machines = {
 # The Boeing Company
 company_boeing = {
 	icon = "gfx/interface/icons/generic_icons/unused/lack.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_military_aircraft_usa.dds"
 	
 	flavored_company = yes
 	
@@ -93,7 +93,7 @@ company_boeing = {
 # Walt Disney Productions
 company_walt_disney_productions = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_walt_disney_productions.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_media_industries.dds"
 	
 	flavored_company = yes
 	
@@ -136,7 +136,7 @@ company_walt_disney_productions = {
 # General Motors
 company_general_motors = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_general_motors.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_car_manufactories.dds"
 	
 	flavored_company = yes
 	
@@ -182,7 +182,7 @@ company_general_motors = {
 # Ford Motor Company
 company_ford_motor = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_ford_motor.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_car_manufactories.dds"
 	
 	flavored_company = yes
 	
@@ -228,7 +228,7 @@ company_ford_motor = {
 # Chrysler Company
 company_chrysler = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_chrysler.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_car_manufactories.dds"
 	
 	flavored_company = yes
 	
@@ -274,7 +274,7 @@ company_chrysler = {
 # United States Steel Corporation
 company_us_steel_corp = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_steel_corporation.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_steel_foundries.dds"
 	
 	flavored_company = yes
 	
@@ -367,7 +367,7 @@ company_standard_oil = {
 # North American Aviation
 company_north_american_aviation = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_north_american_aviation.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_military_aircraft_usa.dds"
 	
 	flavored_company = yes
 	
@@ -413,7 +413,7 @@ company_north_american_aviation = {
 # General Electric
 company_general_electric = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_general_electric.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_household_appliances.dds"
 	
 	flavored_company = yes
 	
@@ -461,7 +461,7 @@ company_general_electric = {
 # John Deere
 company_john_deere = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_john_deere.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_wheat.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_farm_equipment.dds"
 	
 	flavored_company = yes
 	
@@ -505,7 +505,7 @@ company_john_deere = {
 # Weyerhaeuser
 company_weyerhaeuser = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_weyerhaeuser.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_plantation.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_logging.dds"
 	
 	flavored_company = yes
 	
@@ -551,7 +551,7 @@ company_weyerhaeuser = {
 # Westinghouse Electric Corporation
 company_westinghouse_corp = {
 	icon = "gfx/interface/icons/company_icons/companies_usa/company_us_westinghouse_corp.dds"
-	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_household_appliances.dds"
 	
 	flavored_company = yes
 	
