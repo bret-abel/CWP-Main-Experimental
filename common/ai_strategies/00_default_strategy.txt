@@ -192,7 +192,6 @@ ai_strategy_default = {
 	}
 	# How many levels of naval base should the AI have
 	# Using this value in other strategies will function additively
-	wanted_navy_size = {
 		wanted_navy_size = {
 		value = 0
 	
