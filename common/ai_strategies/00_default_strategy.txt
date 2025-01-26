@@ -188,11 +188,9 @@ ai_strategy_default = {
 			}
 		min = 1
 	}
-		
-	}
 	# How many levels of naval base should the AI have
 	# Using this value in other strategies will function additively
-		wanted_navy_size = {
+	wanted_navy_size = {
 		value = 0
 	
 		# 1 level of naval base per 500k coastal incorporated population							
@@ -280,9 +278,7 @@ ai_strategy_default = {
 		
 		max = 500
 		min = 0		
-	}		
-	 
-		  }
+	}
 	# Chance each update that the AI is willing to start changing a law (1 = 1%)
 	# Using this value in other strategies will function additively
 	change_law_chance = {
