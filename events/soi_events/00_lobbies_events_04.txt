@@ -3536,8 +3536,7 @@ lobby_events.14 = {
 							type = embargo
 						}
 						has_law = law_type:law_isolationism
-						has_law = law_type:law_command_economy
-						has_law = law_type:law_cooperative_ownership
+						has_law = law_type:law_socialization
 					}
 				}
 			}
@@ -3549,8 +3548,7 @@ lobby_events.14 = {
 						type = embargo
 					}
 					has_law = law_type:law_isolationism
-					has_law = law_type:law_command_economy
-					has_law = law_type:law_cooperative_ownership
+					has_law = law_type:law_socialization
 				}
 			}
 		}
@@ -3653,8 +3651,7 @@ lobby_events.14 = {
 								type = embargo
 							}
 							has_law = law_type:law_isolationism
-							has_law = law_type:law_command_economy
-							has_law = law_type:law_cooperative_ownership
+							has_law = law_type:law_socialization
 						}
 					}
 				}
@@ -3669,8 +3666,7 @@ lobby_events.14 = {
 								type = embargo
 							}
 							has_law = law_type:law_isolationism
-							has_law = law_type:law_command_economy
-							has_law = law_type:law_cooperative_ownership
+							has_law = law_type:law_socialization
 						}
 					}
 				}
@@ -3690,8 +3686,7 @@ lobby_events.14 = {
 							type = embargo
 						}
 						has_law = law_type:law_isolationism
-						has_law = law_type:law_command_economy
-						has_law = law_type:law_cooperative_ownership
+						has_law = law_type:law_socialization
 					}
 				}
 				save_scope_as = relevant_country
