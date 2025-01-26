@@ -44,8 +44,8 @@
 	}
 	 
 	building_group_weights = {
-	bg_light_industry = 1.5 
-	bg_heavy_industry = 1.5 
+		bg_light_industry = 1.5 
+		bg_heavy_industry = 1.5 
 	}
 	
 	wargoal_weights = {
@@ -158,10 +158,10 @@
 		# Subjects should not start the game wanting independence unless we specifically script this strategy for them
 		if = {
 			limit = {
-				game_date < 1946.1.1 
+				game_date < 1946.1.2
 			}
 			multiply = 0
-		}			
+		}
 	}
 }
 
@@ -221,8 +221,8 @@ ai_strategy_subject_strengthen_self = {
 	}
 	 
 	building_group_weights = {
-	bg_light_industry = 1.5 
-	bg_heavy_industry = 1.5 
+		bg_light_industry = 1.5
+		bg_heavy_industry = 1.5
 	}
 	
 	wargoal_weights = {
