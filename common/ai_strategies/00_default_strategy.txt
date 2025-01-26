@@ -66,11 +66,224 @@ ai_strategy_default = {
 	# How many levels of barracks should the AI have
 	# Using this value in other strategies will function additively
 	wanted_army_size = {
+		value = 0
+		
+		# To increase base army size for small countries, capped at 1 million population
+		add = {
+			value = cached_ai_incorporated_population
+			divide = 100000 # 1 level of barracks per 100k incorporated population	
+			
+			max = 10
+		}	
+	
+		add = {
+			value = cached_ai_incorporated_population
+			divide = 250000 # 1 level of barracks per 250k incorporated population	
+		}
+
+		add = {
+			value = cached_ai_unincorporated_population
+			divide = 1000000 # 1 level of barracks per 1 million unincorporated population	
+		}
+		
+		# Coastal population reduces spending on army as that spending is needed for navy too
+		subtract = {
+			value = cached_ai_incorporated_coastal_population
+			divide = 1000000 
+		}		
+		
+		subtract = {
+			value = cached_ai_unincorporated_coastal_population
+			divide = 4000000 
+		}				
+		
+		# Extra army size from rank
+		if = {
+			limit = { country_rank = rank_value:superpower }
+			add = 25
+		}
+		if = {
+			limit = { country_rank = rank_value:major_power }
+			add = 10
+		}
+
+		save_temporary_value_as = pre_overseas_empire_value
+	
+		# Countries with a huge overseas subject population should focus more on navy
+		subtract = {
+			value = cached_ai_overseas_subject_population
+			divide = 20000000
+			max = {
+				value = scope:pre_overseas_empire_value
+				divide = 2
+			}
+		}			
+		
+		max = 200 # No more than 200 from population & rank
+
+		add = {
+			value = income
+			multiply = {
+				value = 1
+				subtract = { # Coastal population reduces spending on army as that spending is needed for navy too
+					value = cached_ai_incorporated_coastal_population
+					divide = cached_ai_incorporated_population
+					divide = 2
+				}		
+			}
+			divide = 2500 # 1 level of barracks per 2.5k income					
+		}				
+		
+		# More advanced standing armies are expensive and should be smaller relative to population
+		if = {
+			limit = { has_technology_researched = squad_based_infantry_tactics }
+			multiply = 0.8
+		}
+
+		if = {
+			limit = { has_technology_researched = combat_medics }
+			multiply = 0.8
+		}
+
+		if = {
+			limit = { has_technology_researched = towed_artillery }
+			multiply = 0.8
+		}
+		
+		if = {
+			limit = { has_technology_researched = mobile_armor }
+			multiply = 0.8
+		}	
+
+		# Factor in strategies
+		if = {
+			limit = { 
+				OR = {
+					has_strategy = ai_strategy_territorial_expansion 
+					has_strategy = ai_strategy_unify_italy
+					has_strategy = ai_strategy_unify_ethiopia
+					has_strategy = ai_strategy_unify_china
+				}
+			}
+			multiply = 1.25
+		}
+		else_if = {
+			limit = {
+				has_strategy = ai_strategy_unify_germany 
+			}
+			multiply = 2.0
+		}
+		
+
+			multiply = 0.75
+		}				
+		max = {
+			value = 500
+
+			if = {
+				limit = { 
+					has_technology_researched = modernized_logistics
+				}
+				multiply = 1.25
+			}
+		min = 1
+	}
+		
 	}
 	# How many levels of naval base should the AI have
 	# Using this value in other strategies will function additively
 	wanted_navy_size = {
-	}
+		wanted_navy_size = {
+		value = 0
+	
+		# 1 level of naval base per 500k coastal incorporated population							
+		add = {
+			value = cached_ai_incorporated_coastal_population
+			divide = 500000 
+		}
+
+		# 1 level of naval base per 2 million coastal unincorporated population					
+		add = {
+			value = cached_ai_unincorporated_coastal_population
+			divide = 2000000 
+		}
+
+		# 1 level of naval base per 10 million population in direct overseas subjects	
+		add = {
+			value = cached_ai_overseas_subject_population
+			divide = 10000000 
+		}	
+
+		max = 100 # No more than 100 from population		
+
+		# 1 level of naval base per 5k income, multiplied by relative incorporated coastal population to total incorporated population
+		add = {
+			value = income
+			divide = cached_ai_incorporated_population
+			multiply = cached_ai_incorporated_coastal_population
+			divide = 5000
+		}	
+		else_if = { # GPs and MPs should want to maintain a bit of a navy
+			limit = { country_rank = rank_value:superpower }
+			add = 25		
+		}
+		else_if = {
+			limit = { country_rank = rank_value:major_power }
+			add = 10
+		}
+		
+		# More advanced navies are expensive and should be smaller relative to population
+		if = {
+			limit = { has_technology_researched = ironclad_tech }
+			multiply = 0.75
+		}
+
+		if = {
+			limit = { has_technology_researched = dreadnought }
+			multiply = 0.75
+		}
+
+		if = {
+			limit = { has_technology_researched = battleship_tech }
+			multiply = 0.75
+		}
+
+		# Factor in strategies
+		if = {
+			limit = { 
+				OR = {
+					has_strategy = ai_strategy_colonial_expansion 
+					has_strategy = ai_strategy_economic_imperialism
+				}
+			}
+			multiply = 1.15
+		}
+
+		if = {
+			limit = { has_strategy = ai_strategy_armed_isolationism }
+			multiply = 0.75
+		}	
+		
+		if = {
+			limit = { country_rank < rank_value:major_power }
+			multiply = 0.5
+		}						
+		
+		if = {
+			limit = { is_country_type = unrecognized }
+			multiply = 0.5
+		}	
+		
+		if = {
+			limit = { has_strategy = ai_strategy_maintain_mandate_of_heaven }
+			multiply = 0.25
+		}		
+		
+		max = 500
+		min = 0		
+	}		
+	 
+		  }
 	# Chance each update that the AI is willing to start changing a law (1 = 1%)
 	# Using this value in other strategies will function additively
 	change_law_chance = {
