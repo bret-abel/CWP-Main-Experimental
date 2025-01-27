@@ -395,7 +395,6 @@ building_automobile_manufactories = {
 	
 	production_method_groups = {
 		pmg_base_automobiles
-		pmg_base_tanks
 		pmg_propulsion_automobiles
 		pmg_automation_automobiles
 	}
@@ -413,6 +412,37 @@ building_automobile_manufactories = {
 	
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
+
+building_tank_factory = {
+	building_group = bg_tank_factory
+	city_type = city
+	levels_per_mesh = 5
+ icon = gfx\unit_illustrations\main_battle_tank.dds
+	unlocking_technologies = {
+		combustion_gas_engine 
+	}
+
+	ai_nationalization_desire = -0.15 # AI might be more inclined to nationalize tank factories
+	
+	production_method_groups = {
+		pmg_base_tanks
+		pmg_automation_tanks
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+
+	possible = {
+		owner = {
+			not = {
+				has_law = law_type:law_anti_industrialization
+			}
+		}
+	}
+	
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+}
+
 
 building_shipyards = {
 	building_group = bg_light_industry

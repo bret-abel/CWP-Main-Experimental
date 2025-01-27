@@ -48,6 +48,9 @@ bg_heavy_industry = {
 	urbanization = 30
 	infrastructure_usage_per_level = 3
 }
+bg_tank_factory = {
+ parent_group = bg_heavy_industry
+}
 
 bg_automobile_manufactories = {
 	parent_group = bg_heavy_industry
