@@ -19,6 +19,7 @@ building_subsistence_farms = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
+
 building_subsistence_orchards = {
 	building_group = bg_subsistence_agriculture
 	icon = "gfx/interface/icons/building_icons/building_subsistence_farm.dds"
