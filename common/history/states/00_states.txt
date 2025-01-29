@@ -46360,4 +46360,12 @@
 		}
 		add_homeland = cu:english
 	}
+	s:STATE_CHERNIHIV = {
+	    create_state = {
+	    	country = c:RUS
+	    	owned_provinces = { x032751 x03D6A7 x0A69A9 x12AB15 x348364 x34B4C6 x387D75 x44E2F9 x5F64A2 x675DF4 x83B302 x85EECF x925213 x9723F8 xA12B5A xB020C6 xBC0441 xBDDA3A xC31716 xDD344F xF49A18 xFB1DC5 }
+	    }
+	    add_homeland = cu:ukrainian
+	    add_homeland = cu:russian
+	}
 }

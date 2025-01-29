@@ -162,23 +162,47 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 8762275
+				size = 7362275
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 1728056
+				size = 1708056
 			}
 			create_pop = {
 				culture = polish
-				size = 402128
+				size = 385128
 			}
 			create_pop = {
 				culture = russian
-				size = 302679
+				size = 202679
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 570584
+				size = 520584
+			}
+		}
+	}
+	s:STATE_CHERNIHIV = {
+	region_state:RUS = {
+			create_pop = {
+				culture = ukrainian
+				size = 1400000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 20000
+			}
+			create_pop = {
+				culture = polish
+				size = 150000
+			}
+			create_pop = {
+				culture = russian
+				size = 100000
+			}
+			create_pop = {
+				culture = byelorussian
+				size = 50000
 			}
 		}
 	}

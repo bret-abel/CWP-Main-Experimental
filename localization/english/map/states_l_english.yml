@@ -574,6 +574,7 @@
  STATE_MAZOVIA:0 "Mazovia"
  STATE_VOLHYNIA:0 "Volhynia"
  STATE_KIEV:0 "Kyiv"
+ STATE_CHERNIHIV:0 "Chernihiv"
  STATE_RIAU_ISLANDS:0 "Riau Islands"
  STATE_MALTA:0 "Malta"
  STATE_UMBRIA:0 "Umbria"
@@ -755,7 +756,13 @@
 
  STATE_KIEV_polish_cwp:0 "Kijów"
  STATE_KIEV_russian_cwp:0 "Kiev"
+ 
+# CHERNIHIV
 
+ STATE_CHERNIHIV_polish_cwp:0 "Chernihiv"
+ STATE_CHERNIHIV_russian_cwp:0 "Chernihiv"
+ 
+ 
 # Ulster
 
  STATE_ULSTER_irish:0 "Ulster"
