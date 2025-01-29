@@ -513,8 +513,8 @@ pm_coal_fired_plant = {
 			goods_output_electricity_add = 105
 		}
 		level_scaled = {
-			building_employment_laborers_add = 5000
-			building_employment_engineers_add = 4800
+			building_employment_laborers_add = 2500
+			building_employment_engineers_add = 2000
 		}
 	}
 }
@@ -536,8 +536,8 @@ pm_oil_fired_plant = {
 			goods_output_electricity_add = 155
 		}
 		level_scaled = {
-			building_employment_laborers_add = 4000
-			building_employment_engineers_add = 5800
+			building_employment_laborers_add = 2000
+			building_employment_engineers_add = 2000
 		}
 	}
 }
@@ -559,8 +559,8 @@ pm_combustion_fired_plant = {
 			goods_output_electricity_add = 155
 		}
 		level_scaled = {
-			building_employment_laborers_add = 4000
-			building_employment_engineers_add = 5800
+			building_employment_laborers_add = 2000
+			building_employment_engineers_add = 2000
 		}
 	}
 }
