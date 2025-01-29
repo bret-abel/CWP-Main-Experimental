@@ -3,6 +3,20 @@
 BUILDINGS = {
 	s:STATE_INGRIA = {
 		region_state:RUS = {
+		create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:RUS"
+						levels = 21
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_professional_bureaucrats"
+					"pm_modern_bureaucracy"
+				}
+			}
 			create_building = {
 				building = "building_airport"
 				add_ownership = {
@@ -39,7 +53,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 15
+        levels = 11
     }
 }
 
@@ -201,16 +215,13 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 17
+        levels = 15
     }
 }
-
-
-
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_rudimentary_tools"
+					"pm_basic_tools"
 					"pm_no_automation"
 				}
 			}
@@ -419,7 +430,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 37
+        levels = 45
     }
 }
 
@@ -428,7 +439,7 @@ BUILDINGS = {
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_rudimentary_tools"
+					"pm_basic_tools"
 					"pm_no_automation"
 				}
 			}
@@ -437,7 +448,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = "c:RUS"
-						levels = 41
+						levels = 51
 					}
 				}
 				reserves = 1
@@ -471,7 +482,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 21
+        levels = 16
     }
 }
 
@@ -1043,16 +1054,13 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 13
+        levels = 9
     }
 }
-
-
-
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_rudimentary_tools"
+					"pm_basic_tools"
 					"pm_no_automation"
 				}
 			}
@@ -1094,7 +1102,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 40
+        levels = 30
     }
 }
 
@@ -1287,7 +1295,7 @@ BUILDINGS = {
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_rudimentary_tools"
+					"pm_basic_tools"
 					"pm_no_automation"
 				}
 			}
@@ -1450,7 +1458,7 @@ BUILDINGS = {
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_rudimentary_tools"
+					"pm_basic_tools"
 					"pm_no_automation"
 				}
 			}
@@ -1482,7 +1490,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 20
+        levels = 10
     }
 }
 
@@ -1559,7 +1567,7 @@ BUILDINGS = {
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_rudimentary_tools"
+					"pm_basic_tools"
 					"pm_no_automation"
 				}
 			}
@@ -2069,7 +2077,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 30
+        levels = 40
     }
 }
 
@@ -2123,7 +2131,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = "c:RUS"
-						levels = 16
+						levels = 11
 					}
 				}
 				reserves = 1
@@ -2296,7 +2304,7 @@ BUILDINGS = {
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_rudimentary_tools"
+					"pm_basic_tools"
 					"pm_no_automation"
 				}
 			}
@@ -3006,7 +3014,7 @@ BUILDINGS = {
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_rudimentary_tools"
+					"pm_basic_tools"
 					"pm_no_automation"
 				}
 			}
@@ -4432,7 +4440,7 @@ BUILDINGS = {
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_rudimentary_tools"
+					"pm_basic_tools"
 					"pm_no_automation"
 				}
 			}
@@ -5030,7 +5038,7 @@ BUILDINGS = {
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
-					"pm_rudimentary_tools"
+					"pm_basic_tools"
 					"pm_no_automation"
 				}
 			}
