@@ -824,13 +824,63 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = "c:HKN"
-						levels = 1
+						levels = 5
 					}
 				}
 				reserves = 1
 				activate_production_methods = {
 					"pm_anchorage"
 				}
+			}
+			create_building = {
+			    building = "building_financial_services"
+				add_ownership = {
+					country = {
+						country = "c:HKN"
+						levels = 5
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
+			    building = "building_airport"
+				add_ownership = {
+					country = {
+						country = "c:HKN"
+						levels = 1
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
+			    building = "building_textile_manufactories"
+				add_ownership = {
+					country = {
+						country = "c:HKN"
+						levels = 3
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
+			    building = "building_railway"
+				add_ownership = {
+					country = {
+						country = "c:HKN"
+						levels = 1
+					}
+				}
+				reserves = 1
+			}
+			create_building = {
+			    building = "building_fishing_wharf"
+				add_ownership = {
+					country = {
+						country = "c:HKN"
+						levels = 2
+					}
+				}
+				reserves = 1
 			}
 		}
 	}
@@ -2407,7 +2457,7 @@ BUILDINGS = {
 			create_building = {
 				building = "building_tea_plantation"
 				add_ownership = {
-    country = {
+                country = {
         country = "c:ROC"
         levels = 4
     }
