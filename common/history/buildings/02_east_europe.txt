@@ -1319,14 +1319,12 @@ BUILDINGS = {
 			create_building = {
 				building = "building_railway"
 				add_ownership = {
-    country = {
-        country = "c:RUS"
-        levels = 3
-    }
-}
-
-
-
+                    country = {
+                        country = "c:RUS"
+                        levels = 3
+                    }
+                }
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -1432,14 +1430,12 @@ BUILDINGS = {
 			create_building = {
 				building = "building_railway"
 				add_ownership = {
-    country = {
-        country = "c:RUS"
-        levels = 2
-    }
-}
-
-
-
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -1548,7 +1544,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -1664,7 +1660,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -1724,7 +1720,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -1868,7 +1864,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -2104,7 +2100,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -2335,7 +2331,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -2547,7 +2543,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -2704,7 +2700,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -2811,7 +2807,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -2978,7 +2974,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -3158,7 +3154,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -3412,7 +3408,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -3623,7 +3619,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -3751,7 +3747,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -3861,7 +3857,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -4059,7 +4055,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -4279,7 +4275,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -4526,7 +4522,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -4729,7 +4725,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -4862,7 +4858,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -5088,7 +5084,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -5249,7 +5245,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -5342,7 +5338,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -5523,7 +5519,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -5669,7 +5665,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -5898,7 +5894,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -6030,7 +6026,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -6159,7 +6155,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -6236,7 +6232,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -6332,7 +6328,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -6402,7 +6398,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -6489,7 +6485,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -6681,7 +6677,7 @@ BUILDINGS = {
 }
 
 
-
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -6727,14 +6723,12 @@ BUILDINGS = {
 			create_building = {
 				building = "building_railway"
 				add_ownership = {
-    country = {
-        country = "c:RUS"
-        levels = 1
-    }
-}
-
-
-
+                    country = {
+                        country = "c:RUS"
+                        levels = 1
+                    }
+                }
+                subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
