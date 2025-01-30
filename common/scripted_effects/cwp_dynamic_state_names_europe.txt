@@ -438,40 +438,6 @@ STATE_KIEV_state_name_assign = {
 	}
 }
 
-### Chernihiv
-
-STATE_CHERNIHIV_state_name_assign = {
-	if = {
-        limit = {
-            owner = {
-                any_primary_culture = {
-					cu:polish ?= this
-                }
-            }
-        }
-        set_state_name = STATE_CHERNIHIV_polish_cwp
-        set_hub_names = polish_cwp
-    }
-	else_if = {
-        limit = {
-			owner = {
-                any_primary_culture = {
-					cu:russian ?= this
-                }
-				NOT = {
-					has_law = law_type:law_multicultural
-				}
-            }
-        }
-        set_state_name = STATE_CHERNIHIV_russian_cwp
-		set_hub_names = russian_cwp
-    }
-	else = {
-		reset_state_name = yes
-		reset_hub_names = yes
-	}
-}
-
 ### Ulster
 
 STATE_ULSTER_state_name_assign = {
