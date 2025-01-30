@@ -348,7 +348,6 @@ STATE_MISSISSIPPI_VALLEY = {
     farm = x9000C0
     mine = x5832CE
     wood = xAB3179
-    port = x373F2F
     arable_land = 495
     arable_resources = { bg_maize_farms bg_livestock_ranches bg_tobacco_plantations }
     capped_resources = {
@@ -358,7 +357,6 @@ STATE_MISSISSIPPI_VALLEY = {
         bg_phosphorus_mining = 80
         bg_logging = 21
     }
-    naval_exit_id = 3161
 }
 
 STATE_WISCONSIN = {
@@ -370,7 +368,6 @@ STATE_WISCONSIN = {
     farm = x900040
     mine = xD04040
     wood = x941A5A
-    port = x80A0C0
     arable_land = 203
     arable_resources = { bg_maize_farms bg_livestock_ranches }
     capped_resources = {
@@ -378,7 +375,6 @@ STATE_WISCONSIN = {
         bg_phosphorus_mining = 32
         bg_logging = 23
     }
-    naval_exit_id = 3162
 }
 
 STATE_INDIANA = {
@@ -418,7 +414,6 @@ STATE_MICHIGAN = {
     farm = x2455A8
     mine = xFDA0D8
     wood = xC1AE21
-    port = x6486DD
     arable_land = 203
     arable_resources = { bg_maize_farms bg_livestock_ranches }
     resource = {
@@ -436,7 +431,6 @@ STATE_MICHIGAN = {
         bg_copper_mining = 28
         bg_logging = 20
     }
-    naval_exit_id = 3163
 }
 
 STATE_OHIO = {
@@ -448,7 +442,6 @@ STATE_OHIO = {
     farm = xD0C0C0
     mine = x2158FB
     wood = xA92D73
-    port = xB61C8A
     arable_land = 203
     arable_resources = { bg_maize_farms bg_livestock_ranches bg_tobacco_plantations }
     resource = {
@@ -465,7 +458,6 @@ STATE_OHIO = {
         bg_lead_mining = 36
         bg_logging = 14
     }
-    naval_exit_id = 3164
 }
 
 STATE_CUMBERLAND_PLATEAU = {
@@ -609,7 +601,7 @@ STATE_KEYSTONE = {
     farm = xC0C080
     mine = xE2ACEE
     wood = xC4DED4
-    port = x503169
+    port = xF00000
     naval_exit_id = 3067
     arable_land = 246
     arable_resources = { bg_maize_farms bg_livestock_ranches bg_tobacco_plantations }
@@ -639,7 +631,6 @@ STATE_ILLINOIS = {
     farm = x1B1B01
     mine = x4E0162
     wood = xAD5337
-    port = xF68D89
     arable_land = 305
     arable_resources = { bg_maize_farms bg_livestock_ranches bg_tobacco_plantations }
     capped_resources = {
@@ -647,7 +638,6 @@ STATE_ILLINOIS = {
         bg_lead_mining = 90
         bg_logging = 11
     }
-    naval_exit_id = 3162
 }
 
 STATE_NEW_ENGLAND = {
@@ -720,7 +710,7 @@ STATE_ONTARIO = {
     farm = x515254
     mine = x313BB2
     wood = x1E31A0
-    port = x744A7A
+    port = x8D15CB
     arable_land = 225
     arable_resources = { bg_wheat_farms bg_livestock_ranches bg_tobacco_plantations }
     capped_resources = {
@@ -744,7 +734,7 @@ STATE_ONTARIO = {
         type = bg_rare_earth_elements_mining
         undiscovered_amount = 8
     }
-    naval_exit_id = 3165
+    naval_exit_id = 3044
 }
 
 STATE_NEW_BRUNSWICK = {
