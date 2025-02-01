@@ -106,6 +106,10 @@
 			building_type = building_urban_center
 			production_method = pm_banned_religious_services
 		}
+		activate_production_method = {
+			building_type = building_urban_center
+			production_method = pm_public_bus_system
+		}
 	}
 	c:ARG ?= {
 		activate_production_method = {

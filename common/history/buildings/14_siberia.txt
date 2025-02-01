@@ -3,17 +3,29 @@
 BUILDINGS = {
 	s:STATE_URAL = {
 		region_state:RUS = {
+	        create_building = {
+				building = "building_tool_manufactories"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 14
+                    }
+                }
+				subsidized = yes
+				reserves = 1
+				activate_production_methods = {
+					"pm_basic_tools"
+					"pm_no_automation"
+				}
+			}
 			create_building = {
 				building = "building_food_industry"
 				add_ownership = {
-    country = {
-        country = "c:RUS"
-        levels = 4
-    }
-}
-
-
-
+                    country = {
+                        country = "c:RUS"
+                        levels = 4
+                    }
+                }
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
@@ -23,16 +35,45 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
+				building = "building_automobile_manufactories"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 15
+                    }
+            }
+				subsidized = yes
+				reserves = 1
+				activate_production_methods = {
+					"pm_pre_war_automobiles"
+					"pm_refined_oil_production"
+					"pm_no_automation"
+				}
+			}
+			create_building = {
+				building = "building_copper_mine"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 15
+                    }
+                }
+				subsidized = yes
+				reserves = 1
+				activate_production_methods = {
+					"pm_mechanized_resource_extraction_copper"
+					"pm_traditional_tools"
+					"pm_manual_transportation"
+				}
+			}
+			create_building = {
 				building = "building_rye_farm"
 				add_ownership = {
-    country = {
-        country = "c:RUS"
-        levels = 15
-    }
-}
-
-
-
+                    country = {
+                        country = "c:RUS"
+                        levels = 15
+                    }
+                }
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
@@ -115,12 +156,9 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 7
+        levels = 11
     }
 }
-
-
-
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -133,7 +171,7 @@ BUILDINGS = {
 				add_ownership = {
 					country = {
 						country = "c:RUS"
-						levels = 5
+						levels = 8
 					}
 				}
 				reserves = 1
@@ -166,7 +204,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 10
+        levels = 5
     }
 }
 
@@ -185,12 +223,9 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 40
+        levels = 30
     }
 }
-
-
-
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
@@ -202,14 +237,11 @@ BUILDINGS = {
 			create_building = {
 				building = "building_explosives_industry"
 				add_ownership = {
-    country = {
-        country = "c:RUS"
-        levels = 30
-    }
-}
-
-
-
+                    country = {
+                        country = "c:RUS"
+                        levels = 10
+                    }
+                }
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
@@ -221,14 +253,11 @@ BUILDINGS = {
 			create_building = {
 				building = "building_combustion_plant"
 				add_ownership = {
-    country = {
-        country = "c:RUS"
-        levels = 5
-    }
-}
-
-
-
+                    country = {
+                        country = "c:RUS"
+                        levels = 5
+                    }
+                }
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {

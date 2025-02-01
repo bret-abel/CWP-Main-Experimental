@@ -953,7 +953,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 25
+        levels = 10
     }
 }
 
@@ -971,7 +971,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 10
+        levels = 5
     }
 }
 
@@ -1047,7 +1047,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 20
+        levels = 10
     }
 }
 
@@ -1683,9 +1683,6 @@ BUILDINGS = {
         levels = 1
     }
 }
-
-
-
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -1979,9 +1976,6 @@ BUILDINGS = {
         levels = 4
     }
 }
-
-
-
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
@@ -2239,7 +2233,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 1
+        levels = 4
     }
 }
 

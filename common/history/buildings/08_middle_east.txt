@@ -1940,9 +1940,6 @@ BUILDINGS = {
         levels = 2
     }
 }
-
-
-
 				reserves = 1
 				activate_production_methods = {
 					"pm_default_building_sugar_plantation"
@@ -2290,9 +2287,6 @@ BUILDINGS = {
         levels = 1
     }
 }
-
-
-
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
