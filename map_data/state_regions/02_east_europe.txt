@@ -114,7 +114,7 @@ STATE_KIEV = {
 STATE_BRYANSK = {
     id = 136
     subsistence_building = building_subsistence_farms
-    provinces = { x032751 x0B9BAA x12AB15 x1D9534 x1E5225 x20A020 x244D15 x2EB40F x36FFFE x44E2F9 x5699C6 x6BE684 x71473A x752A3E x87264D x8D6462 x925213 x92C7C8 x93157C x95A3EA x9692BD x96E229 x9D8B55 xA02120 xB020C6 xB56E0D xB98492 xBC0441 xBCF6EB xC020E0 xC7D77B xD04FB9 xD3CC3C xEC68C6 xF75BCA xFCDD8C xFEFF16 }
+    provinces = { x0B9BAA x1D9534 x1E5225 x20A020 x244D15 x2EB40F x36FFFE x5699C6 x6BE684 x71473A x752A3E x87264D x8D6462 x92C7C8 x93157C x95A3EA x9692BD x96E229 x9D8B55 xA02120 xB56E0D xB98492 xBCF6EB xC020E0 xC7D77B xD04FB9 xD3CC3C xEC68C6 xF75BCA xFCDD8C xFEFF16 }
     traits = { state_trait_russian_forest }
     city = x244D15
     farm = x87264D
@@ -255,10 +255,9 @@ STATE_LUHANSK = {
     subsistence_building = building_subsistence_farms
     provinces = { x04E110 x055C67 x0EBC1D x14786A x19213B x35FCF1 x386376 x3C304D x3DA304 x4202ED x46BD2E x4C5706 x500F88 x580D2A x58331B x5AB195 x5B788C x5BE6ED x628FBE x637D8D x7020DF x7141E0 x7161E0 x71E061 x71E0E0 x76E2A3 x87109C x924D7E x9A1118 x9C070F xA0A57F xA1BAF7 xAD4F1C xB06935 xB285AE xB69E4B xBBC6BF xBC52ED xC262E0 xCFBD13 xE6C06A xF06161 xF061E0 xF0E061 xF60A93 xFA0D5E }
     traits = { state_trait_black_soil state_trait_dnieper_river state_trait_hydroelectric_dams }
-    city = xFA0D5E
+    city = x386376
     port = xF0E061
-    farm = x19213B
-    mine = x386376
+    mine = xAD4F1C
     wood = xB285AE
     arable_land = 229
     arable_resources = { bg_wheat_farms bg_livestock_ranches }
@@ -1053,5 +1052,25 @@ STATE_BESSARABIA = {
     }
     capped_resources = {
         bg_logging = 6
+    }
+}
+
+STATE_CHERNIHIV = {
+    id = 838
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x03D6A7 x0A69A9 x348364 x34B4C6 x387D75 x5F64A2 x675DF4 x83B302 x85EECF x9723F8 xA12B5A xBDDA3A xC31716 xDD344F xF49A18 xFB1DC5 }
+    traits = { "state_trait_dnieper_river" }
+    city = "x9723F8"
+    farm = "xDD344F"
+    mine = "x925213"
+    wood = "xFB1DC5"
+    arable_land = 75
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 6
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 6
     }
 }
