@@ -101,6 +101,7 @@ wealth_7 = {
 		popneed_housing = 52
 		popneed_healthcare = 14
 		popneed_basic_intoxicants = 21
+		popneed_household_items = 4
 	}
 }
 
@@ -118,6 +119,7 @@ wealth_8 = {
 		popneed_media = 1
 		popneed_healthcare = 16
 		popneed_basic_intoxicants = 22
+		popneed_household_items = 4
 	}
 }
 
@@ -135,6 +137,7 @@ wealth_9 = {
 		popneed_media = 2
 		popneed_healthcare = 19
 		popneed_basic_intoxicants = 22
+		popneed_household_items = 4
 	}
 }
 
