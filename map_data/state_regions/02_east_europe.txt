@@ -80,14 +80,14 @@ STATE_VOLHYNIA = {
 STATE_KIEV = {
     id = 135
     subsistence_building = building_subsistence_farms
-    provinces = { x01E0E0 x022620 x0319ED x03D6A7 x0708A3 x0A69A9 x0B484F x1121A0 x11F253 x1458A6 x18E9E1 x1C7F2D x1CB8D8 x2472F3 x270CD8 x2C6090 x2C6218 x2D80BA x2E05DE x31F90F x348364 x34B4C6 x36D880 x387D75 x3ACCE8 x46B48F x4C92CC x54B5C4 x5F64A2 x675DF4 x7DA787 x7DF67D x7EAE07 x817D22 x82AE2F x83B302 x85EECF x8CE323 x9723F8 x98E808 xA12B5A xA8600B xA9FA61 xAD965B xBCC260 xBDDA3A xC31716 xC482AD xCB4129 xCD2CE5 xCD72A1 xD0DA95 xD5E7D2 xD6537D xD8EA8C xDAAE11 xDCE378 xDD344F xDD790F xE08061 xE682D3 xE6AF95 xE6CADD xE996D1 xEA1E16 xF061A0 xF0E021 xF49A18 xFB1DC5 xFC92C5 xFF7D57 }
+    provinces = { x2472F3 x9E24DE x925815 xE315A3 x7FC1CF x83B302 x01E0E0 x022620 x0A69A9 x1121A0 x11F253 x1458A6 x18E9E1 x1C7F2D x270CD8 x2C6218 x2D80BA x2E05DE x31F90F x387D75 x3ACCE8 x46B48F x4C92CC x54B5C4 x7DA787 x7DF67D x817D22 x82AE2F x8CE323 x98E808 xA8600B xA9FA61 xC482AD xCD2CE5 xD5E7D2 xD6537D xD8EA8C xDAAE11 xDCE378 xDD790F xE08061 xE6AF95 xE6CADD xE996D1 xEA1E16 xF061A0 xF0E021 xFF7D57 }
     traits = { state_trait_black_soil state_trait_dnieper_river state_trait_hydroelectric_dams }
     city = x8CE323
     farm = xD0DA95
     mine = x11F253
     wood = x2472F3
     arable_land = 420
-    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_sugar_plantations }
     resource = {
         type = bg_uranium_mining
         undiscovered_amount = 30
@@ -106,7 +106,7 @@ STATE_KIEV = {
         undiscovered_amount = 38
     }
     capped_resources = {
-        bg_coal_mining = 72
+        bg_coal_mining = 10
         bg_logging = 9
     }
 }
@@ -253,13 +253,12 @@ STATE_CRIMEA = {
 STATE_LUHANSK = {
     id = 143
     subsistence_building = building_subsistence_farms
-    provinces = { x04E110 x055C67 x0EBC1D x14786A x19213B x35FCF1 x386376 x3C304D x3DA304 x4202ED x46BD2E x4C5706 x500F88 x580D2A x58331B x5AB195 x5B788C x5BE6ED x628FBE x637D8D x7020DF x7141E0 x7161E0 x71E061 x71E0E0 x76E2A3 x87109C x924D7E x9A1118 x9C070F xA0A57F xA1BAF7 xAD4F1C xB06935 xB285AE xB69E4B xBBC6BF xBC52ED xC262E0 xCFBD13 xE6C06A xF06161 xF061E0 xF0E061 xF60A93 xFA0D5E }
-    traits = { state_trait_black_soil state_trait_dnieper_river state_trait_hydroelectric_dams }
+    provinces = { xB69E4B x386376 x3C304D x500F88 x5AB195 x5B788C x628FBE x637D8D x7020DF x7161E0 x87109C x9A1118 xA0A57F xAD4F1C xB06935 xBBC6BF xBC52ED xC262E0 xF061E0 xF0E061 }
+    traits = { state_trait_black_soil }
     city = x386376
     port = xF0E061
     mine = xAD4F1C
-    wood = xB285AE
-    arable_land = 229
+    arable_land = 75
     arable_resources = { bg_wheat_farms bg_livestock_ranches }
     resource = {
         type = bg_uranium_mining
@@ -272,7 +271,6 @@ STATE_LUHANSK = {
     capped_resources = {
         bg_coal_mining = 80
         bg_iron_mining = 45
-        bg_copper_mining = 40
         bg_logging = 7
         bg_fishing = 10
     }
@@ -325,12 +323,11 @@ STATE_NOVGOROD = {
 STATE_CHERSON = {
     id = 146
     subsistence_building = building_subsistence_farms
-    provinces = { x000AE0 x0E1864 x135B1E x13997A x23621B x29EE58 x305004 x3E5AF0 x3E66A1 x421B54 x4ABD60 x5F2259 x652CE8 x6BF7B8 x716121 x71E021 x726291 x73216A x7FC1CF x89CE7C x8A09FD x925815 x9E24DE xA669E7 xA81C77 xB02161 xB0E0A0 xCC0D93 xD7E3C1 xE315A3 xE4AA78 xF0E0A0 xF9066A xFD6659 xFDD2CF }
+    provinces = { xF06161 xA1BAF7 x000AE0 x0E1864 x135B1E x13997A x23621B x29EE58 x305004 x3E5AF0 x3E66A1 x421B54 x4ABD60 x5F2259 x652CE8 x6BF7B8 x716121 x71E021 x726291 x73216A x89CE7C x8A09FD xA669E7 xA81C77 xB02161 xB0E0A0 xCC0D93 xD7E3C1 xE315A3 xE4AA78 xF0E0A0 xF9066A xFD6659 xFDD2CF }
     traits = { state_trait_black_soil state_trait_dnieper_river }
     city = x89CE7C
     port = x716121
     farm = xB02161
-    mine = x9E24DE
     wood = xA669E7
     arable_land = 124
     arable_resources = { bg_wheat_farms bg_livestock_ranches }
@@ -1058,7 +1055,7 @@ STATE_BESSARABIA = {
 STATE_CHERNIHIV = {
     id = 838
     subsistence_building = "building_subsistence_farms"
-    provinces = { x03D6A7 x0A69A9 x348364 x34B4C6 x387D75 x5F64A2 x675DF4 x83B302 x85EECF x9723F8 xA12B5A xBDDA3A xC31716 xDD344F xF49A18 xFB1DC5 }
+    provinces = { x34B4C6 x03D6A7 x0A69A9 x348364 x5F64A2 x675DF4 x85EECF x9723F8 xA12B5A xBDDA3A xC31716 xDD344F xF49A18 xFB1DC5 }
     traits = { "state_trait_dnieper_river" }
     city = "x9723F8"
     farm = "xDD344F"
@@ -1074,3 +1071,49 @@ STATE_CHERNIHIV = {
         undiscovered_amount = 6
     }
 }
+
+STATE_KHARKIV = {
+    id = 839
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x9C070F x4C5706 x0EBC1D x76E2A3 xCD72A1 x2C6090 xBCC260 xFA0D5E x04E110 x0319ED xFC92C5 x1CB8D8	x36D880 x0708A3 x46BD2E x14786A xD0DA95 x1458A6 xE682D3 x7EAE07 xAD965B x0B484F xCB4129 }
+    city = "xFA0D5E"
+    farm = xFA0D5E
+    mine = x04E110
+    wood = x0319ED
+    arable_land = 75
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_logging = 10
+        bg_coal_mining = 20
+    }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 6
+    }
+}
+
+STATE_DNIPRO = {
+    id = 812
+    subsistence_building = "building_subsistence_farms"
+    traits = { state_trait_black_soil state_trait_dnieper_river state_trait_hydroelectric_dams }
+    provinces = { x71E0E0 xCFBD13 x580D2A x35FCF1 x4202ED x58331B xE6C06A x71E061 xF60A93 xB285AE x7141E0 x3DA304 x924D7E x19213B x5BE6ED x055C67 }
+    arable_land = 75
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
+    capped_resources = {
+        bg_iron_mining = 80
+        bg_coal_mining = 10
+        bg_logging = 4
+        bg_copper_mining = 40
+    }
+    city = x35FCF1
+    port = xE6C06A
+    farm = x4202ED
+    mine = x58331B
+    wood = xE6C06A
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 6
+    }
+}
+
+

@@ -162,11 +162,11 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 7362275
+				size = 5362275
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 1708056
+				size = 708056
 			}
 			create_pop = {
 				culture = polish
@@ -206,18 +206,34 @@
 			}
 		}
 	}
-	s:STATE_KHARNIKV = {
+	s:STATE_KHARKIV = {
 	    region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 1400000
+				size = 4000000
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 1700000
 			}
 	}
 	s:STATE_DNIPRO = {
 	    region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 1400000
+				size = 2500000
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = ukrainian
+				size = 3500000
+			}
+		}
+		region_state:RUS = {
+			create_pop = {
+				culture = russian
+				size = 900000
 			}
 		}
 	}
@@ -328,24 +344,12 @@
 	s:STATE_CRIMEA = {
 		region_state:RUS = {
 			create_pop = {
-				culture = tatar
-				size = 458894
-			}
-			create_pop = {
-				culture = south_german
-				size = 102304
-			}
-			create_pop = {
 				culture = russian
-				size = 823140
+				size = 623140
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 860214
-			}
-			create_pop = {
-				culture = greek
-				size = 86920
+				size = 160214
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -361,7 +365,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 4808717
+				size = 2808717
 			}
 			create_pop = {
 				culture = south_german
@@ -369,7 +373,7 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 2394354
+				size = 1694354
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -381,7 +385,7 @@
 			}
 			create_pop = {
 				culture = greek
-				size = 425573
+				size = 107573
 			}
 			create_pop = {
 				culture = north_caucasian
@@ -422,7 +426,7 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = ukrainian
-				size = 4716147
+				size = 3716147
 			}
 			create_pop = {
 				culture = italian
@@ -434,7 +438,7 @@
 			}
 			create_pop = {
 				culture = russian
-				size = 471457
+				size = 271457
 			}
 			create_pop = {
 				culture = tatar

@@ -44431,6 +44431,7 @@
 		create_state = {
 			country = c:RUS
 			owned_provinces = {
+			    xB69E4B
 				x500F88
 				xF0E061
 				x386376
@@ -44443,40 +44444,13 @@
 				x5B788C
 				xC262E0
 				x7161E0
-				x924D7E
-				x3DA304
-				xB285AE
-				xF60A93
-				x5BE6ED
-				x71E061
-				x58331B
-				xE6C06A
-				x4202ED
-				xB69E4B
-				x580D2A
-				x35FCF1
-				xF06161
-				xA1BAF7
-				x055C67
-				x0EBC1D
-				xCFBD13
 				x637D8D
-				x04E110
 				x5AB195
-				x71E0E0
-				x76E2A3
 				x87109C
 				x7020DF
-				x9C070F
 				xA0A57F
 				xF061E0
-				xFA0D5E
-				x4C5706
 				xBBC6BF
-				x14786A
-				x46BD2E
-				x19213B
-				x7141E0
 			}
 		}
 		add_homeland = cu:ukrainian
@@ -44604,6 +44578,8 @@
 		create_state = {
 			country = c:RUS
 			owned_provinces = {
+			    xF06161
+			    xA1BAF7
 				x000AE0
 				x0E1864
 				x135B1E
@@ -44622,18 +44598,14 @@
 				x71E021
 				x726291
 				x73216A
-				x7FC1CF
 				x89CE7C
 				x8A09FD
-				x925815
-				x9E24DE
 				xA669E7
 				xA81C77
 				xB02161
 				xB0E0A0
 				xCC0D93
 				xD7E3C1
-				xE315A3
 				xE4AA78
 				xF0E0A0
 				xF9066A
@@ -45845,76 +45817,51 @@
 		create_state = {
 			country = c:RUS
 			owned_provinces = {
+			    x9E24DE
+			    x925815
+			    xE315A3
+			    x7FC1CF
+			    x387D75
+			    x83B302
 				x01E0E0
 				x022620
-				x0319ED
-				x03D6A7
-				x0708A3
-				x0A69A9
-				x0B484F
 				x1121A0
 				x11F253
-				x1458A6
 				x18E9E1
 				x1C7F2D
-				x1CB8D8
 				x2472F3
 				x270CD8
-				x2C6090
 				x2C6218
 				x2D80BA
 				x2E05DE
 				x31F90F
-				x348364
-				x34B4C6
-				x36D880
-				x387D75
 				x3ACCE8
 				x46B48F
 				x4C92CC
 				x54B5C4
-				x5F64A2
-				x675DF4
 				x7DA787
 				x7DF67D
-				x7EAE07
 				x817D22
 				x82AE2F
-				x83B302
-				x85EECF
 				x8CE323
-				x9723F8
 				x98E808
-				xA12B5A
 				xA8600B
 				xA9FA61
-				xAD965B
-				xBCC260
-				xBDDA3A
-				xC31716
 				xC482AD
-				xCB4129
 				xCD2CE5
-				xCD72A1
-				xD0DA95
 				xD5E7D2
 				xD6537D
 				xD8EA8C
 				xDAAE11
 				xDCE378
-				xDD344F
 				xDD790F
 				xE08061
-				xE682D3
 				xE6AF95
 				xE6CADD
 				xE996D1
 				xEA1E16
 				xF061A0
 				xF0E021
-				xF49A18
-				xFB1DC5
-				xFC92C5
 				xFF7D57
 			}
 		}
@@ -46363,7 +46310,23 @@
 	s:STATE_CHERNIHIV = {
 	    create_state = {
 	    	country = c:RUS
-	    	owned_provinces = { x03D6A7 x0A69A9 x348364 x34B4C6 x387D75 x5F64A2 x675DF4 x83B302 x85EECF x9723F8 xA12B5A xBDDA3A xC31716 xDD344F xF49A18 xFB1DC5 }
+	    	owned_provinces = { x34B4C6 x03D6A7 x0A69A9 x348364 x5F64A2 x675DF4 x85EECF x9723F8 xA12B5A xBDDA3A xC31716 xDD344F xF49A18 xFB1DC5 }
+	    }
+	    add_homeland = cu:ukrainian
+	    add_homeland = cu:russian
+	}
+	s:STATE_KHARKIV = {
+		create_state = {
+	    	country = c:RUS
+	    	owned_provinces = { x9C070F x4C5706 x0EBC1D  x76E2A3 xCD72A1 x2C6090 xBCC260 xFA0D5E x04E110 x0319ED xFC92C5 x1CB8D8	x36D880 x0708A3 x46BD2E x14786A xD0DA95 x1458A6 xE682D3 x7EAE07 xAD965B x0B484F xCB4129}
+	    }
+	    add_homeland = cu:ukrainian
+	    add_homeland = cu:russian
+	}
+	s:STATE_DNIPRO = {
+		create_state = {
+	    	country = c:RUS
+	    	owned_provinces = { x71E0E0 xCFBD13 x580D2A x35FCF1 x4202ED x58331B xE6C06A x71E061 xF60A93 xB285AE x7141E0 x3DA304 x924D7E x19213B x5BE6ED x055C67 }
 	    }
 	    add_homeland = cu:ukrainian
 	    add_homeland = cu:russian
