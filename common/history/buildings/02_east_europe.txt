@@ -17,7 +17,7 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_munitions_industry"
+				building = "building_munitions_plants"
 				add_ownership = {
                     country = {
                         country = "c:RUS"
@@ -326,7 +326,7 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_munitions_industry"
+				building = "building_munitions_plants"
 				add_ownership = {
                     country = {
                         country = "c:RUS"
@@ -1245,7 +1245,7 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_munitions_industry"
+				building = "building_munitions_plants"
 				add_ownership = {
                     country = {
                         country = "c:RUS"

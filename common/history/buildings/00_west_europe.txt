@@ -3889,7 +3889,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:GBR"
-        levels = 5
+        levels = 3
     }
 }
 
@@ -3900,6 +3900,16 @@ BUILDINGS = {
 					"pm_teflon_chemicals"
 					"pm_powered_assembly_lines_industry"
 				}
+			}
+			create_building = {
+				building = "building_munitions_plants"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+				reserves = 1
 			}
 			create_building = {
 				building = "building_glassworks"
@@ -5103,7 +5113,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:GBR"
-        levels = 8
+        levels = 6
     }
 }
 
@@ -5115,6 +5125,16 @@ BUILDINGS = {
 					"pm_powered_assembly_lines_industry"
 					"pm_pre_war_ammunition"
 				}
+			}
+			create_building = {
+				building = "building_munitions_plants"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+				reserves = 1
 			}
 			create_building = {
 				building = "building_electronics_manufactories"
@@ -7807,7 +7827,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:FRA"
-        levels = 10
+        levels = 8
     }
 }
 
@@ -7819,6 +7839,16 @@ BUILDINGS = {
 					"pm_plastic_explosives"
 					"pm_pre_war_ammunition"
 				}
+			}
+			create_building = {
+				building = "building_munitions_plants"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 1
+                    }
+                }
+				reserves = 1
 			}
 			create_building = {
 				building = "building_electronics_manufactories"
