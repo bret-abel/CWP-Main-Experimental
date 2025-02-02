@@ -487,6 +487,20 @@ BUILDINGS = {
 	s:STATE_AZERBAIJAN = {
 		region_state:RUS = {
 			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:RUS"
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_modern_bureaucracy"
+					"pm_professional_bureaucrats"
+				}
+			}
+			create_building = {
 				building = "building_food_industry"
 				add_ownership = {
     country = {
@@ -621,6 +635,20 @@ BUILDINGS = {
 	}
 	s:STATE_GREATER_CAUCASUS = {
 		region_state:RUS = {
+			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:RUS"
+						levels = 3
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_modern_bureaucracy"
+					"pm_professional_bureaucrats"
+				}
+			}
 			create_building = {
 				building = "building_food_industry"
 				add_ownership = {
@@ -1806,6 +1834,20 @@ BUILDINGS = {
 	s:STATE_WEST_UZBEKIA = {
 		region_state:RUS = {
 			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:RUS"
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_modern_bureaucracy"
+					"pm_professional_bureaucrats"
+				}
+			}
+			create_building = {
 				building = "building_food_industry"
 				add_ownership = {
     country = {
@@ -1843,30 +1885,13 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 2
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_modern_bureaucracy"
-					"pm_professional_bureaucrats"
-				}
-			}
-			create_building = {
 				building = "building_railway"
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 3
+        levels = 2
     }
 }
-
-
-
 				reserves = 1
 				activate_production_methods = {
 					"pm_steam_trains"
@@ -1969,6 +1994,20 @@ BUILDINGS = {
 	s:STATE_EAST_UZBEKIA = {
 		region_state:RUS = {
 			create_building = {
+				building = "building_government_administration"
+				add_ownership = {
+					country = {
+						country = "c:RUS"
+						levels = 5
+					}
+				}
+				reserves = 1
+				activate_production_methods = {
+					"pm_modern_bureaucracy"
+					"pm_professional_bureaucrats"
+				}
+			}
+			create_building = {
 				building = "building_food_industry"
 				add_ownership = {
     country = {
@@ -1992,28 +2031,11 @@ BUILDINGS = {
         levels = 15
     }
 }
-
-
-
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_manual_harvesting"
-				}
-			}
-			create_building = {
-				building = "building_government_administration"
-				add_ownership = {
-					country = {
-						country = "c:RUS"
-						levels = 3
-					}
-				}
-				reserves = 1
-				activate_production_methods = {
-					"pm_modern_bureaucracy"
-					"pm_professional_bureaucrats"
 				}
 			}
 			create_building = {
@@ -2024,9 +2046,6 @@ BUILDINGS = {
         levels = 5
     }
 }
-
-
-
 				subsidized = yes
 				reserves = 1
 				activate_production_methods = {
@@ -2095,7 +2114,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 30
+        levels = 20
     }
 }
 
@@ -2114,7 +2133,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 30
+        levels = 20
     }
 }
 
