@@ -19,7 +19,7 @@ pm_steam_trains = {
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 40
+			state_infrastructure_add = 50
 		}
 	}
 	country_modifiers = {
