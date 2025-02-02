@@ -38,7 +38,7 @@
 			nationalDefense = reserve_military
 			economicSystem = interventionism
 			tradePolicy = protectionism
-			taxation = income_taxation
+			taxation = per_capita_based_taxation
 			educationSystem = informal_schooling
 			healthSystem = charity_health_system
 			environmentalRegulations = no_environment_regulations
