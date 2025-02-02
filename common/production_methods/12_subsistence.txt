@@ -386,7 +386,6 @@ pm_privately_owned_building_subsistence = {
 	building_modifiers = {
 		level_scaled = {
 			building_employment_clergy_add = 200
-			building_employment_landlords_add = 200
 		}
 		unscaled = {
 			building_landlords_shares_add = 1
