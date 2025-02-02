@@ -23,10 +23,11 @@ pm_serfdom_no = {
 		law_commercialized_agriculture
 		law_collectivized_agriculture
 	}
-	
+
+	# ORIGINAL VALUE is 4, in future should be redesigned, since this vanilla PMG does not show modern situation
 	building_modifiers = {					
 		unscaled = {
-			building_subsistence_output_add = 4
+			building_subsistence_output_add = 0
 		}
 	}
 }
