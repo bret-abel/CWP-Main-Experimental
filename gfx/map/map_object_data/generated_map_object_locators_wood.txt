@@ -1,4 +1,4 @@
-game_object_locator={
+﻿game_object_locator={
 	name="wood"
 	clamp_to_water_level=no
 	render_under_water=no
@@ -781,7 +781,7 @@ game_object_locator={
 		}
 		{
 			id=143
-			position={ 4895.561523 0.000000 2689.305176 }
+			position={ 4962.496582 0.000000 2719.977539 }
 			rotation={ -0.000000 -0.425578 -0.000000 -0.904921 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -3381,6 +3381,12 @@ game_object_locator={
 			id=837
 			position={ 5839.072754 0.000000 2199.630859 }
 			rotation={ -0.000000 -0.392732 -0.000000 -0.919653 }
+			scale={ 1.000000 1.000000 1.000000 }
+		}
+		{
+			id=840
+			position={ 4712.178711 0.000000 2733.843750 }
+			rotation={ -0.000000 -0.852273 -0.000000 -0.523097 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 		{

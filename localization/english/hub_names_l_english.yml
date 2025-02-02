@@ -918,13 +918,17 @@
   HUB_NAME_STATE_MINSK_farm: "Mazyr"
   HUB_NAME_STATE_MINSK_wood: "Babruysk"
   HUB_NAME_STATE_VOLHYNIA_city: "Rivne"
-  HUB_NAME_STATE_VOLHYNIA_mine: "Ternopil"
-  HUB_NAME_STATE_VOLHYNIA_farm: "Kovel'"
+  HUB_NAME_STATE_VOLHYNIA_mine: "Sarny"
+  HUB_NAME_STATE_VOLHYNIA_farm: "Kovel"
   HUB_NAME_STATE_VOLHYNIA_wood: "Zviahel"
   HUB_NAME_STATE_KIEV_city: "Kyiv"
-  HUB_NAME_STATE_KIEV_mine: "Zhmerynka"
-  HUB_NAME_STATE_KIEV_farm: "Sumy"
+  HUB_NAME_STATE_KIEV_mine: "Chornobyl"
+  HUB_NAME_STATE_KIEV_farm: "Cherkasy"
   HUB_NAME_STATE_KIEV_wood: "Zhytomyr"
+  HUB_NAME_STATE_PODOLIA_city: "Kamianets-Podilskyi"
+  HUB_NAME_STATE_PODOLIA_mine: "Vinnytsia"
+  HUB_NAME_STATE_PODOLIA_farm: "Ternopil"
+  HUB_NAME_STATE_PODOLIA_wood: "Khmelnytskyi"
   HUB_NAME_STATE_CHERSON_city: "Mykolaiv"
   HUB_NAME_STATE_CHERSON_port: "Odesa"
   HUB_NAME_STATE_CHERSON_mine: "Kropyvnytskyi"
@@ -940,8 +944,10 @@
   HUB_NAME_STATE_DNIPRO_port: "Melitopol"
   HUB_NAME_STATE_DNIPRO_mine: "Kriviy Rih"
   HUB_NAME_STATE_LUHANSK_city: "Donetsk"
+  HUB_NAME_STATE_LUHANSK_farm: "Siverskodonetsk"
   HUB_NAME_STATE_LUHANSK_port: "Mariupol"
   HUB_NAME_STATE_LUHANSK_mine: "Luhansk"
+  HUB_NAME_STATE_LUHANSK_wood: "Artemivsk"
   HUB_NAME_STATE_KURSK_city: "Orel"
   HUB_NAME_STATE_KURSK_mine: "Voronezh"
   HUB_NAME_STATE_KURSK_farm: "Kursk"
@@ -3065,7 +3071,7 @@
 
   HUB_NAME_STATE_KRAKOW_city_german_cwp: "Krakau"
   HUB_NAME_STATE_KRAKOW_mine_german_cwp: "Neu Sandec"
-  HUB_NAME_STATE_KRAKOW_farm_german_cwp: "Tarnau "
+  HUB_NAME_STATE_KRAKOW_farm_german_cwp: "Tarnau"
   HUB_NAME_STATE_KRAKOW_wood_german_cwp: "Bielitz-Biala"
 
 # Cherson
@@ -3084,28 +3090,28 @@
 
 # Luhansk
 
-  HUB_NAME_STATE_LUHANSK_city_polish_cwp: "Charków"
+  HUB_NAME_STATE_LUHANSK_city_polish_cwp: "Donieck"
   HUB_NAME_STATE_LUHANSK_port_polish_cwp: "Mariupol"
   HUB_NAME_STATE_LUHANSK_mine_polish_cwp: "Ługańsk"
-  HUB_NAME_STATE_LUHANSK_farm_polish_cwp: "Dniepr"
-  HUB_NAME_STATE_LUHANSK_wood_polish_cwp: "Zaporoże"
+  HUB_NAME_STATE_LUHANSK_farm_polish_cwp: "Siewierskodonieck"
+  HUB_NAME_STATE_LUHANSK_wood_polish_cwp: "Artiomowsk"
 
   HUB_NAME_STATE_LUHANSK_city_russian_cwp: "Kharkov"
   HUB_NAME_STATE_LUHANSK_port_russian_cwp: "Mariupol"
   HUB_NAME_STATE_LUHANSK_mine_russian_cwp: "Lugansk"
-  HUB_NAME_STATE_LUHANSK_farm_russian_cwp: "Dnepr"
-  HUB_NAME_STATE_LUHANSK_wood_russian_cwp: "Zaporozhye"
+  HUB_NAME_STATE_LUHANSK_farm_russian_cwp: "Severodonetsk"
+  HUB_NAME_STATE_LUHANSK_wood_russian_cwp: "Artyomovsk"
 
 # Kyiv
 
   HUB_NAME_STATE_KIEV_city_polish_cwp: "Kijów"
-  HUB_NAME_STATE_KIEV_mine_polish_cwp: "Żmerynka"
-  HUB_NAME_STATE_KIEV_farm_polish_cwp: "Sumy"
+  HUB_NAME_STATE_KIEV_mine_polish_cwp: "Czarnobyl"
+  HUB_NAME_STATE_KIEV_farm_polish_cwp: "Czerkasy"
   HUB_NAME_STATE_KIEV_wood_polish_cwp: "Żytomierz"
 
   HUB_NAME_STATE_KIEV_city_russian_cwp: "Kiev"
-  HUB_NAME_STATE_KIEV_mine_russian_cwp: "Zhmerynka"
-  HUB_NAME_STATE_KIEV_farm_russian_cwp: "Sumy"
+  HUB_NAME_STATE_KIEV_mine_russian_cwp: "Chernobyl"
+  HUB_NAME_STATE_KIEV_farm_russian_cwp: "Cherkasy"
   HUB_NAME_STATE_KIEV_wood_russian_cwp: "Zhitomir"
 
 # Alsace-Lorraine
