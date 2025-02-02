@@ -263,7 +263,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 25
+        levels = 5
     }
 }
 
@@ -339,7 +339,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 3
+        levels = 10
     }
 }
 
@@ -579,7 +579,7 @@ BUILDINGS = {
 				add_ownership = {
     country = {
         country = "c:RUS"
-        levels = 30
+        levels = 15
     }
 }
 

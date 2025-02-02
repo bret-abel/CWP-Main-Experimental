@@ -44608,7 +44608,6 @@
 				xD7E3C1
 				xE4AA78
 				xF0E0A0
-				xF9066A
 				xFD6659
 				xFDD2CF
 			}
@@ -44860,14 +44859,10 @@
 				x8F9F20
 				x9D8087
 				xA2805F
-				xA3CF78
-				xB021A0
-				xC1B262
 				xC58E1C
 				xCAE5B0
 				xCDD223
 				xE369C4
-				xEFE270
 			}
 		}
 		add_homeland = cu:polish
@@ -45785,16 +45780,8 @@
 			country = c:RUS
 			owned_provinces = {
 				x6AC779
-				x905D21
 				x4D686A
-				x6168EB
-				xE2B51B
-				x884128
-				x7161A0
-				x4700D0
-				x9B1B0B
 				xBD8617
-				x33471E
 				xAC3079
 				x8201CF
 				x37A636
@@ -45824,11 +45811,8 @@
 			    x387D75
 			    x83B302
 				x01E0E0
-				x022620
 				x1121A0
-				x11F253
 				x18E9E1
-				x1C7F2D
 				x2472F3
 				x270CD8
 				x2C6218
@@ -45850,10 +45834,8 @@
 				xC482AD
 				xCD2CE5
 				xD5E7D2
-				xD6537D
 				xD8EA8C
 				xDAAE11
-				xDCE378
 				xDD790F
 				xE08061
 				xE6AF95
@@ -45861,8 +45843,6 @@
 				xE996D1
 				xEA1E16
 				xF061A0
-				xF0E021
-				xFF7D57
 			}
 		}
 		add_homeland = cu:ukrainian
@@ -46327,6 +46307,15 @@
 		create_state = {
 	    	country = c:RUS
 	    	owned_provinces = { x71E0E0 xCFBD13 x580D2A x35FCF1 x4202ED x58331B xE6C06A x71E061 xF60A93 xB285AE x7141E0 x3DA304 x924D7E x19213B x5BE6ED x055C67 }
+	    }
+	    add_homeland = cu:ukrainian
+	    add_homeland = cu:russian
+	}
+
+	s:STATE_PODOLIA = {
+			create_state = {
+	    	country = c:RUS
+	    	owned_provinces = { xA3CF78 xC1B262 x6168EB xEFE270 xB021A0 xF9066A x022620 xF0E021 x11F253 xFF7D57 xDCE378 xD6537D x1C7F2D x884128 x7161A0 x33471E x9B1B0B x905D21 x4700D0 xE2B51B }
 	    }
 	    add_homeland = cu:ukrainian
 	    add_homeland = cu:russian

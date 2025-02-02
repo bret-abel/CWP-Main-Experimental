@@ -575,6 +575,7 @@
  STATE_VOLHYNIA:0 "Volhynia"
  STATE_KIEV:0 "Kyiv"
  STATE_CHERNIHIV:0 "Chernihiv"
+ STATE_PODOLIA:0 "Podolia"
  STATE_KHARKIV:0 "Kharkiv"
  STATE_DNIPRO:0 "Dnipro"
  STATE_RIAU_ISLANDS:0 "Riau Islands"
