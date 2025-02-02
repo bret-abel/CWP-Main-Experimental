@@ -6,9 +6,8 @@
 	progressiveness = -50
 	
 	disallowing_laws = {
-		law_interventionism
-		law_free_market
-		law_command_economy
+	 law_interventionism
+		law_free_market		
 	}
 	
 	on_enact = {
@@ -134,7 +133,7 @@ law_commercialized_agriculture = {
 	progressiveness = 0
 
 	disallowing_laws = {
-		law_traditionalism
+		law_decentralization
 	}
 
 	unlocking_technologies = {
@@ -314,11 +313,11 @@ law_collectivized_agriculture = {
 	}
 
 	unlocking_laws = {
-		law_command_economy
+	 law_interventionism
 		law_cooperative_ownership
 	}
 
-	unlocking_technologies = { socialism }
+	unlocking_technologies = {  }
 
 	ai_enact_weight_modifier = { #Petitions
 		value = 0

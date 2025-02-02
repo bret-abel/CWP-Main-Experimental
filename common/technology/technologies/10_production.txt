@@ -13,6 +13,17 @@ early_electrical_generation = {
 		value = 1
 	}
 }
+mutual_funds = {
+    era = era_1                        
+    texture = "gfx/interface/icons/invention_icons/mutual_funds.dds"  #
+    category = production           
+    unlocking_technologies = {         
+    }
+    ai_weight = {
+        value = 1
+    }
+}
+
 
 early_textiles = {
 	era = era_1
