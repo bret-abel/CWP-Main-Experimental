@@ -86,7 +86,7 @@ STATE_KIEV = {
     farm = xE996D1
     mine = xEA1E16
     wood = x2472F3
-    arable_land = 420
+    arable_land = 100
     arable_resources = { bg_wheat_farms bg_livestock_ranches }
     resource = {
         type = bg_uranium_mining
@@ -100,10 +100,6 @@ STATE_KIEV = {
         type = bg_oil_rig
         undiscovered_amount = 30
         discovered_amount = 3
-    }
-    resource = {
-        type = bg_natural_gas_well
-        undiscovered_amount = 38
     }
     capped_resources = {
         bg_coal_mining = 10
