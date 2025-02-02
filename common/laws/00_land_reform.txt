@@ -7,7 +7,7 @@
 	
 	disallowing_laws = {
 		law_interventionism
-		law_laissez_faire
+		law_free_market
 		law_command_economy
 	}
 	
