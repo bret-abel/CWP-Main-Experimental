@@ -7529,6 +7529,16 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
+				building = "building_tank_factory"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+				reserves = 1
+			}
+			create_building = {
 				building = "building_construction_sector"
 				add_ownership = {
     country = {
@@ -19935,6 +19945,16 @@ BUILDINGS = {
 					"pm_paved_roads"
 					"pm_cargo_prioritization"
 				}
+			}
+			create_building = {
+				building = "building_tank_factory"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+				reserves = 1
 			}
 			create_building = {
 				building = "building_combustion_plant"

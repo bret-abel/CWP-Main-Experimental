@@ -130,6 +130,16 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
+				building = "building_munitions_plants"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+				reserves = 1
+			}
+			create_building = {
 				building = "building_tobacco_plantation"
 				add_ownership = {
     country = {
@@ -1961,6 +1971,16 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
+				building = "building_munitions_plants"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+				reserves = 1
+			}
+			create_building = {
 				building = "building_tea_plantation"
 				add_ownership = {
     country = {
@@ -3193,6 +3213,16 @@ BUILDINGS = {
 					"pm_manual_harvesting_plantation"
 					"pm_no_transport_plantation"
 				}
+			}
+			create_building = {
+				building = "building_munitions_plants"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+				reserves = 1
 			}
 			create_building = {
 				building = "building_tea_plantation"

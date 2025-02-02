@@ -6200,12 +6200,21 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_plastic_explosives"
-					"pm_pre_war_ammunition"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
 			create_building = {
 				building = "building_munitions_plants"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+				reserves = 1
+			}
+			create_building = {
+				building = "building_tank_factory"
 				add_ownership = {
                     country = {
                         country = "c:RUS"
