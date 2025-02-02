@@ -3435,9 +3435,6 @@ pm_advanced_explosives = {
 }
 
 ## Base Munitions PMG
-pm_no_ammo = {
-	texture = "gfx/interface/icons/generic_icons/unused/lack.dds"	# No ammo production, pink
-}
 
 pm_pre_war_ammunition = {
 	texture = "gfx/interface/icons/production_method_icons/unused/base1.dds"	# Clips, like for the M1 garand.  Pink
@@ -3452,7 +3449,7 @@ pm_pre_war_ammunition = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_output_explosives_add = -25
+			goods_input_explosives_add = 25
 			goods_input_lead_add = 20
 			# output goods
 			goods_output_ammunition_add = 55
@@ -3483,7 +3480,7 @@ pm_standardized_cartridges = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_output_explosives_add = -55
+			goods_input_explosives_add = 55
 			goods_input_lead_add = 30
 			# output goods
 			goods_output_ammunition_add = 105
@@ -3513,7 +3510,7 @@ pm_polymer_coatings = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_output_explosives_add = -65
+			goods_input_explosives_add = 65
 			goods_input_lead_add = 40
 			goods_input_plastics_add = 10
 			# output goods
@@ -3543,7 +3540,7 @@ pm_depleted_uranium_projectiles = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_output_explosives_add = -75
+			goods_input_explosives_add = 75
 			goods_input_lead_add = 50
 			goods_input_plastics_add = 20
 			goods_input_uranium_add = 10
@@ -3574,7 +3571,7 @@ pm_tungsten_carbide_projectiles = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_output_explosives_add = -75
+			goods_input_explosives_add = 75
 			goods_input_lead_add = 60
 			goods_input_plastics_add = 30
 			goods_input_rare_earth_elements_add = 10

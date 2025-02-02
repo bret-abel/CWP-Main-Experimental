@@ -1550,7 +1550,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_rudimentary_explosives"
-					"pm_no_ammo"
 					"pm_no_automation"
 				}
 			}
@@ -3210,7 +3209,6 @@ BUILDINGS = {
 
 				reserves = 1
 				activate_production_methods = {
-					"pm_no_ammo"
 					"pm_teflon_chemicals"
 					"pm_powered_assembly_lines_industry"
 				}
@@ -3900,7 +3898,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_teflon_chemicals"
-					"pm_no_ammo"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -4239,7 +4236,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_teflon_chemicals"
-					"pm_no_ammo"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -4578,7 +4574,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_teflon_chemicals"
-					"pm_no_ammo"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -9628,7 +9623,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_plastic_explosives"
 					"pm_powered_assembly_lines_industry"
-					"pm_no_ammo"
 				}
 			}
 		}
@@ -10159,7 +10153,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_plastic_explosives"
 					"pm_powered_assembly_lines_industry"
-					"pm_no_ammo"
 				}
 			}
 		}
@@ -11760,7 +11753,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_rudimentary_explosives"
 					"pm_powered_assembly_lines_industry"
-					"pm_no_ammo"
 				}
 			}
 			create_building = {

@@ -16,6 +16,16 @@ BUILDINGS = {
 					"pm_basic_port"
 				}
 			}
+			create_building = {
+				building = "building_munitions_industry"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+				reserves = 1
+			}
 		    create_building = {
 				building = "building_distilleries"
 				add_ownership = {
@@ -314,6 +324,16 @@ BUILDINGS = {
 					"pm_simple_farming"
 					"pm_manual_harvesting"
 				}
+			}
+			create_building = {
+				building = "building_munitions_industry"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 2
+                    }
+                }
+				reserves = 1
 			}
 			create_building = {
 				building = "building_paper_manufactories"
@@ -667,7 +687,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_rudimentary_explosives"
 					"pm_no_automation"
-					"pm_no_ammo"
 				}
 			}
 			create_building = {
@@ -1226,6 +1245,26 @@ BUILDINGS = {
 				}
 			}
 			create_building = {
+				building = "building_munitions_industry"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 1
+                    }
+                }
+				reserves = 1
+			}
+			create_building = {
+				building = "building_artillery_foundries"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 1
+                    }
+                }
+				reserves = 1
+			}
+			create_building = {
 				building = "building_logging_camp"
 				add_ownership = {
                    country = {
@@ -1658,22 +1697,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_nylon"
 					"pm_no_rubber"
-					"pm_no_automation"
-				}
-			}
-			create_building = {
-				building = "building_explosives_industry"
-				add_ownership = {
-    country = {
-        country = "c:RUS"
-        levels = 5
-    }
-}
-				subsidized = yes
-				reserves = 1
-				activate_production_methods = {
-					"pm_rudimentary_explosives"
-					"pm_pre_war_ammunition"
 					"pm_no_automation"
 				}
 			}
@@ -2520,6 +2543,21 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_simple_farming"
 					"pm_manual_harvesting"
+				}
+			}
+			create_building = {
+				building = "building_explosives_industry"
+				add_ownership = {
+                    country = {
+                        country = "c:RUS"
+                        levels = 10
+                    }
+                }
+				subsidized = yes
+				reserves = 1
+				activate_production_methods = {
+					"pm_rudimentary_explosives"
+					"pm_no_automation"
 				}
 			}
 			create_building = {
@@ -3678,7 +3716,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_rudimentary_explosives"
 					"pm_no_automation"
-					"pm_no_ammo"
 				}
 			}
 			create_building = {

@@ -262,7 +262,6 @@
  pm_self_propelled_artillery_prod:0 "自走砲"
  pm_multiple_launch_rocket_system:0 "多連装ロケットシステム"
  pm_guided_missile_launchers:0 "ミサイルシステム"
- pm_no_ammo:0 "弾薬なし"
  pm_pre_war_ammunition:0 "戦前型弾薬"
  pm_standardized_cartridges:0 "実包の標準化"
  pm_polymer_coatings:0 "ポリマーコーティング"

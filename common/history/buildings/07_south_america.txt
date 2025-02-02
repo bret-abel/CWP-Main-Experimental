@@ -4582,7 +4582,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_rudimentary_explosives"
-					"pm_no_ammo"
 					"pm_powered_assembly_lines_industry"
 				}
 			}

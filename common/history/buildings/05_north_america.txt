@@ -3545,7 +3545,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_plastic_explosives"
 					"pm_powered_assembly_lines_industry"
-					"pm_no_ammo"
 				}
 			}
 			create_building = {
@@ -7718,7 +7717,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_plastic_explosives"
 					"pm_powered_assembly_lines_industry"
-					"pm_no_ammo"
 				}
 			}
 			create_building = {

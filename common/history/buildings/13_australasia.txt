@@ -148,7 +148,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_powered_assembly_lines_industry"
-					"pm_no_ammo"
 					"pm_teflon_chemicals"
 				}
 			}
@@ -458,7 +457,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_teflon_chemicals"
-					"pm_no_ammo"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -856,7 +854,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_teflon_chemicals"
-					"pm_no_ammo"
 					"pm_powered_assembly_lines_industry"
 				}
 			}
@@ -1927,7 +1924,6 @@ BUILDINGS = {
 
 				reserves = 1
 				activate_production_methods = {
-					"pm_no_ammo"
 					"pm_no_automation"
 					"pm_teflon_chemicals"
 				}

@@ -287,7 +287,6 @@
   pm_multiple_launch_rocket_system: "Multiple Launch Rocket Systems"
   pm_guided_missile_launchers: "Guided Missile Systems"
   ##### Munition Plants
-  pm_no_ammo: "No Ammunition"
   pm_pre_war_ammunition: "Pre-war Ammunition"
   pm_standardized_cartridges: "Standardized Cartridges"
   pm_polymer_coatings: "Polymer Coatings"

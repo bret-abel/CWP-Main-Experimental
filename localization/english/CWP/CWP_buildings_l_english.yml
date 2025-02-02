@@ -65,6 +65,8 @@
   building_strategic_airbase: "Strategic Airbase"
   building_nuclear_weapons_silo: "Missile Silo"
   building_chemical_weapons_facility: "Chemical Weapons Facility"
+  building_tank_factory: "Tank Factory"
+  building_munitions_plants: "Munition Plants"
   building_biological_weapons_facility: "Biological Weapons Facility"
   building_drydocks: "Drydocks"
   building_drydocks_lens_option: "Expand $building_drydocks$"

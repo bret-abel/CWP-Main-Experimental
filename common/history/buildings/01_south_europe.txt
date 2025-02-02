@@ -348,7 +348,6 @@ BUILDINGS = {
 
 				reserves = 1
 				activate_production_methods = {
-					"pm_no_ammo"
 					"pm_no_automation"
 					"pm_plastic_explosives"
 				}
@@ -1440,7 +1439,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_plastic_explosives"
 					"pm_no_automation"
-					"pm_no_ammo"
 				}
 			}
 			create_building = {
@@ -2132,7 +2130,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_plastic_explosives"
-					"pm_no_ammo"
 					"pm_no_automation"
 				}
 			}
@@ -3359,7 +3356,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_plastic_explosives"
-					"pm_no_ammo"
 					"pm_no_automation"
 				}
 			}
@@ -3971,7 +3967,6 @@ BUILDINGS = {
 				reserves = 1
 				activate_production_methods = {
 					"pm_plastic_explosives"
-					"pm_no_ammo"
 					"pm_no_automation"
 				}
 			}
@@ -5950,7 +5945,6 @@ BUILDINGS = {
 				activate_production_methods = {
 					"pm_rudimentary_explosives"
 					"pm_no_automation"
-					"pm_no_ammo"
 				}
 			}
 			create_building = {
