@@ -1427,7 +1427,7 @@ pm_conventional_track = {
 	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
     building_modifiers = {
         workforce_scaled = {
-            goods_input_steel_add = 3
+            goods_input_steel_add = 2
             goods_output_transportation_add = 10
         }
         level_scaled = {
@@ -1447,6 +1447,9 @@ pm_high_speed_track = {
     unlocking_technologies = {
         high_speed_rail_track
     }
+    unlocking_production_methods = {
+		pm_electric_power
+	}
     building_modifiers = {
         workforce_scaled = {
             goods_input_steel_add = 5
@@ -1472,6 +1475,9 @@ pm_maglev_track = {
     texture = "gfx/interface/icons/production_method_icons/other/maglev_track.dds"
 	unlocking_technologies = {
 		compressed_gas_trains
+	}
+	unlocking_production_methods = {
+		pm_electric_power
 	}
     building_modifiers = {
         workforce_scaled = {
