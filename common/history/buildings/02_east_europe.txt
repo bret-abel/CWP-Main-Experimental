@@ -94,6 +94,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -289,6 +290,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -588,6 +590,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -697,6 +700,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -760,10 +764,11 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=13
+						levels=10
 					}
 				}
 				reserves=1
@@ -998,6 +1003,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -1084,6 +1090,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -1169,6 +1176,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -1255,6 +1263,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -1294,6 +1303,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -1414,6 +1424,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -1597,6 +1608,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -1752,6 +1764,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -1907,6 +1920,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -2027,6 +2041,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -2100,6 +2115,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -2234,6 +2250,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -2354,6 +2371,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -2534,6 +2552,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -2692,6 +2711,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -2789,6 +2809,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -2877,6 +2898,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -3010,6 +3032,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:POL"
@@ -3155,6 +3178,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:POL"
@@ -3322,6 +3346,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:POL"
@@ -3456,6 +3481,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:POL"
@@ -3543,6 +3569,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:POL"
@@ -3698,6 +3725,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:POL"
@@ -3807,6 +3835,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:POL"
@@ -3869,6 +3898,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -3990,6 +4020,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -4084,6 +4115,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:HUN"
@@ -4238,6 +4270,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:HUN"
@@ -4323,6 +4356,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:ROM"
@@ -4408,6 +4442,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:CZH"
@@ -4459,6 +4494,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:CZH"
@@ -4520,6 +4556,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:ROM"
@@ -4568,6 +4605,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:ROM"
@@ -4627,6 +4665,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:ROM"
@@ -4753,6 +4792,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:ROM"
@@ -4790,6 +4830,7 @@
 		region_state:RUS={
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -4923,6 +4964,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -4961,6 +5003,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -5128,6 +5171,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -5249,6 +5293,7 @@
 			}
 			create_building={
 				building="building_railway"
+				subsidized=yes
 				add_ownership={
 					country={
 						country="c:RUS"
