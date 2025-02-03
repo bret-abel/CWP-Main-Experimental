@@ -10,9 +10,9 @@ building_railway = {
 	}
 
 	production_method_groups = {
-		pmg_base_building_railway
-		pmg_highways
-		pmg_infrastructure_prioritization
+	    pmg_railway_power
+	    pmg_rolling_stock
+	    pmg_railway_track
 	}
 
 	required_construction = construction_cost_very_high
