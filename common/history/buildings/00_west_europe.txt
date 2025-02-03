@@ -2540,7 +2540,7 @@
 				building="building_munitions_plants"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:GBR"
 						levels=2
 					}
 				}
@@ -3330,7 +3330,7 @@
 				building="building_munitions_plants"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:GBR"
 						levels=2
 					}
 				}
@@ -4910,7 +4910,7 @@
 				building="building_tank_factory"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:FRA"
 						levels=2
 					}
 				}
@@ -5120,7 +5120,7 @@
 				building="building_munitions_plants"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:FRA"
 						levels=1
 					}
 				}
@@ -12936,7 +12936,7 @@
 				building="building_tank_factory"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:GBR"
 						levels=2
 					}
 				}

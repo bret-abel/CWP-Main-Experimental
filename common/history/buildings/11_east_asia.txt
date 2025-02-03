@@ -114,7 +114,7 @@
 				building="building_munitions_plants"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:ROC"
 						levels=2
 					}
 				}
@@ -1419,7 +1419,7 @@
 				building="building_munitions_plants"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:PRC"
 						levels=2
 					}
 				}
@@ -2326,7 +2326,7 @@
 				building="building_munitions_plants"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:ROC"
 						levels=2
 					}
 				}

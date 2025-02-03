@@ -2244,7 +2244,7 @@
 				building="building_munitions_plants"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:USA"
 						levels=3
 					}
 				}
@@ -3137,7 +3137,7 @@
 				building="building_munitions_plants"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:USA"
 						levels=2
 					}
 				}
@@ -3148,7 +3148,7 @@
 				building="building_tank_factory"
 				add_ownership={
 					country={
-						country="c:RUS"
+						country="c:USA"
 						levels=2
 					}
 				}
