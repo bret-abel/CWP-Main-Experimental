@@ -1,4 +1,37 @@
-﻿pmg_base_building_railway = {
+﻿pmg_railway_power = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+	production_methods = {
+		pm_steam_power
+		pm_oil_power
+		pm_diesel_power
+		pm_electric_power
+	}
+}
+
+pmg_rolling_stock = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+	production_methods = {
+	    pm_basic_rolling_stock
+		pm_improved_rolling_stock
+		pm_advanced_rolling_stock
+		pm_modern_rolling_stock
+	}
+}
+
+pmg_railway_track = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_profitable
+	production_methods = {
+	    pm_conventional_track
+		pm_high_speed_track
+		pm_maglev_track
+	}
+}
+
+
+pmg_base_building_railway = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 	production_methods = {
@@ -29,16 +62,6 @@ pmg_infrastructure_prioritization = {
 		pm_cargo_prioritization
 		pm_mixed_network
 		pm_passenger_prioritization
-	}
-}
-
-pmg_ownership_capital_building_railway = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned_building_railway
-		pm_publicly_traded_building_railway
-		pm_government_run_building_railway
-		pm_worker_cooperatives_building_railway
 	}
 }
 

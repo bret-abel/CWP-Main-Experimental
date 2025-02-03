@@ -276,102 +276,6 @@ pm_passenger_prioritization = {
 	}
 }
 
-## Ownership
-pm_privately_owned_building_railway = {
-	texture = "gfx/interface/icons/production_method_icons/ownership/privately_owned.dds"
-	disallowing_laws = {
-		law_total_nationalization
-		law_heavy_industry_nationalization
-		law_military_industry_nationalization
-		law_resource_extraction_nationalization
-		law_public_utility_companies
-	}
-	unlocking_laws = {
-		law_free_market
-		law_decentralization
-		law_anti_industrialization
-		law_interventionism
-	}
-	building_modifiers = {
-		level_scaled = {
-			building_employment_investors_add = 200
-		}
-		unscaled = {
-			building_investors_shares_add = 1
-		}
-	}
-}
-
-pm_publicly_traded_building_railway = {
-	texture = "gfx/interface/icons/production_method_icons/ownership/publicly_traded.dds"
-	unlocking_technologies = {
-		central_bank_independence
-	}
-	disallowing_laws = {
-		law_total_nationalization
-		law_heavy_industry_nationalization
-		law_military_industry_nationalization
-		law_resource_extraction_nationalization
-		law_public_utility_companies
-	}
-	unlocking_laws = {
-		law_free_market
-	}
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_financial_services_add = 1
-			goods_output_bonds_add = 5
-		}
-		level_scaled = {
-			building_employment_investors_add = 200
-		}
-		unscaled = {
-			building_investors_shares_add = 1
-		}
-	}
-}
-
-pm_government_run_building_railway = {
-	texture = "gfx/interface/icons/production_method_icons/ownership/government_run.dds"
-	disallowing_laws = {
-		law_no_nationalization
-	}
-	unlocking_laws = {
-		law_socialization
-		law_interventionism
-	}
-	building_modifiers = {
-		level_scaled = {
-			building_employment_administrators_add = 200
-		}
-		unscaled = {
-			building_government_shares_add = 5
-		}
-	}
-}
-
-pm_worker_cooperatives_building_railway = {
-	texture = "gfx/interface/icons/production_method_icons/ownership/worker_cooperative.dds"
-	disallowing_laws = {
-		law_total_nationalization
-		law_heavy_industry_nationalization
-		law_military_industry_nationalization
-		law_resource_extraction_nationalization
-		law_public_utility_companies
-	}
-	unlocking_laws = {
-		law_socialization
-	}
-	building_modifiers = {
-		level_scaled = {
-			building_employment_clericals_add = 300
-		}
-		unscaled = {
-			building_workforce_shares_add = 1
-		}
-	}
-}
-
 ## Highways
 pm_paved_roads = {
 	texture = "gfx/interface/icons/production_method_icons/other/paved_roads.dds"
@@ -1314,8 +1218,8 @@ pm_worker_cooperatives_airport = {
 pm_financial_district_privately_owned = {
 	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
 	replacement_if_valid = pm_financial_district_principle_divine_economics_2
-	
-	building_modifiers = { 
+
+	building_modifiers = {
 		level_scaled = {
 			building_employment_investors_add = 50
 			building_employment_clericals_add = 200
@@ -1329,10 +1233,10 @@ pm_financial_district_privately_owned = {
 
 pm_financial_district_publicly_traded = {
 	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
-	
+
 	unlocking_technologies = { mutual_funds }
-	
-	building_modifiers = { 
+
+	building_modifiers = {
 		level_scaled = {
 			building_employment_investors_add = 50
 			building_employment_administrators_add = 50
@@ -1340,13 +1244,13 @@ pm_financial_district_publicly_traded = {
 		}
 		unscaled = {
 			building_investors_shares_add = 10
-		}			
-	}	
+		}
+	}
 }
 pm_company_headquarter_privately_owned = {
 	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
-	
-	building_modifiers = { 
+
+	building_modifiers = {
 		level_scaled = {
 			building_employment_investors_add = 50
 			building_employment_clericals_add = 200
@@ -1379,4 +1283,235 @@ pm_financial_district_principle_divine_economics_2 = {
 			building_clergy_shares_add = 2
 		}
 	}
+}
+#### Locomotive Power Type PMG
+pm_steam_power = {
+	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_coal_add = 5
+            goods_output_transportation_add = 10
+        }
+        level_scaled = {
+            building_employment_machinists_add = 500
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pollution_generation_add = 20
+        }
+    }
+}
+
+pm_oil_power = {
+	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_oil_add = 5
+            goods_output_transportation_add = 10
+        }
+        level_scaled = {
+            building_employment_machinists_add = 500
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pollution_generation_add = 15
+        }
+    }
+}
+
+pm_diesel_power = {
+	texture = "gfx/interface/icons/production_method_icons/other/trains_diesel.dds"
+    unlocking_technologies = {
+        dieselization
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_refined_fuel_add = 4
+            goods_output_transportation_add = 15
+        }
+        level_scaled = {
+            building_employment_machinists_add = 400
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pollution_generation_add = 8
+        }
+    }
+}
+
+pm_electric_power = {
+	texture = "gfx/interface/icons/production_method_icons/other/trains_electric.dds"
+    unlocking_technologies = {
+		national_supply_chain
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 8
+            goods_output_transportation_add = 20
+        }
+        level_scaled = {
+            building_employment_machinists_add = 300
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pollution_generation_add = 2
+        }
+    }
+}
+
+
+#### Rolling Stock Technology Level PMG
+pm_basic_rolling_stock = {
+    # 1950s level technology
+	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_engines_add = 2
+            goods_output_transportation_add = 10
+        }
+        level_scaled = {
+            building_employment_laborers_add = 2000
+            building_employment_engineers_add = 500
+        }
+    }
+}
+
+pm_improved_rolling_stock = {
+    # 1970s level technology
+	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
+	unlocking_technologies = {
+		rapid_transit
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_engines_add = 3
+            goods_input_electronics_add = 1
+            goods_output_transportation_add = 20
+        }
+        level_scaled = {
+            building_employment_laborers_add = 1500
+            building_employment_engineers_add = 1000
+        }
+    }
+}
+
+pm_advanced_rolling_stock = {
+    # 1990s level technology
+	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
+	unlocking_technologies = {
+		high_speed_rails
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_engines_add = 4
+            goods_input_electronics_add = 2
+            goods_output_transportation_add = 30
+        }
+        level_scaled = {
+            building_employment_laborers_add = 1000
+            building_employment_engineers_add = 1500
+        }
+    }
+}
+
+pm_modern_rolling_stock = {
+    # 2010s level technology
+	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
+	unlocking_technologies = {
+		third_rail_electric_systems
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_engines_add = 5
+            goods_input_electronics_add = 3
+            goods_input_computers_add = 1
+            goods_output_transportation_add = 40
+        }
+        level_scaled = {
+            building_employment_laborers_add = 500
+            building_employment_engineers_add = 2000
+        }
+    }
+}
+
+
+#### Track Infrastructure PMG
+pm_conventional_track = {
+    # Standard track (1950s-present)
+	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_steel_add = 2
+            goods_output_transportation_add = 10
+        }
+        level_scaled = {
+            building_employment_laborers_add = 1000
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_infrastructure_add = 50
+        }
+    }
+}
+
+pm_high_speed_track = {
+    # Dedicated high-speed lines (1980s-present)
+	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
+    unlocking_technologies = {
+        high_speed_rail_track
+    }
+    unlocking_production_methods = {
+		pm_electric_power
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_steel_add = 5
+            goods_output_transportation_add = 30
+        }
+        level_scaled = {
+            building_employment_laborers_add = 1500
+            building_employment_engineers_add = 1000
+        }
+    }
+    unlocking_technologies = {
+		high_speed_rails
+	}
+    state_modifiers = {
+        workforce_scaled = {
+            state_infrastructure_add = 80
+        }
+    }
+}
+
+pm_maglev_track = {
+    # Magnetic levitation system
+    texture = "gfx/interface/icons/production_method_icons/other/maglev_track.dds"
+	unlocking_technologies = {
+		compressed_gas_trains
+	}
+	unlocking_production_methods = {
+		pm_electric_power
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_steel_add = 4
+            goods_input_electronics_add = 4
+            goods_output_transportation_add = 50
+            goods_output_tourism_add = 15
+        }
+        level_scaled = {
+            building_employment_laborers_add = 1000
+            building_employment_engineers_add = 2000
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_infrastructure_add = 100
+        }
+    }
 }
