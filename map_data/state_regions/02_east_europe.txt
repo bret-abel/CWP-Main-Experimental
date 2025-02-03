@@ -120,6 +120,7 @@ STATE_BRYANSK = {
     arable_resources = { bg_rye_farms bg_livestock_ranches }
     capped_resources = {
         bg_logging = 33
+        bg_phosphorus_mining = 20
     }
 }
 

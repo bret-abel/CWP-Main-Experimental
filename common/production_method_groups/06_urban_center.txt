@@ -74,9 +74,11 @@ pmg_religious_services = {
 
 # Combustion Plants
 pmg_base_combustion_plants = {
+    ai_selection = most_profitable
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_coal_fired_plant
+		pm_crude_oil_fired_plant
 		pm_oil_fired_plant
 		pm_combustion_fired_plant
 	}

@@ -24,6 +24,17 @@
 				activate_production_methods={ "pm_pre_war_ammunition" "pm_no_automation" }
 			}
 			create_building={
+				building="building_tank_factory"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=2
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_pre_war_tanks_prod" "pm_no_automation" }
+			}
+			create_building={
 				building="building_distilleries"
 				add_ownership={
 					country={
@@ -240,6 +251,18 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_manual_harvesting" }
+			}
+			create_building={
+				building="building_steelworks"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=15
+					}
+				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_early_steelmaking" "pm_no_automation" }
 			}
 			create_building={
 				building="building_munitions_plants"
@@ -956,6 +979,17 @@
 	s:STATE_BRYANSK={
 		region_state:RUS={
 			create_building={
+				building="building_phosphorus_mine"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=10
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_manual_resource_extraction_phosphorus" "pm_traditional_tools" "pm_manual_transportation" }
+			}
+			create_building={
 				building="building_rye_farm"
 				add_ownership={
 					country={
@@ -1300,6 +1334,18 @@
 				subsidized=yes
 				reserves=1
 				activate_production_methods={ "pm_improved_food_manufactories" "pm_preservatives_fish" "pm_powered_assembly_lines_industry" }
+			}
+			create_building={
+				building="building_drydocks"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				subsidized=yes
+				reserves=1
+				activate_production_methods={ "pm_wartime_designs" "pm_no_automation" "pm_no_submarine_prod" }
 			}
 			create_building={
 				building="building_railway"

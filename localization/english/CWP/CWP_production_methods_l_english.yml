@@ -904,6 +904,7 @@
   pm_ai_generated_art: "AI Generated Art"
   pm_state_run_art_programs: "State Run Art Programs"
   pm_coal_fired_plant: "Coal-fired Plant"
+  pm_crude_oil_fired_plant: "Crude Oil-fired Plant"
   pm_oil_fired_plant: "Oil-fired Plant"
   pm_combustion_fired_plant: "Combustion-fired Plant"
   pm_nuclear_plant: "Nuclear Power Plant"
