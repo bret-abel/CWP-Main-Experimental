@@ -739,7 +739,7 @@ pmg_ownership_fuel_refineries = {
 		pm_worker_cooperatives_military_industry
 	}
 }
-pmg_base_semiconductor  {
+pmg_base_semiconductor = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_integrated_circuits_semiconductors		
