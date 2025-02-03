@@ -7,6 +7,7 @@
   pm_electric_trains: "Electric Trains"
   pm_diesel_trains: "Diesel Trains"
   pm_steam_power: "Steam locomotives"
+  pm_oil_power: "Unrefined fuel locomotives"
   pm_diesel_power: "Diesel locomotives"
   pm_electric_power: "Electric locomotives"
   pm_basic_rolling_stock: "Pre War Rolling Stock"

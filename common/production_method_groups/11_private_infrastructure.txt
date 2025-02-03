@@ -3,6 +3,7 @@
 	ai_selection = most_profitable
 	production_methods = {
 		pm_steam_power
+		pm_oil_power
 		pm_diesel_power
 		pm_electric_power
 	}
