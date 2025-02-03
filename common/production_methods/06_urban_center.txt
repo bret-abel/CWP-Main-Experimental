@@ -274,94 +274,108 @@ pm_centralized_planning = {
 
 ## Public Transportation
 pm_no_public_transport = {
-	texture = "gfx/interface/icons/production_method_icons/urban/no_public_transport.dds"
-	ai_value = 1
+    texture = "gfx/interface/icons/production_method_icons/urban/no_public_transport.dds"
+    ai_value = 1
 }
 
 pm_public_bus_system = {
-	texture = "gfx/interface/icons/production_method_icons/urban/public_trams.dds"
-	ai_value = 1000
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 10
-		}
-	}
-	unlocking_technologies = {
-		public_transportation
-	}
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_automobiles_add = 2
-		}
-		level_scaled = {
-			building_employment_laborers_add = -1000
-		}
-	}
+    texture = "gfx/interface/icons/production_method_icons/urban/public_trams.dds"
+    ai_value = 1000
+    state_modifiers = {
+        workforce_scaled = {
+            state_pollution_generation_add = 10
+        }
+    }
+    unlocking_technologies = {
+        public_transportation
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_automobiles_add = 2
+            goods_input_refined_fuel_add = 0.5
+            goods_output_transportation_add = 2
+        }
+        level_scaled = {
+            building_employment_laborers_add = -1000
+        }
+    }
 }
 
 pm_subway_systems = {
-	texture = "gfx/interface/icons/production_method_icons/urban/public_motor_carriages.dds"
-	ai_value = 3300
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 10
-		}
-	}
-	unlocking_technologies = {
-		rapid_transit
-	}
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_transportation_add = 10
-		}
-		level_scaled = {
-			building_employment_laborers_add = -2000
-		}
-	}
+    texture = "gfx/interface/icons/production_method_icons/urban/public_motor_carriages.dds"
+    ai_value = 3300
+    state_modifiers = {
+        workforce_scaled = {
+            state_pollution_generation_add = 5
+            state_infrastructure_add = 20
+        }
+    }
+    unlocking_technologies = {
+        rapid_transit
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_engines_add = 2
+            goods_input_electricity_add = 2
+            goods_output_transportation_add = 4
+        }
+        level_scaled = {
+            building_employment_laborers_add = -2000
+        }
+    }
 }
 
-pm_automated_guided_transport = {
-	texture = "gfx/interface/icons/production_method_icons/unused/automation3.dds"
-	ai_value = 10000
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 10
-		}
-	}
-	unlocking_technologies = {
-		automated_guided_transport
-	}
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_transportation_add = 15
-		}
-		level_scaled = {
-			building_employment_laborers_add = -2000
-			building_employment_clericals_add = -1000
-		}
-	}
+pm_integrated_transit = {
+    texture = "gfx/interface/icons/production_method_icons/unused/automation3.dds"
+    ai_value = 10000
+    state_modifiers = {
+        workforce_scaled = {
+            state_pollution_generation_add = 5
+            state_infrastructure_add = 30
+        }
+    }
+    unlocking_technologies = {
+        automated_guided_transport
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_engines_add = 3
+            goods_input_electricity_add = 3
+            goods_input_electronics_add = 2
+            goods_output_transportation_add = 6
+        }
+        level_scaled = {
+            building_employment_laborers_add = -2000
+            building_employment_clericals_add = -1000
+        }
+    }
 }
 
-pm_autonomous_transport = {
-	texture = "gfx/interface/icons/production_method_icons/unused/automation4.dds"
-	ai_value = 33000
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 10
-		}
-	}
-	unlocking_technologies = {
-		autonomous_rail
-	}
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_transportation_add = 20
-		}
-		level_scaled = {
-			building_employment_laborers_add = -2000
-			building_employment_clericals_add = -2000
-		}
-	}
+pm_automated_transit = {
+    texture = "gfx/interface/icons/production_method_icons/unused/automation4.dds"
+    ai_value = 33000
+    state_modifiers = {
+        workforce_scaled = {
+            state_pollution_generation_add = 3
+            state_infrastructure_add = 40
+        }
+    }
+    unlocking_technologies = {
+        autonomous_rail
+    }
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_engines_add = 4
+            goods_input_electricity_add = 4
+            goods_input_electronics_add = 4
+            goods_input_computers_add = 2
+            goods_output_transportation_add = 8
+        }
+        level_scaled = {
+            building_employment_laborers_add = -2000
+            building_employment_clericals_add = -2000
+        }
+    }
 }
 
 ## Religious Services

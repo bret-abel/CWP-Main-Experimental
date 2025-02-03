@@ -1304,7 +1304,7 @@ pm_steam_power = {
 }
 
 pm_diesel_power = {
-	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
+	texture = "gfx/interface/icons/production_method_icons/other/trains_diesel.dds"
     unlocking_technologies = {
         dieselization
     }
@@ -1325,10 +1325,10 @@ pm_diesel_power = {
 }
 
 pm_electric_power = {
-	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
+	texture = "gfx/interface/icons/production_method_icons/other/trains_electric.dds"
     unlocking_technologies = {
-        electric_railways
-    }
+		national_supply_chain
+	}
     building_modifiers = {
         workforce_scaled = {
             goods_input_electricity_add = 8
@@ -1365,9 +1365,9 @@ pm_basic_rolling_stock = {
 pm_improved_rolling_stock = {
     # 1970s level technology
 	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
-    unlocking_technologies = {
-        improved_railway_cars
-    }
+	unlocking_technologies = {
+		rapid_transit
+	}
     building_modifiers = {
         workforce_scaled = {
             goods_input_engines_add = 3
@@ -1384,9 +1384,9 @@ pm_improved_rolling_stock = {
 pm_advanced_rolling_stock = {
     # 1990s level technology
 	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
-    unlocking_technologies = {
-        advanced_railway_systems
-    }
+	unlocking_technologies = {
+		high_speed_rails
+	}
     building_modifiers = {
         workforce_scaled = {
             goods_input_engines_add = 4
@@ -1403,9 +1403,9 @@ pm_advanced_rolling_stock = {
 pm_modern_rolling_stock = {
     # 2010s level technology
 	texture = "gfx/interface/icons/production_method_icons/other/trains_steam.dds"
-    unlocking_technologies = {
-        modern_railway_systems
-    }
+	unlocking_technologies = {
+		third_rail_electric_systems
+	}
     building_modifiers = {
         workforce_scaled = {
             goods_input_engines_add = 5
@@ -1457,9 +1457,37 @@ pm_high_speed_track = {
             building_employment_engineers_add = 1000
         }
     }
+    unlocking_technologies = {
+		high_speed_rails
+	}
     state_modifiers = {
         workforce_scaled = {
             state_infrastructure_add = 80
+        }
+    }
+}
+
+pm_maglev_track = {
+    # Magnetic levitation system
+    texture = "gfx/interface/icons/production_method_icons/other/maglev_track.dds"
+	unlocking_technologies = {
+		compressed_gas_trains
+	}
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_steel_add = 4
+            goods_input_electronics_add = 4
+            goods_output_transportation_add = 50
+            goods_output_tourism_add = 15
+        }
+        level_scaled = {
+            building_employment_laborers_add = 1000
+            building_employment_engineers_add = 2000
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_infrastructure_add = 100
         }
     }
 }

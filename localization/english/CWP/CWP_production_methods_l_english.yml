@@ -1047,6 +1047,9 @@
   pm_iot_sensors_rubber: "IOT Sensors"
   pm_ai_analyzed_harvesting_rubber: "AI Analyzed Harvesting"
   ##### Private Infrastructure
+  pmg_railway_power: "Railway Power"
+  pmg_rolling_stock: "Rolling Stock"
+  pmg_railway_track: "Railway Track"
   pmg_highways: "Highways"
   pmg_infrastructure_prioritization: "Transport Priority"
   pmg_base_spaceport: "Spaceport"

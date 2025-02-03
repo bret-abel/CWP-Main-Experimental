@@ -25,6 +25,7 @@ pmg_railway_track = {
 	production_methods = {
 	    pm_conventional_track
 		pm_high_speed_track
+		pm_maglev_track
 	}
 }
 
