@@ -1838,7 +1838,8 @@ pm_pre_war_automobiles = {
 		workforce_scaled = {
 			# input goods
 			goods_input_engines_add = 25
-			goods_input_rubber_add = 15
+			goods_input_rubber_add = 10
+			goods_input_steel_add = 5
 			# output goods
 			goods_output_automobiles_add = 40
 		}
@@ -1864,7 +1865,8 @@ pm_automobile_standardization = {
 		workforce_scaled = {
 			# input goods
 			goods_input_engines_add = 30
-			goods_input_rubber_add = 15
+			goods_input_rubber_add = 10
+			goods_input_steel_add = 5
 			# output goods
 			goods_output_automobiles_add = 50
 		}
@@ -1892,6 +1894,7 @@ pm_compact_cars = {
 			goods_input_engines_add = 35
 			goods_input_plastics_add = 5
 			goods_input_rubber_add = 15
+			goods_input_steel_add = 5
 			# output goods
 			goods_output_automobiles_add = 65
 		}
@@ -1921,7 +1924,8 @@ pm_multi_purpose_vehicles = {
 			goods_input_rubber_add = 5
 			goods_input_plastics_add = 5
 			goods_input_electronics_add = 5
-			goods_input_rubber_add = 15
+			goods_input_rubber_add = 10
+			goods_input_steel_add = 5
 			# output goods
 			goods_output_automobiles_add = 75
 		}
@@ -1951,7 +1955,8 @@ pm_self_driving_cars = {
 			goods_input_plastics_add = 10
 			goods_input_electronics_add = 10
 			goods_input_computers_add = 5
-			goods_input_rubber_add = 15
+			goods_input_rubber_add = 10
+			goods_input_steel_add = 5
 			# output goods
 			goods_output_automobiles_add = 95
 		}
@@ -1981,7 +1986,8 @@ pm_fully_autonomous_cars = {
 			goods_input_plastics_add = 10
 			goods_input_electronics_add = 15
 			goods_input_computers_add = 10
-			goods_input_rubber_add = 15
+			goods_input_rubber_add = 10
+			goods_input_steel_add = 5
 			# output goods
 			goods_output_automobiles_add = 115
 		}
