@@ -22,7 +22,8 @@ pm_industrial_cities = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 5
+			goods_input_steel_add = 1
+			goods_input_electricity_add = 6
 			goods_input_glass_add = 5
 			goods_input_wood_add = 5
 			goods_output_services_add = 90
@@ -43,7 +44,8 @@ pm_modernist_cities = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_glass_add = 8
-			goods_input_steel_add = 8
+			goods_input_steel_add = 2
+			goods_input_electricity_add = 7
 			goods_input_wood_add = 8
 			goods_output_services_add = 130
 		}
@@ -63,7 +65,8 @@ pm_neo_traditional_cities = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_glass_add = 10
-			goods_input_steel_add = 10
+			goods_input_steel_add = 3
+			goods_input_electricity_add = 8
 			goods_input_wood_add = 10
 			goods_output_services_add = 170
 		}
@@ -82,8 +85,9 @@ pm_sustainable_cities = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 5
+			goods_input_steel_add = 4
 			goods_input_glass_add = 5
+			goods_input_electricity_add = 6
 			goods_input_wood_add = 25
 			goods_output_services_add = 170
 		}
