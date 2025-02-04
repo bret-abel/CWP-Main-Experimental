@@ -759,11 +759,21 @@
 
  STATE_KIEV_polish_cwp:0 "Kijów"
  STATE_KIEV_russian_cwp:0 "Kiev"
+
+# Dnipro
+
+ STATE_DNIPRO_polish_cwp:0 "Dniepr"
+ STATE_DNIPRO_russian_cwp:0 "Dnepr"
+
+# Kharkiv
+
+ STATE_KHARKIV_polish_cwp:0 "Charków"
+ STATE_KHARKIV_russian_cwp:0 "Kharkov"
  
 # CHERNIHIV
 
- STATE_CHERNIHIV_polish_cwp:0 "Chernihiv"
- STATE_CHERNIHIV_russian_cwp:0 "Chernihiv"
+ STATE_CHERNIHIV_polish_cwp:0 "Czernihów"
+ STATE_CHERNIHIV_russian_cwp:0 "Chernigov"
   
 # KHARKIV
  

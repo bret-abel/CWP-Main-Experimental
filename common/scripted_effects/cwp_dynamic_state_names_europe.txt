@@ -39,6 +39,30 @@
         }
 		STATE_KIEV_state_name_assign = yes
     }
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_DNIPRO ?= this
+            }
+        }
+		STATE_DNIPRO_state_name_assign = yes
+    }
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_KHARKIV ?= this
+            }
+        }
+		STATE_KHARKIV_state_name_assign = yes
+    }
+    if = {
+        limit = {
+            state_region = {
+                s:STATE_CHERNIHIV ?= this
+            }
+        }
+		STATE_CHERNIHIV_state_name_assign = yes
+    }
 }
 
 assign_state_name_region_central_europe = {
@@ -430,6 +454,108 @@ STATE_KIEV_state_name_assign = {
             }
         }
         set_state_name = STATE_KIEV_russian_cwp
+		set_hub_names = russian_cwp
+    }
+	else = {
+		reset_state_name = yes
+		reset_hub_names = yes
+	}
+}
+
+### Dnipro
+
+STATE_DNIPRO_state_name_assign = {
+	if = {
+        limit = {
+            owner = {
+                any_primary_culture = {
+					cu:polish ?= this
+                }
+            }
+        }
+        set_state_name = STATE_DNIPRO_polish_cwp
+        set_hub_names = polish_cwp
+    }
+	else_if = {
+        limit = {
+			owner = {
+                any_primary_culture = {
+					cu:russian ?= this
+                }
+				NOT = {
+					has_law = law_type:law_multicultural
+				}
+            }
+        }
+        set_state_name = STATE_DNIPRO_russian_cwp
+		set_hub_names = russian_cwp
+    }
+	else = {
+		reset_state_name = yes
+		reset_hub_names = yes
+	}
+}
+
+### Kharkiv
+
+STATE_KHARKIV_state_name_assign = {
+	if = {
+        limit = {
+            owner = {
+                any_primary_culture = {
+					cu:polish ?= this
+                }
+            }
+        }
+        set_state_name = STATE_KHARKIV_polish_cwp
+        set_hub_names = polish_cwp
+    }
+	else_if = {
+        limit = {
+			owner = {
+                any_primary_culture = {
+					cu:russian ?= this
+                }
+				NOT = {
+					has_law = law_type:law_multicultural
+				}
+            }
+        }
+        set_state_name = STATE_KHARKIV_russian_cwp
+		set_hub_names = russian_cwp
+    }
+	else = {
+		reset_state_name = yes
+		reset_hub_names = yes
+	}
+}
+
+### Chernihiv
+
+STATE_CHERNIHIV_state_name_assign = {
+	if = {
+        limit = {
+            owner = {
+                any_primary_culture = {
+					cu:polish ?= this
+                }
+            }
+        }
+        set_state_name = STATE_CHERNIHIV_polish_cwp
+        set_hub_names = polish_cwp
+    }
+	else_if = {
+        limit = {
+			owner = {
+                any_primary_culture = {
+					cu:russian ?= this
+                }
+				NOT = {
+					has_law = law_type:law_multicultural
+				}
+            }
+        }
+        set_state_name = STATE_CHERNIHIV_russian_cwp
 		set_hub_names = russian_cwp
     }
 	else = {

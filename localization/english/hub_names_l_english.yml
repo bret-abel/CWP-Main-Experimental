@@ -941,8 +941,17 @@
   HUB_NAME_STATE_CRIMEA_wood: "Kerch"
   HUB_NAME_STATE_KHARKIV_city: "Kharkiv"
   HUB_NAME_STATE_KHARKIV_farm: "Poltava"
+  HUB_NAME_STATE_KHARKIV_mine: "Izium"
+  HUB_NAME_STATE_KHARKIV_wood: "Sumy"
+  HUB_NAME_STATE_DNIPRO_city: "Dnipro"
+  HUB_NAME_STATE_DNIPRO_farm: "Zaporizhzhia"
   HUB_NAME_STATE_DNIPRO_port: "Melitopol"
-  HUB_NAME_STATE_DNIPRO_mine: "Kriviy Rih"
+  HUB_NAME_STATE_DNIPRO_mine: "Kamianske"
+  HUB_NAME_STATE_DNIPRO_wood: "Kryvyi Rih"
+  HUB_NAME_STATE_CHERNIHIV_city: "Chernihiv"
+  HUB_NAME_STATE_CHERNIHIV_farm: "Krolevets"
+  HUB_NAME_STATE_CHERNIHIV_mine: "Novhorod-Siverskyi"
+  HUB_NAME_STATE_CHERNIHIV_wood: "Shostka"
   HUB_NAME_STATE_LUHANSK_city: "Donetsk"
   HUB_NAME_STATE_LUHANSK_farm: "Siverskodonetsk"
   HUB_NAME_STATE_LUHANSK_port: "Mariupol"
@@ -3113,6 +3122,44 @@
   HUB_NAME_STATE_KIEV_mine_russian_cwp: "Chernobyl"
   HUB_NAME_STATE_KIEV_farm_russian_cwp: "Cherkasy"
   HUB_NAME_STATE_KIEV_wood_russian_cwp: "Zhitomir"
+
+# Dnipro
+
+  HUB_NAME_STATE_DNIPRO_city_polish_cwp: "Dniepr"
+  HUB_NAME_STATE_DNIPRO_farm_polish_cwp: "Zaporoże"
+  HUB_NAME_STATE_DNIPRO_port_polish_cwp: "Melitopol"
+  HUB_NAME_STATE_DNIPRO_mine_polish_cwp: "Kamieńskie"
+  HUB_NAME_STATE_DNIPRO_wood_polish_cwp: "Krzywy Róg"
+
+  HUB_NAME_STATE_DNIPRO_city_russian_cwp: "Dnepr"
+  HUB_NAME_STATE_DNIPRO_farm_russian_cwp: "Zaporozhye"
+  HUB_NAME_STATE_DNIPRO_port_russian_cwp: "Melitopol"
+  HUB_NAME_STATE_DNIPRO_mine_russian_cwp: "Dneprodzerzhinsk"
+  HUB_NAME_STATE_DNIPRO_wood_russian_cwp: "Krivoy Rog"
+
+# Kharkiv
+
+  HUB_NAME_STATE_KHARKIV_city_polish_cwp: "Charków"
+  HUB_NAME_STATE_KHARKIV_farm_polish_cwp: "Połtawa"
+  HUB_NAME_STATE_KHARKIV_mine_polish_cwp: "Izium"
+  HUB_NAME_STATE_KHARKIV_wood_polish_cwp: "Sumy"
+
+  HUB_NAME_STATE_KHARKIV_city_russian_cwp: "Kharkov"
+  HUB_NAME_STATE_KHARKIV_farm_russian_cwp: "Poltava"
+  HUB_NAME_STATE_KHARKIV_mine_russian_cwp: "Izyum"
+  HUB_NAME_STATE_KHARKIV_wood_russian_cwp: "Sumy"
+
+# Chernihiv
+
+  HUB_NAME_STATE_CHERNIHIV_city_polish_cwp: "Czernihów"
+  HUB_NAME_STATE_CHERNIHIV_farm_polish_cwp: "Królewiec"
+  HUB_NAME_STATE_CHERNIHIV_mine_polish_cwp: "Nowogród Siewierski"
+  HUB_NAME_STATE_CHERNIHIV_wood_polish_cwp: "Szostka"
+
+  HUB_NAME_STATE_CHERNIHIV_city_russian_cwp: "Chernigov"
+  HUB_NAME_STATE_CHERNIHIV_farm_russian_cwp: "Krolevets"
+  HUB_NAME_STATE_CHERNIHIV_mine_russian_cwp: "Novgorod-Seversky"
+  HUB_NAME_STATE_CHERNIHIV_wood_russian_cwp: "Shostka"
 
 # Alsace-Lorraine
 
