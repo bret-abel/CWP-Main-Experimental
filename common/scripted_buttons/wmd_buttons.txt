@@ -109,7 +109,7 @@ survey_nuclear_test_site_button = {
 	
 	#Country scope
 	ai_chance = {
-		base = 1
+		base = 1000
 	}
 
 	possible = {
@@ -160,7 +160,7 @@ conduct_nuclear_test_button = {
 	
 	#Country scope
 	ai_chance = {
-		base = 1
+		base = 1000
 	}
 
 	possible = {
