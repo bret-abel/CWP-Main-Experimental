@@ -141,7 +141,7 @@
 		
 		if = {
 			limit = {
-				ig:ig_industrialists ?= { is_in_government = yes }
+				ig:ig_capitalists ?= { is_in_government = yes }
 			}
 			add = 100
 		}		
@@ -186,7 +186,7 @@ identity_sovereign_empire = {
 	}
 	
 	possible = {
-		has_law = law_type:law_monarchy
+		has_law = law_type:law_hereditary
 	}
 
 	can_leave = {
@@ -436,7 +436,7 @@ identity_ideological_union = {
 
 		if = { # The forces of reaction
 			limit = { 
-				has_law = law_type:law_monarchy 
+				has_law = law_type:law_hereditary 
 				OR = {
 					has_law = law_type:law_autocracy
 					has_law = law_type:law_oligarchy
@@ -616,7 +616,7 @@ identity_military_treaty_organization = {
 
 		if = {
 			limit = {
-				ig:ig_armed_forces ?= { is_in_government = yes }
+				ig:ig_securocrats ?= { is_in_government = yes }
 			}
 			add = 100
 		}		
@@ -660,7 +660,7 @@ identity_religious = {
 
 	member_modifier = {
 		state_conversion_mult = 0.33
-		interest_group_ig_devout_pol_str_mult = 0.25
+		interest_group_ig_moralists_pol_str_mult = 0.25
 	}
 
 	can_leave = {
@@ -695,7 +695,7 @@ identity_religious = {
 	
 		add = {
 			value = define:NPowerBlocs|COHESION_TARGET_MAX
-			multiply = ig:ig_devout.ig_clout
+			multiply = ig:ig_moralists.ig_clout
 			add = -10
 			multiply = 4
 			desc = POWER_BLOC_COHESION_DEVOUT_IG_CLOUT
@@ -703,7 +703,7 @@ identity_religious = {
 
 		if = {
 			limit = {
-				ig:ig_devout = {
+				ig:ig_moralists = {
 					is_in_government = no
 				}
 			}
@@ -798,7 +798,7 @@ identity_religious = {
 
 		if = {
 			limit = {
-				ig:ig_devout ?= { is_in_government = yes }
+				ig:ig_moralists ?= { is_in_government = yes }
 			}
 			add = 100
 		}			

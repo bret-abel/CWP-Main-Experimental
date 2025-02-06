@@ -947,9 +947,9 @@ traditionalist_commander = {
 		}
 		interest_group ?= {
 			OR = {
-				#is_interest_group_type = ig_devout
-				#is_interest_group_type = ig_landowners
-				#is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_moralists
+				is_interest_group_type = ig_entrepreneurs
+				is_interest_group_type = ig_securocrats
 				is_powerful = yes
 			}
 		}
@@ -961,9 +961,9 @@ traditionalist_commander = {
 		if = {
 			limit = {
 				OR = {
-					#is_interest_group_type = ig_devout
-					#is_interest_group_type = ig_landowners
-					#is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_moralists
+					is_interest_group_type = ig_entrepreneurs
+					is_interest_group_type = ig_securocrats
 				}
 			}
 			multiply = 2
@@ -1017,9 +1017,9 @@ popular_commander = {
 		if = {
 			limit = {
 				OR = {
-					is_interest_group_type = ig_devout
-					is_interest_group_type = ig_landowners
-					is_interest_group_type = ig_armed_forces
+					is_interest_group_type = ig_securocrats
+					is_interest_group_type = ig_entrepreneurs
+					is_interest_group_type = ig_securocrats
 				}
 			}
 			multiply = 2
@@ -1743,8 +1743,8 @@ bandit = {
 			has_role = agitator
 			this.interest_group = {
 				OR = {
-					is_interest_group_type = ig_rural_folk
-					is_interest_group_type = ig_trade_unions
+					is_interest_group_type = ig_ruralists
+					is_interest_group_type = ig_laborists
 				}
 			}
 		}
@@ -1910,7 +1910,7 @@ engineer = {
 			limit = {
 				has_role = agitator
 				interest_group ?= {
-					is_interest_group_type = ig_trade_unions
+					is_interest_group_type = ig_laborists
 				}
 			}
 			multiply = 3
@@ -2144,8 +2144,8 @@ social_bandit = {
 			has_role = agitator
 			this.interest_group = {
 				OR = {
-					is_interest_group_type = ig_rural_folk
-					is_interest_group_type = ig_trade_unions
+					is_interest_group_type = ig_ruralists
+					is_interest_group_type = ig_laborists
 				}
 			}
 		}

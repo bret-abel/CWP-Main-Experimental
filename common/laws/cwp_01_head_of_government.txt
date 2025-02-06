@@ -199,7 +199,7 @@ law_theocratic = {
 				power_bloc ?= { has_identity = identity:identity_religious }
 				religion = scope:target_country.religion
 				scope:target_country = { # Is their law different enough from what we want to impose?					
-					NOT = { has_law = law_type:law_monarchy }
+					NOT = { has_law = law_type:law_hereditary }
 				}				
 			}
 			

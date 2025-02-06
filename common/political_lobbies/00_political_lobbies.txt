@@ -454,7 +454,7 @@
 			if = {
 				limit = {
 					OR = {
-						is_interest_group_type = ig_devout
+						is_interest_group_type = ig_moralists
 						leader ?= {
 							OR = {
 								has_ideology = ideology:ideology_theocrat
@@ -574,14 +574,14 @@
 		if = {
 			limit = {
 				scope:target_country = {
-					has_law = law_type:law_council_republic
+					has_law = law_type:law_council_elective
 				}
 			}
 
 			if = {
 				limit = {
 					law_stance = {
-						law = law_type:law_council_republic
+						law = law_type:law_council_elective
 						value <= disapprove
 					}
 				}
@@ -594,7 +594,7 @@
 			else_if = {
 				limit = {
 					law_stance = {
-						law = law_type:law_council_republic
+						law = law_type:law_council_elective
 						value < approve
 					}
 				}
@@ -608,7 +608,7 @@
 				limit = {
 					NOT = { # Equals 'count'
 						law_stance = {
-							law = law_type:law_council_republic
+							law = law_type:law_council_elective
 							value > strongly_approve
 						}
 					}
@@ -654,7 +654,7 @@
 					has_ideology = ideology:ideology_orleanist
 				}
 				scope:target_country = {
-					country_has_primary_culture = cu:british
+					country_has_primary_culture = cu:english
 				}
 			}
 			add = {
@@ -669,7 +669,7 @@
 				}
 				scope:target_country = {
 					OR = {
-						country_has_primary_culture = cu:british
+						country_has_primary_culture = cu:english
 						country_has_primary_culture = cu:north_german
 						country_has_primary_culture = cu:south_german
 					}
@@ -1297,7 +1297,7 @@ lobby_anti_country = {
 			if = {
 				limit = {
 					OR = {
-						is_interest_group_type = ig_devout
+						is_interest_group_type = ig_moralists
 						leader ?= {
 							OR = {
 								has_ideology = ideology:ideology_theocrat
@@ -1341,14 +1341,14 @@ lobby_anti_country = {
 		if = {
 			limit = {
 				scope:target_country = {
-					has_law = law_type:law_council_republic
+					has_law = law_type:law_council_elective
 				}
 			}
 
 			if = {
 				limit = {
 					law_stance = {
-						law = law_type:law_council_republic
+						law = law_type:law_council_elective
 						value <= disapprove
 					}
 				}
@@ -1361,7 +1361,7 @@ lobby_anti_country = {
 			else_if = {
 				limit = {
 					law_stance = {
-						law = law_type:law_council_republic
+						law = law_type:law_council_elective
 						value < approve
 					}
 				}
@@ -1375,7 +1375,7 @@ lobby_anti_country = {
 				limit = {
 					NOT = { # Equals 'count'
 						law_stance = {
-							law = law_type:law_council_republic
+							law = law_type:law_council_elective
 							value > strongly_approve
 						}
 					}
@@ -1402,7 +1402,7 @@ lobby_anti_country = {
 					}
 				}
 				scope:target_country = {
-					has_law = law_type:law_monarchy
+					has_law = law_type:law_hereditary
 				}
 			}
 			add = {
@@ -1840,7 +1840,7 @@ lobby_pro_overlord = {
 			if = {
 				limit = {
 					OR = {
-						is_interest_group_type = ig_devout
+						is_interest_group_type = ig_moralists
 						leader ?= {
 							OR = {
 								has_ideology = ideology:ideology_theocrat
@@ -2251,7 +2251,7 @@ lobby_anti_overlord = {
 			if = {
 				limit = {
 					OR = {
-						is_interest_group_type = ig_devout
+						is_interest_group_type = ig_moralists
 						leader ?= {
 							OR = {
 								has_ideology = ideology:ideology_theocrat
@@ -2304,14 +2304,14 @@ lobby_anti_overlord = {
 		if = {
 			limit = {
 				scope:target_country = {
-					has_law = law_type:law_council_republic
+					has_law = law_type:law_council_elective
 				}
 			}
 
 			if = {
 				limit = {
 					law_stance = {
-						law = law_type:law_council_republic
+						law = law_type:law_council_elective
 						value <= disapprove
 					}
 				}
@@ -2324,7 +2324,7 @@ lobby_anti_overlord = {
 			else_if = {
 				limit = {
 					law_stance = {
-						law = law_type:law_council_republic
+						law = law_type:law_council_elective
 						value < approve
 					}
 				}
@@ -2338,7 +2338,7 @@ lobby_anti_overlord = {
 				limit = {
 					NOT = { # Equals 'count'
 						law_stance = {
-							law = law_type:law_council_republic
+							law = law_type:law_council_elective
 							value > strongly_approve
 						}
 					}
@@ -2365,7 +2365,7 @@ lobby_anti_overlord = {
 					}
 				}
 				scope:target_country = {
-					has_law = law_type:law_monarchy
+					has_law = law_type:law_hereditary
 				}
 			}
 			add = {
@@ -2415,8 +2415,8 @@ lobby_anti_overlord = {
 		if = {
 			limit = {
 				OR = {
-					is_interest_group_type = ig_rural_folk
-					is_interest_group_type = ig_trade_unions
+					is_interest_group_type = ig_ruralists
+					is_interest_group_type = ig_laborists
 				}
 			}
 			add = {

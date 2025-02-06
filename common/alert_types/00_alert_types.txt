@@ -652,7 +652,7 @@ can_abdicate_alert = {
 
 	valid = {
 		has_dlc_feature = voice_of_the_people_content
-		has_law = law_type:law_monarchy
+		has_law = law_type:law_hereditary
 		exists = heir
 		ruler = {
 			is_immortal = no
@@ -681,7 +681,7 @@ can_resign_alert = {
 	valid = {
 		has_dlc_feature = voice_of_the_people_content
 		NOR = {
-			has_law = law_type:law_monarchy
+			has_law = law_type:law_hereditary
 			has_law = law_type:law_theocracy
 		}
 		ruler = {

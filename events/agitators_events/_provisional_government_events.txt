@@ -53,7 +53,7 @@ provisional_government_events.1 = {
 		add_radicals = {
 			value = small_radicals
 		}
-		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_hereditary
 		remove_variable = revolutionary_prov_gov_var
 	}
 	option = {

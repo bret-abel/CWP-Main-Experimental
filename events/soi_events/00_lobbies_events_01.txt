@@ -687,7 +687,7 @@ lobby_events.24 = {
 		is_revolutionary = no
 		any_interest_group = {
 			is_member_of_any_lobby = no
-			is_interest_group_type = ig_armed_forces
+			is_interest_group_type = ig_securocrats
 		}
 		any_political_lobby = {
 			is_political_lobby_type = lobby_pro_country
@@ -717,7 +717,7 @@ lobby_events.24 = {
 		random_interest_group = {
 			limit = {
 				is_member_of_any_lobby = no
-				is_interest_group_type = ig_armed_forces
+				is_interest_group_type = ig_securocrats
 			}
 			save_scope_as = relevant_ig_scope
 		}
