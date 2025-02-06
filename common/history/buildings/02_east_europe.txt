@@ -703,7 +703,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=10
+						levels=20
 					}
 				}
 				subsidized=yes
@@ -955,7 +955,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=20
+						levels=25
 					}
 				}
 				subsidized=yes
@@ -5302,17 +5302,6 @@
 	s:STATE_PODOLIA={
 		region_state:RUS={
 			create_building={
-				building="building_sugar_plantation"
-				add_ownership={
-					country={
-						country="c:RUS"
-						levels=40
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_default_building_sugar_plantation" "pm_manual_harvesting_plantation" "pm_no_transport_plantation" }
-			}
-			create_building={
 				building="building_food_industry"
 				add_ownership={
 					country={
@@ -5341,7 +5330,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=15
+						levels=30
 					}
 				}
 				subsidized=yes
