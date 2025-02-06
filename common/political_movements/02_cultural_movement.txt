@@ -1,9 +1,9 @@
 ﻿movement_cultural_majority = {
 	category = movement_category_cultural_majority
 	
-	ideology = ideology_ethno_nationalist
+	ideology = ideology_racist
 	character_ideologies = {	
-		ideology_ethno_nationalist
+		ideology_racist
 	}
 	
 	creation_trigger = {}
@@ -19,14 +19,14 @@
 		OR = {
 			has_ideology = ideology:ideology_fascist
 			has_ideology = ideology:ideology_jingoist_leader		
-			has_ideology = ideology:ideology_ethno_nationalist
+			has_ideology = ideology:ideology_racist
 		}
 	}
 	character_support_weight = {
 		value = 100
 		if = {
 			limit = {
-				has_ideology = ideology:ideology_ethno_nationalist
+				has_ideology = ideology:ideology_racist
 			}
 			multiply = {
 				value = 5
@@ -404,8 +404,6 @@ movement_cultural_minority = {
 		culture = scope:culture
 		OR = {
 			has_ideology = ideology:ideology_humanitarian
-			has_ideology = ideology:ideology_humanitarian_royalist
-			has_ideology = ideology:ideology_sovereignist_leader
 			has_ideology = ideology:ideology_reformer
 		}		
 	}

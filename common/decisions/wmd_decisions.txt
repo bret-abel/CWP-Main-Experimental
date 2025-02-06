@@ -54,6 +54,14 @@
 			}
 			add = 1000
 		}
+		modifier = {
+			trigger = {
+				ruler = {
+					has_ideology = ideology:ideology_jingoist_leader
+				}
+			}
+			add = 100
+		}
 	}
 }
 

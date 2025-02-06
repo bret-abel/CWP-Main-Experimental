@@ -90,7 +90,7 @@ law_socialist_republic_desc:0 "Placeholder"
  law_disarmed_nation_desc:0 "Fully pacifist set of policies that both limits the extent of foreign intervention that this country can partake in, and reallocates the military expenses towards other areas."
 
  modifier_bpm_decorative_can_not_invade:0 "Gain Internal Backlash for Annexations"
- modifier_bpm_decorative_can_not_invade_desc:0 "Taking part in a [Concept('concept_diplomatic_play', 'Diplomatic Play')] using following wargoals: Annex State, Take Treaty Port, Annex Subject will result in severe penalties for this country internally."
+ modifier_bpm_decorative_can_not_invade_desc:0 "Taking part in a [Concept('concept_diplomatic_play', 'Diplomatic Play')] using following wargoals:0 Annex State, Take Treaty Port, Annex Subject will result in severe penalties for this country internally."
  modifier_bpm_decorative_can_not_invade_no_annex:0 "Gain Internal Backlash for Wars of Aggression"
  modifier_bpm_decorative_can_not_invade_no_annex_desc:0 "Taking a part in a [Concept('concept_diplomatic_play', 'Diplomatic Play')] as an aggressor, a non-primary independent defender or with any wargoals that will grant new subjects or unclaimed territory will result in severe penalties for this country internally."
  modifier_bpm_decorative_can_not_join_alliances:0  "Can Not Join Alliances and Defense Pacts"
@@ -181,3 +181,38 @@ law_land_based_taxation_desc:0 "A traditional form of taxation collected mainly 
 law_per_capita_based_taxation:0 "Regressive Tax"
 law_proportional_taxation:0 "Proportional Tax"
 law_graduated_taxation:0 "Progressive Tax"
+
+ # Movement Ideologies
+
+ ideology_royalist_movement:0 "Royalist"
+ ideology_royalist_movement_desc:0 "#lore This group's loyalties are to the monarchy and its rightful ruler.#!"
+
+ ideology_absolutist_movement:0 "Absolutist"
+ ideology_absolutist_movement_desc:0 "#lore This group is loyal to the institution of the monarchy, and supports vesting it with absolute power.#!"
+
+ ideology_anarchist_movement:0 "Anarchist"
+ ideology_anarchist_movement_desc:0 "#lore This group seeks the abolition of hierarchy, authority and the state, leaving people to govern themselves. #!"
+
+ ideology_communist_movement:0 "Communist"
+ ideology_communist_movement_desc:0 "#lore This group believes in the working class seizing political power through whatever means necessary. #!"
+
+ ideology_vanguardist_movement:0 "Vanguardist"
+ ideology_vanguardist_movement_desc:0 "#lore This group believes in achieving a socialist society through a vanguard party of dedicated radicals. #!"
+
+ ideology_radical_movement:0 "Radical"
+ ideology_radical_movement_desc:1 "#lore This group strives for radical liberal reforms advancing democratic ideals. #!"
+
+ ideology_liberal_movement:0 "Liberal"
+ ideology_liberal_movement_desc:0 "#lore This group values the institution of democracy, and supports guaranteeing essential freedoms for citizens. #!"
+
+ ideology_pluralist_movement_1:0 "Pluralist"
+ ideology_pluralist_movement_1_desc:0 "#lore This group wishes to safeguard their cultural traditions, identity and language. #!"
+
+ ideology_pluralist_movement_2:0 "$ideology_pluralist_movement_1$"
+ ideology_pluralist_movement_2_desc:0 "$ideology_pluralist_movement_1_desc$"
+
+ ideology_pluralist_movement_3:0 "$ideology_pluralist_movement_1$"
+ ideology_pluralist_movement_3_desc:0 "$ideology_pluralist_movement_1_desc$"
+
+ ideology_pluralist_movement_4:0 "$ideology_pluralist_movement_1$"
+ ideology_pluralist_movement_4_desc:0 "$ideology_pluralist_movement_1_desc$"

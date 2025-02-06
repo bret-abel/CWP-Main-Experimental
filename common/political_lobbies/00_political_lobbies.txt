@@ -399,7 +399,7 @@
 						has_ideology = ideology:ideology_patriotic
 						leader ?= {
 							OR = {
-								has_ideology = ideology:ideology_ethno_nationalist
+								has_ideology = ideology:ideology_racist
 								has_ideology = ideology:ideology_fascist
 							}
 						}
@@ -1242,7 +1242,7 @@ lobby_anti_country = {
 						has_ideology = ideology:ideology_patriotic
 						leader ?= {
 							OR = {
-								has_ideology = ideology:ideology_ethno_nationalist
+								has_ideology = ideology:ideology_racist
 								has_ideology = ideology:ideology_fascist
 							}
 						}
@@ -1444,7 +1444,7 @@ lobby_anti_country = {
 								has_ideology = ideology:ideology_bonapartist
 								has_ideology = ideology:ideology_integralist
 								has_ideology = ideology:ideology_fascist
-								has_ideology = ideology:ideology_ethno_nationalist
+								has_ideology = ideology:ideology_racist
 								has_ideology = ideology:ideology_jingoist_leader
 							}
 						}
@@ -1798,7 +1798,7 @@ lobby_pro_overlord = {
 						has_ideology = ideology:ideology_patriotic
 						leader ?= {
 							OR = {
-								has_ideology = ideology:ideology_ethno_nationalist
+								has_ideology = ideology:ideology_racist
 								has_ideology = ideology:ideology_fascist
 							}
 						}
@@ -2209,7 +2209,7 @@ lobby_anti_overlord = {
 						has_ideology = ideology:ideology_patriotic
 						leader ?= {
 							OR = {
-								has_ideology = ideology:ideology_ethno_nationalist
+								has_ideology = ideology:ideology_racist
 								has_ideology = ideology:ideology_fascist
 							}
 						}

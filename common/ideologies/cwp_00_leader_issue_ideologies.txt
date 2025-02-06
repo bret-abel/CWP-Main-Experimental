@@ -181,6 +181,91 @@ ideology_monarchist = {
 	}
 }
 
+ideology_traditionalist_minoritarian = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_traditionalist.dds"
+	
+	character_ideology = yes
+	
+	lawgroup_rights_of_women = {
+		law_legal_guardianship = approve
+		law_women_own_property = neutral
+		law_women_in_the_workplace = disapprove
+		law_political_participation = strongly_disapprove
+		law_gender_equality = strongly_disapprove
+	}
+
+	lawgroup_church_and_state = {
+		law_religious_nationalism = strongly_disapprove
+		law_religious_institutions = strongly_disapprove
+		law_religious_policies = approve
+		law_church_disestablishment = approve
+		law_state_atheism = strongly_disapprove
+	}
+
+	#lawgroup_caste_hegemony = {
+	#	law_hindu_caste_enforced = strongly_approve
+	#	law_hindu_caste_codified = approve
+	#	law_hindu_caste_not_enforced = disapprove
+	#	law_affirmative_action = strongly_disapprove
+	#}
+
+	interest_group_leader_trigger = {
+		ideology_traditionalist_minoritarian_valid_trigger = yes
+	}
+	
+	non_interest_group_leader_trigger = {
+		# Agitators should have an ideology at odds with current laws
+		NAND = {
+			has_role = agitator
+			owner = {
+				has_law = law_type:law_legal_guardianship
+				has_law = law_type:law_church_disestablishment
+			}
+		}
+		interest_group = {
+			ideology_traditionalist_minoritarian_valid_trigger = yes
+		}
+	}
+	
+	interest_group_leader_weight = {
+		value = 100
+		
+		if = {
+			limit = {
+				OR = {
+					has_variable = communist_ig_var
+					has_variable = chose_vanguardism
+					has_variable = chose_anarchism
+					has_variable = chose_communism
+					has_variable = chose_ethno_nationalism
+					has_variable = chose_fascism
+				}
+			}
+			multiply = 0.1
+		}
+	}
+	
+	non_interest_group_leader_weight = {
+		value = 100
+		
+		if = {
+			limit = {
+				interest_group = {
+					OR = {
+						has_variable = communist_ig_var
+						has_variable = chose_vanguardism
+						has_variable = chose_anarchism
+						has_variable = chose_communism
+						has_variable = chose_ethno_nationalism
+						has_variable = chose_fascism
+					}
+				}
+			}
+			multiply = 0.1
+		}	
+	}
+}
+
 ideology_atheist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_atheist.dds"
 	
@@ -301,6 +386,129 @@ ideology_atheist = {
 			add = -75
 		}
 
+		if = {
+			limit = {
+				interest_group = {
+					OR = {
+						has_variable = communist_ig_var
+						has_variable = chose_vanguardism
+						has_variable = chose_anarchism
+						has_variable = chose_communism
+						has_variable = chose_ethno_nationalism
+						has_variable = chose_conservatism
+						has_variable = chose_fascism
+					}
+				}
+			}
+			multiply = 0.1
+		}
+	}
+}
+
+ideology_reformer = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_reformer.dds"
+	
+	character_ideology = yes
+	
+	lawgroup_citizenship = {
+		law_multicultural = neutral	
+		law_ethnostate = strongly_disapprove
+		law_national_supremacy = disapprove
+		law_racial_segregation = neutral
+		law_cultural_exclusion = neutral
+	}
+	
+	lawgroup_rights_of_women = {
+		law_legal_guardianship = disapprove
+		law_women_own_property = neutral
+		law_women_in_the_workplace = neutral
+		law_political_participation = neutral
+		law_gender_equality = neutral
+	}
+	
+	lawgroup_childrens_rights = {
+		law_child_labor_allowed = strongly_disapprove
+		law_restricted_child_labor = strongly_disapprove
+		law_compulsory_education = approve
+		law_compulsory_higher_education = approve
+	}
+	
+	non_interest_group_leader_trigger = {
+		# Agitators should have an ideology at odds with current laws
+		NAND = {
+			has_role = agitator
+			owner = {
+				has_law = law_type:law_cultural_exclusion
+				has_law = law_type:law_compulsory_primary_school
+			}
+		}
+	}
+	
+	interest_group_leader_weight = {
+		value = 100
+		
+		# less likely when issues are not relevant
+		if = {
+			limit = {
+				owner = {
+					NOR = {
+						has_law = law_type:law_ethnostate
+						has_law = law_type:law_national_supremacy
+						has_law = law_type:law_racial_segregation
+						has_law = law_type:law_no_womens_rights
+						has_law = law_type:law_child_labor_allowed
+					}
+				}
+			}
+			add = -100
+		}
+		
+		# less likely among more progressive IG's if they're angry and socialism is researched
+		if = {
+			limit = {
+				OR = {
+					is_interest_group_type = ig_intelligentsia
+					is_interest_group_type = ig_trade_unions
+				}
+				ig_approval < 0
+			}
+			add = -75
+		}
+		
+		# more likely when issues are relevant
+		if = {
+			limit = {
+				owner = {
+					OR = {
+						has_law = law_type:law_ethnostate
+						has_law = law_type:law_national_supremacy
+						has_law = law_type:law_racial_segregation
+						has_law = law_type:law_no_womens_rights
+						has_law = law_type:law_child_labor_allowed
+					}
+				}
+			}
+			add = 50
+		}
+
+		if = {
+			limit = {
+				OR = {
+					has_variable = communist_ig_var
+					has_variable = chose_vanguardism
+					has_variable = chose_anarchism
+					has_variable = chose_communism
+					has_variable = chose_ethno_nationalism
+					has_variable = chose_conservatism
+					has_variable = chose_fascism
+				}
+			}
+			multiply = 0.1
+		}
+	}
+	
+	non_interest_group_leader_weight = {
+		value = 100
 		if = {
 			limit = {
 				interest_group = {
@@ -1451,6 +1659,131 @@ ideology_pacifist = {
 	}		
 }
 
+ideology_jingoist_leader = {
+	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_jingoist.dds"
+	
+	character_ideology = yes
+	
+	lawgroup_national_defense = {
+		law_reserve_military = strongly_approve
+		law_professional_military = approve
+		law_volunteer_only_military = neutral
+		law_private_military = neutral
+		law_irregular_military = disapprove
+		law_disarmed_nation = strongly_disapprove
+	}
+
+	lawgroup_wmds = {
+		law_no_wmds = strongly_disapprove
+		law_civilian_applications = strongly_disapprove
+		law_deterrence = neutral
+		law_first_strike = approve
+	}
+
+	interest_group_leader_trigger = {
+		ideology_jingoist_leader_valid_trigger = yes
+	}
+	
+	non_interest_group_leader_trigger = {
+		# Agitators should have an ideology at odds with current laws
+		NAND = {
+			has_role = agitator
+			owner = {
+				has_law = law_type:law_mass_conscription
+				has_law = law_type:law_colonial_exploitation
+			}
+		}
+		interest_group = {
+			ideology_jingoist_leader_valid_trigger = yes
+		}
+	}
+	
+	interest_group_leader_weight = {
+		value = 100
+		# less likely if issues are not relevant
+		if = {
+			limit = {
+				owner = {
+					has_law = law_type:law_colonial_exploitation
+					has_law = law_type:law_mass_conscription
+				}
+			}
+			add = -75
+		}
+		# more likely if you border a rival
+		if = {
+			limit = {
+				owner = {
+					any_rival_country = {
+						any_neighbouring_state = {
+							owner = root.owner
+						}
+					}
+				}
+			}
+			add = 50
+		}
+		# more likely if you're the defender in a war
+		if = {
+			limit = {
+				owner = {
+					is_at_war = yes
+					any_scope_war = {
+						defender_warleader = { this = ROOT.owner }
+					}
+				}
+			}
+			add = 50
+		}
+		# more likely if you're a great power and you don't have nukes; he will try to acquire them
+		if = {
+			limit = {
+				owner = {
+					country_rank > rank_value:great_power
+					NOT = {
+						has_modifier = atomic_capable
+					}
+				}
+			}
+			add = 50
+		}
+		if = {
+			limit = {
+				OR = {
+					has_variable = communist_ig_var
+					has_variable = chose_vanguardism
+					has_variable = chose_anarchism
+					has_variable = chose_communism
+					has_variable = chose_ethno_nationalism
+					has_variable = chose_conservatism
+					has_variable = chose_fascism
+				}
+			}
+			multiply = 0.1
+		}
+	}
+	
+	non_interest_group_leader_weight = {
+		value = 100
+		if = {
+			limit = {
+				interest_group = {
+					OR = {
+						has_variable = communist_ig_var
+						has_variable = chose_vanguardism
+						has_variable = chose_anarchism
+						has_variable = chose_communism
+						has_variable = chose_ethno_nationalism
+						has_variable = chose_conservatism
+						has_variable = chose_fascism
+					}
+				}
+			}
+			multiply = 0.1
+		}
+	}	
+}
+
 ideology_abolitionist = {
 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_abolitionist.dds"
 	
@@ -1564,7 +1897,7 @@ ideology_racist = {
 	}
 
 	interest_group_leader_trigger = {
-		ideology_ethno_nationalist_valid_trigger = yes
+		ideology_racist_valid_trigger = yes
 	}
 
 	non_interest_group_leader_trigger = {
@@ -1577,7 +1910,7 @@ ideology_racist = {
 			}
 		}
 		interest_group = {
-			ideology_ethno_nationalist_valid_trigger = yes
+			ideology_racist_valid_trigger = yes
 		}
 	}
 	
