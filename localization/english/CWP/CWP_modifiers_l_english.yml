@@ -1400,6 +1400,13 @@
   goods_output_consumer_electronics_add: "@consumer_electronics! Electronics output per level"
   goods_output_consumer_electronics_add_desc: "The amount of @consumer_electronics! Electronics produced by buildings"
 
+  # Semiconductors
+  goods_input_semiconductors_add: "@semiconductors! Semiconductors input per level"
+  goods_input_semiconductors_add_desc: "The amount of @semiconductors! Semiconductors consumed by buildings"
+
+  goods_output_semiconductors_add: "@semiconductors! Semiconductors output per level"
+  goods_output_semiconductors_add_desc: "The amount of @semiconductors! Semiconductors produced by buildings"
+
   # Financial Services
   goods_input_financial_services_add: "@financial_services! Financial Services input per level"
   goods_input_financial_services_add_desc: "The amount of @financial_services! Financial Services consumed by buildings"

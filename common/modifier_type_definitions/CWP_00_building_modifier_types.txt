@@ -271,6 +271,11 @@ goods_input_copper_add = {
 	percent = no
 }
 
+goods_input_semiconductors_add = {
+	color = bad
+	percent = no
+}
+
 goods_input_electronics_add = {
 	color = bad
 	percent = no
@@ -472,6 +477,11 @@ goods_output_consumer_electronics_add = {
 }
 
 goods_output_copper_add = {
+	color = good
+	percent = no
+}
+
+goods_output_semiconductors_add = {
 	color = good
 	percent = no
 }
