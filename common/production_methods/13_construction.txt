@@ -21,9 +21,6 @@
 		workforce_scaled = {
 			state_construction_mult = 0.001
 		}
-		level_scaled = {
-			state_building_housing_max_level_add = 1
-		}
 	}
 }
 
@@ -49,9 +46,6 @@ pm_pre_war_buildings = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_construction_mult = 0.0025
-		}
-		level_scaled = {
-			state_building_housing_max_level_add = 1
 		}
 	}
 }
@@ -89,9 +83,6 @@ pm_prefabricated_buildings = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_construction_mult = 0.005
-		}
-		level_scaled = {
-			state_building_housing_max_level_add = 2
 		}
 	}
 }
@@ -131,9 +122,6 @@ pm_tube_structural_buildings = {
 		workforce_scaled = {
 			state_construction_mult = 0.0075
 		}
-		level_scaled = {
-			state_building_housing_max_level_add = 3
-		}
 	}
 }
 
@@ -172,9 +160,6 @@ pm_pressed_concrete = {
 		workforce_scaled = {
 			state_construction_mult = 0.01
 		}
-		level_scaled = {
-			state_building_housing_max_level_add = 4
-		}
 	}
 }
 
@@ -206,9 +191,6 @@ pm_sustainable_building_materials = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_construction_mult = 0.01
-		}
-		level_scaled = {
-			state_building_housing_max_level_add = 4
 		}
 	}
 }

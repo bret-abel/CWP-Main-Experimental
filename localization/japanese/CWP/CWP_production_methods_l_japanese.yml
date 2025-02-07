@@ -906,7 +906,6 @@
  pm_tube_bundled_housing:0 "チューブ構造建造物"
  pm_pressed_concrete_housing:0 "スタンプコンクリート建造物"
  pm_base_housing:0 "住宅"
- pm_landlord_owned_housing:0 "個人地主"
  pm_publicly_traded_housing:0 "市場価格住宅"
  pm_government_owned_housing:0 "公営住宅"
  pm_no_plastics:0 "プラスチック無効"
