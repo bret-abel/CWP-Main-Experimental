@@ -18,7 +18,6 @@ pmg_serfdom_building_subsistence_farms = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_serfdom_no
-		pm_serfdom
 		pm_homesteading_building_subsistence
 	}
 }
