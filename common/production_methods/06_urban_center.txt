@@ -12,6 +12,11 @@ pm_informal_cities = {
 			building_employment_clericals_add = 4500
 		}
 	}
+	state_modifiers = {
+		level_scaled = {
+			state_building_housing_max_level_add = 1
+		}
+	}
 }
 
 pm_industrial_cities = {
@@ -22,15 +27,16 @@ pm_industrial_cities = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 1
-			goods_input_electricity_add = 6
-			goods_input_glass_add = 5
-			goods_input_wood_add = 5
 			goods_output_services_add = 90
 		}
 		level_scaled = {
 			building_employment_laborers_add = 4500
 			building_employment_clericals_add = 5000
+		}
+	}
+	state_modifiers = {
+		level_scaled = {
+			state_building_housing_max_level_add = 1
 		}
 	}
 }
@@ -43,15 +49,16 @@ pm_modernist_cities = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_glass_add = 8
-			goods_input_steel_add = 2
-			goods_input_electricity_add = 7
-			goods_input_wood_add = 8
 			goods_output_services_add = 130
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
 			building_employment_clericals_add = 6500
+		}
+	}
+	state_modifiers = {
+		level_scaled = {
+			state_building_housing_max_level_add = 1
 		}
 	}
 }
@@ -64,15 +71,16 @@ pm_neo_traditional_cities = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_glass_add = 10
-			goods_input_steel_add = 3
-			goods_input_electricity_add = 8
-			goods_input_wood_add = 10
 			goods_output_services_add = 170
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2000
 			building_employment_clericals_add = 7500
+		}
+	}
+	state_modifiers = {
+		level_scaled = {
+			state_building_housing_max_level_add = 1
 		}
 	}
 }
@@ -85,16 +93,17 @@ pm_sustainable_cities = {
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 4
-			goods_input_glass_add = 5
-			goods_input_electricity_add = 6
-			goods_input_wood_add = 25
 			goods_output_services_add = 170
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2000
 			building_employment_clericals_add = 6500
 			#5600+2000+900=8500
+		}
+	}
+	state_modifiers = {
+		level_scaled = {
+			state_building_housing_max_level_add = 1
 		}
 	}
 }
@@ -109,7 +118,6 @@ pm_limited_zoning = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_services_add = -15
-			goods_output_housing_add = 15
 		}
 	}
 }
@@ -125,7 +133,6 @@ pm_residential_zoning = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_services_add = -30
-			goods_output_housing_add = 30
 		}
 	}
 }
@@ -140,7 +147,6 @@ pm_extensive_zoning = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_services_add = -45
-			goods_output_housing_add = 45
 		}
 	}
 }
@@ -157,7 +163,6 @@ pm_arcologies = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_services_add = -60
-			goods_output_housing_add = 60
 		}
 	}
 }
