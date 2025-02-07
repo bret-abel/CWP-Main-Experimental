@@ -4531,7 +4531,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=15
+						levels=20
 					}
 				}
 				reserves=1
@@ -4575,7 +4575,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=5
+						levels=25
 					}
 				}
 				reserves=1
@@ -4631,7 +4631,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=4
+						levels=15
 					}
 				}
 				reserves=1
@@ -4642,7 +4642,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=2
+						levels=5
 					}
 				}
 				reserves=1
@@ -4653,7 +4653,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=8
+						levels=25
 					}
 				}
 				reserves=1
@@ -4664,7 +4664,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=1
+						levels=15
 					}
 				}
 				reserves=1
@@ -4697,7 +4697,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=1
+						levels=2
 					}
 				}
 				subsidized=no
@@ -4709,7 +4709,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=4
+						levels=6
 					}
 				}
 				reserves=1
@@ -4720,7 +4720,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=4
+						levels=7
 					}
 				}
 				reserves=1
@@ -4742,7 +4742,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=6
+						levels=10
 					}
 				}
 				reserves=1
@@ -4753,7 +4753,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=2
+						levels=5
 					}
 				}
 				reserves=1
@@ -4775,7 +4775,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=6
+						levels=10
 					}
 				}
 				reserves=1
@@ -5202,7 +5202,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=5
+						levels=20
 					}
 				}
 				reserves=1
@@ -5247,7 +5247,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=3
+						levels=10
 					}
 				}
 				reserves=1
@@ -5280,7 +5280,7 @@
 				add_ownership={
 					country={
 						country="c:JAP"
-						levels=2
+						levels=10
 					}
 				}
 				reserves=1
