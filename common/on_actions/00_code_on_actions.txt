@@ -2676,6 +2676,9 @@ on_monthly_pulse_state = {
 		# Habitability Calculations 
 		onaction_calc_monthly_habitability = yes
 		onaction_set_habitability_effects = yes
+		# Birth rates
+		onaction_urbanization_modifier = yes
+		onaction_unemployment_modifier = yes
 	}
 }
 
