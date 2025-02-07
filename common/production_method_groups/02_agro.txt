@@ -24,15 +24,6 @@ pmg_harvesting_process_rye_farm = {
 	}
 }
 
-pmg_ownership_rye_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_farm
-		pm_publicly_traded_farm
-		pm_government_run_farm
-		pm_worker_cooperatives_farm
-	}
-}
 
 # Wheat Farms
 pmg_base_building_wheat_farm = {
@@ -60,15 +51,6 @@ pmg_harvesting_process_wheat_farm = {
 	}
 }
 
-pmg_ownership_wheat_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_farm
-		pm_publicly_traded_farm
-		pm_government_run_farm
-		pm_worker_cooperatives_farm
-	}
-}
 
 # Rice Farms
 pmg_base_building_rice_farm = {
@@ -96,15 +78,6 @@ pmg_harvesting_process_rice_farm = {
 	}
 }
 
-pmg_ownership_rice_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_farm
-		pm_publicly_traded_farm
-		pm_government_run_farm
-		pm_worker_cooperatives_farm
-	}
-}
 
 # Maize Farms
 pmg_base_building_maize_farm = {
@@ -132,15 +105,6 @@ pmg_harvesting_process_maize_farm = {
 	}
 }
 
-pmg_ownership_maize_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_farm
-		pm_publicly_traded_farm
-		pm_government_run_farm
-		pm_worker_cooperatives_farm
-	}
-}
 
 # Millet Farms
 pmg_base_building_millet_farm = {
@@ -168,15 +132,6 @@ pmg_harvesting_process_millet_farm = {
 	}
 }
 
-pmg_ownership_millet_farm = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_farm
-		pm_publicly_traded_farm
-		pm_government_run_farm
-		pm_worker_cooperatives_farm
-	}
-}
 
 # Livestock Ranches
 pmg_base_slaughtering_livestock_ranch = {
@@ -213,15 +168,5 @@ pmg_packaging_livestock_ranch = {
 		pm_unrefrigerated
 		pm_refrigerated_storage_building_livestock_ranch
 		pm_refrigerated_rail_cars_building_livestock_ranch
-	}
-}
-
-pmg_ownership_livestock_ranch = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_farm
-		pm_publicly_traded_farm
-		pm_government_run_farm
-		pm_worker_cooperatives_farm
 	}
 }

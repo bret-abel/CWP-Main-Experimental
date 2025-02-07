@@ -42,16 +42,6 @@ pmg_planning_method = {
 	}
 }
 
-pmg_urban_center_ownership = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_urban_center
-		pm_publicly_traded_urban_center
-		pm_government_run_urban_center
-		pm_worker_cooperatives_urban_center
-	}
-}
-
 pmg_public_transport = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
@@ -81,16 +71,6 @@ pmg_base_combustion_plants = {
 		pm_crude_oil_fired_plant
 		pm_oil_fired_plant
 		pm_combustion_fired_plant
-	}
-}
-
-pmg_ownership_power_plants = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_utility
-		pm_publicly_traded_utility
-		pm_government_run_utility
-		pm_worker_cooperatives_utility
 	}
 }
 
@@ -147,16 +127,6 @@ pmg_base_nuclear_power_plants = {
 	}
 }
 
-pmg_ownership_nuclear_power_plants = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_utility
-		pm_publicly_traded_utility
-		pm_government_run_utility
-		pm_worker_cooperatives_utility
-	}
-}
-
 # Telecommunications Industry
 pmg_base_telecommunications_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
@@ -164,16 +134,6 @@ pmg_base_telecommunications_industry = {
 		pm_radio_telecommunications
 		pm_television_services
 		pm_internet_services_telecommunications
-	}
-}
-
-pmg_ownership_telecommunications_industry = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_urban_center
-		pm_publicly_traded_urban_center
-		pm_government_run_urban_center
-		pm_worker_cooperatives_urban_center
 	}
 }
 
@@ -210,15 +170,6 @@ pmg_supporting_industry_tourism = {
 	}
 }
 
-pmg_ownership_tourism = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_urban_center
-		pm_publicly_traded_urban_center
-		pm_government_run_urban_center
-		pm_worker_cooperatives_urban_center
-	}
-}
 
 # Financial Services
 pmg_base_financial_services = {
@@ -253,15 +204,6 @@ pmg_investment_services = {
 	}
 }
 
-pmg_ownership_financial_services = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_urban_center
-		pm_publicly_traded_urban_center
-		pm_government_run_urban_center
-		pm_worker_cooperatives_urban_center
-	}
-}
 
 # Media Industry
 pmg_base_media_industry = {
@@ -286,15 +228,6 @@ pmg_news_media_industry = {
 	}
 }
 
-pmg_ownership_media_industry = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_privately_owned_urban_center
-		pm_publicly_traded_urban_center
-		pm_government_run_urban_center
-		pm_worker_cooperatives_urban_center
-	}
-}
 
 # Hospitals
 pmg_base_hospitals = {
@@ -363,16 +296,6 @@ pmg_skyscraper_focus = {
 	}
 }
 
-pmg_ownership_skyscraper = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	ai_selection = most_productive
-	production_methods = {
-		pm_privately_owned_skyscraper
-		pm_publicly_traded_skyscraper
-		pm_government_run_skyscraper
-		pm_worker_cooperatives_skyscraper
-	}
-}
 
 pmg_professional_service_use_clericals = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
