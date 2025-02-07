@@ -207,7 +207,7 @@ pm_pre_industrial_housing = {
             goods_output_housing_add = 15
         }
         level_scaled = {
-            building_employment_laborers_add = 1000
+            building_employment_laborers_add = 1600
             building_employment_engineers_add = 200
         }
     }
@@ -224,7 +224,7 @@ pm_pre_war_housing = {
             goods_output_housing_add = 20
         }
         level_scaled = {
-            building_employment_laborers_add = 800
+            building_employment_laborers_add = 1200
             building_employment_engineers_add = 400
         }
     }
@@ -247,7 +247,7 @@ pm_prefabricated_housing = {
             goods_output_housing_add = 25
         }
         level_scaled = {
-            building_employment_laborers_add = 600
+            building_employment_laborers_add = 800
             building_employment_engineers_add = 600
         }
     }
@@ -267,8 +267,8 @@ pm_tube_structural_housing = {
         workforce_scaled = {
             goods_input_steel_add = 3
             goods_input_wood_add = 8
-            goods_input_glass_add = 5
-            goods_input_aluminum_add = 5
+            goods_input_glass_add = 4
+            goods_input_aluminum_add = 3
             goods_input_copper_add = 2
             goods_input_plastics_add = 4
             goods_input_tools_add = 3
@@ -297,15 +297,14 @@ pm_pressed_concrete_housing = {
             goods_input_tools_add = 5
             goods_input_steel_add = 3
             goods_input_wood_add = 10
-            goods_input_glass_add = 8
-            goods_input_aluminum_add = 9
+            goods_input_glass_add = 6
+            goods_input_aluminum_add = 4
             goods_input_copper_add = 2
             goods_input_plastics_add = 8
             goods_input_electricity_add = 6
             goods_output_housing_add = 35
         }
         level_scaled = {
-            building_employment_laborers_add = 200
             building_employment_engineers_add = 1000
         }
     }
@@ -327,7 +326,7 @@ pm_sustainable_housing = {
             goods_input_wood_add = 12
             goods_input_steel_add = 3
             goods_input_glass_add = 10
-            goods_input_aluminum_add = 12
+            goods_input_aluminum_add = 6
             goods_input_copper_add = 2
             goods_input_electricity_add = 8
             goods_output_housing_add = 40
