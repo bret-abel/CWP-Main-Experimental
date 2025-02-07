@@ -11,8 +11,8 @@ building_urban_center = {
 	
 	production_method_groups = {
 		pmg_urban_form
-		pmg_residential_areas
-		pmg_planning_method
+		#pmg_residential_areas
+		#pmg_planning_method
 		pmg_public_transport
 		pmg_religious_services
 	}
