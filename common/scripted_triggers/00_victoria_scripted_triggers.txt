@@ -419,10 +419,9 @@ is_african_subject = {
 }
 
 country_is_in_india = {
-	OR = {
-		capital.region = sr:region_india
-		capital.state_region = s:STATE_BALUCHISTAN
-		capital.state_region = s:STATE_PASHTUNISTAN
+	exists = capital
+	capital = {
+		state_is_in_india = yes
 	}
 }
 
