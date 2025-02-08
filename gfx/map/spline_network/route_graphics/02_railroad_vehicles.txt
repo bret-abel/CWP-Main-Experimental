@@ -670,7 +670,7 @@ mining_train = {
 			
 			possible = {
 				scope:state = {
-					has_building = building_sulfur_mine
+					has_building = building_phosphorus_mine
 				}
 			}
 			
@@ -678,7 +678,7 @@ mining_train = {
 				value = 0
 				scope:state = {
 					market = {
-						mg:sulfur = {
+						mg:phosphorus = {
 							add = market_goods_sell_orders
 						}
 					}
@@ -696,7 +696,7 @@ mining_train = {
 			
 			possible = {
 				scope:state = {
-					has_building = building_sulfur_mine
+					has_building = building_phosphorus_mine
 				}
 			}
 			
@@ -704,7 +704,7 @@ mining_train = {
 				value = 0
 				scope:state = {
 					market = {
-						mg:sulfur = {
+						mg:phosphorus = {
 							add = market_goods_sell_orders
 						}
 					}
@@ -722,7 +722,7 @@ mining_train = {
 			
 			possible = {
 				scope:state = {
-					has_building = building_sulfur_mine
+					has_building = building_phosphorus_mine
 				}
 			}
 			
@@ -730,7 +730,7 @@ mining_train = {
 				value = 0
 				scope:state = {
 					market = {
-						mg:sulfur = {
+						mg:phosphorus = {
 							add = market_goods_sell_orders
 						}
 					}
