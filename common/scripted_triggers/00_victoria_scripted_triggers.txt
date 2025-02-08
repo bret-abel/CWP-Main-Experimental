@@ -428,8 +428,8 @@ country_is_in_india = {
 state_is_in_india = {
 	OR = {
 		region = sr:region_india
-		#state = s:STATE_BALUCHISTAN
-		#state = s:STATE_PASHTUNISTAN
+		state_region = s:STATE_BALUCHISTAN
+		state_region = s:STATE_PASHTUNISTAN
 	}
 }
 
