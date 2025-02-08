@@ -738,7 +738,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -887,7 +887,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 		}
 	}
@@ -1025,7 +1025,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_government_administration"
@@ -5169,7 +5169,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_antibiotics" "pm_government_run_hospital" "pm_trauma_centers" }
+				activate_production_methods={ "pm_antibiotics" "pm_trauma_centers" }
 			}
 			create_building={
 				building="building_financial_services"
@@ -6252,7 +6252,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -6625,7 +6625,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_textile_manufactories"
@@ -7221,7 +7221,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 		}
 	}
@@ -8898,7 +8898,7 @@
 				}
 				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_government_run_hospital" "pm_antibiotics" }
+				activate_production_methods={ "pm_hospitals" "pm_antibiotics" }
 			}
 		}
 	}
@@ -8997,7 +8997,7 @@
 				}
 				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_antibiotics" }
 			}
 		}
 	}
@@ -9927,7 +9927,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_government_run_hospital" "pm_trauma_centers" "pm_antibiotics" }
+				activate_production_methods={  "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_explosives_industry"
@@ -11056,7 +11056,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 		}
 	}
@@ -11293,7 +11293,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_steelworks"
@@ -11664,7 +11664,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_chemical_plants"
@@ -11989,7 +11989,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_explosives_industry"
@@ -12215,7 +12215,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_furniture_manufactories"
@@ -12837,7 +12837,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_aluminum_refinery"
@@ -13307,7 +13307,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_media_industry"
@@ -13516,7 +13516,7 @@
 				}
 				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_government_administration"

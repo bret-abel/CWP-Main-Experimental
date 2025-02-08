@@ -534,7 +534,7 @@
 				}
 				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_government_run_hospital" "pm_antibiotics" }
+				activate_production_methods={ "pm_hospitals" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_explosives_industry"
@@ -948,7 +948,7 @@
 				}
 				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -4519,7 +4519,7 @@
 				}
 				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_antibiotics" }
 			}
 		}
 	}
@@ -4583,7 +4583,7 @@
 				}
 				subsidized=yes
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_antibiotics" }
 			}
 		}
 	}

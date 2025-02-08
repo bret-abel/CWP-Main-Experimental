@@ -2534,7 +2534,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_government_run_hospital" "pm_antibiotics" }
+				activate_production_methods={ "pm_hospitals" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_financial_services"
@@ -3027,7 +3027,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_antibiotics" "pm_government_run_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_chemical_plants"
