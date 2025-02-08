@@ -246,8 +246,6 @@
   law_tenant_landlords_desc: "Agricultural land is owned by hereditary elites. Workers are not tied to the land, and may seek alternative employment if they can find it."
   law_homesteading: "Homesteading"
   law_homesteading_desc: "landlords lay claim to plots of land which they work alongside their hired laborers."
-  law_tenant_farmers: "Tenant Farmers"
-  law_tenant_farmers_desc: "Agricultural land is owned by hereditary elites. Workers are not tied to the land, and may seek alternative employment if they can find it."
   law_commercialized_agriculture: "Commercialized Agriculture"
   law_commercialized_agriculture_desc: "Agriculture is a business like any other, subject to market forces and owned by capital."
   law_collectivized_agriculture: "Collectivized Agriculture"
