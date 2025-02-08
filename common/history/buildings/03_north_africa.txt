@@ -404,7 +404,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 		}
 	}
@@ -464,7 +464,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -546,7 +546,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 		}
 	}
@@ -584,7 +584,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_port"
@@ -646,7 +646,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 		}
 		region_state:SPA={
@@ -693,7 +693,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -742,7 +742,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_fuel_refineries"
@@ -813,7 +813,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_motor_industry"
@@ -851,7 +851,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_aluminum_refinery"

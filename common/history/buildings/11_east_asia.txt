@@ -641,7 +641,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 		}
 	}
@@ -756,7 +756,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_food_industry"
@@ -898,7 +898,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_cotton_plantation"
@@ -1200,7 +1200,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_gold_mine"
@@ -1374,7 +1374,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_small_arms_manufactories"
@@ -3935,7 +3935,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_logging_camp"
@@ -4029,7 +4029,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_combustion_plant"
@@ -4278,7 +4278,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_combustion_plant"
@@ -4591,7 +4591,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_tool_manufactories"
@@ -4960,7 +4960,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_tool_manufactories"
@@ -5218,7 +5218,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_tool_manufactories"
@@ -5543,7 +5543,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_chemical_plants"
@@ -5812,7 +5812,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -5872,7 +5872,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_combustion_plant"
@@ -6064,7 +6064,7 @@
 				}
 				subsidized=no
 				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_paved_roads" "pm_cargo_prioritization" }
+				activate_production_methods={ "pm_steam_power" "pm_basic_rolling_stock" "pm_conventional_track" }
 			}
 			create_building={
 				building="building_combustion_plant"
