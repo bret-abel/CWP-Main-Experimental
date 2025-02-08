@@ -87,7 +87,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_privatized_hospital" "pm_trauma_centers" "pm_antibiotics" }
+				activate_production_methods={"pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_tool_manufactories"
@@ -1463,7 +1463,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_steelworks"
@@ -1763,7 +1763,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_pharmaceutical_industry"
@@ -2034,7 +2034,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_privatized_hospital" "pm_trauma_centers" "pm_antibiotics" }
+				activate_production_methods={"pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_pharmaceutical_industry"
@@ -2424,7 +2424,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_steelworks"
@@ -2715,7 +2715,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_food_industry"
@@ -2951,7 +2951,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_pharmaceutical_industry"
@@ -3154,7 +3154,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_distilleries"
@@ -3302,7 +3302,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_pharmaceutical_industry"
@@ -3571,7 +3571,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_coal_mine"
@@ -3862,7 +3862,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -4231,7 +4231,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_food_industry"
@@ -4489,7 +4489,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_fuel_refineries"
@@ -4807,7 +4807,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 		}
 	}
@@ -7280,7 +7280,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_privatized_hospital" "pm_trauma_centers" "pm_antibiotics" }
+				activate_production_methods={"pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_pharmaceutical_industry"
@@ -7594,7 +7594,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_paper_manufactories"
@@ -8103,7 +8103,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_antibiotics" "pm_privatized_hospital" "pm_trauma_centers" }
+				activate_production_methods={ "pm_antibiotics""pm_trauma_centers" }
 			}
 			create_building={
 				building="building_paper_manufactories"
@@ -8394,7 +8394,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_explosives_industry"
@@ -9647,7 +9647,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_privatized_hospital" "pm_trauma_centers" "pm_antibiotics" }
+				activate_production_methods={"pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_explosives_industry"
@@ -10824,7 +10824,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_antibiotics" "pm_privatized_hospital" "pm_trauma_centers" }
+				activate_production_methods={ "pm_antibiotics""pm_trauma_centers" }
 			}
 		}
 		region_state:GBR={
@@ -13090,7 +13090,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_glassworks"

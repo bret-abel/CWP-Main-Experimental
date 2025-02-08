@@ -4128,7 +4128,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_privatized_hospital" "pm_antibiotics" }
+				activate_production_methods={ "pm_hospitals""pm_antibiotics" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -4377,7 +4377,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_privatized_hospital" "pm_antibiotics" "pm_trauma_centers" }
+				activate_production_methods={"pm_antibiotics" "pm_trauma_centers" }
 			}
 			create_building={
 				building="building_university"
@@ -4757,7 +4757,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_privatized_hospital" "pm_antibiotics" "pm_trauma_centers" }
+				activate_production_methods={"pm_antibiotics" "pm_trauma_centers" }
 			}
 			create_building={
 				building="building_pharmaceutical_industry"
@@ -5114,7 +5114,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -5362,7 +5362,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_silk_plantation"
@@ -5642,7 +5642,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_silk_plantation"
@@ -5971,7 +5971,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_silk_plantation"
@@ -6152,7 +6152,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_trauma_centers" "pm_antibiotics" }
 			}
 			create_building={
 				building="building_silk_plantation"

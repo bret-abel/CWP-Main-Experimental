@@ -297,7 +297,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_aircraft_manufactories"
@@ -1250,7 +1250,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" "pm_privatized_hospital" }
+				activate_production_methods={ "pm_hospitals" "pm_traditional_treatments" }
 			}
 			create_building={
 				building="building_rubber_plantation"
