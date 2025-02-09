@@ -162,7 +162,7 @@ ai_strategy_default = {
 		
 		# Bonus for obligations from Great Powers
 		if = {
-			limit = { scope:target_country.country_rank >= rank_value:great_power }
+			limit = { scope:target_country.country_rank = rank_value:great_power }
 			add = 5
 		}
 		
@@ -1048,7 +1048,7 @@ ai_strategy_default = {
 		# Very high aggression against pariah countries by Great Powers
 		if = {
 			limit = {
-				country_rank >= rank_value:great_power
+				country_rank = rank_value:great_power
 				scope:target_country = {
 					infamy >= infamy_threshold:pariah
 					NOT = {
@@ -1195,7 +1195,7 @@ ai_strategy_default = {
 		
 		# Extra army size from rank
 		if = {
-			limit = { country_rank >= rank_value:great_power }
+			limit = { country_rank = rank_value:great_power }
 			add = 25
 		}
 		if = {
@@ -1392,7 +1392,7 @@ ai_strategy_default = {
 		}	
 	
 		if = { # GPs and MPs should want to maintain a bit of a navy
-			limit = { country_rank >= rank_value:great_power }
+			limit = { country_rank = rank_value:great_power }
 			add = 25		
 		}
 		else_if = {
@@ -1557,7 +1557,7 @@ ai_strategy_default = {
 		combat_unit_group_capital_ship = {
 			value = 0
 			if = {
-				limit = { country_rank >= rank_value:great_power }
+				limit = { country_rank = rank_value:great_power }
 				add = 30
 			}
 			if = {
@@ -1568,7 +1568,7 @@ ai_strategy_default = {
 		combat_unit_group_support_ship = {
 			value = 0
 			if = {
-				limit = { country_rank >= rank_value:great_power }
+				limit = { country_rank = rank_value:great_power }
 				add = 30
 			}
 			if = {
@@ -1666,22 +1666,9 @@ ai_strategy_default = {
 	# Which buildings should the AI subsidize
 	# Using a different value in a strategy will override this value
 	subsidies = {
-		building_combustion_plant = should_have
-		building_nuclear_power_plant = should_have
-		building_renewable_energy_facility = should_have
-		building_telecommunications = should_have
-		building_railway = should_have
-		building_trade_center = must_have
-		building_airport = should_have
-		building_nuclear_weapons_facility = must_have
-		building_strategic_airbase = must_have
-		building_nuclear_weapons_silo = must_have
-		building_chemical_weapons_facility = must_have
-		building_biological_weapons_facility = must_have
-		building_spaceport = must_have
-		building_mission_control = must_have
-		building_suez_canal = should_have
-		building_panama_canal = should_have
+		building_power_plant = must_have
+		building_railway = must_have
+		building_trade_center = must_have		
 	}
 	
 	# Specifying values here will override subsidy priorities while at war
