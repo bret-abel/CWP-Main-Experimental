@@ -972,7 +972,7 @@ decolonization.506 = {
 			country = c:PHI
 			type = defensive_pact
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 			country = c:PHI
 			months = 12
 		}
@@ -994,7 +994,7 @@ decolonization.506 = {
 			value = 20
 			country = c:PHI
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 			country = c:PHI
 			months = 36
 		}
@@ -1065,7 +1065,7 @@ decolonization.507 = {
 			country = c:JAP
 			type = defensive_pact
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 			country = c:JAP
 			months = 12
 		}
@@ -1093,7 +1093,7 @@ decolonization.507 = {
 			value = 100
 			country = c:JAP
 		}
-		create_truce = {
+		create_bidirectional_truce = {
 			country = c:JAP
 			months = 60
 		}
