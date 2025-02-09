@@ -3438,12 +3438,12 @@
 				building="building_motor_industry"
 				add_ownership={
 					company={
-						type=_company_general_motors
+						type=company_general_motors
 						country="c:USA"
 						levels=30
 					}
 					company={
-						type=_company_chrysler
+						type=company_chrysler
 						country="c:USA"
 						levels=20
 					}

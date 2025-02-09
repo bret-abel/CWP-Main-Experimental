@@ -27,7 +27,7 @@
 				country = scope:target_country
 				value = -30
 			}
-			create_truce = {
+			create_bidirectional_truce = {
 				country = scope:target_country
 				months = 12
 			}
@@ -75,7 +75,7 @@ treaty_nato_mutual_assistance = {
 				country = scope:target_country
 				value = -30
 			}
-			create_truce = {
+			create_bidirectional_truce = {
 				country = scope:target_country
 				months = 12
 			}
@@ -123,7 +123,7 @@ treaty_warsaw_pact_mutual_assistance = {
 				country = scope:target_country
 				value = -30
 			}
-			create_truce = {
+			create_bidirectional_truce = {
 				country = scope:target_country
 				months = 12
 			}
