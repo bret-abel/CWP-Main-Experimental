@@ -717,47 +717,40 @@ exiles_events.8 = {
 
 	trigger = {
 		any_political_movement = {
-			this.desired_law = {
-				save_temporary_scope_as = movement_law
-			}
-		}
-		any_character_in_exile_pool = {
-			law_stance = {
-				law = scope:movement_law
-				value > neutral
+			any_character_in_exile_pool = {
+				could_support_political_movement = prev
 			}
 		}
 	}
 
 	cancellation_trigger = {
-		NOT = {
-			exists = scope:exile_scope
+		OR = {
+			NOT = {
+				exists = scope:exile_scope
+			}
+			scope:exile_scope ?= {
+				OR = {
+					is_character_alive = no
+					is_in_exile_pool = no
+				}
+			}
 		}
 	}
 	
 	immediate = {
 		random_political_movement = {
 			limit = {
-				this.desired_law = {
-					save_temporary_scope_as = movement_law
-				}	
 				any_character_in_exile_pool = {
-					law_stance = {
-						law = scope:movement_law
-						value > neutral
-					}
+					could_support_political_movement = prev
 				}
 			}
 			save_scope_as = movement_scope
-		}
-		random_character_in_exile_pool = {
-			limit = {
-				law_stance = {
-					law = scope:movement_law
-					value > neutral
-				}	
-			}
-			save_scope_as = exile_scope
+			random_character_in_exile_pool = {
+				limit = {
+					could_support_political_movement = prev
+				}
+				save_scope_as = exile_scope
+			}			
 		}
 	}
 	
@@ -779,7 +772,7 @@ exiles_events.8 = {
 				name = modifier_censored_foreign_manifesto
 				months = normal_modifier_time
 			}
-			random_supporting_interest_group = {
+			random_influenced_interest_group = {
 				add_modifier = {
 					name = modifier_supporters_of_foreigners
 					months = normal_modifier_time
