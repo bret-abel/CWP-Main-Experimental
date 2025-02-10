@@ -422,26 +422,6 @@ onaction_urbanization_modifier = {
 	}
 }
 
-onaction_unemployment_modifier = {
-    set_local_variable = {
-        name = unemployment_modifier
-        value = {
-            value = state_unemployment_rate
-            multiply = -100
-            multiply = {
-                value = state_unemployment_rate
-                multiply = 5
-            }
-            round = yes
-        }
-    }
-    remove_modifier = unemployment_modifier
-    add_modifier = {
-        name = unemployment_modifier
-        multiplier = local_var:unemployment_modifier
-    }
-}
-
 onaction_racial_tension_modifier = {
 	if = {
 		limit = {

@@ -416,7 +416,6 @@ GLOBAL = {
 	every_country = {
 		every_scope_state = {
 			onaction_urbanization_modifier = yes
-			onaction_unemployment_modifier = yes
 			every_scope_building = {
 				limit = {
 					is_building_type = building_renewable_energy_facility
