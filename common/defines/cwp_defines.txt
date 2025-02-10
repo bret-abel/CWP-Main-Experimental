@@ -5,16 +5,9 @@
 }
 
 NAI = {
-	DIPLO_PROPOSAL_BREAK_THRESHOLD = -100				# At this or less acceptance, AI breaks off an existing pact
-
 	INFLUENCE_DEFICIT_BREAK_PACT_OVER_SPENDING_LIMIT_MULT = 0.5			# AI multiplies the value of pacts that are over their action-type spending limit by this when in an Influence deficit
 
-	RAISE_TAX_TO_DESIRED_INCOME_THRESHOLD = 0.03
-	RAISE_TAX_ABOVE_DESIRED_INCOME_NO_DEBT_THRESHOLD = 0.01
-	RAISE_TAX_ABOVE_DESIRED_INCOME_WITH_DEBT_THRESHOLD = 0.02
-	LOWER_TAX_TO_DESIRED_INCOME_THRESHOLD = 0.04
-	LOWER_TAX_BELOW_DESIRED_INCOME_THRESHOLD = 500.0
-	RAISE_TAX_HIGH_DEBT_OVERRIDE_RATIO = 0.01 # At this amount of debt, any level of tax is OK to deal with it
+	RAISE_TAX_HIGH_DEBT_OVERRIDE_RATIO = 0.05 # At this amount of debt, any level of tax is OK to deal with it
 
 	MONEY_SPENDING_INNOVATION_CRITICAL_THRESHOLD = 0.75 # If innovation production compared to cap is worse than this, AI considers it very important to improve
 	MONEY_SPENDING_INNOVATION_DESIRED_THRESHOLD = 1.00 # If innovation production compared to cap is worse than this, AI considers it important to improve
@@ -44,16 +37,10 @@ NAI = {
 	PRODUCTION_BUILDING_LONG_CONSTRUCTION_TIME_THRESHOLD = 80
 	PRODUCTION_BUILDING_VERY_LONG_CONSTRUCTION_TIME_THRESHOLD = 120
 
-	# Below data is used to calculate how much weight the AI places on enacting/revoking a law
-	CHANGE_LAW_POTENTIAL_CIVIL_WAR_ENACT_CHANCE = 2 # Chance that the AI will proceed with a law change that could cause a civil war (1 = 1%)
-
 	# Below data is used to calculate how much weight the AI places on a production method
     PRODUCTION_METHOD_EMPLOYMENT_CHANGE_FACTOR = 0 # Per extra employee the employment method would require (reduced employment = higher score)
     PRODUCTION_METHOD_FAVORED_MILITARY_GOODS_FACTOR = 2.0 # Per base cost * units of goods produced that the AI favors (for military goods)
     PRODUCTION_METHOD_CHANCE_TO_CHANGE = 0.5 # Chance that the AI will consider changing a production method when evaluating methods
-
-	# For the AI to want to start a trade route, they usually want it to be at least this level
-    TRADE_ROUTE_MIN_DESIRED_LEVEL_MAX = 1
 
     # The AI never cancels current trade routes of this level or above
     TRADE_ROUTE_MAX_LEVEL_TO_CANCEL_MIN = 5
@@ -108,27 +95,20 @@ NAI = {
 
 
 	# Below data is used to determine which states are most important to defend
-	DEFEND_STATE_BARRACKS_WEIGHT = 10 # Per level of barracks
-	DEFEND_STATE_BARRACKS_MAX_WEIGHT = 250 # Per state
 	DEFEND_STATE_CAPITAL_WEIGHT = 250
 	DEFEND_STATE_CAPITAL_WAR_NEGOTIATOR_WEIGHT = 2500
+	DEFEND_STATE_OWN_CAPITAL_WEIGHT_MULT = 5
 	DEFEND_STATE_WARGOAL_WEIGHT = 1000
-	DEFEND_STATE_INCORPORATED_WEIGHT_MULT = 2.5
 
 	# Below data is used to determine which states are most important to invade
-	INVADE_STATE_BARRACKS_WEIGHT = 10 # Per level of barracks
-	INVADE_STATE_BARRACKS_MAX_WEIGHT = 250 # Per state
-	INVADE_STATE_CAPITAL_WEIGHT = 250
-	INVADE_STATE_CAPITAL_WAR_NEGOTIATOR_WEIGHT = 2500
-	INVADE_STATE_WARGOAL_WEIGHT = 1000
+	INVADE_STATE_CAPITAL_WAR_NEGOTIATOR_WEIGHT = 10
+	INVADE_STATE_WARGOAL_WEIGHT = 10000
 
 	# Below data is used for naval invasions:
-	NAVAL_INVASION_MIN_RELATIVE_LOCAL_ARMY_STRENGTH = 0.2 			# AI wants at least this fraction of defending army strength to risk a naval invasion
-	NAVAL_INVASION_MIN_RELATIVE_LOCAL_NAVY_STRENGTH = 0.4 			# AI wants at least this fraction of defending naval strength to risk a naval invasion
-	NAVAL_INVASION_MIN_RELATIVE_GLOBAL_NAVY_STRENGTH_ATTACKER = 0.05 # AI wants at least this fraction of naval strength in the overall war to risk a naval invasion as the attacking war side
-	NAVAL_INVASION_MIN_RELATIVE_GLOBAL_NAVY_STRENGTH_DEFENDER = 0.1 # AI wants at least this fraction of naval strength in the overall war to risk a naval invasion as the defending war side
+	NAVAL_INVASION_MIN_RELATIVE_GLOBAL_NAVY_STRENGTH_ATTACKER = 0.5 # AI wants at least this fraction of naval strength in the overall war to risk a naval invasion as the attacking war side
+	NAVAL_INVASION_MIN_RELATIVE_GLOBAL_NAVY_STRENGTH_DEFENDER = 1   # AI wants at least this fraction of naval strength in the overall war to risk a naval invasion as the defending war side
 	NAVAL_INVASION_COOLDOWN_DAYS = 30 								# After launching a naval invasion, the AI will wait at least this long before launching another
-	NAVAL_INVASION_MIN_SCORE = 10									# AI won't bother launching naval invasions against theaters with a lower total state score than this
+	NAVAL_INVASION_MIN_SCORE = 1000									# AI won't bother launching naval invasions against theaters with a lower total state score than this
 
     # Below data is used for General Orders:
 	HQ_DEFENSE_MIN_WANTED_GARRISON = 0.35							# Keep at least this number of local troops to garrison important HQs against enemy invasion
@@ -136,16 +116,9 @@ NAI = {
 	# If a front is worth less than this, the AI will not assign any generals to it
 	FRONT_IMPORTANCE_MIN_SCORE = 0.001
 
-	# If the AI has less units than its enemy on a front, this weight is applied to the importance that front has when deciding to attack/defend it.
-	# Use a value >= 1.0. Example: 1.2 means: add 20% importance to a front when in disadvantage.
-	FRONT_IMPORTANCE_WHEN_IN_DISADVANTAGE_WEIGHT_MULT = 2
-
 	# A percentage [0.0, 1.0] representing how many AI units are on a front out of the total (AI's + Enemy's) units, used to
 	# determine when to start applying FRONT_IMPORTANCE_WEIGHT_WHEN_IN_DISADVANTAGE.
     UNITS_PERCENTAGE_TO_BE_CONSIDERED_IN_DISADVANTAGE = 0.9
-
-	# diplo play
-	DIPLO_PLAY_SWAY_UNWANTED_OFFER = -1000 # For being offered unwanted wargoal or obligation
 
 	IDEOLOGICAL_OPINION_LAW_APPROVAL_THRESHOLD = 0.5		# If ruling IGs have at least this much approval/disapproval for a law on average, it affects ideological opinion
     IDEOLOGICAL_OPINION_STRONG_STANCE_THRESHOLD = 1.5		# If ruling IGs have at least this much approval/disapproval for a law on average, IDEOLOGICAL_OPINION_STRONG_STANCE_EFFECT_MULT comes into effect
@@ -162,7 +135,7 @@ NAI = {
     #INSTITUTION_SPENDING_DECREASE_SPENDING_RATIO = 2.0 # If current institution spending is at least max spending * this, try to degrade some institutions
 
     # Below data is used to calculate how much weight the AI places on enacting/revoking a law
-    CHANGE_LAW_POTENTIAL_CIVIL_WAR_ENACT_CHANCE = 1 # Chance that the AI will proceed with a law change that could cause a civil war (1 = 1%)
+    CHANGE_LAW_POTENTIAL_CIVIL_WAR_ENACT_CHANCE = 10 # Base chance that the AI will proceed with a law change that could cause a civil war - revolution aversion is subtracted from this value for final chance (1 = 1%)
 
 	### all power bloc related weights
 

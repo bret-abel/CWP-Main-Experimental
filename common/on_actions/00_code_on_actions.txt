@@ -872,6 +872,16 @@ on_capitulation = {
 			}
 			remove_variable = revolutionary_prov_gov_var
 		}
+		if = {
+			limit = {
+				country_rank >= rank_value:great_power
+			}
+			add_modifier = {
+				name = country_humiliated
+				months = 60
+				is_decaying = yes
+			}
+		}
 	}
 }
 
