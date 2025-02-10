@@ -663,29 +663,16 @@
 	}
 	s:STATE_PANAMA={
 		region_state:PNM={
-		}
-		region_state:USA={
 			create_building={
 				building="building_port"
 				add_ownership={
 					country={
-						country="c:USA"
+						country="c:PNM"
 						levels=1
 					}
 				}
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}
-			create_building={
-				building="building_panama_canal"
-				add_ownership={
-					country={
-						country="c:USA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_canal_base" }
 			}
 		}
 	}
