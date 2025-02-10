@@ -2,6 +2,9 @@
 	requires_approval = yes
 	should_notify_third_parties = no
 	can_use_obligations = yes
+	groups = {
+		general
+	}
 	unlocking_technologies = {
 		international_relations
 	}
