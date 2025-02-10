@@ -13,11 +13,6 @@ urbanization_modifier = {
 	state_birth_rate_mult = -0.01
 }
 
-unemployment_modifier = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_corruption.dds
-	state_birth_rate_mult = 0.01
-}
-
 nuclear_damage = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_corruption.dds
 	state_mortality_mult = 10
