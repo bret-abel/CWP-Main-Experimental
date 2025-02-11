@@ -10,7 +10,7 @@ state_skyscraper_modifier = {
 
 urbanization_modifier = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_corruption.dds
-	state_birth_rate_mult = -0.01
+	state_birth_rate_mult = -0.1
 }
 
 nuclear_damage = {
