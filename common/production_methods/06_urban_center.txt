@@ -441,7 +441,7 @@ pm_coal_fired_plant = {
 	texture = "gfx/interface/icons/production_method_icons/urban/power_plant.dds"
 	state_modifiers = {
 		workforce_scaled = {
-			state_pollution_generation_add = 100
+			state_pollution_generation_add = 50
 		}
 	}
 	building_modifiers = {
@@ -461,7 +461,7 @@ pm_crude_oil_fired_plant = {
 	texture = "gfx/interface/icons/production_method_icons/urban/power_plant.dds"
 	state_modifiers = {
 		workforce_scaled = {
-			state_pollution_generation_add = 100
+			state_pollution_generation_add = 50
 		}
 	}
 	building_modifiers = {
@@ -481,7 +481,7 @@ pm_oil_fired_plant = {
 	texture = "gfx/interface/icons/production_method_icons/urban/power_plant.dds"
 	state_modifiers = {
 		workforce_scaled = {
-			state_pollution_generation_add = 100
+			state_pollution_generation_add = 40
 		}
 	}
 	unlocking_technologies = {
@@ -504,7 +504,7 @@ pm_combustion_fired_plant = {
 	texture = "gfx/interface/icons/production_method_icons/urban/power_plant.dds"
 	state_modifiers = {
 		workforce_scaled = {
-			state_pollution_generation_add = 100
+			state_pollution_generation_add = 30
 		}
 	}
 	unlocking_technologies = {
