@@ -22,7 +22,6 @@ resupply_commander = {
 		if = {
 			limit = {
 				owner ?= {
-					has_technology_researched = modernized_logistics
 				}
 			}
 			multiply = 2
@@ -156,8 +155,8 @@ basic_artillery_commander = {
  	command_modifier = {
  		unit_combat_unit_type_siege_artillery_offense_mult = 0.05
 		unit_combat_unit_type_shrapnel_artillery_offense_mult = 0.05
-		unit_combat_unit_type_light_artillery_mult = 0.05
-		unit_combat_unit_type_mobile_artillery_mult = 0.05
+		unit_combat_unit_type_cannon_artillery_offense_mult = 0.05
+		unit_combat_unit_type_mobile_artillery_offense_mult = 0.05
  		character_battle_condition_aggressive_maneuver_mult = 1
  		character_battle_condition_mud_mult = 0.5
  	}
@@ -165,7 +164,6 @@ basic_artillery_commander = {
  	possible = {
  		has_role = general
  		owner ?= {
- 			has_technology_researched = heavy_artillery
  		}
  		NOR = {
  			has_trait = experienced_artillery_commander
@@ -219,7 +217,7 @@ basic_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_shrapnel_artillery  
+							target = unit_type:combat_unit_type_self_propelled_artillery  
 							value >= 0.20  
 						}  
 					}
@@ -236,7 +234,7 @@ basic_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_siege_artillery
+							target = unit_type:combat_unit_type_mlrs_artillery
 							value >= 0.20  
 						}  
 					}
@@ -252,10 +250,20 @@ basic_artillery_commander = {
 						any_scope_general = {
 							this = root
 						}
-						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_heavy_tank
-							value >= 0.20  
-						}  
+						OR = {
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_combat_engineers
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_armoured_reconnaissance
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_attack_helicopters
+								value >= 0.20  
+							}
+						}
 					}
 				}
 			}
@@ -264,6 +272,7 @@ basic_artillery_commander = {
  	}
 
  	replace = {
+		inexperienced
  	}
 
  	value = 1
@@ -276,8 +285,8 @@ experienced_artillery_commander = {
 	command_modifier = {
 		unit_combat_unit_type_siege_artillery_offense_mult = 0.1
 		unit_combat_unit_type_shrapnel_artillery_offense_mult = 0.1
-		unit_combat_unit_type_light_artillery_mult = 0.1
-		unit_combat_unit_type_mobile_artillery_mult = 0.1
+		unit_combat_unit_type_cannon_artillery_offense_mult = 0.1
+		unit_combat_unit_type_mobile_artillery_offense_mult = 0.1
 		character_battle_condition_aggressive_maneuver_mult = 2
 		character_battle_condition_mud_mult = 0.5
 	}
@@ -315,7 +324,7 @@ experienced_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_shrapnel_artillery  
+							target = unit_type:combat_unit_type_self_propelled_artillery  
 							value >= 0.20  
 						}  
 					}
@@ -332,7 +341,7 @@ experienced_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_siege_artillery
+							target = unit_type:combat_unit_type_mlrs_artillery
 							value >= 0.20  
 						}  
 					}
@@ -348,10 +357,20 @@ experienced_artillery_commander = {
 						any_scope_general = {
 							this = root
 						}
-						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_heavy_tank
-							value >= 0.20  
-						}  
+						OR = {
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_combat_engineers
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_armoured_reconnaissance
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_attack_helicopters
+								value >= 0.20  
+							}
+						}
 					}
 				}
 			}
@@ -373,8 +392,8 @@ expert_artillery_commander = {
 	command_modifier = {
 		unit_combat_unit_type_siege_artillery_offense_mult = 0.15
 		unit_combat_unit_type_shrapnel_artillery_offense_mult = 0.15
-		unit_combat_unit_type_light_artillery_mult = 0.15
-		unit_combat_unit_type_mobile_artillery_mult = 0.15
+		unit_combat_unit_type_cannon_artillery_offense_mult = 0.15
+		unit_combat_unit_type_mobile_artillery_offense_mult = 0.15
 		character_battle_condition_aggressive_maneuver_mult = 3
 		character_battle_condition_mud_mult = 0.5
 	}
@@ -395,7 +414,7 @@ expert_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_shrapnel_artillery  
+							target = unit_type:combat_unit_type_self_propelled_artillery  
 							value >= 0.20  
 						}  
 					}
@@ -412,7 +431,7 @@ expert_artillery_commander = {
 							this = root
 						}
 						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_siege_artillery
+							target = unit_type:combat_unit_type_mlrs_artillery
 							value >= 0.20  
 						}  
 					}
@@ -428,10 +447,20 @@ expert_artillery_commander = {
 						any_scope_general = {
 							this = root
 						}
-						formation_army_unit_type_fraction = {  
-							target = unit_type:combat_unit_type_heavy_tank
-							value >= 0.20  
-						}  
+						OR = {
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_combat_engineers
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_armoured_reconnaissance
+								value >= 0.20  
+							}
+							formation_army_unit_type_fraction = {  
+								target = unit_type:combat_unit_type_attack_helicopters
+								value >= 0.20  
+							}
+						}
 					}
 				}
 			}
@@ -457,7 +486,6 @@ stalwart_defender = {
 	possible = {
 		has_role = general
 		owner ?= {
-			has_technology_researched = modern_professional_military
 		}
 		NOR = {
 			has_trait = trench_rat
@@ -488,7 +516,6 @@ trench_rat = {
 	possible = {
 		has_trait = stalwart_defender
 		owner ?= {
-			has_technology_researched = modern_professional_military
 		}
 		NOT = { age < define:NCharacters|ADULT_AGE }
 	}
@@ -497,10 +524,13 @@ trench_rat = {
 		value = 10
 		if = {
 			limit = {
-				commander_pm_usage = {
-					target = owner
-					production_method = pm_basic_training
-					value > 0.5
+				commander_military_formation = {
+					OR = {
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_light_infantry
+							value >= 0.25
+						}
+					}
 				}
 			}
 			multiply = 5
@@ -527,7 +557,6 @@ defense_in_depth_specialist = {
 	possible = {
 		has_trait = trench_rat
 		owner ?= {
-			has_technology_researched = modern_professional_military
 		}
 		NOT = { age < define:NCharacters|ADULT_AGE }
 	}
@@ -536,21 +565,12 @@ defense_in_depth_specialist = {
 		value = 10
 		if = {
 			limit = {
-				OR = {
-					commander_pm_usage = {
-						target = owner
-						production_method = pm_basic_training
-						value > 0.5
-					}
-					commander_pm_usage = {
-						target = owner
-						production_method = pm_officer_schools
-						value > 0.5
-					}
-					commander_pm_usage = {
-						target = owner
-						production_method = pm_nco_instruction
-						value > 0.5
+				commander_military_formation = {
+					OR = {
+						formation_army_unit_type_fraction = {
+							target = unit_type:combat_unit_type_light_infantry
+							value >= 0.25
+						}
 					}
 				}
 			}
@@ -576,7 +596,6 @@ basic_offensive_planner = {
 	possible = {
 		has_role = general
 		owner ?= {
-			has_technology_researched = modern_professional_military
 		}
 		NOR = {
 			has_trait = experienced_offensive_planner
@@ -588,6 +607,7 @@ basic_offensive_planner = {
 	weight = 20
 
 	replace = {
+		inexperienced
 	}
 
 	value = 1
@@ -652,7 +672,6 @@ basic_defensive_strategist = {
 	possible = {
 		has_role = general
 		owner ?= {
-			has_technology_researched = modern_professional_military
 		}
 		NOR = {
 			has_trait = experienced_defensive_strategist
@@ -664,6 +683,7 @@ basic_defensive_strategist = {
 	weight = 20
 
 	replace = {
+		inexperienced
 	}
 
 	value = 1
@@ -731,7 +751,6 @@ basic_naval_commander = {
 	possible = {
 		has_role = admiral
 		owner ?= {
-			has_technology_researched = command_battlesuites
 		}
 		NOR = {
 			has_trait = experienced_naval_commander
@@ -743,6 +762,7 @@ basic_naval_commander = {
 	weight = 20
 
 	replace = {
+		inexperienced
 	}
 
 	value = 1
@@ -808,7 +828,6 @@ convoy_raider_commander = {
 	possible = {
 		has_role = admiral
 		owner ?= {
-			has_technology_researched = command_battlesuites
 		}
 		NOR = {
 			has_trait = experienced_convoy_raider
@@ -929,7 +948,7 @@ traditionalist_commander = {
 		interest_group ?= {
 			OR = {
 				is_interest_group_type = ig_moralists
-				is_interest_group_type = ig_elites
+				is_interest_group_type = ig_entrepreneurs
 				is_interest_group_type = ig_securocrats
 				is_powerful = yes
 			}
@@ -943,7 +962,7 @@ traditionalist_commander = {
 			limit = {
 				OR = {
 					is_interest_group_type = ig_moralists
-					is_interest_group_type = ig_elites
+					is_interest_group_type = ig_entrepreneurs
 					is_interest_group_type = ig_securocrats
 				}
 			}
@@ -971,7 +990,7 @@ popular_commander = {
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.01
+		political_movement_pop_attraction_mult = 0.05
 	}
 
 	# Reminder: this would only come into effect if this Commander is or becomes an Interest Group Leader
@@ -998,8 +1017,8 @@ popular_commander = {
 		if = {
 			limit = {
 				OR = {
-					is_interest_group_type = ig_moralists
-					is_interest_group_type = ig_elites
+					is_interest_group_type = ig_securocrats
+					is_interest_group_type = ig_entrepreneurs
 					is_interest_group_type = ig_securocrats
 				}
 			}
@@ -1030,7 +1049,7 @@ celebrity_commander = {
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.025
+		political_movement_pop_attraction_mult = 0.10
 	}
 
 	# Reminder: this would only come into effect if this Commander is or becomes an Interest Group Leader
@@ -1075,7 +1094,7 @@ dockyard_master = {
 		if = {
 			limit = {
 				owner ?= {
-					has_technology_researched = modernized_logistics
+					has_technology_researched = logistics
 				}
 			}
 			multiply = 2
@@ -1152,6 +1171,7 @@ basic_diplomat = {
 	}
 
 	replace = {
+		inexperienced
 	}
 
 	value = 1
@@ -1261,6 +1281,115 @@ masterful_diplomat = {
 	value = 3
 }
 
+basic_colonial_administrator  = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/basic_colonial_administrator.dds"
+
+	country_modifier = {
+		state_colony_growth_speed_mult = 0.1
+	}
+
+	possible = {
+		is_ruler = yes
+		NOT = { age < define:NCharacters|ADULT_AGE }
+		owner ?= {
+			has_colonial_growth = yes
+		}
+		NOR = {
+			has_trait = experienced_colonial_administrator
+			has_trait = expert_colonial_administrator
+		}
+	}
+
+	weight = {
+		value = 50
+		if = {
+			limit = {
+				OR = {
+					has_trait = ambitious
+					has_trait = persistent
+					has_trait = meticulous
+				}
+			}
+			multiply = 2
+		}
+	}
+
+	replace = {
+		inexperienced
+	}
+
+	value = 1
+}
+
+experienced_colonial_administrator  = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/experienced_colonial_administrator.dds"
+
+	country_modifier = {
+		state_colony_growth_speed_mult = 0.2
+	}
+
+	possible = {
+		has_trait = basic_colonial_administrator
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 50
+		if = {
+			limit = {
+				OR = {
+					has_trait = ambitious
+					has_trait = persistent
+					has_trait = meticulous
+				}
+			}
+			multiply = 2
+		}
+	}
+
+	replace = {
+		basic_colonial_administrator
+	}
+
+	value = 2
+}
+
+expert_colonial_administrator  = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/expert_colonial_administrator.dds"
+
+	country_modifier = {
+		state_colony_growth_speed_mult = 0.4
+	}
+
+	possible = {
+		has_trait = experienced_colonial_administrator
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	weight = {
+		value = 50
+		if = {
+			limit = {
+				OR = {
+					has_trait = ambitious
+					has_trait = persistent
+					has_trait = meticulous
+				}
+			}
+			multiply = 2
+		}
+	}
+
+	replace = {
+		experienced_colonial_administrator
+	}
+
+	value = 3
+}
+
 basic_political_operator = {
 	type = skill
 	texture = "gfx/interface/icons/character_trait_icons/basic_political_operator.dds"
@@ -1270,7 +1399,7 @@ basic_political_operator = {
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.025
+		political_movement_pop_attraction_mult = 0.05
 	}
 
 	interest_group_modifier = {
@@ -1311,6 +1440,7 @@ basic_political_operator = {
 	}
 
 	replace = {
+		inexperienced
 	}
 
 	value = 1
@@ -1325,7 +1455,7 @@ experienced_political_operator = {
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.05
+		political_movement_pop_attraction_mult = 0.10
 	}
 
 	interest_group_modifier = {
@@ -1378,7 +1508,7 @@ expert_political_operator = {
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.1
+		political_movement_pop_attraction_mult = 0.15
 	}
 
 	interest_group_modifier = {
@@ -1431,8 +1561,6 @@ inspirational_orator = {
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.025
-		interest_group_pop_attraction_mult = 0.05
 	}
 
 	interest_group_modifier = {
@@ -1466,8 +1594,6 @@ demagogue = {
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.05
-		interest_group_pop_attraction_mult = 0.075
 	}
 
 	interest_group_modifier = {
@@ -1501,8 +1627,6 @@ firebrand = {
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.075
-		interest_group_pop_attraction_mult = 0.125
 	}
 
 	interest_group_modifier = {
@@ -1591,7 +1715,7 @@ bandit = {
 	texture = "gfx/interface/icons/character_trait_icons/bandit.dds"
 
 	character_modifier = {
-		character_popularity_add = -50
+		character_popularity_add = -25
 	}
 
 	command_modifier = {
@@ -1599,8 +1723,7 @@ bandit = {
 	}
 
 	agitator_modifier = {
-		interest_group_in_government_approval_add = 1
-		interest_group_in_opposition_approval_add = -1
+		political_movement_radicalism_add = 0.15
 	}
 
 	interest_group_modifier = {
@@ -1616,7 +1739,15 @@ bandit = {
 
 	possible = {
 		NOT = { age < define:NCharacters|ADULT_AGE }
-		NOT = { has_role = agitator }
+		OR = {
+			has_role = agitator
+			this.interest_group = {
+				OR = {
+					is_interest_group_type = ig_ruralists
+					is_interest_group_type = ig_laborists
+				}
+			}
+		}
 	}
 
 	weight = {
@@ -1659,8 +1790,6 @@ erudite = {
 	}
 
 	agitator_modifier = {
-		country_academics_pol_str_mult = 0.10
-		country_bureaucrats_pol_str_mult = 0.05
 	}
 
 	# I AM THE VERY MODEL OF A MODERN MAJOR GENERAL
@@ -1715,8 +1844,6 @@ literary = {
 	}
 
 	agitator_modifier = {
-		interest_group_in_government_approval_add = 1
-		interest_group_in_opposition_approval_add = -1
 	}
 
 	command_modifier = {
@@ -1746,6 +1873,7 @@ literary = {
 	}
 
 	replace = {
+		inexperienced
 	}
 }
 
@@ -1765,7 +1893,6 @@ engineer = {
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.05
 	}
 
 	interest_group_modifier = {
@@ -1809,7 +1936,6 @@ master_bureaucrat = {
 	}
 
 	agitator_modifier = {
-		interest_group_pol_str_mult = 0.05
 	}
 
 	command_modifier = {
@@ -1833,7 +1959,7 @@ master_bureaucrat = {
 			limit = {
 				has_role = agitator
 				interest_group ?= {
-					is_interest_group_type = ig_entrepreneurs
+					is_interest_group_type = ig_petty_bourgeoisie
 				}
 			}
 			multiply = 3
@@ -1845,5 +1971,206 @@ master_bureaucrat = {
 	}
 
 	replace = {
+		inexperienced
 	}
+}
+
+political_appointee = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/political_appointee.dds"
+
+	character_modifier = {
+		character_popularity_add = -10	# We didn't ask for you!
+	}
+
+	country_modifier = {
+		country_legitimacy_base_add = -5
+		interest_group_in_government_attraction_mult = -0.1
+	}
+
+	agitator_modifier = {
+	}
+
+	command_modifier = {
+	}
+
+	interest_group_modifier = {
+		interest_group_pol_str_mult = -0.05 # Appointees are not popular
+	}
+
+	weight = {
+		value = 0 # This should not be randomized
+	}
+
+	possible = {
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	replace = {
+	}
+}
+
+inept = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/inept.dds"
+
+	character_modifier = {
+		character_popularity_add = -15
+	}
+
+	country_modifier = {
+		country_legitimacy_base_add = -5
+	}
+
+	agitator_modifier = {
+		political_movement_pop_attraction_mult = -0.1
+	}
+
+	command_modifier = {
+		unit_morale_recovery_mult = -0.25
+		unit_defense_mult = -0.1
+		unit_offense_mult = -0.1
+	}
+
+	interest_group_modifier = {
+		interest_group_pol_str_mult = -0.1
+	}
+
+	weight = {
+		value = 1
+	}
+
+	possible = {
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	replace = {
+	}
+}
+
+
+inexperienced = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/inexperienced.dds"
+
+	character_modifier = {
+		character_popularity_add = 10 # Has youthful energy
+	}
+
+	country_modifier = {
+		country_legitimacy_base_add = -5
+	}
+
+	agitator_modifier = {
+		political_movement_pop_attraction_mult = -0.05
+	}
+
+	command_modifier = {
+		unit_morale_recovery_mult = 0.10
+		unit_defense_mult = -0.05
+		unit_offense_mult = -0.05
+	}
+
+	interest_group_modifier = {
+		interest_group_pol_str_mult = -0.05
+	}
+
+	weight = {
+		value = 1
+		if = {
+			limit = {
+				age <= 30
+			}
+			multiply = 2
+		}
+		else_if = {
+			limit = {
+				age <= 28
+			}
+			multiply = 3
+		}
+		else_if = {
+			limit = {
+				age <= 26
+			}
+			multiply = 4
+		}
+		else_if = {
+			limit = {
+				age <= 24
+			}
+			multiply = 5
+		}
+	}
+
+	possible = {
+		NOT = { age < define:NCharacters|ADULT_AGE }
+	}
+
+	replace = {
+	}
+}
+
+social_bandit = {
+	type = skill
+	texture = "gfx/interface/icons/character_trait_icons/social_banditry.dds"
+
+	character_modifier = {
+		character_popularity_add = 25
+	}
+
+	command_modifier = {
+		unit_morale_damage_mult = 0.1
+	}
+
+	agitator_modifier = {
+		political_movement_radicalism_add = 0.15
+	}
+
+	interest_group_modifier = {
+		interest_group_in_government_approval_add = 2
+		interest_group_in_opposition_approval_add = -2
+	}
+
+	country_modifier = {
+		country_prestige_mult = -0.05
+		country_infamy_decay_mult = -0.5
+		country_authority_add = 100
+	}
+
+	possible = {
+		NOT = { age < define:NCharacters|ADULT_AGE }
+		OR = {
+			has_role = agitator
+			this.interest_group = {
+				OR = {
+					is_interest_group_type = ig_ruralists
+					is_interest_group_type = ig_laborists
+				}
+			}
+		}
+	}
+
+	weight = {
+		value = 0.25
+		if = {
+			limit = {
+				owner ?= {
+					is_country_type = unrecognized
+				}
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				has_role = agitator
+			}
+			multiply = 4
+		}
+	}
+
+	replace = {
+	}
+
+	value = 2
 }

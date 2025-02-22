@@ -10,7 +10,7 @@
 			distributionOfPower = anocracy
 			criminalJustice = labor_camps
 			centralization = federalized
-			discrimination = integrationist
+			citizenship = cultural_exclusion
 			churchAndState = state_atheism
 			bureaucraticSystems = politicized_bureaucrats
 			policing = secret_police
@@ -54,8 +54,8 @@
 			add_ruling_interest_group = yes
 		}
 		ig:ig_elites = {
-			set_ig_suppression = yes
+			#set_ig_suppression = yes
 		}
-		effect_bretton_woods_signatory = yes
+		
 	}
 }

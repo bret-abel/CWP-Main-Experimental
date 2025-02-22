@@ -4,7 +4,6 @@
 		set_next_election_date = 1950.10.3
 		effect_un_member = yes
 		effect_currency_brz = yes
-		effect_corruption_medium = yes
 		effect_starting_technology_tier_2_tech = yes
 		# Politics
 		ig:ig_securocrats = {
@@ -17,7 +16,7 @@
 			distributionOfPower = representative_democracy
 			criminalJustice = penal_correction
 			centralization = federalized
-			discrimination = segregationist
+			citizenship = racial_segregation
 			churchAndState = church_disestablishment
 			bureaucraticSystems = appointed_bureaucrats
 			policing = militarized_police

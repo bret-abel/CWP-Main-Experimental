@@ -13,6 +13,10 @@
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:BOZ
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:HND
 			type = puppet
 		}
@@ -73,6 +77,10 @@
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:SML
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:SLL
 			type = protectorate
 		}
@@ -85,12 +93,20 @@
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:ERI
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:SDN
 			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:LBY
 			type = military_occupation
+		}
+		create_diplomatic_pact = {
+			country = c:LBY
+			type = grant_own_market
 		}
 		create_diplomatic_pact = {
 			country = c:ABU
@@ -188,12 +204,24 @@
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:FOZ
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:SYR
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:SYR
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:FEZ
 			type = military_occupation
+		}
+		create_diplomatic_pact = {
+			country = c:FEZ
+			type = grant_own_market
 		}
 		create_diplomatic_pact = {
 			country = c:TUN
@@ -249,6 +277,10 @@
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:AOZ
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:PHI
 			type = puppet
 		}
@@ -257,8 +289,16 @@
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:JAP
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:STK
 			type = military_occupation
+		}
+		create_diplomatic_pact = {
+			country = c:STK
+			type = grant_own_market
 		}
 	}
 	c:RUS = {
@@ -267,32 +307,64 @@
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:ROM
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:POL
 			type = military_occupation
+		}
+		create_diplomatic_pact = {
+			country = c:POL
+			type = grant_own_market
 		}
 		create_diplomatic_pact = {
 			country = c:BUL
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:BUL
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:HUN
 			type = military_occupation
+		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = grant_own_market
 		}
 		create_diplomatic_pact = {
 			country = c:ALB
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:ALB
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:CZH
 			type = military_occupation
+		}
+		create_diplomatic_pact = {
+			country = c:CZH
+			type = grant_own_market
 		}
 		create_diplomatic_pact = {
 			country = c:DDR
 			type = military_occupation
 		}
 		create_diplomatic_pact = {
+			country = c:DDR
+			type = grant_own_market
+		}
+		create_diplomatic_pact = {
 			country = c:AUS
 			type = military_occupation
+		}
+		create_diplomatic_pact = {
+			country = c:AUS
+			type = grant_own_market
 		}
 		create_diplomatic_pact = {
 			country = c:MGL
@@ -301,6 +373,10 @@
 		create_diplomatic_pact = {
 			country = c:NRK
 			type = military_occupation
+		}
+		create_diplomatic_pact = {
+			country = c:NRK
+			type = grant_own_market
 		}
 		#todo: revisit when proxy war mechanic
 		#create_diplomatic_pact = {

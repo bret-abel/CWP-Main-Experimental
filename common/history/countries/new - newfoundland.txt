@@ -9,7 +9,7 @@
 			distributionOfPower = autocracy
 			criminalJustice = penal_correction
 			centralization = unitary
-			discrimination = integrationist
+			citizenship = cultural_exclusion
 			churchAndState = church_disestablishment
 			bureaucraticSystems = appointed_bureaucrats
 			policing = professional_police

@@ -10,7 +10,7 @@
 			distributionOfPower = autocracy
 			criminalJustice = political_incarceration
 			centralization = federalized
-			discrimination = integrationist
+			citizenship = cultural_exclusion
 			churchAndState = church_disestablishment
 			bureaucraticSystems = politicized_bureaucrats
 			policing = professional_police
@@ -43,13 +43,13 @@
 			add_ruling_interest_group = yes
 		}
 		ig:ig_elites = {
-			set_ig_suppression = yes
+			#set_ig_suppression = yes
 		}
 		ig:ig_moralists = {
-			set_ig_suppression = yes
+			#set_ig_suppression = yes
 		}
 		ig:ig_capitalists = {
-			set_ig_suppression = yes
+			#set_ig_suppression = yes
 		}
 
 		add_journal_entry = {

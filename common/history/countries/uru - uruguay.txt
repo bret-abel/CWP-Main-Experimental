@@ -12,7 +12,7 @@
 			criminalJustice = arbitrary_justice
 			centralization = confederated
 			churchAndState = religious_policies
-			discrimination = segregationist
+			citizenship = racial_segregation
 			bureaucraticSystems = appointed_bureaucrats
 			policing = decentralized_police
 			nationalDefense = reserve_military
@@ -37,14 +37,5 @@
 			recreationalDrugs = alcohol_allowed
 		}
 		effect_bretton_woods_signatory = yes
-		set_imf_member = yes
-		set_imf_starting_values = {
-			debtValue = 369204
-			creditValue = 123068
-			contributionValue = 369241
-			debtYearsValue = 10
-			interestRateValue = 0
-			loanType = 1
-		}
 	}
 }

@@ -2,6 +2,9 @@
 	can_select = no
 	requires_approval = no
 	should_notify_third_parties = yes
+	groups = {
+		general
+	}
 	pact = {
 		cost = 100
 		is_embargo = yes
@@ -21,7 +24,6 @@
 				scope:target_country = {
 					is_country_type = decentralized
 				}
-				is_junior_in_customs_union = yes
 				scope:target_country = {
 					infamy <= 5
 				}
